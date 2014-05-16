@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ECommerce</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "jquery-1.10.2", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "normalize", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %>
+
+  <link href='http://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+  		<script>
+
+<!----- JQUERY FOR SLIDING NAVIGATION --->
+$(document).ready(function() {
+  $('a[href*=#]:not([href=#])').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
+         $(this).click(function() {
+
+
+           $('html, body').animate({scrollTop: targetOffset}, 800);
+           return false;
+         });
+         // $('#.intro-menu').click(function(){
+         // 	$('#.intro-menu').removeClass("active");
+         //    $(this).addClass('active');
+         // });
+
+         // $('#logo a, #logo-ar a').click(function(){
+         // 	$('#nav li a, #nav-ar li a').removeClass("active");
+         // });
+      }
+    }
+  });
+
+});
+
+</script>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+	<div id="header-logo-1">
+		<%= link_to image_tag("lashful-logo-1.png", :alt => 'Sweet and Lashful'), "#intro" %>
+    </div>  <!-- #header-logo-1 -->
+
+	<div class="grid_12  alpha clearfix intro-menu">
+		<ul>
+		    <li class="menu-item-1"><%= link_to "Shop", "#second", :class => "" %></li>
+			<li class="menu-item-2"><%= link_to "Services", "#third", :class => "" %></li>
+			<li class="menu-item-3"><%= link_to "About", "#fourth", :class => "" %></li>
+                  <li class="menu-item-4"><%= link_to "Lashful Thinking", "#fifth", :class => "" %></li>
+		</ul>
+    </div>  <!-- .intro-menu -->
+
+<!--  <div id="header-logo-2">
+          <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
+        </div>  --><!-- #header-logo-2 -->
+
+       <!--  <div id="header-logo-3">
+          <%= link_to image_tag("lashful-logo-3.png", :alt => 'Sweet and Lashful'), "#intro" %>
+        </div>  --><!-- #header-logo-2 -->
+
+  <!-- <div class="primary-header">
+
+        <div class="grid_6  alpha clearfix main-menu">
+            <ul>
+                  <li class="main-menu-item-1"><%= link_to "Shop", "#second", :class => "" %></li>
+                  <li class="main-menu-item-2"><%= link_to "Services", "#third", :class => "" %></li>
+                  <li class="main-menu-item-3"><%= link_to "About", "#fourth", :class => "" %></li>
+                  <li class="main-menu-item-4"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
+                  <li class="main-menu-item-5"><%= link_to "Contact Us" %></li>
+            </ul>
+        </div>  --><!-- .main-menu -->
+
+        <!-- <div class="grid_6 main-menu-2">
+          <ul>
+            <li class="main-menu-item-6"><%= link_to "My Cart - $98.50" %></li>
+            <li class="main-menu-item-7"><%= link_to "Checkout" %></li>
+          </ul>
+        </div>
+
+  </div> --> <!-- main-header -->
+
+        <div id="intro">
+        		<div class="container">
+	   		<%= render partial: "home" %>
+	   		</div> <!-- container -->
+		</div> <!--#intro-->
+
+		<div id="second">
+
+		    <%= render partial: "products" %>
+
+		</div> <!--#second-->
+
+		<div id="third">
+
+		   <%= render partial: "services" %>
+
+		</div> <!--#third-->
+
+		<div id="fourth">
+
+			<%= render partial: "about" %>
+
+		</div>
+
+		<div id="fifth">
+
+			<%= render partial: "blog" %>
+
+		</div>
+
+
+<%= javascript_include_tag "jquery.superscrollorama"%>
+<%= javascript_include_tag "TweenMax.min" %>
+<%= javascript_include_tag "jquery.scrollorama" %>
+
+
+<script>
+
+$(document).ready(function() {
+ var nav = $('.intro-menu');
+  var logo = $('#header-logo-1 img');
+
+		var controller = $.superscrollorama({
+			triggerAtCenter: true,
+			playoutAnimations: false
+		});
+
+
+       controller.pin($('.container'), 800, {
+	  anim: (new TimelineLite())
+
+	  // .append(
+	  //     TweenMax.fromTo(nav, 5,
+	  //       {css:{top: 0}, immediateRender:false},
+	  //       {css:{top: -60}, }))
+
+	  // .append(
+	  //     TweenMax.fromTo(logo, 5,
+	  //       {css:{height: 200}, immediateRender:true},
+	  //       {css:{height: 150}, }))
+
+
+
+
+});
+
+
+
+
+	});
+
+
+</script>
+
+<script>
+
+$(window).scroll(function () {
+    var winTop = $(this).scrollTop();
+    var pageHeight = $('#second').height();
+    if (winTop >= pageHeight) {
+    /*if the scroll reaches the bottom of the red <div> make set '#move' element
+      position to absolute so it will move up with the red <div> */ 
+
+        $('.intro-menu').css({
+            'position': 'absolute',
+            'bottom': '0px',
+            'top': 'auto'
+        });
+    } else {
+      //else revert '#move' position back to fixed
+
+        $('.intro-menu').css({
+            'position': 'fixed',
+            'bottom': 'auto',
+            'top': 'auto'
+        });
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

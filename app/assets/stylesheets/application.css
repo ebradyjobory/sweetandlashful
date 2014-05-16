@@ -1,0 +1,523 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+/* Home Page*/
+
+
+#intro {
+	height: 800px;
+	background: url('background-sample-2b.png') no-repeat center center fixed ;
+	background-size: cover;
+	background-position: 0% 100%;
+}
+
+#second {
+	height: 800px;
+	background: url('background-grey.png') repeat;
+	background-position: 0% 100%;
+}
+
+#third {
+	height: 800px;
+	background: url('background-grey.png') repeat;
+	background-position: 0% 100%;
+}
+
+
+
+#fourth {
+	height: 800px;
+	background: url('background-grey.png') repeat;
+	background-position: 0% 100%;
+}
+
+#fifth {
+	height: 800px;
+	background: url('background-grey.png') repeat;
+	background-position: 0% 100%;
+}
+
+#header-logo-1 {
+	position: fixed;
+	width: 20%;
+	top: 0;
+	left: 37%;
+	z-index: 111;
+}
+
+/*begin main header*/
+
+#header-logo-2 {
+	position: fixed;
+	top: 1.5%;
+	left: 45%;
+	z-index: 111;
+}
+
+#header-logo-3 {
+	position: fixed;
+	top: 12%;
+	left: 45.5%;
+	z-index: 111;
+}
+
+.primary-header {
+	position: fixed;
+	background-color: #F9F9F9;
+	border-bottom: 1.5px solid #2DCCD3;
+	width: 100%;
+	height: 11%;
+	box-shadow: 1px 1px 3px #FF8DA1;
+}
+
+.main-menu {
+	margin-bottom: 1%;
+	position: fixed;
+	top: 1.4%;
+	z-index: 109;
+}
+
+.main-menu ul {
+	text-align: left;
+	list-style: none;
+	font-family: 'Grand Hotel', cursive;
+}
+
+.main-menu li {
+	display: inline;
+	margin-right: 8%;
+}
+
+.main-menu li a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2em !important;
+	color: #444;
+	padding-bottom: 1.5% !important;
+	white-space: nowrap;
+}
+
+.main-menu li.main-menu-item-1 a:hover {
+	background: url('flourish-1.png') no-repeat 100% 100%;
+	color: #FF8DA1;
+}
+
+.main-menu li.main-menu-item-2 a:hover {
+	background: url('flourish-1.png') no-repeat 80% 100%;
+	color: #FF8DA1;
+}
+
+.main-menu li.main-menu-item-3 a:hover {
+	background: url('flourish-1.png') no-repeat 50% 100%;
+	color: #FF8DA1;
+}
+
+.main-menu li.main-menu-item-4 a:hover {
+	background: url('flourish-1.png') no-repeat 100% 100%;
+	color: #FF8DA1;
+}
+
+.main-menu li.main-menu-item-5 a:hover {
+	background: url('flourish-1.png') no-repeat 100% 100%;
+	color: #FF8DA1;
+}
+
+.main-menu-2 {
+	margin-bottom: 1%;
+	position: fixed;
+	top: 1.4%;
+	z-index: 109;
+	right: 15%;
+}
+
+.main-menu-2 ul {
+	text-align: right;
+	list-style: none;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.main-menu-2 li {
+	display: inline;
+	margin-right: 8%;
+}
+
+.main-menu-2 li a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #444;
+	padding-bottom: 1.5%;
+	white-space: nowrap;
+}
+
+.main-menu-2 li.main-menu-item-6 a:hover {
+	color: #2DCCD3;
+	font-weight: bold;
+}
+
+.main-menu-2 li.main-menu-item-7 a:hover {
+	color: #2DCCD3;
+	font-weight: bold;
+}
+
+/*end main header*/
+
+.menu-item-1 a {
+    	width: 6%;
+}
+
+.menu-item-2 a {
+    	width: 6%;
+}
+.menu-item-3 a {
+	width: 5%;
+}
+
+.menu-item-4 a {
+    	width: 6%;
+}
+
+.menu-item-5 a {
+    	width: 6%;
+}
+
+.intro-menu {
+	margin-bottom: 1%;
+	position: fixed;
+	top: 0;
+	z-index: 110;
+}
+
+.intro-menu ul {
+	text-align: center;
+	margin: 7% 5% 0 0;
+	list-style: none;
+	font-family: 'Grand Hotel', cursive;
+}
+
+.intro-menu li {
+	display: inline;
+}
+
+.intro-menu li a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #444;
+	padding-bottom: 1.5%;
+	white-space: nowrap;
+}
+
+.intro-menu li.menu-item-1 a:hover {
+	background: url('flourish-1.png') no-repeat 100% 100%;
+	color: #FF8DA1;
+}
+
+.intro-menu li.menu-item-2 a:hover {
+	background: url('flourish-1.png') no-repeat 80% 100%;
+	color: #FF8DA1;
+}
+
+.intro-menu li.menu-item-3 a:hover {
+	background: url('flourish-1.png') no-repeat 50% 100%;
+	color: #FF8DA1;
+}
+
+.intro-menu li.menu-item-4 a:hover {
+	background: url('flourish-1.png') no-repeat 100% 100%;
+	color: #FF8DA1;
+}
+
+
+
+.menu-item-3 a {
+	width: 5%;
+}
+.menu-item-2 a {
+    	width: 6%;
+}
+
+.menu-item-1 a {
+    	width: 6%;
+}
+
+.menu-item-4 a {
+    	width: 6%;
+}
+
+.intro-menu li.menu-item-1 {
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.intro-menu li.menu-item-2 {
+	margin-left: 7%;
+	margin-right: 5%;
+}
+
+
+.intro-menu li.menu-item-3 {
+	margin-left: 30%;
+	margin-right: 7%;
+}
+
+.intro-menu li.menu-item-4 {
+	margin-left: 0%;
+	margin-right: 5%;
+}
+
+.intro-contact {
+	position: fixed;
+	left: 85%;
+	top: 510px;
+	z-index: 110;
+}
+
+
+
+.intro-contact a {
+	font-family: 'Grand Hotel', cursive !important;
+	text-decoration: none !important;
+	color: #ecf0f1 !important;
+	font-size: 2em !important;
+	padding-bottom: 35% !important;
+}
+
+.intro-contact a:hover {
+	background: url('flourish-2.png') no-repeat 55% 70% !important;
+}
+
+.intro-contact-footer img  {
+	position: absolute;
+	width: 3%;
+	height: 10%;
+	right: 1.2%;
+	top: 3.8%;
+	list-style: none !important;
+}
+
+
+
+/*.intro-contact-up {
+	position: fixed;
+	left: 45%;
+	top: 250px;
+	z-index: 110;
+}
+
+.intro-contact-up a {
+   color: #FF8DA1;
+}
+
+.intro-contact-up a:hover {
+   background: none;
+}*/
+
+
+/*.glass {
+  	position: absolute;
+  	padding: 0;
+  	height: 55%;
+  	z-index: 99;
+}*/
+
+.glass {
+	position:fixed;
+	bottom: -2%;
+	width: 100%;
+	height: 53%;
+	background:  url('background-sample-2-blurry-h.png');
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	content: "";
+}
+
+.glass h1 {
+	color: #2DCCD3;
+	font-family: 'Grand Hotel', cursive;
+	margin-bottom: -0.5%;
+}
+
+.glass h2 {
+	color: #ecf0f1;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 4%;
+	letter-spacing: 0.1em;
+}
+
+.glass h3 {
+	color: #ecf0f1;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 4%;
+	letter-spacing: 0;
+}
+
+.glass p {
+	color: #ecf0f1;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+.glass p span {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.glass a {
+	color: #FF8DA1;
+	text-decoration: none;
+	border-bottom: .1em dotted #2DCCD3;
+	font-weight: normal;
+	letter-spacing: .05em;
+}
+
+.glass img a {
+	border-bottom: none;
+}
+
+.glass address {
+	font-style: normal;
+	color: #ecf0f1;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	margin-top: 4%;
+}
+
+.glass input {
+	padding: 2% 3%;
+	background-color: #FF8DA1;
+	border: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.9em;
+	color: #444;
+	border-radius: 0.4em;
+	width: 80%;
+	margin-top: 3%;
+}
+.contact-column-1 {
+	padding-left: 4%;
+	padding-top: 0%;
+}
+
+.contact-column-2 {
+	padding-left: 2%;
+	padding-top: 0%;
+}
+
+.contact-column-3 {
+	padding-left: 2%;
+	padding-top: 0%;
+}
+
+.contact-column-4 {
+	padding-left: 2%;
+	padding-top: 0%;
+}
+
+.contact-column-4 {
+	font-size: 0.8em;
+}
+
+.contact-column-4 a {
+	border: none;
+}
+
+.contact-column-4 img {
+	margin-left: 25%;
+}
+
+
+.footer {
+	position: absolute;
+	top: 87%;
+	bottom: 0;
+	margin-left: 5%;
+}
+
+.footer img {
+
+	margin-left: 0%;
+
+}
+
+.footer p {
+	font-size: .7em;
+	margin-left: 3.8%;
+}
+
+.footer h1 {
+	text-align: center;
+	margin: -4% 4% 0 0;
+}
+
+.footer ul {
+	margin-top: -3.5%;
+	margin-right: 3.8%;
+	text-align: right;
+	list-style: none;
+}
+
+.footer li {
+	display: inline;
+	padding-left: 2%;
+}
+
+.footer li a {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #ecf0f1;
+	border-bottom: none;
+}
+
+/*Products Page*/
+
+#second {
+
+	height: 800px;
+
+}
+
+.product-image {
+	width: 50%;
+}
+
+/*Services Page*/
+
+#third {
+
+	height: 800px;
+
+
+}
+
+#fourth {
+
+	height: 800px;
+
+}
+
+#fifth{
+
+	height: 800px;
+
+}
