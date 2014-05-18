@@ -1,0 +1,56 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
+  <head data-hook="inside_head">
+    <%= render :partial => 'spree/shared/head' %>
+  </head>
+  <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
+
+    <div class="container">
+
+
+ <div id="header-logo-2">
+          <%= link_to image_tag("lashful-logo-1.png", :alt => 'Sweet and Lashful'), "#intro" %>
+        </div> <!-- #header-logo-2 -->
+
+  <div class="primary-header">
+
+        <div class="grid_6  alpha clearfix main-menu">
+            <ul>
+                  <li class="main-menu-item-1"><%= link_to "Shop", "/store", :class => "" %></li>
+                  <li class="main-menu-item-2"><%= link_to "Services", "#", :class => "" %></li>
+                  <li class="main-menu-item-3"><%= link_to "About", "#", :class => "" %></li>
+                  <li class="main-menu-item-4"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
+                  <li class="main-menu-item-5"><%= link_to "Contact Us" %></li>
+            </ul>
+        </div>  <!-- .main-menu -->
+
+
+      <div id="wrapper" class="row" data-hook>
+
+        <%= breadcrumbs(@taxon) %>
+
+        <%= render :partial => 'spree/shared/sidebar' if content_for? :sidebar %>
+
+        <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
+          <%= flash_messages %>
+          <%= yield %>
+        </div>
+
+        <%= yield :templates %>
+
+      </div>
+
+      <%= render :partial => 'spree/shared/footer' %>
+
+    </div>
+
+    <%= render :partial => 'spree/shared/google_analytics' %>
+    <script>
+      Spree.api_key = <%= raw(try_spree_current_user.try(:spree_api_key).to_s.inspect) %>;
+    </script>
+  </body>
+</html>
