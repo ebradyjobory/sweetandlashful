@@ -13,6 +13,19 @@ GIT
       truncate_html
 
 GIT
+  remote: https://github.com/jetsgit/spree_tax_cloud
+  revision: a11fd9909dcf14c805394f84148632bb90e43186
+  branch: 2-2-beta
+  specs:
+    spree_tax_cloud (2.1.0)
+      savon (= 1.2.0)
+      spree_api
+      spree_backend
+      spree_core (~> 2.2.2.beta)
+      spree_frontend
+      tax_cloud (= 0.2.2)
+
+GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 4959656be98742249f85879207a606e05d622cc6
   branch: 2-2-stable
@@ -82,6 +95,9 @@ GEM
       tzinfo (~> 0.3.37)
     acts_as_list (0.3.0)
       activerecord (>= 3.0)
+    akami (1.2.2)
+      gyoku (>= 0.4.0)
+      nokogiri
     arel (4.0.2)
     awesome_nested_set (3.0.0.rc.5)
       activerecord (>= 4.0.0, < 5)
@@ -130,11 +146,15 @@ GEM
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.3)
       activerecord (>= 4.0.0)
+    gyoku (0.4.6)
+      builder (>= 2.1.2)
     highline (1.6.21)
     hike (1.2.3)
     httparty (0.13.1)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
+    httpi (1.1.1)
+      rack
     i18n (0.6.9)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
@@ -162,6 +182,7 @@ GEM
     multi_xml (0.5.5)
     nokogiri (1.6.2.1)
       mini_portile (= 0.6.0)
+    nori (1.1.5)
     orm_adapter (0.5.0)
     paperclip (3.4.2)
       activemodel (>= 3.0.0)
@@ -207,9 +228,20 @@ GEM
       sass (~> 3.2.0)
       sprockets (~> 2.8, <= 2.11.0)
       sprockets-rails (~> 2.0.0)
+    savon (1.2.0)
+      akami (~> 1.2.0)
+      builder (>= 2.1.2)
+      gyoku (~> 0.4.5)
+      httpi (~> 1.1.0)
+      nokogiri (>= 1.4.0)
+      nori (~> 1.1.0)
+      wasabi (~> 2.5.0)
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
+    seed_dump (3.1.0)
+      activerecord
+      activesupport
     select2-rails (3.4.9)
       sass-rails
       thor (~> 0.14)
@@ -274,6 +306,10 @@ GEM
     sqlite3 (1.3.8)
     state_machine (1.2.0)
     stringex (1.5.1)
+    tax_cloud (0.2.2)
+      activesupport (>= 3.0)
+      i18n
+      savon (~> 1.2)
     thor (0.19.1)
     thread_safe (0.3.3)
     tilt (1.4.1)
@@ -295,6 +331,9 @@ GEM
       tzinfo
     warden (1.2.3)
       rack (>= 1.0)
+    wasabi (2.5.1)
+      httpi (~> 1.0)
+      nokogiri (>= 1.4.0)
 
 PLATFORMS
   ruby
@@ -307,9 +346,11 @@ DEPENDENCIES
   rails (= 4.0.5)
   sass-rails (~> 4.0.2)
   sdoc
+  seed_dump
   spree (= 2.2.2)
   spree_auth_devise!
   spree_gateway!
+  spree_tax_cloud!
   sqlite3
   stripe!
   turbolinks

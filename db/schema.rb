@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140517153959) do
+ActiveRecord::Schema.define(version: 20140519201454) do
 
   create_table "monologue_posts", force: true do |t|
     t.boolean  "published"
@@ -659,6 +659,33 @@ ActiveRecord::Schema.define(version: 20140517153959) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "spree_tax_cloud_cart_items", force: true do |t|
+    t.integer  "index"
+    t.integer  "tic"
+    t.string   "sku"
+    t.integer  "quantity"
+    t.decimal  "price",                    precision: 8,  scale: 2, default: 0.0
+    t.decimal  "amount",                   precision: 13, scale: 5, default: 0.0
+    t.decimal  "ship_total",               precision: 10, scale: 2, default: 0.0
+    t.integer  "line_item_id"
+    t.integer  "tax_cloud_transaction_id"
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "spree_tax_cloud_cart_items", ["line_item_id"], name: "index_spree_tax_cloud_cart_items_on_line_item_id"
+  add_index "spree_tax_cloud_cart_items", ["tax_cloud_transaction_id"], name: "index_spree_tax_cloud_cart_items_on_tax_cloud_transaction_id"
+
+  create_table "spree_tax_cloud_transactions", force: true do |t|
+    t.integer  "order_id"
+    t.string   "message"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "spree_tax_cloud_transactions", ["order_id"], name: "index_spree_tax_cloud_transactions_on_order_id"
 
   create_table "spree_tax_rates", force: true do |t|
     t.decimal  "amount",             precision: 8, scale: 5
