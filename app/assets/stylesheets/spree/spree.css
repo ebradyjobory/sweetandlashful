@@ -1,4 +1,7 @@
-
+.store-container {
+	width : 90%;
+	margin-left: 3%;
+}
 
 #wrapper {
 	margin-top: 10%;
