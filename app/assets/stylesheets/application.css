@@ -284,8 +284,6 @@
 	z-index: 110;
 }
 
-
-
 .intro-contact a {
 	font-family: 'Grand Hotel', cursive !important;
 	text-decoration: none !important;
@@ -426,6 +424,19 @@
 .contact-column-3 {
 	padding-left: 2%;
 	padding-top: 0%;
+}
+
+.contact-column-3 a {
+	border-bottom: none;
+}
+
+.contact-column-3 img {
+	margin-top: 3%;
+	margin-right: 1%;
+}
+
+.facebook a:hover {
+	background: url('facebook_pink.png');
 }
 
 .contact-column-4 {

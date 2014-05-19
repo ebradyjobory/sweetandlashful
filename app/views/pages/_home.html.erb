@@ -18,6 +18,10 @@
 
 	<div class="grid_3 alpha omega contact-column-3">
 		<h1>Follow</h1>
+		<%= link_to image_tag('facebook_teal.png', :size =>"30x30", :class => "facebook"), "https://www.facebook.com/SweetandLashful", :target => "_blank" %>
+		<%= link_to image_tag('twitter_teal.png', :size =>"30x30"), "https://twitter.com/sweetandlashful", :target => "_blank" %>
+		<%= link_to image_tag('instagram_teal.png', :size =>"30x30"), "http://instagram.com/sweetandlashful", :target => "_blank" %>
+		<%= link_to image_tag('google_teal.png', :size =>"30x30"), "https://plus.google.com/u/0/112130594903660962266", :target => "_blank" %>
 		<h3>NEWSLETTER UPDATES</h3>
 		<form action="http://sweetandlashful.us8.list-manage.com/subscribe/post" method="POST">
 		<input type="hidden" name="u" value="c63539c7d55bca17a1e7c51ff">
@@ -45,7 +49,7 @@
 </div> <!-- footer -->
 	<div class="grid_2 intro-contact-footer">
 	   <%= link_to image_tag('arrow_pink.png') %>
-    </div> <!---intro-contact --> 
+    </div> <!---intro-contact -->
 
 </div> <!-- glass -->
 
@@ -78,11 +82,11 @@ $('.intro-contact').on('click', function(event){
 
 
 <script>
- $(".intro-contact-footer img") 
+ $(".intro-contact-footer img")
    .on( "mouseover", function() {
     $(this).attr ('src', '/assets/arrow_white.png');
   })
     .on( "mouseleave", function() {
-    $(this).attr ('src', '/assets/arrow_pink.png');             
+    $(this).attr ('src', '/assets/arrow_pink.png');
 });
 </script>
