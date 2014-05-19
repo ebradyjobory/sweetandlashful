@@ -63,9 +63,13 @@ $(document).ready(function() {
 		    <li class="menu-item-1"><%= link_to "Shop", "#second", :class => "" %></li>
 			<li class="menu-item-2"><%= link_to "Services", "#third", :class => "" %></li>
 			<li class="menu-item-3"><%= link_to "About", "#fourth", :class => "" %></li>
-                  <li class="menu-item-4"><%= link_to "Lashful Thinking", "#fifth", :class => "" %></li>
+                  <li class="menu-item-4"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
 		</ul>
     </div>  <!-- .intro-menu -->
+
+    <div class="grid_2 intro-contact">
+  <p><%= link_to "Contact Us" %></p>
+</div> <!--  intro-contact -->
 
 <!--  <div id="header-logo-2">
           <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
@@ -126,6 +130,21 @@ $(document).ready(function() {
 
 		</div>
 
+    <script>
+// $('.intro-contact').on('click', function(event){
+//     event.preventDefault();
+//   $(".glass").slideToggle();
+// });
+
+//     $('.intro-contact-footer').on('click', function(event){
+//     event.preventDefault();
+//   $(".glass").slideToggle();
+//   $('.intro-contact').show();
+
+// });
+
+</script>
+
 
 <%= javascript_include_tag "jquery.superscrollorama"%>
 <%= javascript_include_tag "TweenMax.min" %>
@@ -134,18 +153,18 @@ $(document).ready(function() {
 
 <script>
 
-$(document).ready(function() {
- var nav = $('.intro-menu');
-  var logo = $('#header-logo-1 img');
+// $(document).ready(function() {
+//  var nav = $('.intro-menu');
+//   var logo = $('#header-logo-1 img');
 
-		var controller = $.superscrollorama({
-			triggerAtCenter: true,
-			playoutAnimations: false
-		});
+// 		var controller = $.superscrollorama({
+// 			triggerAtCenter: true,
+// 			playoutAnimations: false
+// 		});
 
 
-       controller.pin($('.container'), 800, {
-	  anim: (new TimelineLite())
+//        controller.pin($('.container'), 800, {
+// 	  anim: (new TimelineLite())
 
 	  // .append(
 	  //     TweenMax.fromTo(nav, 5,
@@ -160,58 +179,40 @@ $(document).ready(function() {
 
 
 
-});
+// });
 
 
 
 
-	});
+// 	});
 
 
 </script>
 
 <script>
 
-$(window).scroll(function () {
-    var winTop = $(this).scrollTop();
-    var pageHeight = $('#second').height();
-    if (winTop >= pageHeight) {
-    /*if the scroll reaches the bottom of the red <div> make set '#move' element
-      position to absolute so it will move up with the red <div> */ 
+// $(window).scroll(function () {
+//     var winTop = $(this).scrollTop();
+//     var pageHeight = $('#second').height();
+//     if (winTop >= pageHeight) {
+//     /*if the scroll reaches the bottom of the red <div> make set '#move' element
+//       position to absolute so it will move up with the red <div> */ 
 
-        $('.intro-menu').css({
-            'position': 'absolute',
-            'bottom': '0px',
-            'top': 'auto'
-        });
-    } else {
-      //else revert '#move' position back to fixed
+//         $('.intro-menu').css({
+//             'position': 'absolute',
+//             'bottom': '0px',
+//             'top': 'auto'
+//         });
+//     } else {
+//       //else revert '#move' position back to fixed
 
-        $('.intro-menu').css({
-            'position': 'fixed',
-            'bottom': 'auto',
-            'top': 'auto'
-        });
-    }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//         $('.intro-menu').css({
+//             'position': 'fixed',
+//             'bottom': 'auto',
+//             'top': 'auto'
+//         });
+//     }
+// });
 
 
 </script>
