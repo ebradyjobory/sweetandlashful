@@ -4,24 +4,44 @@
 <!--[if IE 8 ]> <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if IE 9 ]> <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
-  <head data-hook="inside_head">
+  
+
+        <div id="header-logo-2">
+          <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
+        </div>  <!-- #header-logo-2 -->
+
+        <div id="header-logo-3-store">
+          <%= link_to image_tag("lashful-logo-3.png", :alt => 'Sweet and Lashful'), "#intro" %>
+        </div>  <!-- #header-logo-2 -->
+
+   <div class="primary-header">
+
+        <div class="grid_6 alpha clearfix main-menu-store">
+            <ul>
+                  <li class="main-menu-item-1-store"><%= link_to "Shop", "#second", :class => "" %></li>
+                  <li class="main-menu-item-2-store"><%= link_to "Services", "#third", :class => "" %></li>
+                  <li class="main-menu-item-3-store"><%= link_to "About", "#fourth", :class => "" %></li>
+                  <li class="main-menu-item-4-store"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
+                  <li class="main-menu-item-5-store"><%= link_to "Contact Us" %></li>
+            </ul>
+        </div>  <!-- .main-menu -->
+
+  </div>  <!-- main-header -->
+
+    <head data-hook="inside_head">
     <%= render :partial => 'spree/shared/head' %>
   </head>
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
 
+    <div class="container">
 
-    <div id="header-logo-1">
-    <%= link_to image_tag("lashful-logo-1.png", :alt => 'Sweet and Lashful'), "#intro" %>
-    </div>  <!-- #header-logo-1 -->
-
-
-    <div class="store-container">
-
+      <%= render :partial => 'spree/shared/header' %>
 
       <div id="wrapper" class="row" data-hook>
 
         <%= breadcrumbs(@taxon) %>
 
+        <%= render :partial => 'spree/shared/sidebar' if content_for? :sidebar %>
 
         <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
           <%= flash_messages %>
@@ -31,6 +51,9 @@
         <%= yield :templates %>
 
       </div>
+
+      <%= render :partial => 'spree/shared/footer' %>
+
     </div>
 
     <%= render :partial => 'spree/shared/google_analytics' %>

@@ -1,6 +1,9 @@
-.store-container {
+
+.container {
+	position: absolute;
 	width : 90%;
 	margin-left: 3%;
+	margin-top: 10%;
 }
 
 #wrapper {
@@ -8,11 +11,13 @@
 	width: 100%;
 }
 
-.container {
-	width: 100%;
+#top-nav-bar {
+	width: 30%;
+	position: absolute;
+	margin-left: 70%;
+	top: -17%;
+	z-index: 110;
 }
-
-
 
 #second {
 	height: 800px;
@@ -58,6 +63,13 @@
 	z-index: 111;
 }
 
+#header-logo-3-store {
+	position: fixed;
+	top: 12%;
+	left: 45.5%;
+	z-index: 111;
+}
+
 
 .primary-header {
 	width: 100%;
@@ -65,60 +77,63 @@
 	background-color: #F9F9F9;
 	border-bottom: 1.5px solid #2DCCD3;
 	height: 11%;
+	z-index: 100;
 	box-shadow: 1px 1px 3px #FF8DA1;
 }
 
-.main-menu {
+.main-menu-store {
 	margin-bottom: 0%;
-	top: 4%;
+	
 }
 
-.main-menu ul {
+.main-menu-store ul {
+	margin-top: 2%;
 	text-align: left;
 	list-style: none;
 	font-family: 'Grand Hotel', cursive;
 }
 
-.main-menu li {
+.main-menu-store li {
 	display: inline;
 	margin-right: 8%;
+
 }
 
-.main-menu li a {
+.main-menu-store li a {
 	display: inline-block;
 	text-decoration: none;
 	font-size: 1.2em !important;
 	color: #444;
-	padding-bottom: 1.5% !important;
+	padding-bottom: 0% !important;
 	white-space: nowrap;
 }
 
-.main-menu li.main-menu-item-1 a:hover {
+.main-menu-store li.main-menu-item-1-store a:hover {
 	background: url('flourish-1.png') no-repeat 100% 100%;
 	color: #FF8DA1;
 }
 
-.main-menu li.main-menu-item-2 a:hover {
+.main-menu-store li.main-menu-item-2-store a:hover {
 	background: url('flourish-1.png') no-repeat 80% 100%;
 	color: #FF8DA1;
 }
 
-.main-menu li.main-menu-item-3 a:hover {
+.main-menu-store li.main-menu-item-3-store a:hover {
 	background: url('flourish-1.png') no-repeat 50% 100%;
 	color: #FF8DA1;
 }
 
-.main-menu li.main-menu-item-4 a:hover {
+.main-menu-store li.main-menu-item-4-store a:hover {
 	background: url('flourish-1.png') no-repeat 100% 100%;
 	color: #FF8DA1;
 }
 
-.main-menu li.main-menu-item-5 a:hover {
+.main-menu-store li.main-menu-item-5-store a:hover {
 	background: url('flourish-1.png') no-repeat 100% 100%;
 	color: #FF8DA1;
 }
 
-.main-menu-2 {
+.main-menu-2-store {
 	margin-bottom: 1%;
 	position: fixed;
 	top: 1.4%;
@@ -126,18 +141,18 @@
 	right: 15%;
 }
 
-.main-menu-2 ul {
+.main-menu-2-store ul {
 	text-align: right;
 	list-style: none;
 	font-family: 'Quicksand', sans-serif;
 }
 
-.main-menu-2 li {
+.main-menu-2-store li {
 	display: inline;
 	margin-right: 8%;
 }
 
-.main-menu-2 li a {
+.main-menu-2-store li a {
 	display: inline-block;
 	text-decoration: none;
 	font-size: 0.9em;
@@ -146,35 +161,39 @@
 	white-space: nowrap;
 }
 
-.main-menu-2 li.main-menu-item-6 a:hover {
+.main-menu-2-store li.main-menu-item-6 a:hover {
 	color: #2DCCD3;
 	font-weight: bold;
 }
 
-.main-menu-2 li.main-menu-item-7 a:hover {
+.main-menu-2-store li.main-menu-item-7 a:hover {
 	color: #2DCCD3;
 	font-weight: bold;
 }
 
 /*end main header*/
 
-.menu-item-1 a {
-    	width: 6%;
+.main-menu-item-1-store a {
+    	width: 5%;
+    	margin-left: 2% !important;
 }
 
-.menu-item-2 a {
+.main-menu-item-2-store a {
     	width: 6%;
+    	margin-left: -7%;
 }
-.menu-item-3 a {
+.main-menu-item-3-store a {
 	width: 5%;
 }
 
-.menu-item-4 a {
+.main-menu-item-4-store a {
     	width: 6%;
+    	margin-left: -7%;
 }
 
-.menu-item-5 a {
+.main-menu-item-5-store a {
     	width: 6%;
+    	margin-left: 5%;
 }
 
 .intro-menu {
@@ -262,4 +281,23 @@
 	margin-right: 5%;
 }
 
+
+#home-link {
+	display: none;
+}
+
+#link-to-cart {
+	position: absolute;
+	top: -14%;
+	margin-left: 70%;
+	z-index: 110;
+}
+
+
+
+nav #main-nav-bar li#link-to-cart {
+    float: right;
+    padding-left: 24px;
+    background: url('') no-repeat scroll left center transparent;
+}
 
