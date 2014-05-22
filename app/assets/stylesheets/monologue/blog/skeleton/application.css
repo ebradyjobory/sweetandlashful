@@ -12,16 +12,12 @@
 *= require monologue/blog/custom
 */
 
-h1 a {
-	color: red;
+.blog-container h1,h2,h3,h4,p,blockquote, li, time, span, a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
 }
 
-h2 {
-	color: pink;
+html {
+	background: url('app/assets/images/background-grey.png') repeat;
+	background-position: 0% 100%;
 }
-
-
-.sidebar {
-  width: 30% !important;
-}
-

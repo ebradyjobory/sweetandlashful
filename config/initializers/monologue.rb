@@ -1,6 +1,6 @@
 Monologue.config do |config|
 
-  config.site_name = "Lashful Thinking"
+  config.site_name = "Sweet and Lashful | Lashful Thinking"
   config.site_subtitle = "The Sweet & Lashful Blog"
   config.site_url = "http://sweetandlashful.com"
 
@@ -8,7 +8,7 @@ Monologue.config do |config|
   config.meta_keyword = ""
 
   config.admin_force_ssl = false
-  config.posts_per_page = 10
+  config.posts_per_page = 6
 
   config.disqus_shortname = "sweetandlashful"
 
