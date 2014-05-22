@@ -17,7 +17,7 @@
 	font-weight: normal;
 }*/
 
-.background img{
+.background img {
 	position: fixed;
 }
 
@@ -31,27 +31,92 @@
 	margin-top: 2%;
 }
 
-/*.blog-container section h1,h2,h3,h4,p,blockquote, li, time, span, a {
+/* Begin Typography Styling */
+
+.blog-container h1 {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
-}*/
+	letter-spacing: 1%;
+	text-transform: uppercase;
+}
+
+.blog-container h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}
+
+.blog-container h3{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}
+
+.blog-container h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}
+
+.blog-container p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	color: #444;
+}
+
+.blog-container blockquote {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}
+
+.blog-container ul {
+	list-style-type: disc;
+	list-style-color: #FF8DA1;
+}
+.blog-container li {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+}
+
+.blog-container time {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	color: #444;
+}
+
+.blog-container span {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal !important;
+	color: #FF8DA1;
+}
+
+.blog-container a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	color: #2DCCD3;
+	text-decoration: none;
+}
+
+.blog-container h1 a {
+	color: #2DCCD3;
+	text-decoration: none;
+}
+
+/* End Typography Styling */
 
 /*begin main header*/
 
 #header-logo-2 {
 
 position: fixed;
-top: 1%;
+top: 1.5%;
 left: 43%;
 z-index: 111;
 }
 
-#header-logo-3-store {
+/*#header-logo-3-store {
 position: fixed;
 top: -10%;
 left: 43.5%;
 z-index: 111;
-}
+}*/
 
 
 .primary-header {
@@ -63,7 +128,8 @@ height: 9.5%;
 z-index: 100;
 box-shadow: 1px 1px 3px #FF8DA1;
 margin-left: -2%;
-margin-top: -0.5%;
+margin-top: -0.7%;
+padding-bottom: 1.1%;
 }
 
 .primary-header li {
@@ -73,8 +139,6 @@ font-size: 16px;
 .main-menu-store {
 margin-top: 0.5% !important;
 margin-left: -2% !important;
-
-
 }
 
 .main-menu-store ul {
@@ -127,14 +191,14 @@ color: #FF8DA1;
 .main-menu-2-store {
 margin-bottom: 1%;
 position: fixed;
-top: 1.4%;
+top: 2%;
 z-index: 109;
 right: 15%;
 }
 
 #header-logo-3-store {
 	position: fixed;
-	top: 10%;
+	top: 12.5%;
 	left: 43.5%;
 	z-index: 111;
 }
@@ -150,4 +214,23 @@ color: #2DCCD3;
 font-weight: bold;
 }
 
-/*end main header*
+/* end main header */
+
+.post-header {
+	border: none !important;
+}
+
+.blog-container img {
+	border-radius: 12%;
+	border: 1.5px solid #2DCCD3;
+	box-shadow: 1px 1px 1px #FF8DA1;
+}
+
+.blog-container section {
+	width: 40%;
+	margin-bottom: 2%;
+}
+
+.blog-container time {
+	margin-left: -50%;
+}
