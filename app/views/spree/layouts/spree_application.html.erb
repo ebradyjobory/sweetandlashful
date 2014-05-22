@@ -4,8 +4,10 @@
 <!--[if IE 8 ]> <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if IE 9 ]> <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
-  
 
+  <link href='http://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  
         <div id="header-logo-2">
           <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
         </div>  <!-- #header-logo-2 -->
@@ -14,7 +16,7 @@
           <%= link_to image_tag("lashful-logo-3.png", :alt => 'Sweet and Lashful'), "#intro" %>
         </div>  <!-- #header-logo-2 -->
 
-   <div class="primary-header">
+  <div class="primary-header">
 
         <div class="grid_6 alpha clearfix main-menu-store">
             <ul>
@@ -25,8 +27,8 @@
                   <li class="main-menu-item-5-store"><%= link_to "Contact Us" %></li>
             </ul>
         </div>  <!-- .main-menu -->
-
   </div>  <!-- main-header -->
+
 
     <head data-hook="inside_head">
     <%= render :partial => 'spree/shared/head' %>
@@ -52,7 +54,6 @@
 
       </div>
 
-      <%= render :partial => 'spree/shared/footer' %>
 
     </div>
 
