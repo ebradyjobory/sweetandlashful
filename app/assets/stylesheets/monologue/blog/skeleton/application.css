@@ -32,6 +32,10 @@
 	margin-left: 5%;
 }
 
+.content p {
+	margin-left: 8%;
+}
+
 .content img {
 
 }
@@ -230,14 +234,13 @@ font-weight: bold;
 .posted {
 	margin-left: -10%;
 	width: 6%;
-	text-align: left;
-	font-size: 2em;
-	font-weight: bold !important;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 800 !important;
 }
 
 .blog-container span {
     font-family: 'Quicksand',sans-serif;
-    font-weight: bold; 
     color: #FF8DA1;
 
 }
@@ -282,9 +285,9 @@ time::first-letter  {
 
 .gone {
 	opacity: 0.3;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+   transition: opacity .50s ease-in-out;
+   -moz-transition: opacity .50s ease-in-out;
+   -webkit-transition: opacity .50s ease-in-out;
 }
 
 /*.foggy {

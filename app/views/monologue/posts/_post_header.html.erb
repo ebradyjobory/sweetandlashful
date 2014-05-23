@@ -3,7 +3,7 @@
   <div class="posted">
     <span data-monologue="time">
       <time datetime="<%= post.published_at %>">
-        <%= I18n.localize(post.published_at.to_date, format: :long) %>
+        <%= I18n.localize(post.published_at.to_date, format: :short) %>
       </time>
     </span>
 
