@@ -285,9 +285,9 @@ time::first-letter  {
 
 .gone {
 	opacity: 0.3;
-   transition: opacity .50s ease-in-out;
-   -moz-transition: opacity .50s ease-in-out;
-   -webkit-transition: opacity .50s ease-in-out;
+	   transition: opacity .50s ease-in-out;
+	   -moz-transition: opacity .50s ease-in-out;
+	   -webkit-transition: opacity .50s ease-in-out;
 }
 
 /*.foggy {

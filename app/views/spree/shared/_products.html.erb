@@ -1,3 +1,9 @@
+
+
+<div class="background">
+          <%= image_tag("background-grey-2.svg")%>
+</div>
+
 <%
   paginated_products = @searcher.retrieve_products if params.key?(:keywords)
   paginated_products ||= products
@@ -24,31 +30,25 @@
                 <div id="products-back">
               <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
               <span class="price selling" itemprop="price"><%= display_price(product) %></span>
-               <div class="columns ten omega" data-hook="product_right_part">
-      <div class="row" data-hook="product_right_part_wrap">
+               <div class="ten omega" data-hook="product_right_part">
+              <div class="row" data-hook="product_right_part_wrap">
 
         <div id="product-description" data-hook="product_description">
 
           <div class="product-description">
-            <%= product.description %>
+            <%=  product.description %>
            </div>
+           <div class="add_to_cart">
+            <%= link_to "Add to Cart", cart_path %>
 
-
-     
-
-        
-
+         </div>
         </div>
-
-
       </div>
     </div>
-               </div>
-         </div>
-     
-        </li>
   </div>
-  <% end %>
+</div>
+</div>
+<% end %>
   <% reset_cycle("classes") %>
 </ul>
 <% end %>
@@ -56,4 +56,21 @@
 <% if paginated_products.respond_to?(:num_pages) %>
   <%= paginate paginated_products %>
 <% end %>
+
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<%= javascript_include_tag "foggy", "data-turbolinks-track" => true %>
+<script>
+
+
+$('.front').hover(function() {
+$( this ).foggy();
+});
+
+$('.front').mouseleave(function() {
+$( this ).foggy(false);
+});
+</script>
+
+
 

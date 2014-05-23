@@ -334,8 +334,11 @@ font-weight: 100 !important;
 }
 
 ul#products {
-	margin-left: 0;
-	margin-bottom: 0;
+	margin-top: -5%;
+	margin-left: -1%;
+	margin-bottom: 5%;
+	width: 110%;
+
 }
 
 ul#products li .product-image {
@@ -347,6 +350,12 @@ ul#products li .product-image {
 }
 
 
+.product-image  {
+	max-width: 100%
+    
+    
+}
+
 
 
 ul#products li .price {
@@ -356,9 +365,6 @@ ul#products li .price {
     display: block;
 }
 
-.info {
-	font-family: 'Quicksand', sans-serif !important;
-}
 
 .columns {
 	padding-right: 25%;
@@ -369,7 +375,7 @@ ul#products li .price {
 }
 
 .product-listing {
-	width: 100%;
+	width: 200%;
 	margin-left: 10%;
 	margin-top: -10%;
 }
@@ -387,7 +393,7 @@ ul#products li .price {
 .card {
     width: 100%;
     height: 100%;
-    -o-transition: all .5s;
+    /*-o-transition: all .5s;
     -ms-transition: all .5s;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
@@ -395,7 +401,7 @@ ul#products li .price {
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
+    backface-visibility: hidden;*/
     position: absolute;
     top: 0px;
     left: 0px;
@@ -406,36 +412,39 @@ ul#products li .price {
 }
 
 .back {
-    z-index: 1;
-    -webkit-transform: rotateY(-180deg);
+    display: none;
+
+   /* -webkit-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
+    transform: rotateY(-180deg);*/
 }
 
 .panel:hover .front {
     z-index: 1;
-    -webkit-transform: rotateY(180deg);
+   /* -webkit-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    transform: rotateY(180deg);*/
 }
 
 .panel:hover .back {
+	display: block;
     z-index: 2;
-    -webkit-transform: rotateY(0deg);
+  /*  -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+    transform: rotateY(0deg);*/
+}
+.foggy {
+	margin-top: 50%;
+
 }
 
-#products-back {
-	border: 1px solid #D9D9DB;
-    border-radius: 100%;
-    height: 40%;
-    padding: 100px;
-    background-color: #FFF;
-    width: 70%;
+
+.back {
+	margin-left: 10%;
+	text-align: center;
 }
 
 .front img {
@@ -443,9 +452,57 @@ ul#products li .price {
 	height: 100% !important;
 }
 
-#product-description {
-	width: 30%;
+
+.product-description {
+	margin-top: 60%;
+	width: 70% !important;
+	margin-left: 30%;
+	text-align: center;
+
 }
+
+.price {
+	margin-top: 40%;
+	position: absolute;
+	margin-left: -35%;
+	margin-bottom: 5%;
+	width: 100%;
+
+}
+
+.info  {
+	position: absolute;
+	text-align: center;
+    margin-left: -5%;
+    margin-top: 25%;
+    font-family: 'Grand Hotel', cursive !important;
+    font-size: 2em;
+    color: #FF8DA1;
+
+    
+
+}
+
+.info a {
+	font-family: 'Grand Hotel', cursive !important;
+}
+
+
+.add_to_cart {
+	margin-left: 35%;
+	margin-top: 30%;
+	font-size: 2em;
+	font-family: 'Grand Hotel', cursive;
+	position: relative;
+}
+
+
+.background img {
+	position: fixed;
+	margin-top: -20%;
+	margin-left: -10%;
+}
+
 
 
 
