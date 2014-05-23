@@ -2,7 +2,7 @@
   <%= render partial: 'monologue/posts/post_header', locals: {post: post} %>
 
   <div class="content" data-monologue="content">
-    <%= truncate_html(post.content, length: 140, omission: '...') %>
+    <%= link_to truncate_html(post.content, length: 100, omission: '...'), post.full_url %>
   </div>
 
 <!--   <div class="tags" data-monologue="tags">

@@ -58,6 +58,32 @@
   <% end %>
   <%= render 'layouts/monologue/application/disqus' %>
   <%= render 'layouts/monologue/application/gauge_analytics' %>
+
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+  <% if current_page?(root_url) %>
+
+ <script>
+
+  $('.content img').hover(function(){
+    $(this).toggleClass('gone');
+    $('').toggleClass('active');
+
+
+});
+
+
+
+
+
+
+ </script>
+
+  <%end%>
+
+
 </body>
 </html>
 
