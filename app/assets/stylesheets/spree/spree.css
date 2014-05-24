@@ -339,22 +339,17 @@ ul#products {
 	margin-bottom: 5%;
 	width: 110%;
 
+
 }
 
 ul#products li .product-image {
-	width: 40%;
 	border: 1px solid #D9D9DB;
-	border-radius: 50%;
-	padding: 100px;
+	border-radius: 60%;
+	padding: 92px;
 	background-color: #FFF;
+
 }
 
-
-.product-image  {
-	max-width: 100%
-    
-    
-}
 
 
 
@@ -362,13 +357,10 @@ ul#products li .price {
     color: #444;
     font-size: 16px;
     padding-top: 5px;
-    display: block;
 }
 
 
-.columns {
-	padding-right: 25%;
-}
+
 
 #content {
 	width: 80%;
@@ -384,15 +376,14 @@ ul#products li .price {
 
 
 .panel {
-    height: 300px;
+    height: 350px;
     width: 20%;
-    margin-bottom: 10%;
     position: relative;
+   
 }
 
 .card {
-    width: 100%;
-    height: 100%;
+    
     /*-o-transition: all .5s;
     -ms-transition: all .5s;
     -moz-transition: all .5s;
@@ -436,10 +427,6 @@ ul#products li .price {
     -moz-transform: rotateY(0deg);
     transform: rotateY(0deg);*/
 }
-.foggy {
-	margin-top: 50%;
-
-}
 
 
 .back {
@@ -448,8 +435,12 @@ ul#products li .price {
 }
 
 .front img {
-	width: 100% !important;
-	height: 100% !important;
+	margin-top: -31%;
+	margin-left: -50%;
+	width: 450% !important;
+	height: 300px !important;
+	border-radius: 50%;
+	position: absolute;
 }
 
 
@@ -501,6 +492,7 @@ ul#products li .price {
 	position: fixed;
 	margin-top: -20%;
 	margin-left: -10%;
+	z-index: -1;
 }
 
 

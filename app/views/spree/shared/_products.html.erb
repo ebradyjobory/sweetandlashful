@@ -15,42 +15,41 @@
 <% end %>
 
 <% if products.any? %>
-<ul id="products" class="inline product-listing" data-hook>
-  <% products.each do |product| %>
-  <div class="panel">
+  <ul id="products" class="" data-hook>
+    <% products.each do |product| %>
+      <div class="panel">
         <div class="front card">
-            <li id="product_<%= product.id %>" class="columns five <%= cycle("alpha", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
+          <li id="product_<%= product.id %>" class="columns five <%= cycle("", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
 
-              <div class="product-image">
-                <%= link_to small_image(product, :itemprop => "image"), product, :itemprop => 'url' %>
+            <div class="product-image">
+              <%= link_to small_image(product, :itemprop => "image"), product, :itemprop => 'url' %>
+            </div>
+        </div>
+
+            <div class="back card"> 
+              <div id="products-back">
+                <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
+                <span class="price selling" itemprop="price"><%= display_price(product) %></span>
+                <div class="ten omega" data-hook="product_right_part">
+                <div class="row" data-hook="product_right_part_wrap">
+
+            <div id="product-description" data-hook="product_description">
+
+                <div class="product-description">
+                  <%=  product.description %>
+                </div>
+              <div class="add_to_cart">
+                <%= link_to "Add to Cart", cart_path %>
+
               </div>
+            </div>
+            </div>
           </div>
-
-          <div class="back card"> 
-                <div id="products-back">
-              <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
-              <span class="price selling" itemprop="price"><%= display_price(product) %></span>
-               <div class="ten omega" data-hook="product_right_part">
-              <div class="row" data-hook="product_right_part_wrap">
-
-        <div id="product-description" data-hook="product_description">
-
-          <div class="product-description">
-            <%=  product.description %>
-           </div>
-           <div class="add_to_cart">
-            <%= link_to "Add to Cart", cart_path %>
-
-         </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-</div>
-<% end %>
-  <% reset_cycle("classes") %>
-</ul>
+    <% end %>
+  </ul>
 <% end %>
 
 <% if paginated_products.respond_to?(:num_pages) %>
@@ -63,13 +62,13 @@
 <script>
 
 
-$('.front').hover(function() {
-$( this ).foggy();
-});
+// $('.front').hover(function() {
+// $( this ).foggy();
+// });
 
-$('.front').mouseleave(function() {
-$( this ).foggy(false);
-});
+// $('.front').mouseleave(function() {
+// $( this ).foggy(false);
+// });
 </script>
 
 
