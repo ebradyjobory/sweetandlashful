@@ -20,7 +20,7 @@
 }
 
 .blog-container {
-	margin-top: -5%;
+	margin-top:0%;
 	position: absolute;
 	width: 95%;
 	margin-left: 2%;
@@ -28,7 +28,7 @@
 .content {
 	margin-top: 2%;
 	margin-left: 0%;
-	padding-top: 4%;
+	padding-top: 0%;
 	width: 100%;
 	position: relative;
 	text-align: left !important;
@@ -95,7 +95,6 @@
 .blog-container time {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
-	position: absolute;
 	color: #444;
 }
 
@@ -239,17 +238,27 @@ font-weight: bold;
 
 .post-header {
 	
-	width: 70%;
+	width: 50%;
+	text-align: left !important;
 	margin-left: 0%;
 	margin-top: 5%;
-	position: absolute;
+	position: relative;
 	z-index: 99;
 
 
 
 }
-.post-header a {
-	margin-left: 10.5%;
+.post-header  h1{ 
+	margin-left: 20%;
+	text-align: left !important;
+	width: 150%;
+	margin-left: 0% !important;
+}
+
+.post-header a{
+	margin-left: 0%;
+	text-align: left !important;
+
 }
 
 .posted {
@@ -272,31 +281,28 @@ font-weight: bold;
 }
 
 time {
-	position: absolute;
 	font-size: 1em !important;
-	margin-top: -14%;
-	width: 40%;
-	margin-left: 37%;
+	top: -25px;
+	width: 300px;
+	margin-left: 80px;
 	font-size: 1em !important;
+	position: absolute; ;
 }
 
 h1 a {
 	margin-left: -50%;
-	position: relative;
 	text-align: left !important;
 }
 
 span.user {
-	top: -29%;
-	width: 50%;
-	margin-left: -4%;
-	position: absolute;
+	top: -25px;
+	width: 130px !important;
+	margin-left: 4.5%;
 	font-size: 0.6em;
+	position: absolute;
 }
 
-time::first-letter  {
-	clear: red;
-}
+
 
 .post-header span:after {
     content: "";
@@ -368,8 +374,8 @@ time::first-letter  {
 
 #on {
 	position: absolute;
-	top: -85%;
-	margin-left: 47%;
+	top: -95%;
+	margin-left: 70%;
 	font-size: 1em;
 	text-transform:lowercase;
 	font-family: 'Grand Hotel', cursive;
@@ -396,12 +402,12 @@ time::first-letter  {
 }
 
 .show_post time {
-	margin-top: -7%;
-	margin-left: 12%;
+	margin-top: 0%;
+	margin-left: 16%;
 }
 
 .show_post span {
-	margin-left: -11%; /* to edit user in full_post */
+	margin-left: 6%; /* to edit user in full_post */
 }
 
 .show_post p {
@@ -409,12 +415,13 @@ time::first-letter  {
 }
 
 .show_post #on {
-margin-left: 28%;
+margin-left: 65%;
 }
 
 
 .show_post h1 {
-	margin-left: -12% !important;
+	margin-left: 0% !important;
+	width: 90%;
 }
 
 .return a {
