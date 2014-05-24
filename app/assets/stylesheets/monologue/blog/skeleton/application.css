@@ -28,11 +28,14 @@
 .content {
 	margin-top: 2%;
 	margin-left: 0%;
-	border-top: 1px #FF8DA1 solid;
 	padding-top: 4%;
 	width: 100%;
 	position: relative;
 	text-align: left !important;
+}
+
+.post-header {
+	border-top: 1px #FF8DA1 solid !important;
 }
 
 .content p {
@@ -235,17 +238,18 @@ font-weight: bold;
 /* end main header */
 
 .post-header {
-	border: none !important;
-	width: 90%;
+	
+	width: 70%;
 	margin-left: 0%;
 	margin-top: 5%;
 	position: absolute;
+	z-index: 99;
 
 
 
 }
 .post-header a {
-	margin-left: 13%;
+	margin-left: 10.5%;
 }
 
 .posted {
@@ -270,10 +274,10 @@ font-weight: bold;
 time {
 	position: absolute;
 	font-size: 1em !important;
-	margin-top: -11.5%;
+	margin-top: -14%;
 	width: 40%;
-	margin-left: 40%;
-	font-size: 1.2em !important;
+	margin-left: 37%;
+	font-size: 1em !important;
 }
 
 h1 a {
@@ -283,11 +287,11 @@ h1 a {
 }
 
 span.user {
-	top: -35%;
+	top: -29%;
 	width: 50%;
-	margin-left: 1%;
+	margin-left: -4%;
 	position: absolute;
-	font-size: 0.8em;
+	font-size: 0.6em;
 }
 
 time::first-letter  {
@@ -347,6 +351,7 @@ time::first-letter  {
 	margin-left: 10%;
     font-size: 12px;
     text-align: center;
+    border-bottom: none;
 }
 
 .content header h1 {
@@ -356,7 +361,7 @@ time::first-letter  {
 
 
 .content p {
-	margin-left: 16%;
+	margin-left: 10%;
 }
 
 
@@ -364,7 +369,7 @@ time::first-letter  {
 #on {
 	position: absolute;
 	top: -85%;
-	margin-left: 45%;
+	margin-left: 47%;
 	font-size: 1em;
 	text-transform:lowercase;
 	font-family: 'Grand Hotel', cursive;
@@ -387,27 +392,29 @@ time::first-letter  {
 
 .show_post {
 	margin-top: 15%;
+	margin-left: 3%;
 }
 
 .show_post time {
-	margin-top: -5.6%;
-	margin-left: 2%;
+	margin-top: -7%;
+	margin-left: 12%;
 }
 
 .show_post span {
-	margin-left: -20%;
+	margin-left: -11%; /* to edit user in full_post */
 }
 
 .show_post p {
-	margin-left: 2%;
+	margin-left: 10.3%;
 }
 
 .show_post #on {
 margin-left: 28%;
 }
 
+
 .show_post h1 {
-	margin-left: 18% !important;
+	margin-left: -12% !important;
 }
 
 .return a {
