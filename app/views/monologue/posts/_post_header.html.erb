@@ -3,13 +3,13 @@
   <div class="posted">
     <span data-monologue="time">
       <time datetime="<%= post.published_at %>">
-        <%= I18n.localize(post.published_at.to_date, format: :short) %>
+        <%= I18n.localize(post.published_at.to_date, format: :long) %>
       </time>
     </span>
 
-   <!--  <span data-monologue="user">
-      <%= post.user.name %>
-    </span> -->
+    <span class="user" data-monologue="user">
+      <%= post.user.name %>  <p id="on">On</p>
+    </span>
 
     <span data-monologue="disqus">
       <a href="<%= post.full_url + "#disqus_thread" %>"></a>

@@ -29,7 +29,12 @@
 }
 .content {
 	margin-top: 2%;
-	margin-left: 5%;
+	margin-left: 0%;
+	border-top: 1px #FF8DA1 solid;
+	padding-top: 4%;
+	width: 100%;
+	position: relative;
+	text-align: left !important;
 }
 
 .content p {
@@ -40,7 +45,7 @@
 
 }
 
-.post-header
+
 
 /* Begin Typography Styling */
 
@@ -90,6 +95,7 @@
 .blog-container time {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
+	position: absolute;
 	color: #444;
 }
 
@@ -231,6 +237,15 @@ font-weight: bold;
 
 .post-header {
 	border: none !important;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 5%;
+	position: absolute;
+
+
+}
+.post-header a {
+	margin-left: 13%;
 }
 
 .posted {
@@ -254,9 +269,25 @@ font-weight: bold;
 
 time {
 	position: absolute;
-	margin-top: -9%;
-	width: 10%;
-	margin-left: 7.5%;
+	font-size: 1em !important;
+	margin-top: -11%;
+	width: 40%;
+	margin-left: 40%;
+	font-size: 0.8em !important;
+}
+
+h1 a {
+	margin-left: -50%;
+	position: relative;
+	text-align: left !important;
+}
+
+span.user {
+	top: -35%;
+	width: 50%;
+	margin-left: 1%;
+	position: absolute;
+	font-size: 0.8em;
 }
 
 time::first-letter  {
@@ -272,8 +303,8 @@ time::first-letter  {
 	max-width: 70%;
 	min-height: 100%;
 	max-height: 130%;*/
-	box-shadow: 1px 1px 10px #FF8DA1;
-	position: absolute;
+	/*box-shadow: 1px 1px 10px #FF8DA1;
+	position: absolute;*/
 	top: -10%;
 	margin-left: 0%;
 }
@@ -308,3 +339,25 @@ time::first-letter  {
 	margin-top: 13%;
 }
 
+.blog-container h1 {
+	text-align: left;
+}
+
+.content header {
+    margin: 0px -35px 5px;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+#on {
+	position: absolute;
+	top: -85%;
+	margin-left: 45%;
+	font-size: 1em;
+	text-transform:lowercase;
+	font-family: 'Grand Hotel', cursive;
+	font-style:italic
+
+
+}
