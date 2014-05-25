@@ -16,25 +16,19 @@
       </div>
 
       <p class="return">
-         <%= link_to "Return to main page", root_url %>
+         <%= link_to " <~ Back to main page", root_url %>
       </p>
 
-
-
-
-
-
+<!-- 
     <div class="tags" data-monologue="tags">
         <%= render @post.tags %>
-      </div>
+      </div> -->
+  <%= render "monologue/posts/social_sharing" %>
 
-
-
-
-
+<!-- 
       <div id="disqus_thread"></div>
       <%= render 'layouts/monologue/application/disqus_embed' %>
-      <noscript>Please enable JavaScript to view the comments.</noscript>
+      <noscript>Please enable JavaScript to view the comments.</noscript> -->
     </article>
 
 
