@@ -467,3 +467,33 @@ margin-left: 70%;
 	color: #2DCCD3 !important;
 }
 
+
+.older_posts span{
+	position: absolute;
+	width: 10%;
+	font-size: 1em;
+	margin-top: 5%;
+	margin-left: 0%;
+	font-family: 'Grand Hotel', cursive !important;
+
+}
+
+.older_posts span:hover {
+	color: #2DCCD3;
+
+}
+
+
+.newer_posts span{
+	position: absolute;
+	width: 10%;
+	font-size: 1em;
+	margin-top: 10%;
+	margin-left: -20%;
+	font-family: 'Grand Hotel', cursive !important;
+}
+
+.newer_posts span:hover {
+	color: #2DCCD3;
+
+}
