@@ -29,13 +29,21 @@
         <div class="product-image">
           <%= link_to small_image(product, :itemprop => "image"), url, :itemprop => 'url' %>
         </div>
+<<<<<<< HEAD
+=======
+        <div class="hide">
+>>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
         <%= link_to truncate(product.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => product.name %>
         <span class="price selling" itemprop="price"><%= display_price(product) %></span>
          <div id="product-description" data-hook="product_description">
 
               <div class="product-description">
            
+<<<<<<< HEAD
                   <%= (product.description) %>
+=======
+                  <%=  (product.description) %>
+>>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
             
                </div>
               <div class="add_to_cart">
@@ -61,7 +69,18 @@
 
 // var description = $('.info, .price, .product-description, .add_to_cart');
 
+<<<<<<< HEAD
 // $(description).hide();
+=======
+
+
+$('.product-image').hover(function() {
+$( this ).toggleClass('fog');
+
+});
+
+</script>
+>>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 
 
 $('.product-image').hover(function() {
