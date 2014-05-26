@@ -332,7 +332,6 @@ font-size: 16px;
 font-weight: 100 !important;
 }
 
-<<<<<<< HEAD
 
 
 ul#products li .product-image {
@@ -360,29 +359,6 @@ z-index: 5;
 
 .hidden img {
     opacity: 0;
-=======
-
-
-ul#products li .product-image {
-	border: 1px solid #D9D9DB;
-	border-radius: 100%;
-	background-color: #FFF;
-	z-index: 140;
-	width: 50%;
-	padding: 25%;
-	margin-left: 70%;
-
-
-}
-
-.product-image img{
-	margin-top: -4.5%;
-	margin-left: -9.2%;
-	width: 220px !important;
-	height: 220px !important;
-	border-radius: 100%;
-	position: absolute;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 }
 
 
@@ -393,27 +369,17 @@ ul#products li .price {
     margin-top: -13% !important;
     margin-left: -28%;
     display: block;
-<<<<<<< HEAD
 }
 
 #products {
-width: 70% !important;
+width: 80% !important;
 margin-left: 5%;
-=======
-    z-index: -1;
-}
-
-#products {
-	width: 60% !important;
-	margin-left: 4%;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 }
 
 
 
 
 #content {
-<<<<<<< HEAD
 width: 100%;
 }
 
@@ -422,51 +388,24 @@ width: 200%;
 height: 300%;
 margin-left: 10%;
 margin-top: -10%;
-=======
-	width: 100%;
-}
-
-.product-listing {
-	width: 200%;
-	height: 300%;
-	margin-left: 10%;
-	margin-top: -10%;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 }
 
 
 
 /*.panel {
-<<<<<<< HEAD
 height: 350px;
 width: 100px;
 padding: -50%;
 margin-bottom: 10%;
 position: relative;
 
-=======
-    height: 350px;
-    width: 100px;
-    padding: -50%;
-    margin-bottom: 10%;
-    position: relative;
-
-   
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 }
 
 
 .card {
-<<<<<<< HEAD
 position: absolute;
 top: 0px;
 left: 0px;
-=======
-    
-    position: absolute;
-    top: 0px;
-    left: 0px;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 }
 
 .front {
@@ -479,22 +418,13 @@ display: none;
 }
 
 .panel:hover .front {
-<<<<<<< HEAD
 z-index: 1;
-=======
-    z-index: 1;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 
 }
 
 .panel:hover .back {
-<<<<<<< HEAD
 display: block;
 z-index: 2;
-=======
-	display: block;
-    z-index: 2;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 
 }
 
@@ -505,66 +435,27 @@ text-align: center;
 }
 
 .front img {
-<<<<<<< HEAD
 margin-top: -31%;
 margin-left: -50%;
 width: 450% !important;
 height: 300px !important;
 border-radius: 50%;
 position: absolute;
-=======
-	margin-top: -31%;
-	margin-left: -50%;
-	width: 450% !important;
-	height: 300px !important;
-	border-radius: 50%;
-	position: absolute;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 }*/
 
 
 .product-description {
-<<<<<<< HEAD
 margin-top: -10%;
 width: 15% !important;
 margin-left: 15%;
 text-align: center;
 position: absolute;
 text-shadow: 1px 1px 3px #FF8DA1;
-=======
-	margin-top: -10%;
-	width: 15% !important;
-	margin-left: 15%;
-	text-align: center;
-	position: absolute;
-	z-index: -1;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 
-
-<<<<<<< HEAD
-=======
-
-
-.fog {
-   opacity: 0;	
-
-}
-
-
-
-
-.price {
-	margin-top: 40%;
-	position: absolute;
-	margin-left: -35%;
-	margin-bottom: 5%;
-	width: 100%;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 
 
 }
 
-<<<<<<< HEAD
 .price {
 margin-top: 40%;
 position: absolute;
@@ -577,11 +468,6 @@ width: 100%;
 ul#products li a.info {
 position: absolute;
 text-align: center !important;
-=======
-ul#products li a.info {
-	position: absolute;
-	text-align: center !important;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
     height: 30px !important;
     margin-top: -185px;
     margin-left: 17%;
@@ -592,15 +478,10 @@ ul#products li a.info {
     color: #FF8DA1;
     padding-top: 1%;
     width: 10%;
-<<<<<<< HEAD
-=======
-    z-index: -1;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
     
 
 }
 
-<<<<<<< HEAD
 .info {
 /* position: relative;
 text-align: left !important;
@@ -609,20 +490,6 @@ margin-top: -65%;
 font-family: 'Grand Hotel', cursive !important;
 font-size: 2em;
 color: #FF8DA1;*/
-=======
-
-
-
-
-.info  {
-/*	position: relative;
-	text-align: left !important;
-    margin-left: 20%;
-    margin-top: -65%;
-    font-family: 'Grand Hotel', cursive !important;
-    font-size: 2em;
-    color: #FF8DA1;*/
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 
    
 }
@@ -633,20 +500,11 @@ font-family: 'Grand Hotel', cursive !important;
 
 
 .add_to_cart {
-<<<<<<< HEAD
 margin-left: 18% !important;
 margin-top: -5%;
 font-size: 2em;
 font-family: 'Grand Hotel', cursive;
 position: absolute;
-=======
-	margin-left: 18% !important;
-	margin-top: -5%;
-	font-size: 2em;
-	font-family: 'Grand Hotel', cursive;
-	position: absolute;
-	z-index: -1;
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
 }
 
 
@@ -657,15 +515,3 @@ margin-left: -10%;
 z-index: -1;
 }
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
->>>>>>> 6e3cfbff8a0aa5e128195efdde358cc9be5ccc99
