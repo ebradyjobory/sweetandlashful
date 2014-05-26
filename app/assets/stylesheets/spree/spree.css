@@ -339,17 +339,14 @@ border: 0px solid #D9D9DB;
 border-radius: 100%;
 background-color: #FFF;
 z-index: 140;
-width: 95%;
+width: 100%;
 padding: 0%;
 margin-left: 70%;
-margin-bottom: -60%;
-
 
 }
 
 .product-image img{
 margin-top: 4%;
-margin-left: 0%;
 width: 220px !important;
 height: 220px !important;
 border-radius: 100%;
@@ -367,27 +364,24 @@ ul#products li .price {
     font-size: 16px;
     padding: 30%;
     margin-top: -13% !important;
-    display: block;
 }
 
 #products {
 width: 80% !important;
-margin-left: 5%;
+margin-left: -5%;
 }
-
-
 
 
 #content {
-width: 100%;
+width: 105%;
+padding-bottom: -30%;
 }
 
 .product-listing {
-width: 200%;
-height: 100%;
-margin-left: 0%;
+
 margin-top: -10%;
-padding-bottom: -10%;
+
+
 }
 
 
@@ -443,7 +437,7 @@ border-radius: 50%;
 position: absolute;
 }*/
 
-
+/*
 .product-description {
 padding-top: -70%;
 width: 55% !important;
@@ -453,11 +447,11 @@ position: relative;
 text-shadow: 1px 1px 3px #FF8DA1;
 
 }
-
+*/
 .price {
 margin-bottom: 160% !important;
 position: relative;
-margin-left: 35% !important;
+margin-left: 38% !important;
 margin-bottom: 5%;
 width: 100%;
 
@@ -468,13 +462,13 @@ ul#products li a.info {
     text-align: center !important;
     height: 30px !important;
     margin-top: -190px;
-    margin-left: 90% !important;
+    margin-left: 95% !important;
     color: #BBB;
     border-bottom: none;
     font-family: 'Grand Hotel', cursive !important;
     font-size: 2em;
     color: #FF8DA1;
-    padding-top: 1%;
+    padding-top: 5%;
     width: 50%;
 
 }
@@ -496,16 +490,14 @@ font-family: 'Grand Hotel', cursive !important;
 }
 
 
-.add_to_cart {
+/*.add_to_cart {
 margin-left: 98% !important;
 margin-top: -90%;
 font-size: 2em;
 font-family: 'Grand Hotel', cursive;
 position: relative;
 width: 50%;
-}
-
-
+}*/
 
 
 .background img {
@@ -513,5 +505,9 @@ position: fixed;
 margin-top: -20%;
 margin-left: -10%;
 z-index: -1;
+}
+
+#product_5, #product_6 , #product_7, #product_8  {
+    margin-top: -25%;
 }
 
