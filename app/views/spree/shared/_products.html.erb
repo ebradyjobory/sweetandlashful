@@ -31,6 +31,7 @@
         <div class="product-image">
           <%= link_to small_image(product, :itemprop => "image"), url, :itemprop => 'url' %>
         </div>
+        <div class="hide">
         <%= link_to truncate(product.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => product.name %>
         <span class="price selling" itemprop="price"><%= display_price(product) %></span>
          <div id="product-description" data-hook="product_description">
@@ -61,15 +62,13 @@
 <%= javascript_include_tag "foggy", "data-turbolinks-track" => true %>
 <script>
 
-// var description = $('.info,  .price,  .product-description, .add_to_cart');
-
-// $(description).hide();
 
 
-// $('.product-image').hover(function() {
-// $( this ).hide();
-// $(description).show();
-// });
+
+$('.product-image').hover(function() {
+$( this ).toggleClass('fog');
+
+});
 
 </script>
 

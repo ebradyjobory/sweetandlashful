@@ -364,7 +364,7 @@ ul#products li .price {
     margin-top: -13% !important;
     margin-left: -28%;
     display: block;
-    z-index: 100;
+    z-index: -1;
 }
 
 #products {
@@ -448,9 +448,19 @@ ul#products li .price {
 	margin-left: 15%;
 	text-align: center;
 	position: absolute;
-	z-index: 110;
+	z-index: -1;
 
 }
+
+
+
+.fog {
+   opacity: 0;	
+
+}
+
+
+
 
 .price {
 	margin-top: 40%;
@@ -458,6 +468,7 @@ ul#products li .price {
 	margin-left: -35%;
 	margin-bottom: 5%;
 	width: 100%;
+
 
 }
 
@@ -474,8 +485,14 @@ ul#products li a.info {
     color: #FF8DA1;
     padding-top: 1%;
     width: 10%;
+    z-index: -1;
+    
 
 }
+
+
+
+
 
 .info  {
 /*	position: relative;
@@ -500,6 +517,7 @@ ul#products li a.info {
 	font-size: 2em;
 	font-family: 'Grand Hotel', cursive;
 	position: absolute;
+	z-index: -1;
 }
 
 
@@ -509,6 +527,8 @@ ul#products li a.info {
 	margin-left: -10%;
 	z-index: -1;
 }
+
+
 
 
 
