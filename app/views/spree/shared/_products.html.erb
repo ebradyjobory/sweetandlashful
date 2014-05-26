@@ -8,67 +8,69 @@
   paginated_products = @searcher.retrieve_products if params.key?(:keywords)
   paginated_products ||= products
 %>
+
+<% content_for :head do %>
+  <% if paginated_products.respond_to?(:num_pages) %>
+    <%= rel_next_prev_link_tags paginated_products %>
+  <% end %>
+<% end %>
+
 <% if products.empty? %>
   <%= Spree.t(:no_products_found) %>
 <% elsif params.key?(:keywords) %>
   <h6 class="search-results-title"><%= Spree.t(:search_results, :keywords => h(params[:keywords])) %></h6>
 <% end %>
 
+
 <% if products.any? %>
-  <ul id="products" class="" data-hook>
-    <% products.each do |product| %>
-      <div class="panel">
-        <div class="front card">
-          <li id="product_<%= product.id %>" class="columns five <%= cycle("", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
-
-            <div class="product-image">
-              <%= link_to small_image(product, :itemprop => "image"), product, :itemprop => 'url' %>
-            </div>
+<ul id="products" class="inline product-listing" data-hook>
+  <% products.each do |product| %>
+    <% url = product_url(product, :taxon_id => @taxon.try(:id)) %>
+    <li id="product_<%= product.id %>" class="columns four <%= cycle("alpha", "secondary", "", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
+      <% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
+        <div class="product-image">
+          <%= link_to small_image(product, :itemprop => "image"), url, :itemprop => 'url' %>
         </div>
+        <%= link_to truncate(product.name, :length => 50), url, :class => 'info', :itemprop => "name", :title => product.name %>
+        <span class="price selling" itemprop="price"><%= display_price(product) %></span>
+         <div id="product-description" data-hook="product_description">
 
-            <div class="back card"> 
-              <div id="products-back">
-                <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
-                <span class="price selling" itemprop="price"><%= display_price(product) %></span>
-                <div class="ten omega" data-hook="product_right_part">
-                <div class="row" data-hook="product_right_part_wrap">
-
-            <div id="product-description" data-hook="product_description">
-
-                <div class="product-description">
-                  <%=  product.description %>
-                </div>
+              <div class="product-description">
+           
+                  <%=  (product.description) %>
+            
+               </div>
               <div class="add_to_cart">
                 <%= link_to "Add to Cart", cart_path %>
 
               </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <% end %>
-  </ul>
+         </div>
+       
+      <% end %>
+    </li>
+  <% end %>
+  <% reset_cycle("classes") %>
+</ul>
 <% end %>
 
 <% if paginated_products.respond_to?(:num_pages) %>
   <%= paginate paginated_products %>
 <% end %>
 
-
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <%= javascript_include_tag "foggy", "data-turbolinks-track" => true %>
 <script>
 
+// var description = $('.info,  .price,  .product-description, .add_to_cart');
 
-// $('.front').hover(function() {
-// $( this ).foggy();
+// $(description).hide();
+
+
+// $('.product-image').hover(function() {
+// $( this ).hide();
+// $(description).show();
 // });
 
-// $('.front').mouseleave(function() {
-// $( this ).foggy(false);
-// });
 </script>
 
 
