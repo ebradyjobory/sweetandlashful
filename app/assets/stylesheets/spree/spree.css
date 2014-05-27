@@ -381,7 +381,7 @@ padding-bottom: -30%;
 
 .product-listing {
 
-margin-top: -13%;
+margin-top: -12%;
 
 
 }
@@ -502,6 +502,7 @@ font-family: 'Grand Hotel', cursive;
 position: absolute;
 color: #FF8DA1;
 width: 50%;
+
 }
 
 
@@ -512,15 +513,16 @@ margin-left: -10%;
 z-index: -1;
 }
 
-#product_5, #product_4, #product_6 , #product_7, #product_8  {
+#product_5, #product_6 , #product_7, #product_8  {
     margin-top: -35%;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 #product_4 {
-    margin-left: 15%;
+    margin-left: 13%;
+    margin-top: -35%;
 }
 
 #product_1, #product_2 , #product_3 {
-    margin-right: 5%;
+    margin-right: 4%;
 }
 

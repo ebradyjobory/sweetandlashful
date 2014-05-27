@@ -401,7 +401,7 @@ section {
 }
 
 .show_post {
-	margin-top: 15%;
+	margin-top: 13%;
 	margin-left: 3%;
 }
 
@@ -496,4 +496,8 @@ margin-left: 70%;
 .newer_posts span:hover {
 	color: #2DCCD3;
 
+}
+
+svg {
+	display: none;
 }
