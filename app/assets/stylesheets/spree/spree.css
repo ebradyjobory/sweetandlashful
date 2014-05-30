@@ -526,3 +526,129 @@ z-index: -1;
     margin-right: 4%;
 }
 
+
+#product-description {
+    margin-left: -5% !important;
+    margin-top: 0%;
+}
+
+
+#main-image {
+    margin-top: -5%;
+}
+
+.product-title {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3em !important;
+    color: #FF8DA1 !important;
+
+}
+
+.product-section-title {
+    display: none;
+}
+
+#product-price {
+    margin-left: -62% !important;
+    margin-top: 10%;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 20px;
+}
+#product-price span, .cart-item-price, .cart-item-total {
+    color: #444 !important;
+    padding-top: 2%;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+/*.cart-item-price {
+    margin-top: 3% !important;
+}*/
+
+
+#add-to-cart-button {
+    border-radius: 100%;
+    width: 24.2%;
+}
+
+
+#quantity {
+    border-radius: 100%;
+    width: 22%;
+    padding: 7%;
+    margin-top: 2%;
+
+}
+
+.cart-item-quantity input{
+    border-radius: 50%;
+    width: 15% !important;
+    margin-top: 8% !important;
+
+}
+
+.cart-item-delete {
+    padding-top: 2.5% !important;
+}
+
+div.main-description, .line-item-description  {
+    font-size: 1.5em !important;
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+
+.row {
+    margin-top: 3% !important;
+}
+
+
+.cart-item-image img{
+    border-radius: 50%;
+   
+}
+
+.cart-title {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3em !important;
+    color: #FF8DA1 !important;
+    margin-bottom: 5%;
+    margin-top: -5%;
+
+}
+
+.cart_items_headers  {
+    display: none;
+}
+
+.cart-item-description a{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 1.3em !important;
+    color: #FF8DA1 !important;
+
+}
+
+/*
+.gray{
+    border-radius: 100% !important;
+    width: 18% !important;
+
+}
+
+.continue  {
+    width: 20% !important;
+    padding-right: 0% !important;
+    padding-left: 7% !important;
+    padding-top: 7% !important;
+    padding-bottom: 7% !important;
+    
+    
+
+
+}*/
+
+.total-items {
+    position: absolute;
+    right: 0%;
+    margin-top: 5%;
+
+}
+
