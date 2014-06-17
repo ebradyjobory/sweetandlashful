@@ -365,7 +365,7 @@ ul#products li .price {
     font-family: 'Quicksand', sans-serif !important;
     font-size: 20px;
     padding: 30%;
-    margin-top: -13% !important;
+    margin-top: -16% !important;
 }
 
 #products {
@@ -461,6 +461,7 @@ width: 100%;
 
 ul#products li a.info {
     position: relative;
+    line-height: 1em;
     text-align: center !important;
     height: 5% !important;
     margin-top: -190px;
@@ -477,17 +478,6 @@ ul#products li a.info {
 
 }
 
-.info {
-/* position: relative;
-text-align: left !important;
-margin-left: 20%;
-margin-top: -65%;
-font-family: 'Grand Hotel', cursive !important;
-font-size: 2em;
-color: #FF8DA1;*/
-
-   
-}
 
 .info a {
 font-family: 'Grand Hotel', cursive !important;
@@ -496,7 +486,7 @@ font-family: 'Grand Hotel', cursive !important;
 
 .add_to_cart {
 margin-left: -2% !important;
-margin-top: -33%;
+margin-top: -35%;
 font-size: 1.5em;
 font-family: 'Grand Hotel', cursive;
 position: absolute;
@@ -585,7 +575,7 @@ z-index: -1;
 
 .cart-item-quantity input{
     border-radius: 50%;
-    width: 10% !important;
+    width: 12% !important;
     margin-top: 5% !important;
     margin-left: 45% !important; 
 
@@ -666,9 +656,10 @@ div.main-description, .line-item-description  {
     position: absolute;
 }
 .cart-total {
-    margin-top: -1%;
+    margin-top: 1%;
     position: absolute;
     right: -5%;
+    width: 12.5%;
 }
 
 .total-items {
@@ -710,5 +701,18 @@ color: #FF8DA1
 
 #order_summary h1 {
     margin-top: -6%;
+}
+
+input.gray[type="submit"], input.gray[type="button"], input.gray[type="reset"], button.gray, a.button.gray {
+    background-color: #00ADEE;
+    border-color: white;
+}
+
+input.gray[type="submit"]:hover, a.button.gray:hover {
+    background-color: #404042;
+}
+
+.price span {
+    margin-left: 30%;
 }
 
