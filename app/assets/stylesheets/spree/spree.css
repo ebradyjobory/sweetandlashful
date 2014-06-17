@@ -585,8 +585,9 @@ z-index: -1;
 
 .cart-item-quantity input{
     border-radius: 50%;
-    width: 20% !important;
-    margin-top: 8% !important;
+    width: 10% !important;
+    margin-top: 5% !important;
+    margin-left: 45% !important; 
 
 }
 
@@ -685,5 +686,29 @@ div.main-description, .line-item-description  {
     position: absolute;
     right: -5%;
     margin-top: 15%;
+}
+
+.columns h1 {
+font-family: 'Grand Hotel', cursive;
+font-size: 4em;
+color: #FF8DA1
+}
+
+ #line-items h4 {
+    font-family: 'Grand Hotel', cursive;
+    color: #FF8DA1
+
+ }
+
+
+#checkout {
+    margin-top: -5%;
+}
+#checkout-step-address, #checkout-step-delivery, #checkout-step-confirm, #order_details, #order_summary, #checkout-step-payment, #payment,  #billing, #shipping, #checkout-summary, #shipping_method {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#order_summary h1 {
+    margin-top: -6%;
 }
 
