@@ -517,20 +517,43 @@
 #third {
 
 	height: 800px;
-
-
 }
 
 #fourth {
-
 	height: 800px;
-
 }
 
 #fifth{
-
 	height: 800px;
+}
 
+.primary-header, #header-logo-2, #header-logo-3-store {
+	display: none;
+}
+
+#header-logo-3-store {
+	margin-top: -0.8%;
+}
+
+.primary-header {
+	width: 110% !important;
+	height: 10% !important;
+	
+}
+
+
+.main-menu-store li a{
+	padding-left: 4% !important;
+	margin-top: 1% !important;	
+}
+
+.main-menu-store  {
+	margin-left: 10% !important;
+}
+
+
+.main-menu-item-3-store {
+	margin-left: -6%;
 }
 
 

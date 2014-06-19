@@ -15,7 +15,7 @@
 
   		<script>
 
-<!----- JQUERY FOR SLIDING NAVIGATION --->
+<!----- JQUERY FOR SLIDING NAVIGATION ---->
 $(document).ready(function() {
   $('a[href*=#]:not([href=#])').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -25,7 +25,7 @@ $(document).ready(function() {
       var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
        if ($target) {
          var targetOffset = $target.offset().top;
-*
+
 
 <!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
          $(this).click(function() {
@@ -50,6 +50,28 @@ $(document).ready(function() {
 
 </script>
 
+<script>
+
+
+window.addEventListener("scroll",function() { 
+   if(window.scrollY > 700) {
+      $('.primary-header, #header-logo-2, #header-logo-3-store').show();
+      $('.intro-menu, #header-logo-1').hide();
+
+      // $('.intro-menu').slideDown();
+   }
+   else {
+      $('.primary-header, #header-logo-2, #header-logo-3-store').hide();
+      $('.intro-menu, #header-logo-1').show();
+      // $('.intro-menu').slideUp();
+   }
+},false);
+
+
+
+
+</script>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -71,6 +93,29 @@ $(document).ready(function() {
     <div class="grid_2 intro-contact">
   <p><%= link_to "Contact Us" %></p>
 </div> <!--  intro-contact -->
+
+
+  <div id="header-logo-2">
+          <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
+        </div>  <!-- #header-logo-2 -->
+
+        <div id="header-logo-3-store">
+          <%= link_to image_tag("lashful-logo-3.png", :alt => 'Sweet and Lashful'), "#intro" %>
+        </div>  <!-- #header-logo-2 -->
+
+  <div class="primary-header">
+
+        <div class="grid_6 alpha clearfix main-menu-store">
+            <ul>
+                  <li class="main-menu-item-1-store"><%= link_to "Shop", "#second", :class => "" %></li>
+                  <li class="main-menu-item-2-store"><%= link_to "Services", "#third", :class => "" %></li>
+                  <li class="main-menu-item-3-store"><%= link_to "About", "#fourth", :class => "" %></li>
+                  <li class="main-menu-item-4-store"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
+<!--                   <li class="main-menu-item-5-store"><%= link_to "Contact Us" %></li>
+ -->            </ul>
+        </div>  <!-- .main-menu -->
+  </div>  <!-- main-header -->
+
 
 <!--  <div id="header-logo-2">
           <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
