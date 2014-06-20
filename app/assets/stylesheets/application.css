@@ -49,8 +49,8 @@
 }
 
 #header-logo-1 {
-	position: fixed;
-	width: 20%;
+	position: absolute;
+	width: 1%;
 	top: 0;
 	left: 37%;
 	z-index: 111;
@@ -194,7 +194,7 @@
 
 .intro-menu {
 	margin-bottom: 1%;
-	position: fixed;
+	position: absolute !important;
 	top: 0;
 	z-index: 110;
 }
@@ -554,6 +554,10 @@
 
 .main-menu-item-3-store {
 	margin-left: -6%;
+}
+
+#header-logo-2, #header-logo-3-store{
+	margin-left: -2%;
 }
 
 
