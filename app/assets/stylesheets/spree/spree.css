@@ -732,6 +732,10 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
         display: none;
     }
 
+    p.add_to_cart {
+        display: none;
+    }
+
     .product-image {
         width: 100%;
     }
@@ -762,6 +766,34 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     #add-to-cart-button {
         margin-top: 0%;
         width: 22%;
+    }
+    .cart-total {
+        width: 100%;
+    }
+
+   #order_coupon_code {
+        width: 100%;
+        margin-top: 30% !important;
+        margin-left: -50% !important;
+    }
+
+    #clear_cart_link {
+        width: 100%;
+        margin-top: 40%;
+    }
+
+    #update-button {
+        margin-top: 50%;
+        margin-left: -40%;
+    }
+
+    #checkout-link {
+         margin-top: 50%;
+        margin-left: -110%;
+    }
+
+    .cart-item-quantity input{
+        width: 70% !important;
     }
 
 
