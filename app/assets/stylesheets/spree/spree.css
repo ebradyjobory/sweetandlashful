@@ -190,7 +190,18 @@ font-weight: bold;
      margin-left: -7%;
 }
 .main-menu-item-3-store a {
-width: 5%;
+width: 4%;
+margin-left: -8%;
+}
+
+.main-menu-item-5-store a {
+width: 4%;
+margin-left: -8% !important;
+}
+
+.main-menu-item-4-store a {
+width: 4%;
+margin-left: -10% !important;
 }
 
 .main-menu-item-4-store a {
