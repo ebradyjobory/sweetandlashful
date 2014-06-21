@@ -293,10 +293,19 @@ margin-right: 5%;
 display: none;
 }
 
+.cart-info {
+    position: fixed;
+    margin-left: 70%;
+    margin-top: 2.3% !important;
+    z-index: 100;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 1.5em !important;
+}
+
 
  nav #main-nav-bar li#link-to-cart {
     position: fixed;
-    margin-left: 65%;
+    margin-left: 75%;
     top: 4.4%;
     z-index: 110;
     font-family: 'Quicksand', sans-serif !important;
@@ -715,4 +724,50 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
 .price span {
     margin-left: 30%;
 }
+
+/*<======= iPhone =======> */
+@media only screen and (max-width : 768px) {
+
+    .primary-header {
+        display: none;
+    }
+
+    .product-image {
+        width: 100%;
+    }
+
+    #content {
+        margin-top: 20%;
+    }
+
+    #header-logo-3-store {
+        margin-top: -2%;
+        margin-left: -12%;
+
+    }
+    #top-nav-bar {
+        left: -70%;
+    }
+
+    .cart-info {
+        right: 0% !important;
+        margin-top: 8% !important;
+        width: 20%;
+    }
+
+    #header-logo-2 {
+        margin-left: -12%;
+    }
+
+    #add-to-cart-button {
+        margin-top: 0%;
+        width: 22%;
+    }
+
+
+
+}
+
+
+
 
