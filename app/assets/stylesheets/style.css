@@ -13,9 +13,6 @@ button {
     box-shadow: none;
 
 }
-   
-button:focus {outline:none;} button::-moz-focus-inner {border:0;}
-
 
 
 #wrapper {
@@ -167,4 +164,5 @@ body.pmr-open #wrapper {
     top: 10%;
     z-index: 110;
 }
+
 

@@ -73,7 +73,6 @@ left: 43.5%;
 z-index: 111;
 }
 
-
 .primary-header {
 width: 100%;
 position: fixed;
@@ -91,6 +90,25 @@ font-size: 16px;
 .primary-header {
 margin-bottom: 0%;
 margin-top: -10%;
+
+}
+.primary-header-index {
+width: 100%;
+position: fixed;
+background-color: #F9F9F9;
+border-bottom: 1.5px solid #2DCCD3;
+height: 10.8%;
+z-index: 100;
+box-shadow: 1px 1px 3px #FF8DA1;
+}
+
+.primary-header-index li {
+font-size: 16px;
+}
+
+.primary-header-index {
+margin-bottom: 0%;
+margin-top: 0%;
 
 }
 
@@ -506,22 +524,22 @@ font-family: 'Grand Hotel', cursive !important;
 
 
 .add_to_cart {
-margin-left: -2% !important;
-margin-top: -35%;
-font-size: 1.5em;
-font-family: 'Grand Hotel', cursive;
-position: absolute;
-color: #FF8DA1;
-width: 50%;
+    margin-left: -2% !important;
+    margin-top: -35%;
+    font-size: 1.5em;
+    font-family: 'Grand Hotel', cursive;
+    position: absolute;
+    color: #FF8DA1;
+    width: 50%;
 
 }
 
 
 .background img {
-position: fixed;
-margin-top: -40%;
-margin-left: -10%;
-z-index: -1;
+    position: fixed;
+    margin-top: -40%;
+    margin-left: -10%;
+    z-index: -1;
 }
 
 #product_5, #product_6 , #product_7, #product_8  {
@@ -679,7 +697,7 @@ div.main-description, .line-item-description  {
     margin-top: 1%;
     position: absolute;
     right: -5%;
-    width: 12.5%;
+    width: 12%;
 }
 
 .total-items {
@@ -705,7 +723,7 @@ font-size: 4em;
 color: #FF8DA1
 }
 
- #line-items h4 {
+ #line-items h4, .account-my-orders h3{
     font-family: 'Grand Hotel', cursive;
     color: #FF8DA1
 
@@ -751,7 +769,7 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     color: #FF8DA1
 }
 
-label {
+label, .account-summary, .account-my-orders {
     font-family: 'Quicksand', sans-serif !important;
 
 }
@@ -768,14 +786,30 @@ label {
 
 /*<======= iPhone =======> */
 @media only screen and (max-width : 768px) {
-    .btn {
-    display: block;
-}
 
-.menu, .push-menu-right,  .nav-slide-right {
-    display: block;
-}
+    .background img {
+      width: 250%; 
+      margin-left: -50%; 
+      margin-top: -60%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
 
+   .btn {
+    display: block;
+    margin-top: -10%;
+    }
+
+    .btn:hover {
+     background-color: none;   
+    display: block;
+    margin-top: -10%;
+    }
+
+   .menu, .push-menu-right,  .nav-slide-right {
+    display: block;
+    }
 
     .primary-header {
         display: none;
@@ -803,8 +837,9 @@ label {
     }
 
     .cart-info {
-        right: 15% !important;
-        margin-top: -6% !important;
+        right: 70% !important;
+        text-align: center;
+        margin-top: 20% !important;
         width: 20%;
     }
 
@@ -844,7 +879,6 @@ label {
     .cart-item-quantity input{
         margin-left: -5% !important;
     }
-
 
 
 }
