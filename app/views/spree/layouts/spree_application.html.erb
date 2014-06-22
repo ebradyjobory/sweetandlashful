@@ -8,6 +8,9 @@
   <link href='http://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
+<div id="wrapper">
+
+
         <div id="header-logo-2">
           <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
         </div>  <!-- #header-logo-2 -->
@@ -29,8 +32,8 @@
             </ul>
         </div>  <!-- .main-menu -->
   </div>  <!-- main-header -->
-   <li id="link-to-cart" data-hook><%= link_to_cart %></li>
 
+   <li id="link-to-cart" data-hook><%= link_to_cart %></li>
 
     <head data-hook="inside_head">
     <%= render :partial => 'spree/shared/head' %>
@@ -64,5 +67,23 @@
     <script>
       Spree.api_key = <%= raw(try_spree_current_user.try(:spree_api_key).to_s.inspect) %>;
     </script>
+
+</div> <!--#wrapper -->
+    <nav class="menu push-menu-right nav-slide-right">
+          <ul>
+              <li class=""><%= link_to "Shop", "#second", :class => "" %></li>
+              <li class=""><%= link_to "Services", "#third", :class => "" %></li>
+              <li class=""><%= link_to "About", "#fourth", :class => "" %></li>
+              <li class=""><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
+              <li class=""><%= link_to "Contact Us" %></li>
+
+          </ul>
+    </nav>
+
+     <button  class="nav-toggler toggle-push-right btn"></button> 
+
+    <%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "nav", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag "style", media: "all", "data-turbolinks-track" => true %>
   </body>
 </html>

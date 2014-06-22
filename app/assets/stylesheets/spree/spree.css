@@ -88,8 +88,9 @@ box-shadow: 1px 1px 3px #FF8DA1;
 font-size: 16px;
 }
 
-.main-menu-store {
+.primary-header {
 margin-bottom: 0%;
+margin-top: -10%;
 
 }
 
@@ -191,7 +192,7 @@ font-weight: bold;
 }
 .main-menu-item-3-store a {
 width: 4%;
-margin-left: -8%;
+margin-left: -8.5%;
 }
 
 .main-menu-item-5-store a {
@@ -201,7 +202,7 @@ margin-left: -8% !important;
 
 .main-menu-item-4-store a {
 width: 4%;
-margin-left: -10% !important;
+margin-left: -10.5% !important;
 }
 
 .main-menu-item-4-store a {
@@ -307,7 +308,7 @@ display: none;
 .cart-info {
     position: fixed;
     margin-left: 70%;
-    margin-top: 2.3% !important;
+    margin-top: -8% !important;
     z-index: 100;
     font-family: 'Quicksand', sans-serif !important;
     font-size: 1.5em !important;
@@ -595,7 +596,6 @@ z-index: -1;
 
 .cart-item-quantity input{
     border-radius: 50%;
-    width: 12% !important;
     margin-top: 5% !important;
     margin-left: 45% !important; 
 
@@ -736,8 +736,24 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     margin-left: 30%;
 }
 
+.btn {
+    display: none;
+}
+
+.menu, .push-menu-right,  .nav-slide-right {
+    display: none;
+}
+
 /*<======= iPhone =======> */
 @media only screen and (max-width : 768px) {
+    .btn {
+    display: block;
+}
+
+.menu, .push-menu-right,  .nav-slide-right {
+    display: block;
+}
+
 
     .primary-header {
         display: none;
@@ -765,8 +781,8 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     }
 
     .cart-info {
-        right: 0% !important;
-        margin-top: 8% !important;
+        right: 15% !important;
+        margin-top: -6% !important;
         width: 20%;
     }
 
@@ -804,7 +820,7 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     }
 
     .cart-item-quantity input{
-        width: 70% !important;
+        margin-left: -5% !important;
     }
 
 
