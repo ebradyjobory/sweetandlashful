@@ -744,6 +744,28 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     display: none;
 }
 
+#existing-customer h6 {
+    text-transform: lowercase;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3em;
+    color: #FF8DA1
+}
+
+label {
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+
+#content {
+    margin-top: -10%;
+}
+
+.flash {
+    width: 80%;
+    position: fixed;
+    margin-left: -3%;
+}
+
 /*<======= iPhone =======> */
 @media only screen and (max-width : 768px) {
     .btn {
