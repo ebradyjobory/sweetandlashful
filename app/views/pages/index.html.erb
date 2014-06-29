@@ -61,7 +61,7 @@ $(document).ready(function() {
         // $('.intro-menu').slideDown();
      }
      else {
-        $('.primary-header-index, #header-logo-2, #header-logo-3-store').hide();
+        $('.primary-header-index, #header-logo-2, #header-logo-3-store, .primary-header-index-about, #header-logo-2-about, #header-logo-3-store-about').hide();
         $('.intro-menu, #header-logo-1').show();
         // $('.intro-menu').slideUp();
      }
@@ -80,10 +80,10 @@ $(document).ready(function() {
 
 	<div class="grid_12 alpha clearfix intro-menu">
 		<ul>
-		    <li class="menu-item-1"><%= link_to "Shop", "/store", :class => "", target: "_blank" %></li>
+		  <li class="menu-item-1"><%= link_to "Shop", "/store", :class => "" %></li>
 			<li class="menu-item-2"><%= link_to "Services", "#", :class => "" %></li>
 			<li class="menu-item-3"><%= link_to "About", "#second-about", :class => "" %></li>
-                  <li class="menu-item-4"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
+      <li class="menu-item-4"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
 		</ul>
     </div>  <!-- .intro-menu -->
 

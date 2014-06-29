@@ -13,4 +13,8 @@ class PagesController < ApplicationController
 
   def services
   end
+
+  def about_path?
+   
+  end
 end

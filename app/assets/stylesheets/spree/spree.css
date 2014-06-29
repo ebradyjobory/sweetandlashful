@@ -102,6 +102,16 @@ z-index: 100;
 box-shadow: 1px 1px 3px #FF8DA1;
 }
 
+.primary-header-index-about {
+width: 100%;
+position: fixed;
+background-color: #F9F9F9;
+border-bottom: 1.5px solid #2DCCD3;
+height: 10.8%;
+z-index: 100;
+box-shadow: 1px 1px 3px #FF8DA1;
+}
+
 .primary-header-index li {
 font-size: 16px;
 }
