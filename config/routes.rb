@@ -27,7 +27,7 @@ Ecom::Application.routes.draw do
   mount Spree::Core::Engine, :at => '/store'
 
   match '/', to: 'pages#index', via: 'get'
-
+  
   get "pages/store"
   get "pages/blog"
   get "pages/about"

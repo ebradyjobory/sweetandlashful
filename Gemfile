@@ -53,5 +53,5 @@ gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :bran
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
 
 gem 'spree_tax_cloud', :git => 'https://github.com/jetsgit/spree_tax_cloud', :branch => '2-2-beta'
-
+gem 'spree_static_content', github: 'spree/spree_static_content', :branch => '2-2-stable'
 gem 'seed_dump'

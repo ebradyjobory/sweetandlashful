@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140519201454) do
+ActiveRecord::Schema.define(version: 20140630213356) do
 
   create_table "monologue_posts", force: true do |t|
     t.boolean  "published"
@@ -285,6 +285,27 @@ ActiveRecord::Schema.define(version: 20140519201454) do
     t.integer "order_id"
     t.integer "promotion_id"
   end
+
+  create_table "spree_pages", force: true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.string   "slug"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.boolean  "show_in_header",           default: false, null: false
+    t.boolean  "show_in_footer",           default: false, null: false
+    t.string   "foreign_link"
+    t.integer  "position",                 default: 1,     null: false
+    t.boolean  "visible",                  default: true
+    t.string   "meta_keywords"
+    t.string   "meta_description"
+    t.string   "layout"
+    t.boolean  "show_in_sidebar",          default: false, null: false
+    t.string   "meta_title"
+    t.boolean  "render_layout_as_partial", default: false
+  end
+
+  add_index "spree_pages", ["slug"], name: "index_spree_pages_on_slug"
 
   create_table "spree_payment_capture_events", force: true do |t|
     t.decimal  "amount",     precision: 10, scale: 2, default: 0.0
