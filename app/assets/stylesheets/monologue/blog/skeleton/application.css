@@ -17,6 +17,7 @@
 
 .background img {
 	position: fixed;
+
 }
 
 .blog-container {
@@ -500,4 +501,59 @@ margin-left: 70%;
 
 svg {
 	display: none;
+}
+
+@media only screen and (max-width : 1000px) {
+
+	.blog-container{
+		margin-top: 10%;
+	}
+
+
+
+}
+
+@media only screen and (max-width : 500px) {
+
+	.blog-container{
+		margin-top: 30%;
+	}
+
+	.main-menu-item-2-store a, .main-menu-item-1-store a, .main-menu-item-4-store a{
+		display: none !important;
+	}
+
+	.main-menu-item-3-store a{
+		margin-left: -30%;
+		margin-top: 10%;
+	}
+
+	#header-logo-2, #header-logo-3-store{
+		margin-left: 10% !important;
+	}
+
+	#header-logo-3-store {
+	    margin-top: -2%;
+
+	}
+
+	time {
+		margin-left: 40%;
+	}
+
+	.background img {
+	position: fixed;
+	width: 250%;
+
+    }
+
+
+
+
+
+
+
+
+
+
 }
