@@ -610,7 +610,35 @@
 }
 
 
+
 @media only screen and (max-width : 1000px) {
+
+	.menu-item-1 {
+		margin-left: -20% !important;
+	}
+
+	.menu-item-3 {
+		margin-left: 40% !important;
+	}
+
+	.intro-contact {
+		width: 20% !important;
+		margin-left: -10% !important
+	}
+
+	#header-logo-1  {
+		margin-left: -15% !important;
+	}
+
+	.main-menu-item-2-store-i {
+		display: none !important;
+	}
+
+
+}
+
+
+@media only screen and (max-width : 500px) {
 
 	#header-logo-1 {
 		margin-left: -7% !important;
@@ -670,7 +698,12 @@
 		font-size: 0.8em;
 	}
 
-	.primary-header-index {
+	.main-menu-store li{
+		font-size: 1.2em !important;
+		width: 100% !important;
+	}
+
+	.main-menu-item-2-store-i {
 		display: none !important;
 	}
 
