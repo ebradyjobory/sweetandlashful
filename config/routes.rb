@@ -31,6 +31,7 @@ Ecom::Application.routes.draw do
   get "pages/store"
   get "pages/blog"
   get "pages/about"
+  get "pages/contact"
   get "pages/services"
 
 

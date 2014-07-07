@@ -5,6 +5,12 @@ margin-left: 3%;
 margin-top: 10%;
 }
 
+
+.contact-store {
+    position: absolute;
+    z-index: 500;
+}
+
 #wrapper {
 margin-top: 10%;
 width: 100%;
@@ -20,6 +26,7 @@ z-index: 110;
 }
 
 #top-nav-bar a{
+ font-weight: 600 !important;   
 color: #444;
 font-family: 'Quicksand', sans-serif !important;
 }
@@ -225,7 +232,7 @@ margin-left: -8.5%;
 
 .main-menu-item-5-store a {
 width: 4%;
-margin-left: -8% !important;
+margin-left: -9% !important;
 }
 
 .main-menu-item-4-store a {
@@ -333,11 +340,13 @@ margin-right: 5%;
 display: none;
 }
 
+
 .cart-info {
     position: fixed;
     margin-left: 70%;
+    width: 10%;
     margin-top: -8% !important;
-    z-index: 100;
+    z-index: 200;
     font-family: 'Quicksand', sans-serif !important;
     font-size: 1.5em !important;
 }
@@ -351,6 +360,12 @@ display: none;
     font-family: 'Quicksand', sans-serif !important;
     text-transform: none;
     background: url('') no-repeat scroll left center transparent;
+}
+
+#checkout-link {
+    margin-top: 0%;
+    width: 16.5%;
+
 }
 
 nav #main-nav-bar {
@@ -552,7 +567,28 @@ font-family: 'Grand Hotel', cursive !important;
     z-index: -1;
 }
 
-#product_5, #product_6 , #product_7, #product_8  {
+.background-contact img {
+    position: fixed;
+    margin-top: 0%;
+    margin-left: -10%;
+    z-index: -1;
+}
+
+#contact-page .intro-contact {
+    top: 40%;
+    left: 38%;
+    font-size: 2em;
+    width: 50%;
+    height: -50% !important;
+}
+
+#contact-page .intro-contact a:hover {
+    background: url('flourish-2.png') no-repeat 55% 70% !important;
+    color: #FF8DA1 !important;
+}
+
+
+#product_5, #product_6, #product_7, #product_8  {
     margin-top: -35%;
     margin-left: 6%;
 }
@@ -603,14 +639,27 @@ font-family: 'Grand Hotel', cursive !important;
     padding-right: 15% !important;
 }
 
+.cart-subtotal h5{
+    font-family: 'Quicksand', sans-serif !important;
+    margin-left: 20% !important;
+}
+.adjustment h5{
+    font-family: 'Quicksand', sans-serif !important;
+    margin-left: 12% !important;
+}
 /*.cart-item-price {
     margin-top: 3% !important;
 }*/
 
 
 #add-to-cart-button {
+    margin-top: 1%;
     border-radius: 100%;
-    width: 24.2%;
+    width: 23%;
+}
+
+.table-display {
+    margin-left: 15%;
 }
 
 
@@ -624,8 +673,8 @@ font-family: 'Grand Hotel', cursive !important;
 
 .cart-item-quantity input{
     border-radius: 50%;
-    margin-top: 5% !important;
-    margin-left: 45% !important; 
+    margin-top: 30% !important;
+    margin-left: 10% !important; 
 
 }
 
@@ -636,8 +685,9 @@ font-family: 'Grand Hotel', cursive !important;
 div.main-description, .line-item-description  {
     font-size: 1.5em !important;
     font-family: 'Quicksand', sans-serif !important;
-
 }
+
+
 
 .row {
     margin-top: 3% !important;
@@ -707,7 +757,9 @@ div.main-description, .line-item-description  {
     margin-top: 1%;
     position: absolute;
     right: -5%;
-    width: 12%;
+    padding-left: 16%;
+    padding-right: 1.2%;
+
 }
 
 .total-items {
@@ -724,7 +776,7 @@ div.main-description, .line-item-description  {
 #clear_cart_link {
     position: absolute;
     right: -5%;
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .columns h1 {
@@ -861,14 +913,22 @@ label, .account-summary, .account-my-orders {
         margin-top: 0%;
         width: 22%;
     }
+    .cart-total h5{
+        margin-left: 71% !important;
+    }
+
     .cart-total {
         width: 100%;
+    }
+    .adjustment h5{
+        margin-right: 50% !important;
+
     }
 
    #order_coupon_code {
         width: 100%;
         margin-top: 30% !important;
-        margin-left: -50% !important;
+        margin-left: -40% !important;
     }
 
     #clear_cart_link {
@@ -882,11 +942,17 @@ label, .account-summary, .account-my-orders {
     }
 
     #checkout-link {
-         margin-top: 50%;
+        width: 70%;
+        margin-top: 50%;
         margin-left: -110%;
     }
 
     .cart-item-quantity input{
+        margin-left: -5% !important;
+    }
+
+    #contact-page .intro-contact {
+        font-size: 1em;
         margin-left: -5% !important;
     }
 

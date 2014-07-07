@@ -129,6 +129,7 @@
 	white-space: nowrap;
 }
 
+
 .main-menu li.main-menu-item-1 a:hover {
 	background: url('flourish-1.png') no-repeat 100% 100%;
 	color: #FF8DA1;
@@ -700,25 +701,32 @@
 	}
 
 	.intro-contact-footer img{
-		margin-right: 10% !important;
+		margin-right: 5% !important;
 		width: 10%;
 	}
 
 
 	.contact-column-1 {
-		width: 25% !important;
+		width: 20% !important;
 		margin-top: -5%;
 		font-size: 0.8em;
 	}
 
 	.contact-column-2 {
-        width: 25% !important;
-		margin-left: 25% !important;
+        width: 35% !important;
+		margin-left: 30% !important;
 		font-size: 0.8em;
 	}
 
-	.contact-column-3  {
-		display: none !important;
+	.contact-column-3 h1, .contact-column-3 h3, .contact-column-3 input  {
+		display: none;
+		
+	}
+
+	.social-media  {
+		width: 200%;
+		margin-top: 110%;
+		margin-left: -45%;
 	}
 
 	.about-container {
