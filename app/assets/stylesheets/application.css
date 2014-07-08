@@ -14,11 +14,149 @@
 
 /* Home Page*/
 
+button {
+    border: none;
+    z-index: 210 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+   
+button:focus {outline:none;} button::-moz-focus-inner {border:0;}
+
+#main-wrapper {
+
+    height: auto !important;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+nav.menu {
+    position: fixed;
+    z-index: 200 !important;
+    background-image: linear-gradient(#111111, #333333);
+    background-repeat: repeat no-repeat;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+nav.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu-ar ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu a {
+    color: #bdc3c7;
+    font-family: 'Grand Hotel', cursive !important;
+    font-weight: normal; 
+    font-size: 2em !important;
+    text-decoration:none;
+}
+
+
+nav.menu a:hover {
+      color: #FF8DA1 !important;
+}
+
+nav.menu a:active {
+    border-top: none !important;
+}
+
+nav.menu-ar a:active {
+    border-top: none !important;
+}
+
+/* slide menu left and right, push menu left and right */
+
+nav.push-menu-left,
+nav.push-menu-right {
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+
+nav.push-menu-left li,
+nav.push-menu-right li {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav.push-menu-left li:first-child,
+nav.push-menu-right li:first-child {
+    border-top: none;
+    margin-top: 20%;
+}
+
+nav.push-menu-left li:last-child,
+nav.push-menu-right li:last-child {
+    border-bottom: none
+}
+
+nav.push-menu-left a,
+nav.push-menu-right a {
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+
+nav.push-menu-left {
+    left: -300px
+}
+
+nav.push-menu-right {
+    right: -300px
+}
+
+body.pml-open nav.push-menu-left {
+    left: 0
+}
+
+body.pmr-open nav.push-menu-right {
+    right: 0
+}
+body.pml-open #wrapper {
+    left: 300px
+}
+body.pmr-open #wrapper {
+    left: -300px
+}
+
+
+
 .background-about img {
 	position: absolute;
 	margin-top: -10%;
 	z-index: -3;  
 }
+
 
 
 #intro {
@@ -614,6 +752,10 @@
 
 @media only screen and (max-width : 1000px) {
 
+	button {
+		display: none !important;
+	}
+
 	.menu-item-1 {
 		margin-left: -20% !important;
 	}
@@ -631,10 +773,6 @@
 		margin-left: -15% !important;
 	}
 
-	.main-menu-item-2-store-i {
-		display: none !important;
-	}
-
 	.contact-column-1, .contact-column-2, .contact-column-3 {
 		width: 20% !important;
 		margin-top: -5%;
@@ -649,49 +787,40 @@
 	    margin-left: 15% !important;
 	}
 
-	.intro-contact-footer img{
+	
+	.contact-footer img{
 		margin-right: 5% !important;
 		width: 5%;
 	}
 
-
-
+	#header-logo-2, #header-logo-3-store {
+		right: 50% !important;
+	}
 
 }
 
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 600px) {
+
+	button {
+		display: block !important;
+		width: 5% !important;
+		background-color: #FF8DA1 !important;
+	}
 
 	#header-logo-1 {
-		margin-left: -7% !important;
+		margin-left: -20% !important;
 	}
 
-	.intro-menu li{
+	.primary-header-index-about, .intro-menu, .main-menu-store {
+		display: none !important;
+	}
+
+	#header-logo-2, #header-logo-3-store {
 		position: absolute;
-		display: inline-block !important;
+		left: 20% !important;
 	}
 
-	.menu-item-1{
-		margin-left: -50% !important;
-		
-	}
-
-	.menu-item-2 {
-		margin-left: -53% !important;
-		margin-top: 10% !important;
-	}
-
-	.menu-item-3{
-		margin-left: -51.5% !important;
-		margin-top: 20% !important;
-		
-	}
-
-	.menu-item-4{
-		margin-left: -62% !important;
-		margin-top: 30% !important;
-		
-	}
 
 	.intro-contact {
 		margin-left: -20% !important;
@@ -732,19 +861,6 @@
 	.about-container {
 		font-size: 0.8em;
 	}
-
-	.main-menu-store li{
-		font-size: 1.2em !important;
-		width: 100% !important;
-	}
-
-	.main-menu-item-2-store-i {
-		display: none !important;
-	}
-
-
-
-
 
 }
 

@@ -297,8 +297,6 @@ background: url('flourish-1.png') no-repeat 100% 100%;
 color: #FF8DA1;
 }
 
-
-
 .menu-item-3 a {
 width: 5%;
 }
@@ -349,6 +347,14 @@ display: none;
     z-index: 200;
     font-family: 'Quicksand', sans-serif !important;
     font-size: 1.5em !important;
+}
+
+.cart-total {
+    background: none repeat scroll 0% 0% #00ADEE;
+}
+
+.cart-total h5 {
+    font-size: 1.8em !important;
 }
 
 
@@ -569,9 +575,8 @@ font-family: 'Grand Hotel', cursive !important;
 
 .background-contact img {
     position: fixed;
-    margin-top: 0%;
-    margin-left: -10%;
-    z-index: -1;
+    margin-top: -15%;
+    margin-left: -15%;
 }
 
 #contact-page .intro-contact {
@@ -757,7 +762,7 @@ div.main-description, .line-item-description  {
     margin-top: 1%;
     position: absolute;
     right: -5%;
-    padding-left: 16%;
+    padding-left: 12.5%;
     padding-right: 1.2%;
 
 }
