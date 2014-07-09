@@ -20,6 +20,16 @@
 
 }
 
+.blog-button {
+	display: none;
+	background-color:rgba(0, 0, 0, 0);
+	width: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+
+}
+
 .blog-container {
 	margin-top: 0px;
 	position: absolute;
@@ -275,11 +285,6 @@ font-weight: bold;
 .blog-container span {
     font-family: 'Quicksand',sans-serif;
     color: #FF8DA1;
-
-}
-
-.button {
-	margin-left: 5%;
 
 }
 
@@ -652,9 +657,6 @@ body.pmr-open #wrapper {
     left: -300px
 }
 
-button {
-	display: none !important;
-}
 
 @media only screen and (max-width : 1200px) {
 
@@ -663,11 +665,16 @@ button {
 		display: none;
 	}
 
-	button {
+	.blog-button {
+	display: block;
+
+}
+
+/*	button {
 	display: block !important;
 	background-color: #FF8DA1 !important;
 	width: 20px;
-    }
+    }*/
 
     #on {
     	margin-left: 95px !important;

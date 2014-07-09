@@ -14,7 +14,9 @@
 
 /* Home Page*/
 
-button {
+ button {
+ 	
+	width: 25px;
     border: none;
     z-index: 210 !important;
     -webkit-appearance: none;
@@ -702,8 +704,10 @@ body.pmr-open #wrapper {
 
 
 .main-menu-store li a{
-	padding-left: 4% !important;
-	margin-top: 1% !important;	
+	padding-left: 4px !important;
+	padding-right: -5px !important;
+	margin-left: -5px !important;
+	margin-top: -3px !important;	
 }
 
 .main-menu-store  {
@@ -744,13 +748,16 @@ body.pmr-open #wrapper {
 	font-size: 1em;
 }
 
+.main-button {
+	display: none;
+	background-color:rgba(0, 0, 0, 0);
+}
+
 
 
 @media only screen and (max-width : 1000px) {
 
-	button {
-		display: none !important;
-	}
+	
 
 	.menu-item-1 {
 		margin-left: -20% !important;
@@ -792,17 +799,24 @@ body.pmr-open #wrapper {
 	#header-logo-2, #header-logo-3-store {
 		right: 50% !important;
 	}
+	#main-wrapper .main-menu-store {
+		margin-left: -50px !important;
+		padding-right: -10px !important;
+	}
 
 }
 
 
 @media only screen and (max-width : 600px) {
 
-	button {
-		display: block !important;
-		width: 5% !important;
-		background-color: #FF8DA1 !important;
-	}
+    .main-button {
+	display: block;
+
+    }
+
+    .intro-contact {
+    	display: none !important;
+    }
 
 	#header-logo-1 {
 		margin-left: -20% !important;
@@ -812,11 +826,9 @@ body.pmr-open #wrapper {
 		display: none !important;
 	}
 
-	#header-logo-2, #header-logo-3-store {
-		position: absolute;
-		left: 20% !important;
+	#main-wrapper #header-logo-2, #main-wrapper #header-logo-3-store {
+		margin-left: 20px;
 	}
-
 
 	.intro-contact {
 		margin-left: -20% !important;
