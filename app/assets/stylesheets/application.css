@@ -149,15 +149,11 @@ body.pmr-open #wrapper {
     left: -300px
 }
 
-
-
 .background-about img {
 	position: absolute;
 	margin-top: -10%;
 	z-index: -3;  
 }
-
-
 
 #intro {
 	height: 800px;
@@ -737,7 +733,7 @@ body.pmr-open #wrapper {
 	color: #FF8DA1;
 }
 
-.about-container h1/*.about-container a*/ {
+.about-container h1 {
 	font-family: 'Grand Hotel', cursive;
 	font-size: 2.5em;
     color: #FF8DA1;
