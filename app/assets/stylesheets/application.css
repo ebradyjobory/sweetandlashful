@@ -14,6 +14,7 @@
 
 /* Home Page*/
 
+
  button {
  	
 	width: 25px;
@@ -171,6 +172,9 @@ body.pmr-open #wrapper {
 	background-position: 0% 50%;
 }
 
+#second-about ~ .glass {
+	display: none !important;
+}
 /*#third {
 	height: 800px;
 	background: url('background-grey.png') repeat;
@@ -195,7 +199,7 @@ body.pmr-open #wrapper {
 	position: absolute;
 	width: 1%;
 	top: 0;
-	left: 39%;
+	left: 38%;
 	z-index: 111;
 }
 
@@ -354,6 +358,7 @@ body.pmr-open #wrapper {
 
 .intro-menu {
 	margin-bottom: 1%;
+	margin-left: -20px !important;
 	position: absolute !important;
 	top: 0;
 	z-index: 110;
@@ -508,6 +513,7 @@ body.pmr-open #wrapper {
 	background-size: cover;
 	content: "";
 }
+
 
 .glass h1 {
 	color: #2DCCD3;
@@ -740,6 +746,7 @@ body.pmr-open #wrapper {
 
 .about-container a {
 	margin-left: 0%;
+	text-decoration: none;
 	color: #FF8DA1;
 }
 
@@ -766,11 +773,11 @@ body.pmr-open #wrapper {
 	
 
 	.menu-item-1 {
-		margin-left: -20% !important;
+		margin-left: -10% !important;
 	}
 
 	.menu-item-3 {
-		margin-left: 40% !important;
+		margin-left: 30% !important;
 	}
 
 	.intro-contact {
@@ -779,7 +786,7 @@ body.pmr-open #wrapper {
 	}
 
 	#header-logo-1  {
-		margin-left: -15% !important;
+		margin-left: -8% !important;
 	}
 
 	.contact-column-1, .contact-column-2, .contact-column-3 {
@@ -813,7 +820,7 @@ body.pmr-open #wrapper {
 }
 
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 900px) {
 
     .main-button {
 	display: block;
@@ -825,7 +832,7 @@ body.pmr-open #wrapper {
     }
 
 	#header-logo-1 {
-		margin-left: -20% !important;
+		margin-left: -25% !important;
 	}
 
 	.primary-header-index-about, .intro-menu, .main-menu-store {

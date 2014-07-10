@@ -3,8 +3,6 @@
 <head>
   <title>Sweet AND LASHFUL</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "jquery-1.10.2", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag    "normalize", media: "all", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %>
   <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
@@ -41,7 +39,6 @@
 		 <%else%>
 
 
-
 			<div id="header-logo-1">
 				<%= link_to image_tag("lashful-logo-1.png", :alt => 'Sweet and Lashful'), "#intro" %>
 		    </div>  <!-- #header-logo-1 -->
@@ -58,9 +55,7 @@
 		   
 		<%end%>
 		    <div class="grid_2 intro-contact">
-		  
-		</div> <!--  intro-contact -->
-
+		    </div> <!--  intro-contact -->
 		<%= yield %>
 
 		<div class="grid_12 glass">
@@ -121,8 +116,7 @@
 		</div> <!-- glass -->
 
 		<% if current_page? pages_about_path %>
-			<div class="grid_2 intro-contact", style="display: none;">
-					
+			<div class="grid_2 intro-contact", style="display: none;">		
 			</div> <!--  intro-contact -->
 		<% elsif current_page? pages_contact_path %>
 			<div class="grid_2 intro-contact", style="display: none;">
@@ -143,63 +137,57 @@
 		      <li class="main-menu-item-5-store-i"><%= link_to "Contact Us", "/pages/contact", :class => "" %></li>
           </ul>
         </nav>
-
 	    <button  class="nav-toggler toggle-push-right btn main-button"></button> 
-
-		<%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
-		<%= javascript_include_tag "nav", "data-turbolinks-track" => true %>
-		<%= stylesheet_link_tag "style", media: "all", "data-turbolinks-track" => true %>
-
-
 </div> <!--#wrapper-->
-
-
-<%= javascript_include_tag "jquery-1.10.2", "data-turbolinks-track" => true %>
 
 <% if current_page? pages_contact_path %>
 	<script>
+	
 	$('.glass').show();
 	$('.intro-contact').hide();
 	$('.intro-contact-footer img').hide();
+
 	</script>
 <%else%>
 	<script>
-	$('.glass').hide();
-	$('.intro-contact').on('click', function(event){
-	    event.preventDefault();
-	    $('.intro-contact').hide();
-		$(".glass").slideToggle();
-	});
-	    $('.intro-contact-footer').on('click', function(event){
-	    event.preventDefault();
-		$(".glass").slideToggle();
-		$('.intro-contact').show();
-	});
+		   
+			$('.glass').hide();
+			$('.intro-contact').on('click', function(event){
+			    event.preventDefault();
+			    $('.intro-contact').hide();
+				$(".glass").slideToggle();
+			});
+			    $('.intro-contact-footer').on('click', function(event){
+			    event.preventDefault();
+				$(".glass").slideToggle();
+				$('.intro-contact').show();
+			});
+
+		
 	</script>	
 
 <%end%>
-
-
 <script>
+
  $(".intro-contact-footer img")
    .on( "mouseover", function() {
     $(this).attr ('src', '/assets/arrow_white.png');
   })
     .on( "mouseleave", function() {
     $(this).attr ('src', '/assets/arrow_pink.png');
-});
+ });
+
 </script>
 
 <script>
-  $(document).ready(function() {
+ 
 	  $('.nav-slide-right li a').on('click', function(){
 	  	$('.btn').click();
-
 	  });
-  });
-
-
-
+  
 </script>
+<%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "nav", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag "style", media: "all", "data-turbolinks-track" => true %>
 </body>
 </html>
