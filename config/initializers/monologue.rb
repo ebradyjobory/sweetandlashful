@@ -1,6 +1,6 @@
 Monologue.config do |config|
 
-  config.site_name = "Sweet and Lashful | Lashful Thinking"
+  config.site_name = "Sweet AND LASHFUL | Lashful Thinking"
   config.site_subtitle = "The Sweet & Lashful Blog"
   config.site_url = "http://sweetandlashful.com"
 

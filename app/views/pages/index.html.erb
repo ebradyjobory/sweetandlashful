@@ -80,7 +80,7 @@ $(document).ready(function() {
 
 	<div id="header-logo-1">
 		<%= link_to image_tag("lashful-logo-1.png", :alt => 'Sweet and Lashful'), "#intro" %>
-    </div>  <!-- #header-logo-1 -->
+  </div>  <!-- #header-logo-1 -->
 
 	<div class="grid_12 alpha clearfix intro-menu">
 		<ul>
@@ -88,13 +88,12 @@ $(document).ready(function() {
 			<li class="menu-item-2"><%= link_to "Services", "#", :class => "" %></li>
 			<li class="menu-item-3"><%= link_to "About", "#second-about", :class => "" %></li>
       <li class="menu-item-4"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
-
 		</ul>
-    </div>  <!-- .intro-menu -->
+  </div>  <!-- .intro-menu -->
 
     <div class="grid_2 intro-contact">
-  <p><%= link_to "Contact Us" %></p>
-</div> <!--  intro-contact -->
+        <p><%= link_to "Contact Us" %></p>
+    </div> <!--  intro-contact -->
 
 
   <div id="header-logo-2">
@@ -113,7 +112,7 @@ $(document).ready(function() {
                   <li class="main-menu-item-2-store-i"><%= link_to "Services", "#", :class => "" %></li>
                   <li class="main-menu-item-3-store-i"><%= link_to "About", "#second-about", :class => "" %></li>
                   <li class="main-menu-item-4-store-i"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
-                  <li class="main-menu-item-5-store-i"><%= link_to "Contact Us", "/pages/contac5", :class => "" %></li>
+                  <li class="main-menu-item-5-store-i"><%= link_to "Contact Us", "/pages/contact", :class => "" %></li>
 <!--                   <li class="main-menu-item-5-store"><%= link_to "Contact Us" %></li>
  -->            </ul>
         </div>  <!-- .main-menu -->
@@ -179,94 +178,10 @@ $(document).ready(function() {
 
 		</div>
  -->
-    <script>
-// $('.intro-contact').on('click', function(event){
-//     event.preventDefault();
-//   $(".glass").slideToggle();
-// });
-
-//     $('.intro-contact-footer').on('click', function(event){
-//     event.preventDefault();
-//   $(".glass").slideToggle();
-//   $('.intro-contact').show();
-
-// });
-
-</script>
-
 
 <%= javascript_include_tag "jquery.superscrollorama"%>
 <%= javascript_include_tag "TweenMax.min" %>
 <%= javascript_include_tag "jquery.scrollorama" %>
-
-
-<script>
-
-
-
-// $(document).ready(function() {
-//  var nav = $('.intro-menu');
-//   var logo = $('#header-logo-1 img');
-
-// 		var controller = $.superscrollorama({
-// 			triggerAtCenter: true,
-// 			playoutAnimations: false
-// 		});
-
-
-//        controller.pin($('.container'), 800, {
-// 	  anim: (new TimelineLite())
-
-	  // .append(
-	  //     TweenMax.fromTo(nav, 5,
-	  //       {css:{top: 0}, immediateRender:false},
-	  //       {css:{top: -60}, }))
-
-	  // .append(
-	  //     TweenMax.fromTo(logo, 5,
-	  //       {css:{height: 200}, immediateRender:true},
-	  //       {css:{height: 150}, }))
-
-
-
-
-// });
-
-
-
-
-// 	});
-
-
-</script>
-
-<script>
-
-// $(window).scroll(function () {
-//     var winTop = $(this).scrollTop();
-//     var pageHeight = $('#second').height();
-//     if (winTop >= pageHeight) {
-//     /*if the scroll reaches the bottom of the red <div> make set '#move' element
-//       position to absolute so it will move up with the red <div> */
-
-//         $('.intro-menu').css({
-//             'position': 'absolute',
-//             'bottom': '0px',
-//             'top': 'auto'
-//         });
-//     } else {
-//       //else revert '#move' position back to fixed
-
-//         $('.intro-menu').css({
-//             'position': 'fixed',
-//             'bottom': 'auto',
-//             'top': 'auto'
-//         });
-//     }
-// });
-
-
-</script>
 
 
 </body>

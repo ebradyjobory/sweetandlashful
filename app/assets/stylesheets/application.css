@@ -195,9 +195,11 @@ body.pmr-open #wrapper {
 	position: absolute;
 	width: 1%;
 	top: 0;
-	left: 37%;
+	left: 39%;
 	z-index: 111;
 }
+
+
 
 /*begin main header*/
 
@@ -208,14 +210,14 @@ body.pmr-open #wrapper {
 	z-index: 111;
 }
 
-#header-logo-2-about {
+#header-logo-2-about, #header-logo-2-main {
 	position: fixed;
 	top: 1.5%;
 	left: 40%;
 	z-index: 111;
 }
 
-#header-logo-3-store-about {
+#header-logo-3-store-about, #header-logo-3-store-main {
 	position: fixed;
 	top: 11%;
 	left: 40.5%;
@@ -440,6 +442,10 @@ body.pmr-open #wrapper {
 	left: 85%;
 	top: 510px;
 	z-index: 110;
+}
+
+#contact-page .intro-contact, #second-about .intro-contact {
+	display: none;
 }
 
 .intro-contact a {
