@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div id="wrapper">
+<div id="wrapper main-page">
 
 		<% if current_page? pages_about_path %>
 
@@ -36,8 +36,24 @@
 		        </div>  <!-- .main-menu -->
 		    </div>  <!-- main-header -->
 
-		 <%else%>
+		 <%elsif current_page? pages_contact_path %>
 
+
+			<div id="header-logo-1">
+				<%= link_to image_tag("lashful-logo-1.png", :alt => 'Sweet and Lashful'), "/" %>
+		    </div>  <!-- #header-logo-1 -->
+
+			<div class="grid_12 alpha clearfix intro-menu">
+				<ul>
+				    <li class="menu-item-1"><%= link_to "Shop", "/store", :class => "" %></li>
+					<li class="menu-item-2"><%= link_to "Services", "#", :class => "" %></li>
+					<li class="menu-item-3"><%= link_to "About", "/pages/about", :class => "" %></li>
+		            <li class="menu-item-4"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
+
+				</ul>
+		    </div>  <!-- .intro-menu -->
+
+		<%else%>
 
 			<div id="header-logo-1">
 				<%= link_to image_tag("lashful-logo-1.png", :alt => 'Sweet and Lashful'), "#intro" %>
@@ -53,9 +69,9 @@
 				</ul>
 		    </div>  <!-- .intro-menu -->
 		   
-		<%end%>
 		    <div class="grid_2 intro-contact">
 		    </div> <!--  intro-contact -->
+		    <%end%>
 		<%= yield %>
 
 		<div class="grid_12 glass">
@@ -159,7 +175,7 @@
 			});
 			    $('.intro-contact-footer').on('click', function(event){
 			    event.preventDefault();
-				$(".glass").slideToggle();
+				$(".glass").slide();
 				$('.intro-contact').show();
 			});
 

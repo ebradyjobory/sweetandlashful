@@ -129,6 +129,10 @@ nav.push-menu-right a {
     font-size: 18px;
 }
 
+.push-menu-right a{
+	margin-bottom: 0px !important;
+}
+
 
 nav.push-menu-left {
     left: -300px
@@ -474,6 +478,10 @@ body.pmr-open #wrapper {
 	list-style: none !important;
 }
 
+#contact-page .intro-contact-footer {
+	display: none;
+}
+
 .main-menu-store a:hover {
 	color: #FF8DA1 !important;
 }
@@ -740,7 +748,7 @@ body.pmr-open #wrapper {
 
 .about-container {
 	position: absolute;
-	margin: 10% 25% 0 14%;
+	margin: 7% 25% 0 14%;
 	text-align: justify;
 }
 
@@ -770,7 +778,6 @@ body.pmr-open #wrapper {
 
 @media only screen and (max-width : 1000px) {
 
-	
 
 	.menu-item-1 {
 		margin-left: -10% !important;
@@ -820,7 +827,7 @@ body.pmr-open #wrapper {
 }
 
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 800px) {
 
     .main-button {
 	display: block;

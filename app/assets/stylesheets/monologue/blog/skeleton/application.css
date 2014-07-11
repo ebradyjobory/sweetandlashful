@@ -38,8 +38,8 @@
 }
 .content {
 	margin-top: 20px;
-	margin-left: 0%;
-	padding-top: 0%;
+	margin-left: 5px;
+	padding-top: 0px;
 	width: 100%;
 	position: relative;
 	text-align: left !important;
@@ -50,7 +50,7 @@
 }
 
 .content p {
-	margin-left: 8%;
+	margin-left: 140px !important;
 	margin-top: -25px;
 	margin-bottom: 200px;
 }
@@ -388,7 +388,7 @@ section {
 #on {
 	position: absolute;
 	top: 22px;
-	margin-left: 93px;
+	margin-left: 90px !important;
 	font-size: 1em;
 	text-transform:lowercase;
 	font-family: 'Grand Hotel', cursive;
@@ -411,12 +411,16 @@ section {
 
 .show_post {
 	margin-top: 190px;
-	margin-left: 10px;
+	margin-left: -120px;
 }
 
 .show_post time {
 	margin-top: 0px;
 	margin-left: 150px;
+}
+
+.monologue-social-sharing {
+	display: none;
 }
 
 .show_post span {
@@ -455,6 +459,7 @@ section {
 .return {
 	margin-top: -50px !important;
 	margin-bottom: 10px !important;
+	margin-left: 140px !important;
 }
 
 .return a:hover {
@@ -705,6 +710,10 @@ body.pmr-open #wrapper {
 		width: 200px;
 	}
 
+	.return a{
+		margin-left: -125px !important;
+	}
+
 	.show_post .user {
 		margin-left: -35px !important;
 	}
@@ -746,6 +755,10 @@ body.pmr-open #wrapper {
 
     .monologue-social-sharing {
     	display: none;
+    }
+
+    .content p {
+    	margin-left: 130px !important;
     }
 
 
