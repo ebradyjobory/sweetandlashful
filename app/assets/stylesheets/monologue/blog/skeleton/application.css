@@ -49,14 +49,8 @@
 	border-top: 1px #FF8DA1 solid !important;
 }
 
-.content p {
-	margin-left: 140px !important;
-	margin-top: -25px;
-	margin-bottom: 200px;
-}
-
 .content img {
-
+	margin-top: 10%;
 }
 
 
@@ -88,7 +82,7 @@
 	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
 	color: #444;
-	width: 80%;
+	width: 90%;
 }
 
 .blog-container blockquote {
@@ -170,7 +164,7 @@ font-size: 16px;
 }
 
 .main-menu-store {
-margin-top: 10px !important;
+margin-top: 15px !important;
 margin-left: 0px !important;
 }
 
@@ -231,7 +225,7 @@ right: 15%;
 
 #header-logo-3-store {
 	position: fixed;
-	top: 12.5%;
+	top: 11.5%;
 	left: 43.5%;
 	z-index: 111;
 }
@@ -251,27 +245,26 @@ font-weight: bold;
 
 .post-header {
 	
-	width: 220px;
+	width: 320px;
 	text-align: left !important;
 	margin-left: 0px;
 	margin-top: 50px;
 	position: relative;
 	z-index: 99;
 
-
-
 }
+ 
+
 .post-header  h1{ 
 	margin-left: 50px;
 	text-align: left !important;
-	width: 130px;
+	width: 50% !important;
 	margin-left: 0px !important;
 }
 
 .post-header a{
 	margin-left: 0px;
 	text-align: left !important;
-
 }
 
 .posted {
@@ -292,7 +285,7 @@ time {
 	font-size: 1em !important;
 	top: -25px;
 	width: 150px;
-	margin-left: 155px;
+	margin-left: 165px;
 	font-size: 1em !important;
 	position: absolute; ;
 }
@@ -305,7 +298,7 @@ h1 a {
 span.user {
 	top: -25px;
 	width: 130px !important;
-	margin-left: 14px !important;
+	margin-left: 18px !important;
 	font-size: 0.6em;
 	position: absolute;
 }
@@ -368,7 +361,7 @@ section {
 
 .content header {
 	margin-left: 10%;
-    font-size: 12px;
+    font-size: 0.8em;
     text-align: center;
     border-bottom: none;
 }
@@ -380,15 +373,16 @@ section {
 
 
 .content p {
-	margin-left: 10%;
+	margin-left: 0%;
+	margin-top: 0.5px !important;
+	width: 550px;
 }
-
 
 
 #on {
 	position: absolute;
-	top: 22px;
-	margin-left: 90px !important;
+	top: -1.5px;
+	margin-left: -130px;
 	font-size: 1em;
 	text-transform:lowercase;
 	font-family: 'Grand Hotel', cursive;
@@ -414,18 +408,22 @@ section {
 	margin-left: -120px;
 }
 
+.show_post .user {
+	margin-left: 53px !important;
+
+}
+
 .show_post time {
 	margin-top: 0px;
-	margin-left: 150px;
+	margin-left: 200px;
 }
+
+
 
 .monologue-social-sharing {
 	display: none;
 }
 
-.show_post span {
-	margin-left: 63px; /* to edit user in full_post */
-}
 
 .show_post header{
 	width: 800px;
@@ -433,11 +431,12 @@ section {
 
 
 .show_post p {
-	margin-left: 130px;
+	margin-left: 140px;
+	margin-top: -40px;
 }
 
 .show_post #on {
-   margin-left: 90px;
+   margin-top: 0px;
 }
 
 .show_post .content {
@@ -452,15 +451,14 @@ section {
 
 .return a {
 	font-family: 'Grand Hotel', cursive !important;
-	font-size: 1.3em !important;
-	  
+	font-size: 1.3em !important;  
 }
 
 .return {
-	margin-top: -50px !important;
-	margin-bottom: 10px !important;
-	margin-left: 140px !important;
+	margin-top: 10% !important;
 }
+
+
 
 .return a:hover {
 	color: #FF8DA1;
@@ -681,9 +679,7 @@ body.pmr-open #wrapper {
 	width: 20px;
     }*/
 
-    #on {
-    	margin-left: 95px !important;
-    }
+    
 
 
 	.blog-container {
@@ -697,25 +693,24 @@ body.pmr-open #wrapper {
 	}
 
 	.show_post .content {
-		margin-left: -125px;
+		margin-left: -135px;
 		width: 300px;
 	}
 
+
+
 	.show_post time {
-		margin-left: 110px !important;
+		margin-left: 160px !important;
 	}
 
-	.show_post .return {
-		margin-left: 0px;
-		width: 200px;
-	}
 
-	.return a{
-		margin-left: -125px !important;
+	.return {
+		margin-top: 70% !important;
+		margin-left: 5px !important;
 	}
 
 	.show_post .user {
-		margin-left: -35px !important;
+		margin-left: 18px !important;
 	}
 
 	#header-logo-2, #header-logo-3-store {
@@ -723,7 +718,7 @@ body.pmr-open #wrapper {
 	}
 
 	#header-logo-3-store {
-		margin-top: -20px;
+		margin-top: -10px;
 	}
 
 
@@ -757,10 +752,7 @@ body.pmr-open #wrapper {
     	display: none;
     }
 
-    .content p {
-    	margin-left: 130px !important;
-    }
-
+ 
 
 
 

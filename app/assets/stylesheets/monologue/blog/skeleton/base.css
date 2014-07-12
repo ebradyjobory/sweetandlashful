@@ -70,7 +70,7 @@
     border-collapse: collapse;
     border-spacing: 0; }
 
-*/
+
 /* #Basic Styles
 ================================================== */
   /*body {
@@ -84,7 +84,7 @@
 
 /* #Typography
 ================================================== */
-/*  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
     color: #181818;
     font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
     font-weight: normal; }
@@ -104,9 +104,9 @@
   em { font-style: italic; }
   strong { font-weight: bold; color: #333; }
   small { font-size: 80%; }
-*/
+
 /*  Blockquotes  */
-/*  blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+  blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
   blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
   blockquote cite { display: block; font-size: 12px; color: #555; }
   blockquote cite:before { content: "\2014 \0020"; }
@@ -114,17 +114,16 @@
 
   hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
-*/
+
 /* #Links
 ================================================== */
-/*  a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+ a, a:visited { color: #333; text-decoration: underline; outline: 0; }
   a:hover, a:focus { color: #000; }
   p a, p a:visited { line-height: inherit; }
 
-*/
-/* #Lists
+ /*#Lists
 ================================================== */
-/*  ul, ol { margin-bottom: 20px; }
+  ul, ol { margin-bottom: 20px; }
   ul { list-style: none outside; }
   ol { list-style: decimal; }
   ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
@@ -142,21 +141,21 @@
 /* #Images
 ================================================== */
 
-/*  img.scale-with-grid {
+ img.scale-with-grid {
     max-width: 100%;
     height: auto; }
 
-*/
+
 /* #Buttons
 ================================================== */
 
-/*  .button,
+ .button,
   button,
   input[type="submit"],
   input[type="reset"],
   input[type="button"] {*/
     
-/*    border: 1px solid #aaa;
+    border: 1px solid #aaa;
     border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;
     padding: 4px 12px;
@@ -179,20 +178,20 @@
   button:hover,
   input[type="submit"]:hover,
   input[type="reset"]:hover,
-  input[type="button"]:hover {*/
+  input[type="button"]:hover 
   /*  color: #222;
     background: #ddd; /* Old browsers */
    
 
-/*  .button:active,
+  .button:active,
   button:active,
   input[type="submit"]:active,
   input[type="reset"]:active,
-  input[type="button"]:active {*/
-   /* border: 1px solid #666;
-    background: #ccc; /* Old browsers */
+  input[type="button"]:active,
+  border: 1px solid #666;
+  background: #ccc; /* Old browsers */
 
- /* .button.full-width,
+  .button.full-width,
   button.full-width,
   input[type="submit"].full-width,
   input[type="reset"].full-width,
@@ -200,19 +199,19 @@
     width: 100%;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    text-align: center; }*/
+    text-align: center; }
 
   /* Fix for odd Mozilla border & padding issues */
-  /*button::-moz-focus-inner,
+  button::-moz-focus-inner,
   input::-moz-focus-inner {
     border: 0;
     padding: 0;
-  }*/
+  }
 
 
 /* #Tabs (activate in tabs.js)
 ================================================== */
-/*  ul.tabs {
+  ul.tabs {
     display: block;
     margin: 0 0 20px 0;
     padding: 0;
@@ -265,10 +264,10 @@
 
   ul.tabs-content { margin: 0; display: block; }
   ul.tabs-content > li { display:none; }
-  ul.tabs-content > li.active { display: block; }*/
+  ul.tabs-content > li.active { display: block; }
 
   /* Clearfixing tabs for beautiful stacking */
-/*  ul.tabs:before,
+  ul.tabs:before,
   ul.tabs:after {
     content: '\0020';
     display: block;
@@ -279,12 +278,12 @@
   ul.tabs:after {
     clear: both; }
   ul.tabs {
-    zoom: 1; }*/
+    zoom: 1; }
 
 
 /* #Forms
 ================================================== */
-/*
+
   form {
     margin-bottom: 20px; }
   fieldset {
@@ -334,10 +333,10 @@
   legend span {
     font-weight: normal;
     font-size: 13px;
-    color: #444; }*/
+    color: #444; }
 
 /* #Misc
 ================================================== */
-/*  .remove-bottom { margin-bottom: 0 !important; }
+  .remove-bottom { margin-bottom: 0 !important; }
   .half-bottom { margin-bottom: 10px !important; }
   .add-bottom { margin-bottom: 20px !important; }
