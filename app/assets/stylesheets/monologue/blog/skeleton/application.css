@@ -20,6 +20,10 @@
 
 }
 
+.nav-slide-right li {
+	margin-bottom: 40px !important;
+}
+
 .blog-button {
 	display: none;
 	background-color:rgba(0, 0, 0, 0);
@@ -40,10 +44,12 @@
 	margin-top: 20px;
 	margin-left: 5px;
 	padding-top: 0px;
+	margin-right: 400px;
 	width: 100%;
 	position: relative;
 	text-align: left !important;
 }
+
 
 .post-header {
 	border-top: 1px #FF8DA1 solid !important;
@@ -375,14 +381,14 @@ section {
 .content p {
 	margin-left: 0%;
 	margin-top: 0.5px !important;
-	width: 550px;
+	width: 500px !important;
 }
 
 
 #on {
 	position: absolute;
 	top: -1.5px;
-	margin-left: -130px;
+	margin-left: -105px;
 	font-size: 1em;
 	text-transform:lowercase;
 	font-family: 'Grand Hotel', cursive;
@@ -437,12 +443,8 @@ section {
 
 .show_post #on {
    margin-top: 0px;
+   margin-left: -105px;
 }
-
-.show_post .content {
-	margin: 0px 0px 0px 0px;
-}
-
 
 .show_post h1 {
 	margin-left: 0px !important;
@@ -454,7 +456,7 @@ section {
 	font-size: 1.3em !important;  
 }
 
-.return {
+p.return  {
 	margin-top: 10% !important;
 }
 
@@ -671,7 +673,9 @@ body.pmr-open #wrapper {
 	.blog-button {
 	display: block;
 
-}
+    }
+
+
 
 /*	button {
 	display: block !important;
@@ -680,7 +684,9 @@ body.pmr-open #wrapper {
     }*/
 
     
-
+    .show_post p {
+    	margin-left: 0px;
+    }
 
 	.blog-container {
 		width: 100px;
@@ -692,21 +698,16 @@ body.pmr-open #wrapper {
 		margin-left: 10px !important;
 	}
 
-	.show_post .content {
-		margin-left: -135px;
-		width: 300px;
-	}
-
-
 
 	.show_post time {
 		margin-left: 160px !important;
 	}
 
 
-	.return {
+	p.return {
 		margin-top: 70% !important;
 		margin-left: 5px !important;
+		width: 100% !important;
 	}
 
 	.show_post .user {
@@ -750,6 +751,10 @@ body.pmr-open #wrapper {
 
     .monologue-social-sharing {
     	display: none;
+    }
+
+    .content p {
+    	width: 380% !important;
     }
 
  
