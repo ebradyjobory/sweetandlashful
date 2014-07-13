@@ -364,7 +364,7 @@ display: none;
 }
 
 
- nav #main-nav-bar li#link-to-cart {
+nav #main-nav-bar li#link-to-cart {
     position: fixed;
     margin-left: 75%;
     top: 4.4%;
@@ -418,7 +418,8 @@ background-color: rgba(20, 20, 20, 0);
 z-index: 140;
 width: 100%;
 padding: 0%;
-margin-left: 70%;
+margin-left: 130%;
+margin-top: 40%;
 
 }
 
@@ -449,17 +450,13 @@ width: 80% !important;
 margin-left: 3%;
 }
 
-
 #content {
-width: 105%;
-padding-bottom: -30%;
+  width: 105%;
+  padding-bottom: -30%;
 }
 
 .product-listing {
-
-margin-top: -12%;
-
-
+   margin-top: -12%;
 }
 
 
@@ -527,9 +524,9 @@ text-shadow: 1px 1px 3px #FF8DA1;
 }
 */
 .price {
-margin-bottom: 160% !important;
+margin-bottom: 120% !important;
 position: relative;
-margin-left: 38% !important;
+margin-left: 100% !important;
 margin-bottom: 5%;
 width: 100%;
 
@@ -541,7 +538,7 @@ ul#products li a.info {
     text-align: center !important;
     height: 5% !important;
     margin-top: -190px;
-    margin-left: 90% !important;
+    margin-left: 150% !important;
     color: #BBB;
     border-bottom: none;
     font-family: 'Grand Hotel', cursive !important;
@@ -561,13 +558,13 @@ font-family: 'Grand Hotel', cursive !important;
 
 
 .add_to_cart {
-    margin-left: -4.5% !important;
-    margin-top: -32%;
+    margin-left: 350px !important;
+    margin-top: -300px;
     font-size: 1.5em;
     font-family: 'Grand Hotel', cursive;
     position: absolute;
     color: #FF8DA1;
-    width: 50%;
+    width: 100px;
 
 }
 
@@ -605,7 +602,7 @@ font-family: 'Grand Hotel', cursive !important;
 }
 #product_4 {
     margin-left: 13%;
-    margin-top: -35%;
+   
 }
 
 #product_1, #product_2 , #product_3 {
@@ -632,6 +629,10 @@ font-family: 'Grand Hotel', cursive !important;
 
 .product-section-title {
     display: none;
+}
+
+#product-price .price {
+   right: 62%;
 }
 
 #product-price {
@@ -679,6 +680,7 @@ font-family: 'Grand Hotel', cursive !important;
     width: 22%;
     padding: 7%;
     margin-top: 2%;
+    margin-left: -2%;
 
 }
 
@@ -824,7 +826,7 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
 }
 
 .price span {
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
 
@@ -872,6 +874,10 @@ label, .account-summary, .account-my-orders {
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+    }
+
+    .add_to_cart {
+        display: none;
     }
 
     .store-button {
@@ -930,11 +936,12 @@ label, .account-summary, .account-my-orders {
 
     }
     #top-nav-bar {
-        left: -70%;
+        left: -75%;
+        width: 100px;
     }
 
     .cart-info {
-        right: 70% !important;
+        right: 75% !important;
         text-align: center;
         margin-top: 20% !important;
         width: 20%;
@@ -990,6 +997,20 @@ label, .account-summary, .account-my-orders {
         font-size: 1em;
         margin-left: -5% !important;
     }
+
+    ul#products li .product-image img {
+    max-width: 200px;
+    margin-left: -20%;
+    }
+
+    #products {
+        margin-left: -25% !important;
+    }
+
+
+    #product-price .price {
+    right: 38%;
+}
 
 
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div id="wrapper main-page">
+<div id="wrapper" class="main-page">
 
 		<% if current_page? pages_about_path %>
 
@@ -143,8 +143,8 @@
 				<p><%= link_to "Contact Us" %></p>
 			</div> <!--  intro-contact -->
 		<%end%>
-
-		<nav class="menu push-menu-right nav-slide-right">
+</div> <!--#wrapper-->
+<nav class="menu push-menu-right nav-slide-right">
           <ul>
               <li class="main-menu-item-1-store-i"><%= link_to "Shop", "/store", :class => "" %></li>
 		      <li class="main-menu-item-2-store-i"><%= link_to "Services", "#", :class => "" %></li>
@@ -154,7 +154,6 @@
           </ul>
         </nav>
 	    <button  class="nav-toggler toggle-push-right btn main-button"></button> 
-</div> <!--#wrapper-->
 
 <% if current_page? pages_contact_path %>
 	<script>

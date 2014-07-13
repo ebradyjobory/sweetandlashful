@@ -562,11 +562,15 @@ body.pmr-open #wrapper {
 }
 
 .glass a {
-	color: #FF8DA1;
+	color: #FF8DA1 !important;
 	text-decoration: none;
 	border-bottom: .1em dotted #2DCCD3;
 	font-weight: normal;
 	letter-spacing: .05em;
+}
+
+.glass a:hover {
+	color: #2DCCD3 !important;
 }
 
 .glass img a {
@@ -583,7 +587,7 @@ body.pmr-open #wrapper {
 
 .glass input {
 	padding: 2% 3%;
-	background-color: #FF8DA1;
+	background-color: #FF8DA1 !important;
 	border: none;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 0.9em;
@@ -677,7 +681,7 @@ body.pmr-open #wrapper {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 0.8em;
 	text-decoration: none;
-	color: #ecf0f1;
+	color: #ecf0f1 !important;
 	border-bottom: none;
 }
 
@@ -713,7 +717,7 @@ body.pmr-open #wrapper {
 }
 
 #header-logo-3-store {
-	margin-top: -0.8%;
+	margin-top: -8px !important;
 }
 
 .primary-header {
@@ -775,7 +779,19 @@ body.pmr-open #wrapper {
 	background-color:rgba(0, 0, 0, 0);
 }
 
+@media only screen and (max-width : 1200px) {
 
+	.main-menu-store .main-menu-item-5-store-i{
+		position: absolute !important;
+		margin-left: 45%;
+	} 
+	.main-menu-store .main-menu-item-4-store-i {
+		position: absolute !important;
+		margin-left: 30%;
+	}
+
+
+}
 
 @media only screen and (max-width : 1000px) {
 
@@ -824,6 +840,8 @@ body.pmr-open #wrapper {
 		margin-left: -50px !important;
 		padding-right: -10px !important;
 	}
+
+	
 
 }
 
