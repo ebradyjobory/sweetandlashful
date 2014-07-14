@@ -75,14 +75,14 @@ background-position: 0% 100%;
 
 position: fixed;
 top: 1.5%;
-left: 43%;
+left: 41%;
 z-index: 111;
 }
 
 #header-logo-3-store {
 position: fixed;
-top: 12.5%;
-left: 43.5%;
+top: 11.6%;
+left: 41.3%;
 z-index: 111;
 }
 
@@ -91,9 +91,9 @@ width: 100%;
 position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
-height: 11.5%;
+height: 11%;
 z-index: 100;
-box-shadow: 1px 1px 3px #FF8DA1;
+box-shadow: 1px 1px 3px #FF8DA1 !important;
 }
 
 .primary-header li {
@@ -112,7 +112,7 @@ background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
 height: 10.8%;
 z-index: 100;
-box-shadow: 1px 1px 3px #FF8DA1;
+box-shadow: 1px 2px 3px #FF8DA1;
 }
 
 .primary-header-index-about {

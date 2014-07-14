@@ -243,6 +243,7 @@ body.pmr-open #wrapper {
 	position: fixed;
 	background-color: #F9F9F9;
 	border-bottom: 1.5px solid #2DCCD3;
+	box-shadow: 5px 5px 3px #FF8DA1 !important;
 	width: 100%;
 	height: 11%;
 	box-shadow: 1px 1px 3px #FF8DA1;
@@ -717,7 +718,7 @@ body.pmr-open #wrapper {
 }
 
 #header-logo-3-store {
-	margin-top: -8px !important;
+	margin-top: -5px !important;
 }
 
 .primary-header {
@@ -735,7 +736,7 @@ body.pmr-open #wrapper {
 }
 
 .main-menu-store  {
-	margin-left: 10% !important;
+	margin-left: 5% !important;
 }
 
 
@@ -744,7 +745,7 @@ body.pmr-open #wrapper {
 }
 
 #header-logo-2, #header-logo-3-store{
-	margin-left: -2%;
+	margin-left: 0%;
 }
 
 /* About Page*/

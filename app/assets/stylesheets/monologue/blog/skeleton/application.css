@@ -140,7 +140,7 @@
 
 position: fixed;
 top: 1.5%;
-left: 43%;
+left: 41%;
 z-index: 111;
 }
 
@@ -157,9 +157,9 @@ width: 110%;
 position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
-height: 9.5%;
+height: 9%;
 z-index: 100;
-box-shadow: 1px 1px 3px #FF8DA1;
+box-shadow: 1px 1px 3px #FF8DA1 !important;
 margin-left: -2%;
 margin-top: -0.7%;
 padding-bottom: 1.1%;
@@ -171,7 +171,7 @@ font-size: 16px;
 
 .main-menu-store {
 margin-top: 15px !important;
-margin-left: 0px !important;
+margin-left: -10px !important;
 }
 
 .main-menu-store ul {
@@ -183,7 +183,7 @@ font-family: 'Grand Hotel', cursive !important;
 
 .main-menu-store li {
 display: inline;
-margin-right: 40px;
+margin-right: 54px;
 
 }
 
@@ -231,8 +231,8 @@ right: 15%;
 
 #header-logo-3-store {
 	position: fixed;
-	top: 11.5%;
-	left: 43.5%;
+	top: 11.1%;
+	left: 41.2%;
 	z-index: 111;
 }
 
