@@ -6,7 +6,7 @@ margin-top: 10%;
 }
 
 .store-button {
-    display: none;
+    margin-top: -46px;
     z-index: 1100 !important;
     background-color:rgba(0, 0, 0, 0);
 }
@@ -25,14 +25,14 @@ width: 100%;
 #top-nav-bar {
 width: 15%;
 position: fixed;
-margin-left: 78%;
+margin-left: 65%;
 top: 1%;
 z-index: 110;
 
 }
 
 #top-nav-bar a{
- font-weight: 600 !important;   
+ font-weight: 600 !important;
 color: #444;
 font-family: 'Quicksand', sans-serif !important;
 }
@@ -136,6 +136,7 @@ margin-top: 0%;
 }
 
 .main-menu-store ul {
+    display: none !important;
 margin-top: 2%;
 text-align: left;
 list-style: none;
@@ -347,7 +348,7 @@ display: none;
 
 .cart-info {
     position: fixed;
-    margin-left: 70%;
+    margin-left: 60%;
     width: 10%;
     margin-top: -8% !important;
     z-index: 200;
@@ -558,6 +559,7 @@ font-family: 'Grand Hotel', cursive !important;
 
 
 .add_to_cart {
+    display: none;
     margin-left: 350px !important;
     margin-top: -300px;
     font-size: 1.5em;
@@ -596,7 +598,7 @@ font-family: 'Grand Hotel', cursive !important;
 }
 
 
-#product_5, #product_6, #product_7, #product_8  {
+#product_5, #product_6, #product_7, #product_8 {
     margin-top: -35%;
     margin-left: 6%;
 }
@@ -660,7 +662,7 @@ font-family: 'Grand Hotel', cursive !important;
     margin-left: 12% !important;
 }
 /*.cart-item-price {
-    margin-top: 3% !important;
+margin-top: 3% !important;
 }*/
 
 
@@ -687,7 +689,7 @@ font-family: 'Grand Hotel', cursive !important;
 .cart-item-quantity input{
     border-radius: 50%;
     margin-top: 30% !important;
-    margin-left: 10% !important; 
+    margin-left: 10% !important;
 
 }
 
@@ -695,7 +697,7 @@ font-family: 'Grand Hotel', cursive !important;
     padding-top: 2.5% !important;
 }
 
-div.main-description, .line-item-description  {
+div.main-description, .line-item-description {
     font-size: 1.5em !important;
     font-family: 'Quicksand', sans-serif !important;
 }
@@ -721,7 +723,7 @@ div.main-description, .line-item-description  {
 
 }
 
-.cart_items_headers  {
+.cart_items_headers {
     display: none;
 }
 
@@ -734,19 +736,17 @@ div.main-description, .line-item-description  {
 
 /*
 .gray{
-    border-radius: 100% !important;
-    width: 18% !important;
+border-radius: 100% !important;
+width: 18% !important;
 
 }
 
-.continue  {
-    width: 20% !important;
-    padding-right: 0% !important;
-    padding-left: 7% !important;
-    padding-top: 7% !important;
-    padding-bottom: 7% !important;
-    
-    
+.continue {
+width: 20% !important;
+padding-right: 0% !important;
+padding-left: 7% !important;
+padding-top: 7% !important;
+padding-bottom: 7% !important;
 
 
 }*/
@@ -808,7 +808,7 @@ color: #FF8DA1
 #checkout {
     margin-top: -5%;
 }
-#checkout-step-address, #checkout-step-delivery, #checkout-step-confirm, #order_details, #order_summary, #checkout-step-payment, #payment,  #billing, #shipping, #checkout-summary, #shipping_method {
+#checkout-step-address, #checkout-step-delivery, #checkout-step-confirm, #order_details, #order_summary, #checkout-step-payment, #payment, #billing, #shipping, #checkout-summary, #shipping_method {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -829,9 +829,10 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     margin-left: 10%;
 }
 
-
-.menu, .push-menu-right,  .nav-slide-right {
-    display: none;
+.push-menu-right a{
+    font-family: 'Grand Hotel', cursive !important;
+    font-size: 3em !important;
+    margin-bottom: 40px; 
 }
 
 #existing-customer h6 {
@@ -857,19 +858,19 @@ label, .account-summary, .account-my-orders {
 }
 
 /*#store-wrapper ~ button {
-    display: none ;
+display: none ;
 }*/
 
 /*<======= iPhone =======> */
 @media only screen and (max-width : 768px) {
 
    /* #store-wrapper ~ button {
-    display: block ;
-    }
+display: block ;
+}
 */
     .background img {
-      width: 250%; 
-      margin-left: -50%; 
+      width: 250%;
+      margin-left: -50%;
       margin-top: -60%;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -887,18 +888,18 @@ label, .account-summary, .account-my-orders {
     }
 
   /* .btn {
-    display: block;
-    margin-top: -40px;
-    margin-right: 10px;
-    }*/
+display: block;
+margin-top: -40px;
+margin-right: 10px;
+}*/
 
    /* .btn:hover {
-     background-color: none;   
-    display: block;
-    margin-top: -10%;
-    }
+background-color: none;
+display: block;
+margin-top: -10%;
+}
 */
-   .menu, .push-menu-right,  .nav-slide-right {
+   .menu, .push-menu-right, .nav-slide-right {
     display: block;
     z-index: 1000 !important;
     font-family: 'Grand Hotel', cursive !important;
@@ -1014,7 +1015,3 @@ label, .account-summary, .account-my-orders {
 
 
 }
-
-
-
-

@@ -51,15 +51,10 @@ button:focus {outline:none;} button::-moz-focus-inner {border:0;}
 
 nav.menu {
     position: fixed;
-    z-index: 200 !important;
-    background-image: linear-gradient(#111111, #333333);
-    background-repeat: repeat no-repeat;
+    background: none repeat scroll 0% 0% #2DCCD3 !important;
     overflow: hidden;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    transition: all 0.3s ease 0s;
+    z-index: 20;
 }
 
 
@@ -225,6 +220,11 @@ body.pmr-open #wrapper {
 	z-index: 111;
 }
 
+ #header-logo-2-main {
+ 	margin-left: 37%;
+ 	margin-top: 1%;
+ }
+
 #header-logo-3-store-about, #header-logo-3-store-main {
 	position: fixed;
 	top: 11%;
@@ -362,6 +362,7 @@ body.pmr-open #wrapper {
 }
 
 .intro-menu {
+	display: none !important;
 	margin-bottom: 1%;
 	margin-left: -20px !important;
 	position: absolute !important;
@@ -776,7 +777,7 @@ body.pmr-open #wrapper {
 }
 
 .main-button {
-	display: none;
+	margin-top: 10px;
 	background-color:rgba(0, 0, 0, 0);
 }
 
@@ -853,6 +854,11 @@ body.pmr-open #wrapper {
 		margin-left: -50px !important;
 		padding-right: -10px !important;
 	}
+	 .main-button {
+	display: block;
+
+    }
+
 
 	
 

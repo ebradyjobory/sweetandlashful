@@ -37,7 +37,7 @@ button:hover {
 
 nav.menu {
     position: fixed;
-    z-index: 20;
+    z-index: 200;
     background: #2DCCD3 !important;
     background-repeat: repeat no-repeat;
     overflow: hidden;
