@@ -781,6 +781,42 @@ body.pmr-open #wrapper {
 	background-color:rgba(0, 0, 0, 0);
 }
 
+.who-we-are {
+	position: absolute;
+	top: 45%;
+	left: 42%;
+	list-style: none;
+}
+
+.who-we-are a {
+	text-decoration: none !important;
+	font-family: 'Grand Hotel', cursive;
+	text-decoration: none;
+	color: #FF8DA1 !important;
+	font-size: 2.5em;
+	font-weight: 100 !important;
+
+}
+
+.who-we-are a:hover {
+	color: #ECF0F1 !important;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+
+.arrow-who img {
+	position: absolute;
+	right: 51%;
+	width: 3%;
+	height: 2%;
+	top: 47%;
+}
+
+
 @media only screen and (max-width : 1200px) {
 
 	.main-menu-store .main-menu-item-5-store-i{
@@ -859,6 +895,15 @@ body.pmr-open #wrapper {
 
     }
 
+    .who-we-are {
+	left: 35%;
+    }
+
+    .arrow-who img {
+	right: 56%;
+	top: 47%;
+    }
+
 
 	
 
@@ -927,6 +972,19 @@ body.pmr-open #wrapper {
 	.about-container {
 		font-size: 0.8em;
 	}
+
+	.who-we-are {
+	left: 30%;
+    }
+
+    .arrow-who img {
+	right: 48%;
+	top: 47%;
+	width: 7%;
+	height: 2%;
+
+    }
+
 
 }
 
