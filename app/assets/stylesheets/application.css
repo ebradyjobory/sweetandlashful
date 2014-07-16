@@ -449,6 +449,7 @@ body.pmr-open #wrapper {
 }
 
 .intro-contact {
+	display: none !important;
 	position: fixed;
 	left: 85%;
 	top: 510px;
@@ -728,6 +729,12 @@ body.pmr-open #wrapper {
 	
 }
 
+a, a:visited {
+    color:  #FF8DA1 !important;
+    text-decoration: underline;
+    outline: 0px none;
+}
+
 
 .main-menu-store li a{
 	padding-left: 4px !important;
@@ -978,10 +985,19 @@ body.pmr-open #wrapper {
     }
 
     .arrow-who img {
+	right: 60%;
+	top: 47%;
+
+    }
+
+
+}
+
+@media only screen and (max-width : 400px) {
+    .arrow-who img {
 	right: 48%;
 	top: 47%;
 	width: 7%;
-	height: 2%;
 
     }
 
