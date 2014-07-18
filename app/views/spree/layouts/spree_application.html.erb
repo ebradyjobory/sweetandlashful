@@ -76,11 +76,114 @@
               <li class=""><%= link_to "Services", "#", :class => "" %></li>
               <li class=""><%= link_to "About", "/#second-about", :class => "" %></li>
               <li class=""><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
-              <li class=""><%= link_to "Contact Us", "/pages/contact" %></li>
+              <li class="intro-contact"><%= link_to "Contact Us"%></li>
           </ul>
     </nav>
 
     <button  class="nav-toggler toggle-push-right btn store-button"></button> 
+
+       <!-- footer -->
+              <div class="grid_12 glass-store">
+
+                <div class="grid_3 alpha omega contact-column-1-store">
+                  <h1 class="h1">Call or Email</h1>
+                  <h2 class="h2">404.815.8880</h2>
+                  <p><span class="span">general inquiries:<br></span><%= link_to "hello@sweetandlashful.com", :class => 'link' %></p>
+                  <p><span class="span">online orders:<br></span><%= link_to "orders@sweetandlashful.com" , :class => 'link' %></p>
+                  <p><span class="span">training &amp; certification:<br></span><%= link_to "training@sweetandlashful.com", :class => 'link'  %></p>
+                </div> <!-- contact-column-1 -->
+
+                <div class="grid_3 alpha omega contact-column-2">
+                  <h1 class="h1">Visit</h1>
+                  <address>123 Goat Farm<br>
+                        Suite Mehhhhhhh<br>
+                        Atlanta, GA 00000</address>
+                  <p>To schedule a visit, contact us directly or book an appointment online <%=link_to "here" %>.</p>
+                </div> <!-- contact-column-2 -->
+
+                <div class="grid_3 alpha omega contact-column-3">
+                  <h1 class="h1">Follow</h1>
+                  <div class="social-media">
+                    <%= link_to image_tag('facebook_teal.png', :size =>"30x30", :class => "facebook"), "https://www.facebook.com/SweetandLashful", :target => "_blank" %>
+                    <%= link_to image_tag('twitter_teal.png', :size =>"30x30"), "https://twitter.com/sweetandlashful", :target => "_blank" %>
+                    <%= link_to image_tag('instagram_teal.png', :size =>"30x30"), "http://instagram.com/sweetandlashful", :target => "_blank" %>
+                    <%= link_to image_tag('google_teal.png', :size =>"30x30"), "https://plus.google.com/u/0/112130594903660962266", :target => "_blank" %>
+                  </div>
+                  <h3 class="h3">NEWSLETTER UPDATES</h3>
+                  <form action="http://sweetandlashful.us8.list-manage.com/subscribe/post" method="POST">
+                  <input type="hidden" name="u" value="c63539c7d55bca17a1e7c51ff">
+                  <input type="hidden" name="id" value="8338fc50cc">
+                  <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Type your email and press enter">
+                  </form>
+                </div> <!-- contact-column-3 -->
+
+                <!-- <div class="grid_2 alpha omega contact-column-4">
+                  <p>Logo &amp; Flourishes</p>
+                  <%= link_to image_tag("jess-logo.png", :alt => 'Jessica Hoehn'), "http://www.jessicahoehndesign.com" %>
+                  <p>Web Design &amp; Development</p>
+                  <%= link_to image_tag("cuneiform-logo.png", :alt => 'cuneiform.io'), "http://www.cuneiform.io" %>
+                  <p>Photography</p>
+                </div> <!-- contact-column-4-->
+
+                <div class="grid_12 footer">
+                  <p class="copyright">&copy; 2014 Lash Complexions LLC. All rights reserved.<p>
+                  <h1><%= image_tag("flourish-3.png", :alt => 'Sweet and Lashful', :class => "gallery-store") %></h1>
+                  <ul class="info-store">
+                    <li><%= link_to "FAQs" %></li>
+                    <li><%= link_to "Privacy Policy" %></li>
+                    <li><%= link_to "Terms of Service" %></li>
+                  </ul>
+              </div> <!-- footer -->
+                <div class="grid_2 intro-contact-footer">
+                   <%= link_to image_tag('arrow_pink.png') %>
+                  </div> <!---intro-contact -->
+
+              </div> <!-- glass -->
+
+              <!-- <div class="grid_2 intro-contact">
+                <p><%= link_to "Contact Us" %></p>
+              </div> --> <!--  intro-contact -->
+
+              <%= javascript_include_tag "jquery-1.10.2", "data-turbolinks-track" => true %>
+
+              <script>
+                $('.glass-store').hide();
+                $('.intro-contact').on('click', function(event){
+                event.preventDefault();
+                // $('.intro-contact').hide();
+                $(".glass-store").slideToggle();
+
+              });
+
+                $('.intro-contact-footer').on('click', function(event){
+                event.preventDefault();
+                $(".glass-store").slideToggle();
+                // $('.intro-contact').show();
+
+              });
+
+              </script>
+
+              <script>
+
+              $('.intro-contact').on('click', function(){
+                  $('.store-button').click();
+
+              });
+
+              </script>
+
+
+              <script>
+               $(".intro-contact-footer img")
+                 .on( "mouseover", function() {
+                  $(this).attr ('src', '/assets/arrow_white.png');
+                })
+                  .on( "mouseleave", function() {
+                  $(this).attr ('src', '/assets/arrow_pink.png');
+              });
+              </script> 
+
 
     <%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "nav", "data-turbolinks-track" => true %>
