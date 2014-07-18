@@ -474,8 +474,8 @@ body.pmr-open #wrapper {
 
 .intro-contact-footer img  {
 	position: absolute;
-	width: 3%;
-	height: 10%;
+	width: 40px !important;
+	height: 40px !important;
 	right: 1.2%;
 	top: 3.8%;
 	list-style: none !important;
@@ -648,7 +648,7 @@ body.pmr-open #wrapper {
 
 .footer {
 	position: absolute;
-	top: 87%;
+	top: 80px;
 	bottom: 0;
 	margin-left: 5%;
 }
@@ -666,14 +666,15 @@ body.pmr-open #wrapper {
 
 .footer h1 {
 	text-align: center;
-	margin: -4% 4% 0 0;
+	margin: -40px 4% 0 0;
 }
 
 .footer ul {
-	margin-top: -3.5%;
+	margin-top: -30px !important;
 	margin-right: 3.8%;
 	text-align: right;
 	list-style: none;
+	font-size: 0.8em !important;
 }
 
 .footer li {
@@ -819,9 +820,9 @@ a, a:visited {
 .arrow-who img {
 	position: absolute;
 	right: 51%;
-	width: 3%;
-	height: 2%;
-	top: 47%;
+	width: 40px;
+	height: 40px;
+	top: 670px;
 }
 
 
@@ -906,10 +907,23 @@ a, a:visited {
     .who-we-are {
 	left: 35%;
     }
-
+/*
     .arrow-who img {
 	right: 56%;
 	top: 47%;
+    }*/
+
+    .footer {
+	position: absolute;
+	top: 70% !important;
+    }
+
+    .copyright-main {
+    	margin-top: 70px !important;
+    }
+
+    .gallery {
+    	display: none;
     }
 
 
@@ -985,21 +999,27 @@ a, a:visited {
 	left: 30%;
     }
 
-    .arrow-who img {
+    /*.arrow-who img {
 	right: 60%;
 	top: 47%;
 
     }
-
+*/
 
 }
 
 @media only screen and (max-width : 400px) {
     .arrow-who img {
-	right: 48%;
-	top: 47%;
-	width: 7%;
+	right: 45% !important;
 
+    }
+
+    .glass input {
+    	display: none !important;
+    }
+
+    .intro-contact-footer img {
+    	width: 
     }
 
 
