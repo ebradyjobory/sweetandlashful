@@ -1,3 +1,7 @@
+<div class="background">
+      <%= image_tag("background-grey-2.svg")%>
+</div>
+
 <% content_for :sidebar do %>
   <div data-hook="homepage_sidebar_navigation">
     <% if "spree/products" == params[:controller] && @taxon %>
