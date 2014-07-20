@@ -22,6 +22,11 @@ position: fixed;
 }
 
 .nav-slide-right li {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.nav-slide-right li {
 margin-bottom: 40px !important;
 }
 
@@ -29,7 +34,7 @@ margin-bottom: 40px !important;
 
 background-color:rgba(0, 0, 0, 0);
 width: 25px;
-margin-top: 10px;
+margin-top: 3px;
 margin-right: 0px;
 cursor: pointer;
 
@@ -38,15 +43,19 @@ cursor: pointer;
 .blog-container {
 margin-top: 0px;
 position: absolute;
-width: 1300px;
-margin-left: 40px;
+width: 1200px;
+
+}
+
+.show_post .post-header {
+    margin-left: 145px;
 }
 .content {
 margin-top: 20px;
 margin-left: 5px;
 padding-top: 0px;
 margin-right: 400px;
-width: 100%;
+width: 80%;
 position: relative;
 text-align: left !important;
 }
@@ -158,9 +167,9 @@ width: 110%;
 position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
-height: 9%;
+height: 8.7%;
 z-index: 100;
-box-shadow: 1px 1px 3px #FF8DA1 !important;
+box-shadow: 1px 2px 3px #FF8DA1 !important;
 margin-left: -2%;
 margin-top: -0.7%;
 padding-bottom: 1.1%;
@@ -233,7 +242,7 @@ right: 15%;
 
 #header-logo-3-store {
 position: fixed;
-top: 11.3%;
+top: 11.1%;
 left: 43%;
 z-index: 111;
 }
@@ -305,8 +314,8 @@ text-align: left !important;
 
 span.user {
 top: -25px;
-width: 130px !important;
-margin-left: 18px !important;
+width: 50% !important;
+margin-left: 13px !important;
 font-size: 0.6em;
 position: absolute;
 }
@@ -368,10 +377,10 @@ text-align: left;
 }
 
 .content header {
-margin-left: 10%;
-    font-size: 0.8em;
-    text-align: center;
-    border-bottom: none;
+  margin-left: 10%;
+  font-size: 0.8em;
+  text-align: center;
+  border-bottom: none;
 }
 
 .content header h1 {
@@ -390,7 +399,7 @@ width: 500px !important;
 #on {
 position: absolute;
 top: -1.5px;
-margin-left: -105px;
+margin-left: -96px;
 font-size: 1em;
 text-transform:lowercase;
 font-family: 'Grand Hotel', cursive;
@@ -417,13 +426,13 @@ margin-left: -120px;
 }
 
 .show_post .user {
-margin-left: 53px !important;
+margin-left: -60px !important;
 
 }
 
 .show_post time {
 margin-top: 0px;
-margin-left: 200px;
+margin-left: 210px;
 }
 
 
@@ -445,7 +454,7 @@ margin-top: -40px;
 
 .show_post #on {
    margin-top: 0px;
-   margin-left: -105px;
+   margin-left: 22px;
 }
 
 .show_post h1 {
@@ -594,18 +603,6 @@ nav.menu a {
     text-decoration:none;
 }
 
-
-nav.menu a:hover {
-      color: #FF8DA1 !important;
-}
-
-nav.menu a:active {
-    border-top: none !important;
-}
-
-nav.menu-ar a:active {
-    border-top: none !important;
-}
 
 /* slide menu left and right, push menu left and right */
 
@@ -985,13 +982,11 @@ width: 20px;
     margin-left: -45px !important;
     }
 
-    #header-logo-3-store {
-    margin-top: -10px;
-    }
+  
 
 
     time {
-    margin-left: 160px !important;
+    margin-left: 170px !important;
     }
 
     .background img {
@@ -1023,6 +1018,17 @@ width: 20px;
     .content p {
      width: 380% !important;
     }
+    .show_post #on {
+        margin-left: -140px;
+    }
+
+    #on {
+        margin-left: -136px;
+    }
+
+    .blog-container {
+        font-size: 1em !important;
+    }
 }
 
 @media only screen and (max-width : 900px) {
@@ -1045,6 +1051,10 @@ width: 20px;
 
     .social-blog {
         display: block !important;
+    }
+
+    .show_post #on {
+        margin-left: -140px;
     }
 
 

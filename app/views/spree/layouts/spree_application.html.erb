@@ -5,25 +5,24 @@
 <!--[if IE 9 ]> <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
 <!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
 
-<div class="background">
-      <%= image_tag("background-grey-2.svg")%>
-</div>
-
   <link href='http://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 <div id="store-wrapper">
 
+
   <div id="header-logo-2">
     <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "/" %>
   </div>  <!-- #header-logo-2 -->
 
+
   <div id="header-logo-3-store">
+
+ <p id="link-to-cart" data-hook><%= link_to_cart %></p>
     <%= link_to image_tag("lashful-logo-3.png", :alt => 'Sweet and Lashful'), "/" %>
   </div>  <!-- #header-logo-2 -->
 
   <div class="primary-header">
-
         <div class="grid_6 alpha clearfix main-menu-store">
             <ul>
                   <li class="main-menu-item-1-store"><%= link_to "Shop", "/store", :class => "" %></li>
@@ -34,12 +33,10 @@
             </ul>
         </div>  <!-- .main-menu -->
   </div>  <!-- main-header -->
-  <li id="link-to-cart" data-hook><%= link_to_cart %></li> 
+
   <head data-hook="inside_head">
     <%= render :partial => 'spree/shared/head' %>
   </head>
-
-  <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
 
     <div class="container">
 
@@ -62,6 +59,7 @@
     <script>
       Spree.api_key = <%= raw(try_spree_current_user.try(:spree_api_key).to_s.inspect) %>;
     </script>
+
 
        <!-- footer -->
               <div class="grid_12 glass-store">

@@ -59,13 +59,13 @@ $(document).ready(function() {
 
   window.addEventListener("scroll",function() { 
      if(window.scrollY > 200) {
-        $('.primary-header-index, #header-logo-2, #header-logo-3-store').show();
+        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main').show();
         $('.intro-menu, #header-logo-1, .intro-contact').hide();
 
         // $('.intro-menu').slideDown();
      }
      else {
-        $('.primary-header-index, #header-logo-2, #header-logo-3-store, .primary-header-index-about, #header-logo-2-about, #header-logo-3-store-about').hide();
+        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main, .primary-header-index-about, #header-logo-2-about, #header-logo-3-store-about').hide();
         $('.intro-menu, #header-logo-1, .intro-contact').show();
         // $('.intro-menu').slideUp();
      }
@@ -100,13 +100,13 @@ $(document).ready(function() {
     </div>
 
 
-  <div id="header-logo-2">
+  <div id="header-logo-2-main">
           <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "#intro" %>
         </div>  <!-- #header-logo-2 -->
 
-        <div id="header-logo-3-store">
+        <div id="header-logo-3-store-main">
           <%= link_to image_tag("lashful-logo-3.png", :alt => 'Sweet and Lashful'), "#intro" %>
-        </div>  <!-- #header-logo-2 -->
+        </div>  
 
   <div class="primary-header-index">
 
