@@ -14,6 +14,14 @@
 
 /* Home Page*/
 
+body {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	color: #404042;
+	line-height: 18px;
+	background-color: white;
+	-webkit-font-smoothing: antialiased;
+}
 
  button {
  	
@@ -64,8 +72,10 @@ nav.menu ul {
     padding: 0;
 }
 
-.nav-slide-right li {
-	-webkit-font-smoothing: antialiased;
+.nav-slide-right li a {
+	-webkit-font-smoothing: antialiased !important;
+	font-weight: 500 !important;
+
 }
 
 
@@ -120,6 +130,8 @@ nav.push-menu-right a {
 
 .push-menu-right a{
 	margin-bottom: 0px !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 500;
 }
 
 
@@ -645,6 +657,7 @@ body.pmr-open #wrapper {
 
 
 .footer-main {
+	z-index: -10;
 	position: absolute;
 	top: 80px;
 	bottom: 0;
@@ -797,7 +810,7 @@ a, a:visited {
 .who-we-are {
 	position: absolute;
 	top: 40%;
-	left: 42%;
+	left: 42.3%;
 	list-style: none;
 }
 
@@ -823,7 +836,7 @@ a, a:visited {
 
 .arrow-who img {
 	position: absolute;
-	right: 51%;
+	right: 50%;
 	width: 40px;
 	height: 40px;
 	top: 600px;

@@ -16,14 +16,20 @@
 }*/
 
 
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #404042;
+    line-height: 18px;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
 .background img {
 position: fixed;
 
 }
 
-.nav-slide-right li {
-    -webkit-font-smoothing: antialiased;
-}
 
 
 .nav-slide-right li {
@@ -924,6 +930,13 @@ body.pmr-open #wrapper {
     font-size: 0.7em !important;
 }
 /* end of footer */
+
+
+.nav-slide-right li a{
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: 500 !important;
+}
+
 
 
 

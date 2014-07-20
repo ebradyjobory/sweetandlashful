@@ -8,6 +8,20 @@ target / context = result
 
  */
 
+ .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+    margin: 0px 2% 1% 0px;
+    float: left;
+    display: block;
+}
+
+.grid_12 {
+    width: 100%;
+}
+
+.grid_3 {
+    width: 23.5%;
+}
+
 .container {
 position: absolute;
 width : 90%;
@@ -358,7 +372,7 @@ display: none;
 
 
 .cart-info {
-    margin-top: -25px !important;
+    margin-top: -22.5px !important;
     position: fixed;
     left: 60%;
     width: 200px;
@@ -366,6 +380,57 @@ display: none;
     font-family: 'Quicksand', sans-serif !important;
     font-size: 1.5em !important;
 }
+
+ul#products li a.info {
+    font-family: 'Grand Hotel', cursive;
+    -webkit-font-smoothing: antialiased !important;
+    height: 35px;
+    margin-top: 5px;
+    font-size: 1.8em;
+    font-weight: 100;
+    color: #FF8DA1;
+    border-bottom: 1px solid  #2DCCD3;
+    box-shadow: 0px 1.3px 0px #FF8DA1;
+    overflow: hidden;
+}
+
+#product-description .product-title {
+    font-family: 'Grand Hotel', cursive;
+    -webkit-font-smoothing: antialiased !important;
+    border-bottom: 1px solid  #2DCCD3;
+    box-shadow: 0px 1.3px 0px #FF8DA1;
+    margin-bottom: 15px;
+    box-shadow: 0px 1.3px 0px #FF8DA1;
+    color: #FF8DA1;
+    font-weight: 100;
+    font-size: 2.5em !important;
+}
+
+.cart-title {
+    font-family: 'Grand Hotel', cursive;
+    -webkit-font-smoothing: antialiased !important;
+    color: #FF8DA1;
+    font-weight: 100;
+    font-size: 3em !important;
+}
+
+.cart-item-description a {
+    font-family: 'Grand Hotel', cursive;
+    -webkit-font-smoothing: antialiased !important;
+    color: #FF8DA1;
+    font-weight: 100;
+    font-size: 1.5em !important;
+}
+
+
+ul#products li .price {
+    font-family: 'Quicksand', sans-serif;
+    color: #2DCCD3;
+    font-size: 1.3em;
+    padding-top: 5px;
+    display: block;
+}
+
 
 ul#products  {
     width: 100%;
@@ -376,6 +441,26 @@ ul#products  {
     margin-right: 5% !important;
     margin-left: 5% !important;
 }
+
+ul#products li .product-image {
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    min-height: 110px;
+    background-color: none;
+}
+
+
+.main-description, .price {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+
+.price, .cart-item-price, .cart-item-total{
+    font-family: 'Quicksand', sans-serif !important;
+    color: #2DCCD3 !important;
+}
+
 
 
 
@@ -402,6 +487,11 @@ nav #main-nav-bar li#link-to-cart {
 
 }
 */
+
+#checkout-link {
+    background-color: #FF8DA1 !important;
+}
+
 nav #main-nav-bar {
 color: #444;
 border: none !important;
@@ -419,6 +509,7 @@ color: #FF8DA1 !important;
 nav#top-nav-bar ul li a {
 font-weight: 200;
 text-transform: none;
+
 }
 
 /*nav #main-nav-bar li#link-to-cart a .amount {
@@ -444,16 +535,16 @@ z-index: 140;
 
 .product-image img{
 
-    width: 250px !important;
-    height: 250px !important;
+    width: 100% !important;
+    height: 100% !important;
     border-radius: 100px;
     z-index: 5;
 
 }
 
-.hidden img {
+/*.hidden img {
     opacity: 0.1;
-}
+}*/
 /*
 ul#products li .price {
     color: #444;
@@ -562,9 +653,9 @@ width: 100%;
 }*/
 
 
-.info a {
+/*.info a {
 font-family: 'Grand Hotel', cursive !important;
-}
+}*/
 
 
 .add_to_cart {
@@ -579,18 +670,29 @@ font-family: 'Grand Hotel', cursive !important;
 
 }
 
+.cart_items_headers {
+    background-color: rgba(236, 240, 241, 10) !important;
+}
 
-.background img {
+
+.background  {
+    z-index: -100;
     position: fixed;
-    margin-top: -40%;
-    margin-left: -10%;
-    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin-top: -10%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .background-contact img {
     position: fixed;
     margin-top: -15%;
     margin-left: -15%;
+}
+
+#checkout-step-address, #checkout-step-delivery, #checkout-step-confirm, #order_details, #order_summary, #checkout-step-payment, #payment, #billing, #shipping, #checkout-summary, #shipping_method {
+    font-family: 'Quicksand', sans-serif;
 }
 /*
 #contact-page .intro-contact {
@@ -627,9 +729,13 @@ font-family: 'Grand Hotel', cursive !important;
 }*/
 
 /*
+
+
 #main-image {
    left: 10%;
 }
+
+
 
 .product-title {
     font-family: 'Grand Hotel', cursive;
@@ -853,10 +959,9 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
     color:  red !important;
 }
 
-/*#existing-customer h6 {
+#existing-customer h6 {
     text-transform: lowercase;
-    font-family: 'Grand Hotel', cursive;
-    font-size: 3em;
+    font-size: 1.5em;
     color: #FF8DA1
 }
 
@@ -864,7 +969,7 @@ label, .account-summary, .account-my-orders {
     font-family: 'Quicksand', sans-serif !important;
 
 }
-*/
+
 #content {
     margin-top: -10%;
 }
@@ -889,7 +994,7 @@ label, .account-summary, .account-my-orders {
 
 .glass-store {
     position:fixed;
-    z-index: 11200;
+    z-index: 100;
     bottom: -2%;
     width: 100%;
     height: 53%;
@@ -933,12 +1038,18 @@ label, .account-summary, .account-my-orders {
     letter-spacing: 0;
 }
 
+#main-image  img{
+    border-radius: 150px !important;
+}
+
 .glass-store p {
     color: #ecf0f1;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.9em;
     font-weight: normal;
 }
+
+
 
 .glass-store p span {
     font-size: 0.8em;
@@ -982,12 +1093,14 @@ label, .account-summary, .account-my-orders {
     margin-top: 3%;
 }
 .contact-column-1-store {
+    width: 20% !important;
     padding-left: 4%;
     padding-bottom: -50% !important;
     padding-top: -50% !important;
 }
 
 .contact-column-2 {
+    width: 20% !important;
     padding-left: 2%;
     padding-top: 0%;
 
@@ -1068,7 +1181,7 @@ label, .account-summary, .account-my-orders {
 }
 
 .footer ul {
-    margin-top: -40px;
+    margin-top: -43px;
     margin-right: 3.8%;
     text-align: right;
     list-style: none;
@@ -1112,7 +1225,7 @@ label, .account-summary, .account-my-orders {
 
 .copyright {
     margin-left: -15px !important;
-    margin-top: -5px !important;
+    margin-top: 10px !important;
     font-size: 1em !important;
 }
 
@@ -1134,6 +1247,10 @@ label, .account-summary, .account-my-orders {
     font-size: 1em !important;
     border-bottom: none !important;
 
+}
+
+#link-to-login {
+    margin-top: -15px;
 }
 /* end of footer */
 
@@ -1317,16 +1434,32 @@ display: block ;
 */
 
 
+
 @media only screen and (max-width : 800px) {
 
+    .background  {
+        width: 200%;
+    }
+
+    #header-logo-3-store, #header-logo-2 {
+       margin-left: -12% !important;
+
+    }
+
     #content {
-    margin-top: 5%;
+        margin-top: 5%;
+    }
+
+
+    ul#products  {
+        width: 100%;
+        margin-left: 85px !important;
     }
 
 
     #link-to-login {
         position: absolute;
-        left: -550px !important;
+        left: -540px !important;
     }
 
     .primary-header {
@@ -1408,6 +1541,21 @@ display: block ;
 
         display: inline !important;
     }
+
+}
+
+
+@media only screen and (max-width : 400px) {
+  ul#products  {
+        width: 50%;
+        margin-left: 85px !important;
+    }
+
+    .background  {
+        width: 250%;
+    }
+
+
 
 
 
