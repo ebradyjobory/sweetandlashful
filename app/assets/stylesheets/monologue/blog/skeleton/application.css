@@ -173,7 +173,7 @@ width: 110%;
 position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
-height: 8.7%;
+height: 8.8%;
 z-index: 100;
 box-shadow: 1px 2px 3px #FF8DA1 !important;
 margin-left: -2%;
@@ -248,7 +248,7 @@ right: 15%;
 
 #header-logo-3-store {
 position: fixed;
-top: 11.1%;
+top: 11.15%;
 left: 43%;
 z-index: 111;
 }
