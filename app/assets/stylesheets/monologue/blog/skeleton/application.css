@@ -22,7 +22,7 @@ body {
     color: #404042;
     line-height: 18px;
     background-color: white;
-    -webkit-font-smoothing: antialiased;
+    /*-webkit-font-smoothing: antialiased;*/
 }
 
 .background img {
@@ -173,7 +173,7 @@ width: 110%;
 position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
-height: 8.8%;
+height: 56px;
 z-index: 100;
 box-shadow: 1px 2px 3px #FF8DA1 !important;
 margin-left: -2%;
@@ -248,7 +248,7 @@ right: 15%;
 
 #header-logo-3-store {
 position: fixed;
-top: 11.15%;
+top: 73px;
 left: 43%;
 z-index: 111;
 }
@@ -933,7 +933,7 @@ body.pmr-open #wrapper {
 
 
 .nav-slide-right li a{
-    -webkit-font-smoothing: antialiased !important;
+    /*-webkit-font-smoothing: antialiased !important;*/
     font-weight: 500 !important;
 }
 

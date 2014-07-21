@@ -329,9 +329,9 @@ img {
  * Corrects overflow displayed oddly in IE9
  */
 
-svg:not(:root) {
+/*svg:not(:root) {
     overflow: hidden;
-}
+}*/
 
 
 /* =============================================================================

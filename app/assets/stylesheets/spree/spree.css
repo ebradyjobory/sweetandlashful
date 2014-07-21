@@ -104,9 +104,10 @@ left: 42.5%;
 z-index: 111;
 }
 
+
 #header-logo-3-store {
 position: fixed;
-top: 27px;
+top: 29px;
 left: 43%;
 z-index: 111;
 }
@@ -116,7 +117,7 @@ width: 100%;
 position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
-height: 10.8%;
+height: 70px;
 z-index: 100;
 box-shadow: 2px 2px 3px #FF8DA1 !important;
 }
@@ -383,8 +384,8 @@ display: none;
 
 ul#products li a.info {
     font-family: 'Grand Hotel', cursive;
-    -webkit-font-smoothing: antialiased !important;
-    height: 35px;
+/*    -webkit-font-smoothing: antialiased !important;
+*/    height: 35px;
     margin-top: 5px;
     font-size: 1.8em;
     font-weight: 100;
@@ -396,8 +397,8 @@ ul#products li a.info {
 
 #product-description .product-title {
     font-family: 'Grand Hotel', cursive;
-    -webkit-font-smoothing: antialiased !important;
-    border-bottom: 1px solid  #2DCCD3;
+/*    -webkit-font-smoothing: antialiased !important;
+*/    border-bottom: 1px solid  #2DCCD3;
     box-shadow: 0px 1.3px 0px #FF8DA1;
     margin-bottom: 15px;
     box-shadow: 0px 1.3px 0px #FF8DA1;
@@ -408,7 +409,7 @@ ul#products li a.info {
 
 .cart-title {
     font-family: 'Grand Hotel', cursive;
-    -webkit-font-smoothing: antialiased !important;
+    /*-webkit-font-smoothing: antialiased !important;*/
     color: #FF8DA1;
     font-weight: 100;
     font-size: 3em !important;
@@ -416,7 +417,7 @@ ul#products li a.info {
 
 .cart-item-description a {
     font-family: 'Grand Hotel', cursive;
-    -webkit-font-smoothing: antialiased !important;
+    /*-webkit-font-smoothing: antialiased !important;*/
     color: #FF8DA1;
     font-weight: 100;
     font-size: 1.5em !important;
@@ -976,6 +977,7 @@ label, .account-summary, .account-my-orders {
 
 .nav-slide-right a{
     font-family: 'Grand Hotel', cursive !important;
+    font-size: 1em;
 
 }
 
@@ -1484,30 +1486,20 @@ display: block ;
 
     }
 
-    .glass-store input {
-        display: none !important;
-    }
-
-    .intro-contact-footer img {
-        width: 
-    }
-
     .contact-column-1-store h1 {
         width: 150px;
         font-size: 2.6em !important;
     }
 
-    .contact-column-3 h3, .contact-column-3 h1 {
-        display: none;
-    }
 
     .contact-column-2 {
-        width: 150px;
+        width: 50px;
         font-size: 1em;
-        margin-left: 20%;
+        margin-left: 5% !important;
     }
     .contact-column-2 h1 {
         font-size: 2em;
+        
         
     }
 
@@ -1516,9 +1508,10 @@ display: block ;
         font-size: 0.7em !important;
     }
 
-    .social-media {
-        width: 150px;
-        margin-left: 70px;
+
+    .contact-column-3 {
+        margin-left: 5% !important;
+        width: 200px !important;
     }
 
     .info-store {
@@ -1553,6 +1546,28 @@ display: block ;
 
     .background  {
         width: 250%;
+    }
+    .contact-column-1 {
+        width: 250px !important;
+
+    }
+
+    .contact-column-1 span {
+        margin-top: -12% !important;
+    }
+
+    .contact-column-2 {
+        width: 200px !important;
+        margin-left: 15% !important;
+
+    }
+
+    .contact-column-3 h1, .contact-column-3 h3, .contact-column-3 input {
+        display: none !important;
+    }
+
+    .social-media {
+        margin-left: 20%;
     }
 
 

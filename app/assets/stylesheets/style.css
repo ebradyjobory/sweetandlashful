@@ -61,10 +61,14 @@ nav.menu-ar {
     transition: all 0.3s;
 }
 
+.nav-slide-right li a {
+    font-size: 32px !important;
+}
+
 nav.menu ul {
     margin: 0;
     padding: 0;
-    -webkit-font-smoothing: antialiased !important;
+    /*-webkit-font-smoothing: antialiased !important;*/
 }
 
 nav.menu-ar ul {
@@ -78,7 +82,7 @@ nav.menu a {
     font-family: 'Roboto', sans-serif;
     font-weight: normal; 
     text-decoration:none;
-    -webkit-font-smoothing: antialiased !important;
+    /*-webkit-font-smoothing: antialiased !important;*/
 }
 
 
