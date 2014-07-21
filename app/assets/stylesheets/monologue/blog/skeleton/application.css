@@ -66,13 +66,14 @@ cursor: pointer;
 .blog-container {
 margin-top: -50px;
 position: absolute;
-width: 1200px;
+width: 100%;
 
 }
 
 .show_post .post-header {
     margin-left: 145px;
 }
+
 .content {
     position: absolute;
     margin-top: 20px;
@@ -416,14 +417,14 @@ text-align: left;
 
 .content p {
     margin-left: 10%;
-    margin-top: 0.5px !important;
+    margin-top: -20px !important;
     width: 500px !important;
 }
 
 
 #on {
 position: absolute;
-top: -1.5px;
+top: 20px;
 margin-left: -96px;
 font-size: 1em;
 text-transform:lowercase;
@@ -493,10 +494,10 @@ font-size: 1.3em !important;
 }
 
 p.return {
-margin-top: 10% !important;
-margin-left: 11%;
+    display: absolute;
+    margin-left: 12%;
+    margin-top: 40% !important;
 }
-
 
 
 .return a:hover {
@@ -528,12 +529,12 @@ color: #2DCCD3 !important;
 }
 
 
-.older_posts span{
+.older_posts span {
 position: absolute;
 width: 10%;
 font-size: 1em;
-margin-top: 5%;
-margin-left: 0%;
+margin-top: 12%;
+margin-left: 2%;
 font-family: 'Grand Hotel', cursive !important;
 
 }
@@ -548,7 +549,7 @@ color: #2DCCD3;
 position: absolute;
 width: 10%;
 font-size: 1em;
-margin-top: 10%;
+margin-top: 15%;
 margin-left: -20%;
 font-family: 'Grand Hotel', cursive !important;
 }
@@ -1002,9 +1003,9 @@ width: 20px;
 
 
     p.return {
-    margin-top: 70% !important;
+
+    margin-top: 550% !important;
     margin-left: 5px !important;
-    width: 100% !important;
     }
 
     .show_post .user {
@@ -1099,6 +1100,8 @@ width: 20px;
     right: 45% !important;
 
     }
+
+
     .footer ul {
         width: 350px !important;
         margin-top: -40px !important;
