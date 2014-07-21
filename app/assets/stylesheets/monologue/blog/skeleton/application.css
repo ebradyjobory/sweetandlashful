@@ -25,6 +25,23 @@ body {
     /*-webkit-font-smoothing: antialiased;*/
 }
 
+.lashful {
+    position: fixed;
+    z-index: 900;
+    font-family: 'Grand Hotel', cursive !important;
+    margin-left: 4.5%;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 2em;
+    color: #2DCCD3 !important;
+}
+
+span {
+    color: #FF8DA1;
+}
+
+
+
 .background img {
 position: fixed;
 
@@ -47,7 +64,7 @@ cursor: pointer;
 }
 
 .blog-container {
-margin-top: 0px;
+margin-top: -50px;
 position: absolute;
 width: 1200px;
 
@@ -57,13 +74,12 @@ width: 1200px;
     margin-left: 145px;
 }
 .content {
-margin-top: 20px;
-margin-left: 5px;
-padding-top: 0px;
-margin-right: 400px;
-width: 80%;
-position: relative;
-text-align: left !important;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 100%;
+    text-align: left !important;
 }
 
 
@@ -173,7 +189,7 @@ width: 110%;
 position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
-height: 56px;
+height: 57px;
 z-index: 100;
 box-shadow: 1px 2px 3px #FF8DA1 !important;
 margin-left: -2%;
@@ -276,13 +292,16 @@ position: relative;
 z-index: 99;
 
 }
+
+
  
 
 .post-header h1{
-margin-left: 50px;
-text-align: left !important;
-width: 390px !important;
-margin-left: 0px !important;
+    line-height: 80%;
+    margin-left: 50px;
+    text-align: left !important;
+    width: 200% !important;
+    margin-left: 0px !important;
 }
 
 .post-header a{
@@ -319,11 +338,11 @@ text-align: left !important;
 }
 
 span.user {
-top: -25px;
-width: 50% !important;
-margin-left: 13px !important;
-font-size: 0.6em;
-position: absolute;
+    top: -25px;
+    width: 50% !important;
+    margin-left: 8px !important;
+    font-size: 0.6em;
+    position: absolute;
 }
 
 
@@ -396,9 +415,9 @@ text-align: left;
 
 
 .content p {
-margin-left: 0%;
-margin-top: 0.5px !important;
-width: 500px !important;
+    margin-left: 10%;
+    margin-top: 0.5px !important;
+    width: 500px !important;
 }
 
 
@@ -432,13 +451,13 @@ margin-left: -120px;
 }
 
 .show_post .user {
-margin-left: -60px !important;
+margin-left: -83px !important;
 
 }
 
 .show_post time {
 margin-top: 0px;
-margin-left: 210px;
+margin-left: 190px;
 }
 
 
@@ -454,7 +473,7 @@ width: 800px;
 
 
 .show_post p {
-margin-left: 140px;
+margin-left: 120px;
 margin-top: -40px;
 }
 
@@ -475,6 +494,7 @@ font-size: 1.3em !important;
 
 p.return {
 margin-top: 10% !important;
+margin-left: 11%;
 }
 
 
