@@ -89,5 +89,5 @@ Ecom::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  mount Monologue::Engine, at: '/blog'
+  mount Monologue::Engine, at: '/lashfulthinking'
 end

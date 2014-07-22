@@ -127,11 +127,11 @@
                 <div class="grid_12 footer-blog">
                   <p class="copyright-blog">&copy; 2014 Lash Complexions LLC. All rights reserved.<p>
                   <h1><%= image_tag("flourish-3.png", :alt => 'Sweet and Lashful', :class => "gallery-blog") %></h1>
-                  <ul class="info-blog">
+                 <!--  <ul class="info-blog">
                     <li><%= link_to "FAQs" %></li>
                     <li><%= link_to "Privacy Policy" %></li>
                     <li><%= link_to "Terms of Service" %></li>
-                  </ul>
+                  </ul> -->
               </div> <!-- footer -->
                 <div class="grid_2 intro-contact-footer">
                    <%= link_to image_tag('arrow_pink.png') %>
@@ -156,6 +156,7 @@
     
 
   <%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "blur", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "nav", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag "style", media: "all", "data-turbolinks-track" => true %>
 

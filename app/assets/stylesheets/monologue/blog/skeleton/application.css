@@ -530,12 +530,15 @@ color: #2DCCD3 !important;
 
 
 .older_posts span {
-position: absolute;
-width: 10%;
-font-size: 1em;
-margin-top: 12%;
-margin-left: 2%;
-font-family: 'Grand Hotel', cursive !important;
+    position: fixed;
+    width: 10%;
+    font-size: 1em;
+    bottom: 590px !important;
+    margin-bottom: 0px !important;
+    margin-left: 75%;
+    font-family: 'Grand Hotel', cursive !important;
+    z-index: 500;
+    color: #2DCCD3;
 
 }
 
@@ -546,12 +549,13 @@ color: #2DCCD3;
 
 
 .newer_posts span{
-position: absolute;
+position: fixed;
 width: 10%;
 font-size: 1em;
-margin-top: 15%;
-margin-left: -20%;
+bottom: 590px !important;
+margin-left: -35%;
 font-family: 'Grand Hotel', cursive !important;
+z-index: 500;
 }
 
 .newer_posts span:hover {
@@ -700,7 +704,8 @@ body.pmr-open #wrapper {
     margin-left: -8px !important;
     width: 100%;
     height: 53%;
-    background-color: rgba(52, 73, 94, 0.8);
+    background-color: #444;
+
 
 /*    background-position: center bottom;
     background-attachment: fixed;
@@ -778,7 +783,7 @@ body.pmr-open #wrapper {
     background-color: #FF8DA1 !important;
     border: none;
     font-family: 'Quicksand', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.6em;
     color: #444;
     border-radius: 0.4em;
     width: 60% !important;
@@ -788,6 +793,10 @@ body.pmr-open #wrapper {
     padding-left: 4%;
     padding-bottom: -50px !important;
     padding-top: -50px !important;
+}
+
+.contact-column-1-blog span {
+    color: #FFF !important;
 }
 
 .contact-column-2-blog {
@@ -923,18 +932,18 @@ body.pmr-open #wrapper {
 
 .h2 {
     font-size: 1.7em !important;
-    margin-top: 20px !important;
+    margin-top: -3px !important;
 }
 
 
 .copyright-blog {
-    margin-left: 55px !important;
-    margin-top: 10px !important;
+    margin-left: 52px !important;
+    margin-top: 15px !important;
     font-size: 0.8em !important;
 }
 
 .gallery-blog {
-    margin-top: 0px !important;
+    margin-top: -9px !important;
     margin-left: 20px !important;
 }
 
@@ -971,7 +980,13 @@ display: none;
 .blog-button {
 display: block;
 
-    }
+}
+
+.older_posts span {
+    bottom: 590px;
+    width: 150px;
+
+}
 
 
 
