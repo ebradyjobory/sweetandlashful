@@ -23,7 +23,20 @@ background-color:white;
 -webkit-font-smoothing:antialiased;
 }
 */
+.statement p {
+	position: absolute;
+	margin-top: 10%;
+	left: 4%;
+	color: #FF8DA1;
+	font-size: 4em;
+	font-family:'Grand Hotel', cursive !important;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
+.statement span {
+	color: #2DCCD3;
+}
 
  button{
 width:25px;
@@ -729,7 +742,7 @@ background-color:rgba(0, 0, 0, 0);
 }
 .who-we-are{
 position:absolute;
-top:39%;
+top:71%;
 left:44%;
 list-style:none;
 }
@@ -803,7 +816,7 @@ margin-left:-8% !important;
 .contact-column-1-main, .contact-column-2-main, .contact-column-3-main{
 width:20% !important;
 margin-top:-5%;
-font-size:5em !important;
+
 }
 .contact-column-3-main{
 margin-left:10% !important;
@@ -847,6 +860,11 @@ margin-top:70px !important;
 .gallery-main{
 display:none;
 }
+
+.arrow-who img{
+	left: 40% !important;
+}
+
 }
 
 
@@ -913,20 +931,26 @@ margin-left:-45%;
 font-size:0.8em;
 }
 .who-we-are{
-left:30%;
+left:35%;
 }
 /*.arrow-who img{
 right:60%;
 top:47%;
 }
 */
+.arrow-who img{
+	left: 40% !important;
+}
 
 }
 
 @media only screen and (max-width : 400px){
 
 	.arrow-who img {
-		right:45% !important;
+		right:48% !important;
+	}
+	.who-we-are{
+        left:30%;
 	}
 	.footer-main ul{
 		width:350px !important;
@@ -957,3 +981,9 @@ top:47%;
 	.footer-main ul {
 		margin-left: -160px !important;
 	}
+
+	.copyright-main {
+		font-size: 0.9em !important;
+		margin-top: 50px !important;
+	}
+

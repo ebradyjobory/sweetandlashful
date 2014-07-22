@@ -988,6 +988,16 @@ display: block;
 
 }
 
+.newer_posts span{
+position: fixed;
+width: 20%;
+font-size: 1em;
+bottom: 590px !important;
+margin-left: 45%;
+font-family: 'Grand Hotel', cursive !important;
+z-index: 500;
+}
+
 
 
 /* button {
@@ -1106,6 +1116,12 @@ width: 20px;
         margin-left: -140px;
     }
 
+      .lashful {
+        margin-top: 20px;
+        margin-left: 2%;
+        font-size: 1.8em;
+    }
+
 
 }
 
@@ -1171,6 +1187,21 @@ width: 20px;
     }
 
 
+    .lashful {
+        margin-top: 120px;
+        margin-left: 25%;
+        font-size: 1.2em;
+    }
+
+    .newer_posts span{
+        position: fixed;
+        width: 20%;
+        font-size: 1em;
+        bottom: 590px !important;
+        margin-left: -30%;
+        font-family: 'Grand Hotel', cursive !important;
+        z-index: 500;
+    }
 
 
 }
