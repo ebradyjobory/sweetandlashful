@@ -345,6 +345,7 @@ white-space:nowrap;
 }
 .copyright-main{
 margin-top:220px;
+font-size: 1em !important;
 }
 .intro-menu li.menu-item-1 a:hover{
 background:url('flourish-1.png') no-repeat 100% 100%;
@@ -466,17 +467,29 @@ content:"";
 color:#2DCCD3;
 font-family:'Grand Hotel', cursive;
 margin-bottom:-0.5%;
+font-size: 2.5em;
+font-weight: 100;
 }
 .glass h2{
 color:#ecf0f1;
+font-weight: 100;
 font-family:'Quicksand', sans-serif;
-font-size:1.2em;
+font-size:1.7em;
 -webkit-font-size:5em;
 font-weight:bold;
 font-style:normal;
 margin-top:4%;
 letter-spacing:0.1em;
 }
+
+.contact-column-1-main span {
+	color: #FFF;
+	font-size: 1.2em !important;
+	font-weight: 100;
+	letter-spacing: 0px;
+	margin-top: -55% !important;
+}
+
 .glass h3{
 color:#ecf0f1;
 font-family:'Quicksand', sans-serif;
@@ -514,7 +527,7 @@ font-style:normal;
 color:#ecf0f1;
 font-family:'Quicksand', sans-serif;
 -webkit-font-size:90px;
-font-size:1em;
+font-size:1.2em;
 margin-top:4%;
 }
 .glass input{
@@ -537,6 +550,10 @@ padding-top:0%;
 .contact-column-2-main{
 padding-left:2%;
 padding-top:0%;
+}
+
+.contact-column-2-main p {
+	font-size: 1.3em;
 }
 .contact-column-3-main{
 padding-left:2%;
@@ -657,6 +674,13 @@ margin-left:0%;
 */
 /* About Page*/
 
+span {
+   font-family:'Quicksand', sans-serif;
+   font-weight: 500;
+   font-size: 0.9em;
+   letter-spacing: -3px;
+
+}
 
 .about-container{
 	position:absolute;
@@ -668,13 +692,31 @@ margin-left:0%;
 	text-decoration:none;
 	color:#FF8DA1;
 }
+
+.contact-column-1-main p {
+	margin-top: -3px;
+	margin-bottom: -3px;
+}
+
+.contact-column-1-main h2 {
+	font-size: 1.3em;
+	margin-bottom: 5px;
+}
+
+.contact-column-1-main h1 {
+	font-size: 1.9em;
+}
+
+.contact-column-1-main {
+font-size: 1.2em;
+}
 .about-container h1{
 	font-family:'Grand Hotel', cursive;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	font-size:2.8em;
 	font-weight: 100;
-	color:#FF8DA1;
+	color: #2DCCD3 !important;
 }
 .about-container p{
 	margin-top:-5%;
@@ -761,7 +803,7 @@ margin-left:-8% !important;
 .contact-column-1-main, .contact-column-2-main, .contact-column-3-main{
 width:20% !important;
 margin-top:-5%;
-font-size:1em;
+font-size:5em !important;
 }
 .contact-column-3-main{
 margin-left:10% !important;
@@ -800,6 +842,7 @@ top:70% !important;
 }
 .copyright-main{
 margin-top:70px !important;
+
 }
 .gallery-main{
 display:none;
