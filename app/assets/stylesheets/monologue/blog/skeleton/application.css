@@ -604,7 +604,7 @@ button:focus {outline:none;} button::-moz-focus-inner {border:0;}
 nav.menu {
     position: fixed;
     z-index: 200 !important;
-    background-image: linear-gradient(#111111, #333333);
+    background-color: #FF8DA1 !important;
     background-repeat: repeat no-repeat;
     overflow: hidden;
     -webkit-transition: all 0.3s;

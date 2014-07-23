@@ -25,10 +25,10 @@ background-color:white;
 */
 .statement p {
 	position: absolute;
-	margin-top: 10%;
-	left: 4%;
+	margin-top: 50px;
+	left: 12%;
 	color: #FF8DA1;
-	font-size: 4em;
+	font-size: 3em;
 	font-family:'Grand Hotel', cursive !important;
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

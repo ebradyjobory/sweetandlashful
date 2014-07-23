@@ -38,7 +38,7 @@ button:hover {
 nav.menu {
     position: fixed;
     z-index: 200;
-    background: #2DCCD3 !important;
+    background: #2DCCD3;
     background-repeat: repeat no-repeat;
     overflow: hidden;
     -webkit-transition: all 0.3s;
@@ -168,7 +168,7 @@ body.pmr-open #wrapper {
 
 .btn {
     
-    background-image: url('nav-icon.png');
+    background-image: url('nav-icon-teal.png');
     height: 3%;
     position: fixed;
     right: 5%;

@@ -8,6 +8,10 @@ target / context = result
 
  */
 
+ body {
+    background-color: #2DCCD3;
+ }
+
  .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
     margin: 0px 2% 1% 0px;
     float: left;
@@ -33,6 +37,7 @@ margin-top: 10%;
     margin-top: -41px;
     z-index: 1100 !important;
     background-color:rgba(0, 0, 0, 0);
+    background-image: url('nav-icon-teal');
     width: 25px;
 }
 
@@ -50,8 +55,8 @@ width: 100%;
 #top-nav-bar {
 width: 15%;
 position: fixed;
-margin-left: 70%;
-top: 1%;
+margin-left: 60%;
+top: 5px;
 z-index: 110;
 
 }
@@ -62,7 +67,7 @@ z-index: 110;
 }
 
 #top-nav-bar a{
- font-weight: 600 !important;
+font-weight: 600 !important;
 color: #444;
 font-family: 'Quicksand', sans-serif !important;
 }
@@ -112,8 +117,8 @@ z-index: 4441;
 
 #header-logo-3-store {
 position: fixed;
-top: 29px;
-left: 43%;
+top: 25px;
+left: 44%;
 z-index: 111;
 }
 
@@ -382,54 +387,65 @@ display: none;
 
 
 .cart-info {
-    margin-top: -22.5px !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #FF8DA1 !important;
+    margin-top: -22.8px !important;
     position: fixed;
-    left: 63.5%;
+    left: 80%;
     width: 160px;
     z-index: 200;
     font-family: 'Quicksand', sans-serif !important;
-    font-size: 1.5em !important;
+   
 }
 
 ul#products li a.info {
-    font-family: 'Grand Hotel', cursive;
-/*    -webkit-font-smoothing: antialiased !important;
-*/    height: 35px;
-    margin-top: 5px;
+    font-family: 'Quicksand', sans-serif !important;
+/*  -webkit-font-smoothing: antialiased !important;
+*/  height: 35px;
+    margin-top: 20px;
     font-size: 1.8em;
     font-weight: 100;
-    color: #FF8DA1;
-    border-bottom: 1px solid  #2DCCD3;
-    box-shadow: 0px 1.3px 0px #FF8DA1;
+    color: #F9F9F9;
+    border-bottom: none;
+    box-shadow: none;
     overflow: hidden;
 }
 
 #product-description .product-title {
-    font-family: 'Grand Hotel', cursive;
+    font-family: 'Quicksand', sans-serif !important;
 /*    -webkit-font-smoothing: antialiased !important;
 */    border-bottom: 1px solid  #2DCCD3;
-    box-shadow: 0px 1.3px 0px #FF8DA1;
-    margin-bottom: 15px;
-    box-shadow: 0px 1.3px 0px #FF8DA1;
-    color: #FF8DA1;
+   margin-top: 50px;
+    color: #F9F9F9;
     font-weight: 100;
     font-size: 2.5em !important;
 }
 
-.cart-title {
-    font-family: 'Grand Hotel', cursive;
-    /*-webkit-font-smoothing: antialiased !important;*/
-    color: #FF8DA1;
+#product-description {
+    margin-left: 5%;
+}
+
+/*.cart-title {
+    -webkit-font-smoothing: antialiased !important;
     font-weight: 100;
     font-size: 3em !important;
 }
-
+*/
 .cart-item-description a {
-    font-family: 'Grand Hotel', cursive;
+    font-family: 'Quicksand', sans-serif;
     /*-webkit-font-smoothing: antialiased !important;*/
-    color: #FF8DA1;
+    color: #F9F9F9;
     font-weight: 100;
     font-size: 1.5em !important;
+}
+
+/*#checkout_form_address input {
+    background-color: #FFF;
+}*/
+
+.checkbox {
+    background-color: #2DCCD3 !important;
 }
 
 
@@ -468,7 +484,7 @@ ul#products li .product-image {
 
 .price, .cart-item-price, .cart-item-total{
     font-family: 'Quicksand', sans-serif !important;
-    color: #2DCCD3 !important;
+    color: #F9F9F9 !important;
 }
 
 
@@ -509,11 +525,11 @@ border: none !important;
 }
 
 #link-to-cart a{
-color: #444 !important;
+color: #FF8DA1 !important;
 }
 
 #link-to-cart a:hover{
-color: #FF8DA1 !important;
+color: #2DCCD3 !important;
 }
 
 nav#top-nav-bar ul li a {
@@ -527,9 +543,6 @@ font-weight: 100;
 font-size: 16px;
 }*/
 
-.full {
-font-weight: 100 !important;
-}
 
 
 /*
@@ -791,11 +804,9 @@ margin-top: 3% !important;
 }*/
 
 
-/*#add-to-cart-button {
-    margin-top: 1%;
-    border-radius: 100%;
-    width: 23%;
-}*/
+#add-to-cart-button {
+    background-color: #FF8DA1;
+}
 
 /*.table-display {
     margin-left: 15%;
@@ -992,6 +1003,14 @@ label, .account-summary, .account-my-orders {
     font-family: 'Grand Hotel', cursive !important;
     font-size: 1em;
 
+}
+
+nav.menu {
+    position: fixed;
+    z-index: 200;
+    background: none repeat scroll 0% 0% #FF8DA1 !important;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
 }
 
 /*#content h1 {
@@ -1255,7 +1274,7 @@ label, .account-summary, .account-my-orders {
 .gallery-store {
     position: absolute;
     margin-top: -55px !important;
-    margin-left: -12% !important;
+    margin-left: -9% !important;
 }
 
 .h3 {
