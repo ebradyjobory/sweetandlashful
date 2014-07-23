@@ -1,7 +1,7 @@
 <section>
   <%= render partial: 'monologue/posts/post_header', locals: {post: post} %>
 
-  <div class="content" data-monologue="content">
+  <div class="inner-content" data-monologue="content">
     <%= truncate_html(post.content, length: 100, omission: '...') %>
   </div>
 

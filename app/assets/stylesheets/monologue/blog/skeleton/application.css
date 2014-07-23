@@ -79,7 +79,7 @@ width: 100%;
     margin-top: 20px;
     margin-left: 2%;
     margin-right: 4%;
-    width: 100%;
+    width: 90%;
     text-align: left !important;
 }
 
@@ -300,8 +300,9 @@ z-index: 99;
 .post-header h1{
     line-height: 80%;
     margin-left: 50px;
+    margin-bottom: 30px !important;
     text-align: left !important;
-    width: 200% !important;
+    width: 90% !important;
     margin-left: 0px !important;
 }
 
@@ -341,7 +342,7 @@ text-align: left !important;
 span.user {
     top: -25px;
     width: 50% !important;
-    margin-left: 8px !important;
+    margin-left: 5px !important;
     font-size: 0.6em;
     position: absolute;
 }
@@ -461,6 +462,14 @@ margin-top: 0px;
 margin-left: 190px;
 }
 
+.show_post .content {
+    margin-left: 150px;
+}
+
+
+.show_post .content p{
+    margin-left: -5px;
+}
 
 
 .monologue-social-sharing {
@@ -553,15 +562,15 @@ position: fixed;
 width: 10%;
 font-size: 1em;
 bottom: 590px !important;
-margin-left: -35%;
+margin-left: -28%;
 font-family: 'Grand Hotel', cursive !important;
 z-index: 500;
 }
 
-.newer_posts span:hover {
+/*.newer_posts span:hover {
 color: #2DCCD3;
 
-}
+}*/
 
 svg {
 display: none;
@@ -1045,7 +1054,7 @@ width: 20px;
 
 
     time {
-    margin-left: 170px !important;
+    margin-left: 160px !important;
     }
 
     .background img {
@@ -1058,7 +1067,7 @@ width: 20px;
     }
 
     span.user {
-     margin-left: 20px !important;
+     margin-left: 8px !important;
     }
 
     .post-header {
@@ -1073,6 +1082,11 @@ width: 20px;
     .monologue-social-sharing {
      display: none;
     }
+
+    .content {
+        width: 90%;
+    }
+
 
     .content p {
      width: 380% !important;
@@ -1195,13 +1209,45 @@ width: 20px;
 
     .newer_posts span{
         position: fixed;
-        width: 20%;
-        font-size: 1em;
-        bottom: 590px !important;
+        width: 30%;
+        font-size: 0.7em;
+        bottom: 520px !important;
         margin-left: -30%;
         font-family: 'Grand Hotel', cursive !important;
         z-index: 500;
     }
+     .older_posts span{
+        position: fixed;
+        margin-left: 200px;
+        width: 30%;
+        font-size: 0.7em;
+        top: 98px;
+        font-family: 'Grand Hotel', cursive !important;
+        z-index: 500;
+    }
+
+
+    .inner-content p{
+        width: 10% !important;
+    }
+
+    .post-header h1{
+    
+    width: 20% !important;
+   }
+
+   .content, .content a{
+     font-size: 0.9em;
+   }
+
+   span.user {
+    margin-left: 0px !important;
+   }
+
+ /*  #on {
+    width: 100% !important;
+   }*/
+
 
 
 }
