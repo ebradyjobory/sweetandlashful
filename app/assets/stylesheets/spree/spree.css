@@ -126,10 +126,10 @@ z-index: 111;
 width: 100%;
 position: fixed;
 background-color: #F9F9F9;
-border-bottom: 1.5px solid #2DCCD3;
+border-bottom: 0.1px solid #2DCCD3;
 height: 70px;
 z-index: 100;
-box-shadow: 2px 2px 3px #FF8DA1 !important;
+box-shadow: 2px 2px 3px #F9F9F9 !important;
 }
 
 .primary-header li {
@@ -460,7 +460,7 @@ ul#products li .price {
 
 ul#products  {
     width: 100%;
-    margin-left: 40%;
+    margin-left: 38%;
 }
 
 #products li {
@@ -999,6 +999,10 @@ label, .account-summary, .account-my-orders {
     margin-top: -10%;
 }
 
+.nav-slide-right {
+    z-index: 5500 !important;
+}
+
 .nav-slide-right a{
     font-family: 'Grand Hotel', cursive !important;
     font-size: 1em;
@@ -1485,7 +1489,7 @@ display: block ;
     }
 
     #header-logo-3-store, #header-logo-2 {
-       margin-left: -12% !important;
+       margin-left: -5% !important;
 
     }
 
@@ -1496,18 +1500,25 @@ display: block ;
 
     ul#products  {
         width: 100%;
-        margin-left: 85px !important;
+        margin-left: 30% !important;
+    }
+
+    #top-nav-bar {
+        left: -120px !important;
+        width: 30%;
     }
 
 
     #link-to-login {
         position: absolute;
-        left: -540px !important;
+        left: -640px !important;
     }
 
-    .primary-header {
+    /*.primary-header {
         display: none;
-    }
+    }*/
+
+
 
     #top-nav-bar {
         margin-left: 550px !important;
@@ -1566,9 +1577,9 @@ display: block ;
     }
 
     .cart-info {        
-        margin-top: 20px !important;
+        margin-top: -20px !important;
         left: 28px !important;
-        width: 50px;
+        width: 30%;
     }
 
     #link-to-cart li {
@@ -1580,9 +1591,11 @@ display: block ;
 
 
 @media only screen and (max-width : 400px) {
+
+
   ul#products  {
-        width: 50%;
-        margin-left: 85px !important;
+        width: 30%;
+        margin-left: 23% !important;
     }
 
     .background  {
@@ -1610,6 +1623,30 @@ display: block ;
     .social-media {
         margin-left: 20%;
     }
+
+    .cart-info {
+        width: 30% !important;
+        font-size:1em !important;
+        margin-top: -45px !important;
+        margin-left: -20px !important;
+    }
+
+    #top-nav-bar {
+        position: fixed;
+        left: -555px !important;
+        top: 8px;
+        width: 30%;
+    }
+
+    #header-logo-3-store, #header-logo-2 {
+       margin-left: -10% !important;
+
+    }
+
+    #header-logo-3-store {
+        margin-left: -20px !important;
+    }
+
 
 
 

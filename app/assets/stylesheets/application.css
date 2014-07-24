@@ -160,7 +160,7 @@ background-position:0% 100%;
 }
 #second-about{
 height:650px;
-background:url('background-grey copy.png') no-repeat center center fixed;
+background:url('background-grey.png') no-repeat center center fixed;
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
 -moz-background-size:cover;
 -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -865,6 +865,13 @@ display:none;
 	left: 40% !important;
 }
 
+.statement p {
+	position: absolute;
+	margin-top: 50px;
+	left: 5%;
+	
+}
+
 }
 
 
@@ -941,6 +948,12 @@ top:47%;
 .arrow-who img{
 	left: 40% !important;
 }
+.statement p {
+	position: absolute;
+	margin-top: 250px;
+	left: 30%;
+	
+}
 
 }
 
@@ -986,4 +999,11 @@ top:47%;
 		font-size: 0.9em !important;
 		margin-top: 50px !important;
 	}
+
+	.statement p {
+	position: absolute;
+	margin-top: 250px;
+	left: 20%;
+	
+    }
 
