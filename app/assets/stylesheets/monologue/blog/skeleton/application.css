@@ -77,7 +77,7 @@ width: 100%;
 .content {
     position: absolute;
     margin-top: 20px;
-    margin-left: 2%;
+    margin-left: 2%; 
     margin-right: 4%;
     width: 90%;
     text-align: left !important;
@@ -386,6 +386,7 @@ background-color: rgba(231, 76, 60, 0.4);
     border-top: none;
 
 }
+
 
 .blog-container section {
 width: 50px;
@@ -1134,6 +1135,10 @@ width: 20px;
         margin-top: 20px;
         margin-left: 2%;
         font-size: 1.8em;
+    }
+
+     #link-to-login {
+        top: 50%;
     }
 
 
