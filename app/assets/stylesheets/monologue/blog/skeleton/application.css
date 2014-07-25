@@ -17,6 +17,7 @@
 
 
 body {
+    background-color: #2DCCD3 !important;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     color: #404042;
@@ -85,7 +86,7 @@ width: 100%;
 
 
 .post-header {
-border-top: 1px #FF8DA1 solid !important;
+border-top: 1px #444 solid !important;
 }
 
 .content img {
@@ -189,10 +190,10 @@ z-index: 111;
 width: 110%;
 position: fixed;
 background-color: #F9F9F9;
-border-bottom: 1.5px solid #2DCCD3;
+/*border-bottom: 1.5px solid #2DCCD3;*/
 height: 57px;
 z-index: 100;
-box-shadow: 1px 2px 3px #FF8DA1 !important;
+/*box-shadow: 1px 2px 3px #FF8DA1 !important;*/
 margin-left: -2%;
 margin-top: -0.7%;
 padding-bottom: 1.1%;
@@ -265,8 +266,8 @@ right: 15%;
 
 #header-logo-3-store {
 position: fixed;
-top: 73px;
-left: 43%;
+top: 69px;
+left: 44%;
 z-index: 111;
 }
 
@@ -298,6 +299,7 @@ z-index: 99;
  
 
 .post-header h1{
+
     line-height: 80%;
     margin-left: 50px;
     margin-bottom: 30px !important;
@@ -307,6 +309,7 @@ z-index: 99;
 }
 
 .post-header a{
+     color: #444 !important;
 margin-left: 0px;
 text-align: left !important;
 }
@@ -340,6 +343,7 @@ text-align: left !important;
 }
 
 span.user {
+    color: #F9F9F9;
     top: -25px;
     width: 50% !important;
     margin-left: 5px !important;
@@ -501,6 +505,7 @@ width: 70px;
 .return a {
 font-family: 'Grand Hotel', cursive !important;
 font-size: 1.3em !important;
+color: #444;
 }
 
 p.return {
@@ -511,7 +516,7 @@ p.return {
 
 
 .return a:hover {
-color: #FF8DA1;
+color: #F9F9F9;
     
 }
 
