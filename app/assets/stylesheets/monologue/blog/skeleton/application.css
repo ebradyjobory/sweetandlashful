@@ -823,6 +823,13 @@ body.pmr-open #wrapper {
     margin-left: 1% !important;
 }
 
+.contact-column-3-blog input {
+    color: #F9F9F9 !important;
+    font-size: 0.6em;
+    font-weight: 800 !important;
+}
+
+
 .info-store ul {
     margin-right: 20px !important;
     font-family: 'Quicksand', sans-serif;

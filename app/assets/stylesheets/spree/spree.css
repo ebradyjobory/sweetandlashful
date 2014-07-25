@@ -129,7 +129,7 @@ background-color: #F9F9F9;
 /*border-bottom: 0.1px solid #2DCCD3;
 */height: 70px;
 z-index: 100;
-box-shadow: 2px 2px 3px #444 !important;
+/*box-shadow: 2px 2px 3px #444 !important;*/
 }
 
 .primary-header li {
@@ -431,9 +431,9 @@ ul#products li a.info {
     margin-left: 5%;
 }
 
-.cart-title, .line-item-description {
+.cart-title, .line-item-description, .columns {
     -webkit-font-smoothing: antialiased !important;
-    font-family: "Quicksand",sans-serif;
+    font-family: "Quicksand",sans-serif !important;
     color: #404042;
 }
 
@@ -506,10 +506,9 @@ tr.cart-total, tr.cart-subtotal, #line-items thead, tr.cart-subtotal h5, .cart_i
 }
 
 #update-button {
-    background-color: #404042;
+    background-color: #F9F9F9 !important;
+    color: #FF8DA1 !important;
     font-family: 'Quicksand', sans-serif !important;
-
-
 
 }
 #checkout, #line-items  {
@@ -530,8 +529,9 @@ tr.cart-total, tr.cart-subtotal, #line-items thead, tr.cart-subtotal h5, .cart_i
 
 
 .continue, .current, .current-first, .primary {
-    background-color: #FF8DA1 !important;
+    background-color: #F9F9F9 !important;
     box-shadow: none !important;
+    color: #FF8DA1 !important;
     border: none !important;
 }
 
@@ -551,7 +551,7 @@ tr.cart-total, tr.cart-subtotal, #line-items thead, tr.cart-subtotal h5, .cart_i
     color: #FFF;
 }
 
-tr.cart-total h5, .row{
+tr.cart-total h5, .row, .row h1{
     color: #404042;
     font-family: 'Quicksand', sans-serif !important;
 
@@ -581,7 +581,7 @@ nav #main-nav-bar li#link-to-cart {
 */
 
 #checkout-link {
-    background-color: #FF8DA1 !important;
+    background-color: #444 !important;
     font-family: 'Quicksand', sans-serif !important;
 
 }
@@ -762,7 +762,8 @@ font-family: 'Grand Hotel', cursive !important;
 }
 
 #clear_cart_link input, #clear_cart_link a {
-    background-color: #FF8DA1 !important;
+    background-color: #F9F9F9 !important;
+    color: #FF8DA1 !important;
     border: none;
     box-shadow: none;
     font-family: 'Quicksand', sans-serif;
@@ -885,8 +886,9 @@ margin-top: 3% !important;
 
 
 #add-to-cart-button {
-    background-color: #FF8DA1;
+    background-color: #F9F9F9 !important;
     margin-top: 2px;
+    color: #FF8DA1;
 }
 
 /*.table-display {
@@ -1073,6 +1075,11 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
 
 .contact-column-3 h3 {
     font-size: 1.4em !important;
+}
+
+.contact-column-3 input {
+    color: #F9F9F9 !important;
+    font-weight: 800 !important;
 }
 
 label, .account-summary, .account-my-orders {
