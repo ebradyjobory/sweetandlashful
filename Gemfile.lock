@@ -22,7 +22,7 @@ GIT
 
 GIT
   remote: https://github.com/jetsgit/spree_tax_cloud
-  revision: a11fd9909dcf14c805394f84148632bb90e43186
+  revision: 6cfec69d7253cf3706fa4a87b0931cd1152f123d
   branch: 2-2-beta
   specs:
     spree_tax_cloud (2.1.0)

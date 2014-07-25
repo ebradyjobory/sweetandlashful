@@ -35,7 +35,7 @@ margin-top: 10%;
 
 .store-button {
     margin-top: -41px;
-    z-index: 1100 !important;
+    z-index: 6000 !important;
     background-color:rgba(0, 0, 0, 0);
     background-image: url('nav-icon-teal');
     width: 25px;
@@ -126,10 +126,10 @@ z-index: 111;
 width: 100%;
 position: fixed;
 background-color: #F9F9F9;
-border-bottom: 0.1px solid #2DCCD3;
-height: 70px;
+/*border-bottom: 0.1px solid #2DCCD3;
+*/height: 70px;
 z-index: 100;
-box-shadow: 2px 2px 3px #F9F9F9 !important;
+box-shadow: 2px 2px 3px #444 !important;
 }
 
 .primary-header li {
@@ -385,6 +385,10 @@ display: none;
     display: none;
 }
 
+.line-item {
+    background-color: #2DCCD3 !important;
+}
+
 
 .cart-info {
     font-weight: 600 !important;
@@ -426,12 +430,12 @@ ul#products li a.info {
     margin-left: 5%;
 }
 
-/*.cart-title {
+.cart-title, .line-item-description {
     -webkit-font-smoothing: antialiased !important;
-    font-weight: 100;
-    font-size: 3em !important;
+    font-family: "Quicksand",sans-serif;
+    color: #404042;
 }
-*/
+
 .cart-item-description a {
     font-family: 'Quicksand', sans-serif;
     /*-webkit-font-smoothing: antialiased !important;*/
@@ -460,7 +464,7 @@ ul#products li .price {
 
 ul#products  {
     width: 100%;
-    margin-left: 38%;
+    margin-left: 25%;
 }
 
 #products li {
@@ -492,12 +496,69 @@ ul#products li .product-image {
 
 /*.cart-total h5 {
     font-size: 1.8em !important;
+}*/
+
+tr.cart-total, tr.cart-subtotal, #line-items thead, tr.cart-subtotal h5, .cart_items_headers, .stock-location, .stock-shipping-method-title{
+    background-color: #F9F9F9 !important;
+    color: #444 !important;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
-tr.cart-total {
-    background-color: #FF8DA1;
+#update-button {
+    background-color: #404042;
+    font-family: 'Quicksand', sans-serif !important;
+
+
+
 }
-*/
+#checkout, #line-items  {
+    font-family: 'Quicksand', sans-serif !important;
+}
+#line-items .price {
+    color: #444 !important;
+}
+#line-items h4, .price span, .total span{
+    font-weight: 100;
+    color: #F9F9F9 !important;
+}
+
+
+#line-items td {
+    color: #444;
+}
+
+
+.continue, .current, .current-first, .primary {
+    background-color: #FF8DA1 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#billing legend, .rate-cost, #order_summary legend, .steps-data a,  #payment legend, #order_details legend,  #shipping legend, #checkout-summary span, #checkout-summary strong, #shipping_method legend{
+    color: #444 !important;
+
+}
+
+.progress-steps li {
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.progress-steps li.completed-first, .progress-steps li.completed{
+    background-color: #2DCCD3 !important;
+    color: #FFF;
+}
+
+tr.cart-total h5, .row{
+    color: #404042;
+    font-family: 'Quicksand', sans-serif !important;
+
+}
+.cart_items_headers th {
+    color: #404042;
+}
+
 nav #main-nav-bar li#link-to-cart {
 
     z-index: 0;
@@ -516,6 +577,8 @@ nav #main-nav-bar li#link-to-cart {
 
 #checkout-link {
     background-color: #FF8DA1 !important;
+    font-family: 'Quicksand', sans-serif !important;
+
 }
 
 nav #main-nav-bar {
@@ -693,6 +756,18 @@ font-family: 'Grand Hotel', cursive !important;
 
 }
 
+#clear_cart_link input, #clear_cart_link a {
+    background-color: #FF8DA1 !important;
+    border: none;
+    box-shadow: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#order_coupon_code  {
+    font-family: 'Quicksand', sans-serif;
+    width: 15%;
+}
+
 .cart_items_headers {
     background-color: rgba(236, 240, 241, 10) !important;
 }
@@ -806,6 +881,7 @@ margin-top: 3% !important;
 
 #add-to-cart-button {
     background-color: #FF8DA1;
+    margin-top: 2px;
 }
 
 /*.table-display {
@@ -983,7 +1059,11 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
 #existing-customer h6 {
     text-transform: lowercase;
     font-size: 1.5em;
-    color: #FF8DA1
+    color: #404042;
+}
+
+#existing-customer a, #new-customer a {
+     color: #404042;
 }
 
 .contact-column-3 h3 {
@@ -997,6 +1077,7 @@ label, .account-summary, .account-my-orders {
 
 #content {
     margin-top: -10%;
+    margin-left: 10%;
 }
 
 .nav-slide-right {
