@@ -406,10 +406,11 @@ display: none;
 ul#products li a.info {
     font-family: 'Quicksand', sans-serif !important;
 /*  -webkit-font-smoothing: antialiased !important;
-*/  height: 35px;
+*/  height: 45px;
     margin-top: 20px;
     font-size: 1.8em;
     font-weight: 100;
+    line-height: 25px;
     color: #F9F9F9;
     border-bottom: none;
     box-shadow: none;
@@ -534,7 +535,7 @@ tr.cart-total, tr.cart-subtotal, #line-items thead, tr.cart-subtotal h5, .cart_i
     border: none !important;
 }
 
-#billing legend, .rate-cost, #order_summary legend, .steps-data a,  #payment legend, #order_details legend,  #shipping legend, #checkout-summary span, #checkout-summary strong, #shipping_method legend{
+#billing legend, #user-info a, .rate-cost, #order_summary legend, .steps-data a,  #payment legend, #order_details legend,  #shipping legend, #checkout-summary span, #checkout-summary strong, #shipping_method legend{
     color: #444 !important;
 
 }
@@ -555,8 +556,12 @@ tr.cart-total h5, .row{
     font-family: 'Quicksand', sans-serif !important;
 
 }
-.cart_items_headers th {
-    color: #404042;
+.cart_items_headers th, .order-summary tr{
+    color: #404042 !important;
+}
+
+.order-number a {
+    color: #FF8DA1 !important;
 }
 
 nav #main-nav-bar li#link-to-cart {
