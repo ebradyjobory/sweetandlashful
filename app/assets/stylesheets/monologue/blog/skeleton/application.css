@@ -15,6 +15,13 @@
 .blog-container
 }*/
 
+.content article h2, .content article h3, .content article h4, .content article h5, .content article h6, .content section h2, .content section h3, .content section h4, .content section h5, .content section h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 5px;
+}
 
 body {
     background-color: #2DCCD3 !important;
@@ -142,7 +149,7 @@ font-weight: normal;
 .blog-container time {
 font-family: 'Quicksand', sans-serif;
 font-weight: normal;
-color: #444;
+color: #F9F9F9;
 }
 
 
@@ -150,7 +157,6 @@ color: #444;
 font-family: 'Quicksand', sans-serif;
 font-weight: normal !important;
 color: #FF8DA1;
-font-size: 0.55em;
 }
 
 .blog-container a {
@@ -309,9 +315,9 @@ z-index: 99;
 }
 
 .post-header a{
-     color: #444 !important;
-margin-left: 0px;
-text-align: left !important;
+    color: #F9F9F9 !important;
+    margin-left: 0px;
+    text-align: left !important;
 }
 
 .posted {
@@ -331,9 +337,9 @@ font-weight: 800 !important;
 time {
 font-size: 1em !important;
 top: -25px;
-width: 150px;
-margin-left: 165px;
-font-size: 1em !important;
+width: 180px;
+margin-left: 155px;
+font-size: 0.6em !important;
 position: absolute; ;
 }
 
