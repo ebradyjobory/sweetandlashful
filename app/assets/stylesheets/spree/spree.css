@@ -129,7 +129,7 @@ background-color: #F9F9F9;
 /*border-bottom: 0.1px solid #2DCCD3;
 */height: 70px;
 z-index: 100;
-/*box-shadow: 2px 2px 3px #444 !important;*/
+box-shadow: 2px 2px 3px #7f8c8d !important;
 }
 
 .primary-header li {
