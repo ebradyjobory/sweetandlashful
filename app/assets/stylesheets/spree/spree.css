@@ -1229,6 +1229,11 @@ nav.menu {
     padding-bottom: -50% !important;
     padding-top: -50% !important;
 }
+
+.contact-column-1-store h1, .contact-column-2 h1, .contact-column-3 h1  {
+   font-family: 'Grand Hotel', cursive !important;
+
+}
 .contact-column-1-store p {
     margin-top: -5px;
     margin-bottom: -5px;
@@ -1604,7 +1609,7 @@ display: block ;
 
     #link-to-login {
         position: absolute;
-        left: -640px !important;
+        right: 80px !important;
     }
 
     /*.primary-header {
@@ -1738,6 +1743,11 @@ display: block ;
 
     #header-logo-3-store {
         margin-left: -20px !important;
+    }
+
+    #link-to-login {
+        top: 15px;
+        right: -20px !important;
     }
 
 

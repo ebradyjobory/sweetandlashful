@@ -705,11 +705,18 @@ span {
 
 }
 
+.about_image {
+        width: 15%;
+        height: 5%;
+        margin-left: 43%;
+    }
+
 .about-container{
 	position:absolute;
-	margin:15% 25% 0 14%;
+	margin:13% 25% 0 20%;
 	text-align:justify;
 }
+
 .about-container a{
 	margin-left:0%;
 	text-decoration:none;

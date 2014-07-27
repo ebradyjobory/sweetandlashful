@@ -14,9 +14,11 @@
       <div class="content" data-monologue="content">
         <%= raw @post.content %>
       </div>
+      <%= image_tag('flourish_blog.png', :class => 'blog_image') %>
+
 
       <p class="return">
-         <%= link_to " <~ Back to main page", root_url %>
+         <%= link_to "Back to main page", root_url %>
       </p>
 
 <!-- 

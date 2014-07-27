@@ -10,7 +10,7 @@
       <%= image_tag("background-grey-2.svg")%>
 </div> -->
       
-
+  
   <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
@@ -27,28 +27,17 @@
 
     <div class="primary-header">
 
-          <div class="grid_6 clearfix main-menu-store">
-              <ul>
-                    <li class="main-menu-item-1-store"><%= link_to "Shop", "/store", :class => "" %></li>
-                    <li class="main-menu-item-2-store"><%= link_to "Services", "#", :class => "" %></li>
-                    <li class="main-menu-item-3-store"><%= link_to "About", "/#second-about", :class => "" %></li>
-                    <li class="main-menu-item-5-store"><%= link_to "Lashful Thinking", "/blog", :class => "" %></li>
-                    <li class="main-menu-item-5-store"><%= link_to "Contact Us", "/pages/contact"%></li>
-              </ul>
-          </div>  <!-- .main-menu -->
+         
     </div>  <!-- main-header -->
 
   <body>
     <div class="blog-container">
-
-
       <div class="content twelve columns">
         <% flash.each do |name, msg| %>
           <div class="flash-notice">
             <%= msg %>
           </div>
         <% end %>
-
         <%= yield %>
       </div>
   </div>
@@ -219,7 +208,12 @@
                 $('.lashful').html(lashful);
 
               </script>
-
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<%= javascript_include_tag "jquery.fittext", "data-turbolinks-track" => true %>
+<script>
+  $(".lashful").fitText(1);
+</script>
+ -->
 
 
 

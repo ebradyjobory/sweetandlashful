@@ -1,14 +1,10 @@
 <header class="post-header">
   <h1><%= link_to post.title, post.full_url %></h1>
   <div class="posted">
-    <span data-monologue="time">
-      <time datetime="<%= post.published_at %>">
+   <span class="user" data-monologue="user">
+     <p><%= post.user.name %> <span>on</span> <time datetime="<%= post.published_at %>">
         <%= I18n.localize(post.published_at.to_date, format: :long) %>
-      </time>
-    </span>
-
-    <span class="user" data-monologue="user">
-      <%= post.user.name %>  <p id="on">On</p>
+      </time></p>
     </span>
 
     <span data-monologue="disqus">
