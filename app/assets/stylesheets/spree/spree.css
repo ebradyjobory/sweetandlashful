@@ -528,7 +528,8 @@ tr.cart-total, tr.cart-subtotal, #line-items thead, tr.cart-subtotal h5, .cart_i
 }
 
 
-.continue, .current, .current-first, .primary {
+.continue, .current, .current-first, .primary, .button {
+    font-family: 'Quicksand', sans-serif !important;
     background-color: #F9F9F9 !important;
     box-shadow: none !important;
     color: #FF8DA1 !important;
