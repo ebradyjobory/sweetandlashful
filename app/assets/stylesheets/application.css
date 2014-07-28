@@ -769,6 +769,10 @@ top:71%;
 left:44%;
 list-style:none;
 }
+
+.hello {
+	display: none;
+}
 .who-we-are a{
 text-decoration:none !important;
 font-family:'Grand Hotel', cursive;
