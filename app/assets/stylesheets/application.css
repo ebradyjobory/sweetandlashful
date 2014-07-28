@@ -55,9 +55,7 @@ box-shadow:none;
 button:focus{
 outline:none;
 }
-button::-moz-focus-inner{
-border:0;
-}
+
 #main-wrapper{
 height:auto !important;
 height:100%;
@@ -152,19 +150,19 @@ z-index:-3;
 #intro{
 height:800px;
 background:url('background-sample-2b.png') no-repeat center center fixed;
--webkit-background-size:/*@@prefixmycss->No equivalent*/;
+-webkit-background-size: cover;
 -moz-background-size:cover;
--o-background-size:/*@@prefixmycss->No equivalent*/;
-background-size:cover;
+-o-background-size: cover;
+background-size: cover;
 background-position:0% 100%;
 }
 #second-about{
 height:650px;
 /*background:url('background-grey.png') no-repeat center center fixed;*/
--webkit-background-size:/*@@prefixmycss->No equivalent*/;
+-webkit-background-size: cover;
 -moz-background-size:cover;
--o-background-size:/*@@prefixmycss->No equivalent*/;
-background-size:cover;
+-o-background-size: cover;
+background-size: cover;
 background-position:0% 50%;
 }
 #second-about ~ .glass{
@@ -472,10 +470,10 @@ height:53%;
 background:url('background-sample-2-blurry-h.png');
 background-position:center bottom;
 background-attachment:fixed;
--webkit-background-size:/*@@prefixmycss->No equivalent*/;
+-webkit-background-size: cover;
 -moz-background-size:cover;
--o-background-size:/*@@prefixmycss->No equivalent*/;
-background-size:cover;
+-o-background-size: cover;
+background-size: cover;
 content:"";
 }
 .glass h1{
@@ -763,7 +761,7 @@ font-size: 1.2em;
 }
 .main-button{
 margin-top:3px;
-background-color:rgba(0, 0, 0, 0);
+/*background-color:rgba(0, 0, 0, 0);*/
 }
 .who-we-are{
 position:absolute;
@@ -1034,4 +1032,6 @@ top:47%;
 	left: 20%;
 	
     }
+
+}
 
