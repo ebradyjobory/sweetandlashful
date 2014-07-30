@@ -8,6 +8,12 @@ target / context = result
 
  */
 
+.slide_image {
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+
  body {
     background-color: #2DCCD3;
  }
@@ -16,6 +22,17 @@ target / context = result
     margin: 0px 2% 1% 0px;
     float: left;
     display: block;
+}
+
+#user-info {
+    margin-bottom: 15px;
+    border: 1px solid #F9F9F9;
+    padding: 10px;
+}
+
+table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
+    background-color: #2DCCD3 !important;
+
 }
 
 .grid_12 {
@@ -815,7 +832,21 @@ font-family: 'Grand Hotel', cursive !important;
 }
 
 .cart_items_headers {
-    background-color: rgba(236, 240, 241, 1) !important;
+    background-color: #F9F9F9 !important;
+}
+
+table thead, #shipping_method table.stock-contents thead {
+    background-color: #F9F9F9;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+}
+
+.existing-credit-card-list {
+    color: #F9F9F9;
+}
+
+.stock-location {
+    display: none;
 }
 
 

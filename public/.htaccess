@@ -4,5 +4,5 @@ PassengerResolveSymlinksInDocumentRoot on
 #Set this to whatever environment you'll be running in
 RailsEnv production
 RackBaseURI /
-SetEnv /home4/aesthez6/ruby/gems
+SetEnv /home4/aesthez6/ruby/gems/2.0.0
 </IfModule>
