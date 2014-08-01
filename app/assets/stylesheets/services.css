@@ -1,0 +1,275 @@
+
+.primary-header-services {
+	position:fixed;
+	background-color:#F9F9F9;
+	border: none !important;
+	box-shadow: none !important;
+	/*border-bottom:1.5px solid #2DCCD3;*/
+	/*-webkit-box-shadow:0px 2px 3px #444 !important;
+	-moz-box-shadow:0px 2px 3px #444 !important;*/
+	box-shadow: 2px 2px 3px #7f8c8d !important;
+	width:100%;
+	height:70px !important;
+}
+
+#header-logo-3-store {
+	
+	margin-top: 44px !important;
+}
+
+.copyright-blog {
+	margin-top: 4px !important;
+}
+
+
+.glass-blog {
+	font-size: 1.2em;
+}
+
+.contact-column-2-blog address, .contact-column-2-blog p {
+	font-size: 1em;
+}
+
+
+.contact-column-1-blog span {
+	letter-spacing: 0.8px;
+
+}
+
+.contact-column-1-blog h2 {
+	margin-bottom: 20px !important;
+
+}
+
+.contact-column-1-blog, .contact-column-2-blog, .contact-column-3-blog {
+	margin-top: 2px !important;
+}
+
+.social-blog {
+	margin-top: 10px;
+}
+
+.gallery-blog {
+	position: absolute;
+	top: 3px;
+	right: 600px;
+}
+
+
+.contact-column-1-blog p {
+	margin-top: -15px !important;
+}
+
+.contact-column-3-blog input {
+	height: 30px !important;
+	width: 200px !important;
+	font-weight: 500 !important;
+	border: none !important;
+}
+
+@media only screen and (max-width : 1000px){
+.menu-item-1 {
+		margin-left:-10% !important;
+}
+.menu-item-3{
+margin-left:30% !important;
+}
+.intro-contact{
+width:20% !important;
+margin-left:-10% !important;
+}
+#header-logo-1{
+margin-left:-8% !important;
+}
+.contact-column-1-blog, .contact-column-2-blog, .contact-column-3-blog{
+width:20% !important;
+margin-top:-5%;
+
+}
+.contact-column-3-blog{
+margin-left:10% !important;
+}
+.contact-column-2-blog{
+margin-left:15% !important;
+}
+.contact-footer img{
+margin-right:5% !important;
+width:5%;
+}
+/*#header-logo-2-blog, #header-logo-3-store-blog{
+right:50% !important;
+}
+*/
+	#blog-wrapper .blog-menu-store{
+margin-left:-50px !important;
+padding-right:-10px !important;
+}
+.blog-button{
+display:block;
+}
+.who-we-are{
+left:35%;
+}
+/*
+    .arrow-who img{
+right:56%;
+top:47%;
+}
+*/
+
+    .footer-blog{
+position:absolute;
+top:70% !important;
+}
+.copyright-blog{
+margin-top:70px !important;
+
+}
+.gallery-blog{
+display:none;
+}
+
+.arrow-who img{
+	left: 40% !important;
+}
+
+.statement p {
+	position: absolute;
+	margin-top: 50px;
+	left: 5%;
+	
+}
+
+}
+
+
+@media only screen and (max-width : 800px){
+.glass input {
+    	width:200px !important;
+margin-left:100% !important;
+}
+.social-media{
+width:200px;
+margin-left:100% !important;
+}
+.blog-button{
+display:block;
+}
+.intro-contact{
+display:none !important;
+}
+#header-logo-1{
+margin-left:-90px !important;
+}
+.primary-header-index-about, .intro-menu, .blog-menu-store{
+display:none !important;
+}
+/*#blog-wrapper #header-logo-2-blog, #blog-wrapper #header-logo-3-store-blog{
+margin-left:20px;
+}
+*/
+
+	.intro-contact{
+margin-left:-20% !important;
+width:50% !important;
+margin-top:15% !important;
+}
+.intro-contact-footer img{
+margin-right:5% !important;
+width:10%;
+}
+.contact-column-1-blog{
+width:20% !important;
+margin-top:-5%;
+font-size:0.8em;
+}
+
+
+.contact-column-2-blog{
+width:35% !important;
+margin-left:30% !important;
+font-size:0.8em;
+}
+.contact-column-3-blog h1, .contact-column-3-blog h3, .contact-column-3-blog input{
+display:none;
+}
+/*.social-media{
+width:200%;
+margin-top:110%;
+margin-left:-45%;
+}
+*/
+
+
+
+	.about-container{
+font-size:0.8em;
+}
+.who-we-are{
+left:35%;
+}
+/*.arrow-who img{
+right:60%;
+top:47%;
+}
+*/
+.arrow-who img{
+	left: 40% !important;
+}
+.statement p {
+	position: absolute;
+	margin-top: 250px;
+	left: 30%;
+	
+}
+
+}
+
+@media only screen and (max-width : 400px){
+
+	.arrow-who img {
+		right:48% !important;
+	}
+	.who-we-are{
+        left:30%;
+	}
+	.footer-blog ul{
+		width:350px !important;
+		margin-top:-40px !important;
+		margin-left:-100px !important;
+	}
+	.glass input{
+		display:none !important;
+	}
+	.contact-column-1-blog {
+		width: 70px !important;
+	}
+	.contact-column-2-blog address{
+		font-size:1em !important;
+	}
+	.contact-column-2-blog p{
+		font-size:1em !important;
+	}
+	.copyright-blog{
+		margin-top: 25px !important;
+		margin-left:50px !important;
+	}
+
+	#header-logo-2-blog {
+		margin-left: -20% !important;
+	}
+	#header-logo-3-store-blog {
+		margin-left: -16% !important;
+	}
+
+	.footer-blog ul {
+		margin-left: -160px !important;
+	}
+
+	.copyright-blog {
+		font-size: 0.9em !important;
+		margin-top: 50px !important;
+	}
+
+
+}

@@ -153,7 +153,7 @@ z-index:-3;
 }
 #intro{
 height:800px;
-background:url('background-sample-2b.png') no-repeat center center fixed;
+background:url('bg5.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size:cover;
 -o-background-size: cover;
@@ -665,7 +665,7 @@ height:800px;
 }
 .gallery-main {
 	position: absolute;
-	margin-top: -60px !important;
+	margin-top: -65px !important;
 	margin-left: -55px !important; 
 }
 .primary-header-index, #header-logo-2-main, #header-logo-3-store-main{

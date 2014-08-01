@@ -3,17 +3,23 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+
 <head>
-  <%= render 'layouts/monologue/application/head' %>
+    <title>Sweet and Lashful | Services</title>
+    <%= javascript_include_tag "prefixfree", "data-turbolinks-track" => true %>
+
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag    "normalize", media: "all", "data-turbolinks-track" => true %>
+    <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %>
+    <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+
+    <%= csrf_meta_tags %>
 </head>
-<!-- <div class="background">
-      <%= image_tag("background-grey-2.svg")%>
-</div> -->
-      
   
   <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
+<body>
   <div id="wrapper">
     
           <div id="header-logo-2">
@@ -23,55 +29,13 @@
           <div id="header-logo-3-store">
             <%= link_to image_tag("flourish_white copy.png", :alt => 'Sweet and Lashful'), "/" %>
           </div>  <!-- #header-logo-2 -->
-          <%= link_to('Lashful Thinking Blog', '/lashfulthinking', :class => 'lashful') %>
 
-    <div class="primary-header">
-
-         
-    </div>  <!-- main-header -->
-
-  <body>
-    <div class="blog-container">
-      <div class="content twelve columns">
-        <% flash.each do |name, msg| %>
-          <div class="flash-notice">
-            <%= msg %>
-          </div>
-        <% end %>
+    <div class="primary-header-services">
+    </div>
+    
         <%= yield %>
-      </div>
-  </div>
-  <% if content_for?(:footer) %>
-    <footer>
-      <%= yield :footer %>
-    </footer>
-  <% end %>
-  <%= render 'layouts/monologue/application/disqus' %>
-  <%= render 'layouts/monologue/application/gauge_analytics' %>
-
-
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-
-<!-- 
-  <% if current_page?(root_url) %>
-
- <script>
-
-  $('.content img').hide();
-   
- </script>
-
- <%else%>
-
-  <script>
- $('.content img').show();
-
- </script>
-
-
-  <%end%> -->
-
-               <div class="grid_12 glass-blog">
+    
+            <div class="grid_12 glass-blog">
 
                 <div class="grid_3 alpha omega contact-column-1-blog">
                   <h1 class="h1">Call or Email</h1>
@@ -121,30 +85,27 @@
                     <li><%= link_to "Privacy Policy" %></li>
                     <li><%= link_to "Terms of Service" %></li>
                   </ul> -->
-              </div> <!-- footer -->
+                </div> <!-- footer -->
                 <div class="grid_2 intro-contact-footer">
                    <%= link_to image_tag('arrow_pink.png') %>
-                  </div> <!---intro-contact -->
+                </div> <!---intro-contact -->
 
-              </div> <!-- glass -->
-
-
-</div><!--#wrapper-->
-
+          </div> <!-- glass -->
+</div><!--#wrapper--> 
 <nav class="menu push-menu-right nav-slide-right">
           <ul>
               <li class="main-menu-item-1-store-i"><%= link_to "Shop", "/store", :class => "" %></li>
           <li class="main-menu-item-2-store-i"><%= link_to "Services", "#", :class => "" %></li>
           <li class="main-menu-item-3-store-i"><%= link_to "About", "/#second-about", :class => "" %></li>
           <li class="main-menu-item-4-store-i"><%= link_to "Lashful Thinking", "/lashfulthinking", :class => "" %></li>
-          <li class="main-menu-item-5-store-i"><%= link_to "Services", "/services" %></li>
-          <li class="intro-contact"><%= link_to "Contact Us"%></li>
+           <li class="main-menu-item-5-store-i"><%= link_to "Services", "/services" %></li>
+           <li class="intro-contact-services"><%= link_to "Contact Us"%></li>
           <%= image_tag('flourish-slide.png', :class => 'slide_image') %>
           </ul>
     </nav>
 
     <button  class="nav-toggler toggle-push-right btn blog-button"></button>  
-    
+
 
   <%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "blur", "data-turbolinks-track" => true %>
@@ -161,8 +122,8 @@
               <%= javascript_include_tag "jquery-1.10.2", "data-turbolinks-track" => true %>
 
               <script>
-                $('.glass-blog').hide();
-                $('.intro-contact').on('click', function(event){
+                // $('.glass-blog').hide();
+                $('.intro-contact-services').on('click', function(event){
                 event.preventDefault();
                 // $('.intro-contact').hide();
                 $(".glass-blog").slideToggle();
@@ -181,7 +142,7 @@
 
               <script>
 
-              $('.intro-contact').on('click', function(){
+              $('.intro-contact-services').on('click', function(){
                   $('.blog-button').click();
 
               });

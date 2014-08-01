@@ -34,6 +34,9 @@ body {
     /*-webkit-font-smoothing: antialiased;*/
 }
 
+.social-blog a:hover {
+    
+}
 .lashful {
     position: fixed;
     z-index: 900;
@@ -975,8 +978,9 @@ content: "";*/
 
 .contact-column-3-blog input {
     color: #F9F9F9 !important;
-    font-size: 0.6em;
-    font-weight: 800 !important;
+    font-size: 0.8em;
+    height: 20px !important;
+    font-weight: 600 !important;
 }
 
 
@@ -1110,7 +1114,7 @@ margin-top: -25px !important;
 }
 
 .gallery-blog {
-    margin-top: -15px !important;
+    margin-top: -20px !important;
     margin-left: 0px !important;
 }
 
