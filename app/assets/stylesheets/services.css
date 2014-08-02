@@ -1,5 +1,6 @@
 
 .primary-header-services {
+	z-index: 100;
 	position:fixed;
 	background-color:#F9F9F9;
 	border: none !important;

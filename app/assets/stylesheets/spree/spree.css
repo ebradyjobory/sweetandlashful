@@ -52,7 +52,7 @@ margin-top: 10%;
 
 .store-button {
     margin-top: -41px;
-    z-index: 6000 !important;
+    z-index: 119500 !important;
     background-color:rgba(0, 0, 0, 0);
     background-image: url('nav-icon-teal');
     width: 25px;
@@ -60,7 +60,7 @@ margin-top: 10%;
 
 .contact-store {
     position: absolute;
-    z-index: 500;
+    /*z-index: 500;*/
 }
 
 #store-wrapper {
@@ -74,7 +74,7 @@ width: 15%;
 position: fixed;
 margin-left: 60%;
 top: 5px;
-z-index: 110;
+/*z-index: 110;*/
 
 }
 
@@ -145,7 +145,7 @@ position: fixed;
 background-color: #F9F9F9;
 /*border-bottom: 0.1px solid #2DCCD3;
 */height: 70px;
-z-index: 100;
+/*z-index: 100;*/
 box-shadow: 2px 2px 3px #7f8c8d !important;
 }
 
@@ -164,7 +164,7 @@ position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
 height: 10.8%;
-z-index: 100;
+/*z-index: 100;*/
 box-shadow: 1px 2px 3px #FF8DA1;
 }
 
@@ -174,7 +174,7 @@ position: fixed;
 background-color: #F9F9F9;
 border-bottom: 1.5px solid #2DCCD3;
 height: 10.8%;
-z-index: 100;
+/*z-index: 100;*/
 box-shadow: 1px 1px 3px #FF8DA1;
 }
 
@@ -240,7 +240,7 @@ color: #FF8DA1;
 margin-bottom: 1%;
 position: fixed;
 top: 1.4%;
-z-index: 109;
+/*z-index: 109;*/
 right: 15%;
 }
 
@@ -314,7 +314,7 @@ margin-left: -10.5% !important;
 margin-bottom: 10px;
 position: fixed;
 top: 0;
-z-index: 110;
+/*z-index: 110;*/
 }
 
 .intro-menu ul {
@@ -623,7 +623,7 @@ tr.cart-total h5, .row, .row h1{
 
 nav #main-nav-bar li#link-to-cart {
 
-    z-index: 0;
+    /*z-index: 0;*/
     font-family: 'Quicksand', sans-serif !important;
     text-transform: none;
     background: url('') no-repeat scroll left center transparent;
@@ -1164,7 +1164,7 @@ label, .account-summary, .account-my-orders {
 }
 
 .nav-slide-right {
-    z-index: 5500 !important;
+    z-index: 105500 !important;
 }
 
 .nav-slide-right a{
