@@ -282,7 +282,7 @@ background-color: #F9F9F9;
 /*border-bottom: 1.5px solid #2DCCD3;*/
 height: 11%;
 margin-top: -180px;
-z-index: 100;
+/*z-index: 100;*/
 box-shadow: 2px 2px 3px #7f8c8d !important;
 }
 
@@ -1144,6 +1144,13 @@ margin-top: -25px !important;
 
 @media only screen and (max-width : 860px) {
 
+    .contact-column-3-blog {
+        margin-left: 15% !important;
+    }
+    .contact-column-2-blog {
+       margin-left: 5% !important; 
+    }
+
     #pagination {
         top: 50px;
         left: 30px !important;
@@ -1168,9 +1175,27 @@ margin-top: -25px !important;
         margin-left: -15%;
     }
 
+    .glass-blog {
+        font-size: 0.8em;
+    }
+
     #header-logo-3-store {
         margin-left: -10%;
     }
+
+    .social-blog {
+        width: 150px;
+    }
+
+    .contact-column-1-blog {
+        width: 150px !important;
+    }
+    .contact-column-2-blog {
+        width: 150px !important;
+        margin-left: 2% !important;
+    }
+
+    input, .contact-column-3-blog h3, .contact-column-3-blog h1 {display: none !important}
 
     #pagination {
         top: 130px;

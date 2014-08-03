@@ -414,7 +414,7 @@ display: none;
     margin-top: -22.8px !important;
     position: fixed;
     left: 80%;
-    width: 160px;
+    width: 100px;
     z-index: 200;
     font-family: 'Quicksand', sans-serif !important;
    
@@ -1770,8 +1770,8 @@ display: block ;
     .background  {
         width: 250%;
     }
-    .contact-column-1 {
-        width: 250px !important;
+    .contact-column-1-store {
+        width: 50px !important;
 
     }
 
@@ -1780,8 +1780,8 @@ display: block ;
     }
 
     .contact-column-2 {
-        width: 200px !important;
-        margin-left: 15% !important;
+        width: 150px !important;
+        margin-left: 24% !important;
 
     }
 
