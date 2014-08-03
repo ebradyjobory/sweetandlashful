@@ -243,7 +243,12 @@ top:47%;
 		display:none !important;
 	}
 	.contact-column-1-blog {
-		width: 70px !important;
+		font-size: 0.7em !important;
+		width: 150px !important;
+	}
+	.contact-column-2-blog {
+		width: 10px;
+		margin-left: 5% !important;
 	}
 	.contact-column-2-blog address{
 		font-size:1em !important;
@@ -256,9 +261,6 @@ top:47%;
 		margin-left:50px !important;
 	}
 
-	#header-logo-2-blog {
-		margin-left: -20% !important;
-	}
 	#header-logo-3-store-blog {
 		margin-left: -16% !important;
 	}
@@ -271,6 +273,12 @@ top:47%;
 		font-size: 0.9em !important;
 		margin-top: 50px !important;
 	}
+/*
+	.social-media{
+	width:200px;
+	margin-left:1% !important;
+	margin-top: -30px;
+    }*/
 
 
 }
