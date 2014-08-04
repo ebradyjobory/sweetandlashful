@@ -20,6 +20,8 @@ gem 'paperclip'
 
 gem 'aws-sdk'
 
+gem 'tax_cloud'
+
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem 'monologue', github: 'jipiboily/monologue'
