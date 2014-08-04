@@ -16,6 +16,10 @@ gem 'mime-types', '~> 1.25'
 
 gem 'rails_12factor'
 
+gem 'paperclip'
+
+gem 'aws-sdk'
+
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem 'monologue', github: 'jipiboily/monologue'

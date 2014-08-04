@@ -360,12 +360,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   mime-types (~> 1.25)
   monologue!
   newrelic_rpm
+  paperclip
   pg
   rack-timeout
   rails (= 4.0.5)
