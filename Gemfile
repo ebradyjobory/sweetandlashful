@@ -14,6 +14,8 @@ gem 'pg'
 
 gem 'mime-types', '~> 1.25'
 
+gem 'rails_12factor'
+
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem 'monologue', github: 'jipiboily/monologue'
