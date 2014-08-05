@@ -10,7 +10,7 @@ Monologue.config do |config|
   config.admin_force_ssl = false
   config.posts_per_page = 6
 
-  config.disqus_shortname = "sweetandlashful"
+  config.disqus_shortname = "lashfulthinking"
 
   # LOCALE
   config.twitter_locale = "en" # "fr"
