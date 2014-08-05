@@ -471,7 +471,7 @@ z-index:500;
 bottom:-2%;
 width:100%;
 height:53%;
-background:url('background-sample-2-blurry-h.png');
+background:url('new_bg3_blurry.jpg');
 background-position:center bottom;
 background-attachment:fixed;
 -webkit-background-size: cover;
@@ -666,7 +666,7 @@ height:800px;
 .gallery-main {
 	position: absolute;
 	margin-top: -65px !important;
-	margin-left: -55px !important; 
+	margin-left: -55px !important;
 }
 .primary-header-index, #header-logo-2-main, #header-logo-3-store-main{
 display:none;
@@ -730,7 +730,7 @@ span {
 	font-weight: 500 !important;
 	-webkit-text-shadow:0px 0px 2px #444 !important;
 	-moz-text-shadow:0px 0px 2px #444 !important;
-	text-shadow:0px 0px 2px #444 !important; 
+	text-shadow:0px 0px 2px #444 !important;
 }
 
 .contact-column-1-main p {
@@ -900,7 +900,7 @@ display:none;
 	position: absolute;
 	margin-top: 50px;
 	left: 5%;
-	
+
 }
 
 }
@@ -983,7 +983,7 @@ top:47%;
 	position: absolute;
 	margin-top: 250px;
 	left: 30%;
-	
+
 }
 
 }
@@ -1038,7 +1038,7 @@ top:47%;
 	position: absolute;
 	margin-top: 250px;
 	left: 20%;
-	
+
     }
 
 }
