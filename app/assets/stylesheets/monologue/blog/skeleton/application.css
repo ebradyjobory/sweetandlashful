@@ -36,7 +36,7 @@ body {
 
 
 .post-header span a {
-    display: none;
+    display: none !important;
 }
 
 
