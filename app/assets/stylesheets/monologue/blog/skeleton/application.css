@@ -34,6 +34,12 @@ body {
     /*-webkit-font-smoothing: antialiased;*/
 }
 
+
+.post-header span a {
+    display: none;
+}
+
+
 .social-blog a:hover {
     
 }
