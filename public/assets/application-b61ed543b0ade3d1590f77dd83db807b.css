@@ -31,7 +31,17 @@ background-color:white;
 }
 
 .fs-booking-state {
-	margin-top: -10px !important;
+	margin-top: 30px !important;
+}
+
+.fs-primary-description p {
+	padding: 0px 0px !important;
+	font-size: 0.5em !important;
+}
+
+table {
+    border-collapse: separate !important;
+    border-spacing: 0px;
 }
 
 .fs-openings-results li {
@@ -42,8 +52,6 @@ background-color:white;
 	letter-spacing: 1.2px;
 }
 
-
-
 label, legend {
     display: inline !important;
     font-weight: bold;
@@ -53,7 +61,7 @@ label, legend {
 
 .fs-embed .fs-booking-state th {
     padding-right: 8px;
-    padding-bottom: 10px;
+    padding-bottom: 10px !important;
     vertical-align: top;
     text-align: left;
     text-transform: uppercase;
@@ -791,7 +799,7 @@ width:110% !important;
 height:10% !important;
 }
 a, a:visited{
-color:#FF8DA1 !important;
+color:#FF8DA1;
 text-decoration:underline;
 outline:0px none;
 }
