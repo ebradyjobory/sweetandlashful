@@ -24,10 +24,33 @@ background-color:white;
 }
 */
 
+/*.fs-booking-state tr:nth-child(4) td:nth-child(1){
+	display: none;
+}
+*/
 .fs-special {
 	color: #F9F9F9 !important;
 	font-family:'Grand Hotel', cursive !important;
 	font-size: 2em !important;
+}
+
+.fs-controls input {
+    font-family: "Quicksand",sans-serif !important;
+    background-color: #F9F9F9 !important;
+    box-shadow: none !important;
+    color: #FF8DA1 !important;
+    border: medium none !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#fs-main p span , .last  {
+    display: none;
+}
+
+.fs-booking-fields  {
+    position: relative;
+    top: -50px;
 }
 
 .fs-booking-state {
