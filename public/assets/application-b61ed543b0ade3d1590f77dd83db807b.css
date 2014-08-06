@@ -30,21 +30,27 @@ background-color:white;
 	font-size: 2em !important;
 }
 
-.fs-main {
+.fs-booking-state {
 	margin-top: 80px !important;
 }
 
-table {table-layout:fixed}
+.fs-openings-results li {
+	font-family: "Quicksand",sans-serif !important;
+}
 
-td {overflow:hidden; white-space:nowrap}
+
+td {overflow:hidden !important; white-space:nowrap !important}
 
 .fs-instructions {
 	letter-spacing: 2px;
 }
+.fs-dow-option label {
+	letter-spacing: 1.5px !important;
+}
 
 .fs-selected-value {
-	letter-spacing: 2px;
-	font-size: 800 !important;
+	letter-spacing: 1.5px;
+	font-weight: 900 !important;
 }
 .service-container {
 	margin: 150px 20% 10px 20% !important;
