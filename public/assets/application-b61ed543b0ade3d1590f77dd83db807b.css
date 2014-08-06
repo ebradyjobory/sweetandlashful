@@ -154,17 +154,18 @@ a, a:visited {
     letter-spacing: 0.1px;
 }
 
+
 .fs-embed .ui-state-default, .fs-embed .ui-widget-content .ui-state-default {
-    /*border: 1px solid rgb(204, 204, 204);*/
-    /*background: url('/assets/fsweb/jquery-ui/css/images/ui-bg_glass_100_f6f6f6_1x400.png') repeat-x scroll 50% 50% #F6F6F6;*/
-    font-weight: bold;
-    color: #444;
-    outline: medium none;
+    border: none !important;
+    background: none !important;
+    font-weight: bold !important;
+    color: #444 !important;
+    outline: medium none !important;
 }
 
 .fs-embed .ui-widget-header {
     border: 1px solid #E78F08;
-    background-color: #FF8DA1;
+    background-color: #FF8DA1 !important;
     color: #FFF;
     font-weight: normal !important;
    
