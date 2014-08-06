@@ -31,7 +31,7 @@ background-color:white;
 }
 
 .service-container {
-	margin: 100px 10% 10px 10% !important;
+	margin: 100px 20% 10px 20% !important;
 	font-size: 1.5em !important;
 }
 
@@ -45,12 +45,17 @@ li {
 
 .fs-option-summary {
 	margin-left: 5% !important;
-	font-size: 0.8em !important;
+	font-size: 0.9em !important;
+}
+
+.fs-category-summary {
+	margin-top: -5px !important;
 }
 .fs-booking-choices h3 {
     color: #444 !important; 
     font-family: "Quicksand",sans-serif !important;
     margin-bottom: 10px !important;
+    font-weight: 600 !important;
 
 }
 .fs-footer a {
