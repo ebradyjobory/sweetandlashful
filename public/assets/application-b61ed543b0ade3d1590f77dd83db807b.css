@@ -38,20 +38,28 @@ background-color:white;
 	font-family: "Quicksand",sans-serif !important;
 }
 
-
-td {overflow:hidden !important; white-space:nowrap !important}
-
 .fs-instructions {
 	letter-spacing: 1.2px;
 }
 
-th {
-	margin-top: 3px !important;
+
+
+label, legend {
+    display: inline;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 5px;
 }
 
-table {
-	padding-bottom: 5px;
+.fs-embed .fs-booking-state th {
+    padding-right: 8px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 10px;
 }
+
 
 .fs-footer-link a{
 	color: #444 !important;
