@@ -49,13 +49,15 @@ li {
 }
 
 .service-info li {
-	font-size: 1em;
+	font-size: 0.9em;
+	list-style-type: circle
 }
 
 .service-info h2 {
 	color: #F9F9F9;
 	font-size: 2em;
 	font-family:'Grand Hotel', cursive !important;
+	font-weight: 200;
 }
 
 .fs-category-summary {
