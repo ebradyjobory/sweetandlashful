@@ -53,8 +53,8 @@ li {
 }
 
 .service-info h2 {
-	color: #FF8DA1;
-	font-size: 3em;
+	color: #F9F9F9;
+	font-size: 2em;
 	font-family:'Grand Hotel', cursive !important;
 }
 
@@ -87,7 +87,7 @@ li {
 }
 
 .primary-header-services {
-	margin-top: -100px !important;
+	margin-top: -150px !important;
 }
 
 
