@@ -31,7 +31,7 @@ background-color:white;
 }
 
 .fs-booking-state {
-	margin-top: 80px !important;
+	margin-top: 50px !important;
 }
 
 .fs-openings-results li {
@@ -42,14 +42,18 @@ background-color:white;
 td {overflow:hidden !important; white-space:nowrap !important}
 
 .fs-instructions {
-	letter-spacing: 2px;
+	letter-spacing: 1.2px;
+}
+
+.fs-footer-link {
+	color: #444 !important;
 }
 .fs-dow-option label {
-	letter-spacing: 1.5px !important;
+	letter-spacing: 1.2px !important;
 }
 
 .fs-selected-value {
-	letter-spacing: 1.5px;
+	letter-spacing: 1.2px;
 	font-weight: 900 !important;
 }
 .service-container {
