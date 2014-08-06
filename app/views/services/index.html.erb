@@ -1,13 +1,18 @@
-<div class="service-info">
-	<h2>Please note before booking:</h2>
-	<ul>
-		<li>Same day cancellation will be charged a $50 fee for that time slot (thank you for understanding).</li>
-		<li>If you are running late, your service may be shortened as to not interfere with the next client's appointment.</li>
-	</ul>
-</div>
+
 
 
 <div class="service-container">
+
+<% if current_page? '/services' %>
+
+	<div class="service-info">
+		<h2>Please note before booking:</h2>
+		<ul>
+			<li>Same day cancellation will be charged a $50 fee for that time slot (thank you for understanding).</li>
+			<li>If you are running late, your service may be shortened as to not interfere with the next client's appointment.</li>
+		</ul>
+	</div>
+<%end%>
 
 	<div id="fs-embed-gfq6TGjspm"></div>
 	<script type="text/javascript">(function() {(window.$fs || (window.$fs = [])).push([ "embed", {"root":"fs-embed-gfq6TGjspm","host":"sweetandlashful.fullslate.com"} ]);if (!window.$fs._isFullSlate) { var fsscr = document.createElement("script"); fsscr.type = "text/javascript";fsscr.async = true; fsscr.src = ["http", (document.location.protocol == "https:" ? "s" : ""), "://sweetandlashful.fullslate.com/api.js"].join("");var other = document.getElementsByTagName("script")[0]; other.parentNode.insertBefore(fsscr, other); }})();
