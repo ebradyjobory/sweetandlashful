@@ -34,6 +34,17 @@ background-color:white;
 	font-size: 2em !important;
 }
 
+.fs-important-message , .fs-semi-important-message  {
+    color: #F9F9F9;
+    font-size: 1.4em !important;;
+    
+}
+
+.fs-embed .fs-error {
+    color: #444 !important;
+    background-color: #FF8DA1;
+}
+
 .fs-controls input {
     font-family: "Quicksand",sans-serif !important;
     background-color: #F9F9F9 !important;
@@ -46,6 +57,11 @@ background-color:white;
 
 #fs-main p span , .last  {
     display: none;
+}
+
+#fs-main p:nth-child(3),#fs-main p:nth-child(5)  {
+    font-size: 1em;
+    font-family: "Quicksand",sans-serif !important;
 }
 
 .fs-booking-fields  {
