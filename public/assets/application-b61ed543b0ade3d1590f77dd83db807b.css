@@ -36,7 +36,8 @@ background-color:white;
 
 .fs-important-message , .fs-semi-important-message  {
     color: #F9F9F9;
-    font-size: 1.4em !important;;
+    font-size: 1.4em !important;
+    margin-bottom: -15px;
     
 }
 
@@ -53,6 +54,10 @@ background-color:white;
     border: medium none !important;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.fs-controls {
+    font-weight: 600;
 }
 
 #fs-main p span , .last  {
@@ -146,6 +151,9 @@ li {
 .service-info li {
 	font-size: 0.9em;
 	list-style-type: circle
+}
+.service-info {
+    margin-bottom: 30px !important;;
 }
 
 .service-info h2 {
