@@ -45,6 +45,7 @@ li {
 
 .fs-option-summary {
 	margin-left: 5% !important;
+	font-size: 0.8em !important;
 }
 .fs-booking-choices h3 {
     color: #444 !important; 
@@ -53,7 +54,7 @@ li {
 
 }
 .fs-footer a {
-	font-size: 1em !important;
+	font-size: 0.7em !important;
 	color: #444 !important;
 }
 
@@ -64,6 +65,7 @@ li {
 
 .fs-service-price {
 	letter-spacing: 1.2px !important;
+	font-weight: 800 !important;
 
 }
 
