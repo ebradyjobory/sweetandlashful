@@ -25,6 +25,18 @@ background-color:white;
 */
 
 
+.service-container {
+	margin: 100px 10% 10px 10% !important;
+}
+
+.service-container a {
+	color: #F9F9F9 !important;
+}
+
+.service-container h3 {
+    color: red !important; 
+}
+
 
 
 
