@@ -31,7 +31,7 @@ background-color:white;
 }
 
 .service-container {
-	margin: 100px 20% 10px 20% !important;
+	margin: 150px 20% 10px 20% !important;
 	font-size: 1.5em !important;
 }
 
@@ -46,6 +46,16 @@ li {
 .fs-option-summary {
 	margin-left: 5% !important;
 	font-size: 0.9em !important;
+}
+
+.service-info li {
+	font-size: 1em;
+}
+
+.service-info h2 {
+	color: #FF8DA1;
+	font-size: 3em;
+	font-family:'Grand Hotel', cursive !important;
 }
 
 .fs-category-summary {
