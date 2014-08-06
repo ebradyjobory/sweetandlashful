@@ -33,6 +33,10 @@ background-color:white;
 	color: #F9F9F9 !important;
 }
 
+.hello {
+	display: none;
+}
+
 .statement p {
 	position: absolute;
 	margin-top: 50px;
