@@ -42,6 +42,10 @@ background-color:white;
 	color: #2DCCD3;
 }
 
+#existing-customer a {
+	color: #F9F9F9 !important;
+}
+
  button{
 width:25px;
 border:none;
