@@ -31,7 +31,7 @@ background-color:white;
 }
 
 .fs-booking-state {
-	margin-top: 40px !important;
+	margin-top: -10px !important;
 }
 
 .fs-openings-results li {
@@ -45,10 +45,10 @@ background-color:white;
 
 
 label, legend {
-    display: inline;
+    display: inline !important;
     font-weight: bold;
     font-size: 13px;
-    margin-left: 5px;
+    margin-left: 5px !important;
 }
 
 .fs-embed .fs-booking-state th {
@@ -58,6 +58,12 @@ label, legend {
     text-align: left;
     text-transform: uppercase;
     padding-top: 10px;
+}
+
+a, a:visited {
+    color: #444 !important;
+    text-decoration: underline;
+    outline: 0px none;
 }
 
 
