@@ -80,7 +80,7 @@ background-color:white;
 
 .fs-primary-description p {
 	padding: 0px 0px !important;
-	font-size: 0.5em !important;
+	font-size: 0.8em !important;
 }
 
 table {
@@ -113,7 +113,6 @@ label, legend {
 }
 
 a, a:visited {
-    color: #444 !important;
     text-decoration: underline;
     outline: 0px none;
 }
@@ -130,6 +129,18 @@ a, a:visited {
 	letter-spacing: 1.2px;
 	font-weight: 900 !important;
 }
+
+.fs-embed table, .fs-embed tr, .fs-embed td, .fs-embed th {
+    padding: 10px !important;
+    border-spacing: 0px;
+    margin: 0px;
+}
+
+.fs-embed .fs-openings-list {
+    position: relative;
+    margin-left: -30px;
+}
+
 .service-container {
 	margin: 150px 20% 10px 20% !important;
 	font-size: 1.5em !important;
@@ -137,6 +148,7 @@ a, a:visited {
 
 .service-container a {
 	color: #F9F9F9 !important;
+	font-weight: 900;
 }
 
 li {
@@ -145,7 +157,8 @@ li {
 
 .fs-option-summary {
 	margin-left: 5% !important;
-	font-size: 0.9em !important;
+	font-size: 0.85em !important;
+	margin-top: 5px;
 }
 
 .service-info li {
