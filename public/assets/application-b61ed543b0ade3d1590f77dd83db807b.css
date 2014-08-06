@@ -34,14 +34,12 @@ background-color:white;
 	color: #F9F9F9 !important;
 }
 
-.service-container h3 {
-	color: #444 !important;
-}
 
-.service-container h3 {
-    color: red !important; 
+.fs-booking-choices h3 {
+    color: #444 !important; 
 }
-.fs-button {
+.fs-footer a {
+	font-size: 1em !important;
 	color: #444 !important;
 }
 
@@ -50,8 +48,13 @@ background-color:white;
 	letter-spacing: 2px;
 }
 
+.fs-service-price {
+	letter-spacing: 1.5px !important;
+
+}
+
 .primary-header-services {
-	margin-top: -80px !important;
+	margin-top: -110px !important;
 }
 
 
