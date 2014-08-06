@@ -122,8 +122,8 @@ a, a:visited {
 	color: #444 !important;
 }
 .fs-dow-option label {
-	letter-spacing: 1.2px !important;
-	font-size: 0.6em;
+	letter-spacing: 1px !important;
+	font-size: 12px;
 }
 .fs-search-field  {
     font-size: 0.8em;
@@ -768,6 +768,10 @@ padding-top:0%;
     color: #F9F9F9 !important;
     font-weight: 500 !important;
     border: none !important;
+}
+
+.contact-column-3-main form {
+	color: #F9F9F9 !important;
 }
 
 
