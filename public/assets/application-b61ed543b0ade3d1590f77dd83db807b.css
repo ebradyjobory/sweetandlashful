@@ -49,13 +49,15 @@ li {
 }
 
 .fs-category-summary {
-	margin-top: -5px !important;
+	margin-top: -10px !important;
+	font-size: 0.9em !important;
+	margin-bottom: 10px !important;
 }
 .fs-booking-choices h3 {
     color: #444 !important; 
     font-family: "Quicksand",sans-serif !important;
     margin-bottom: 10px !important;
-    font-weight: 600 !important;
+    font-weight: 800 !important;
 
 }
 .fs-footer a {
