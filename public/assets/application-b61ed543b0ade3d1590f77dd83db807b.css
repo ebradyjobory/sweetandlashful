@@ -136,9 +136,38 @@ a, a:visited {
 }
 
 .fs-embed table, .fs-embed tr, .fs-embed td, .fs-embed th {
-    padding: 10px !important;
+    padding-top: 10px !important;
     border-spacing: 0px;
     margin: 0px;
+}
+
+#ui-datepicker-div {
+  z-index: 10 !important;
+}
+.fs-embed .ui-state-highlight, .fs-embed .ui-widget-content .ui-state-highlight {
+    border:none;
+    color: #363636;
+    background-color: #FF8DA1;
+}
+
+.ui-datepicker-month, .ui-datepicker-year {
+    letter-spacing: 0.1px;
+}
+
+.fs-embed .ui-state-default, .fs-embed .ui-widget-content .ui-state-default {
+    /*border: 1px solid rgb(204, 204, 204);*/
+    /*background: url('/assets/fsweb/jquery-ui/css/images/ui-bg_glass_100_f6f6f6_1x400.png') repeat-x scroll 50% 50% #F6F6F6;*/
+    font-weight: bold;
+    color: #444;
+    outline: medium none;
+}
+
+.fs-embed .ui-widget-header {
+    border: 1px solid #E78F08;
+    background-color: #FF8DA1;
+    color: #FFF;
+    font-weight: normal !important;
+   
 }
 
 .fs-embed .fs-openings-list {
