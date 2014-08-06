@@ -1,4 +1,6 @@
-
+.service-container {
+	margin: 10px 10% 10px 10%;
+}
 .primary-header-services {
 	z-index: 100;
 	position:fixed;
