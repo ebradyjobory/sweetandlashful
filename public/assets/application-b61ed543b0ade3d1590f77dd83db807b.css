@@ -27,6 +27,7 @@ background-color:white;
 
 .service-container {
 	margin: 100px 10% 10px 10% !important;
+	font-size: 1em;
 }
 
 .service-container a {
@@ -34,10 +35,24 @@ background-color:white;
 }
 
 .service-container h3 {
-    color: red !important; 
+	color: #444;
 }
 
+.service-container h3 {
+    color: red !important; 
+}
+.fs-button {
+	color: #F9F9F9;
+}
 
+.fs-corpname {
+	color: #F9F9F9;
+	letter-spacing: 2px;
+}
+
+.primary-header-services {
+	margin-top: -30px;
+}
 
 
 .statement p {
