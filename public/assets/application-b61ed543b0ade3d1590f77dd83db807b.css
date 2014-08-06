@@ -31,7 +31,7 @@ background-color:white;
 }
 
 .fs-booking-state {
-	margin-top: 50px !important;
+	margin-top: 40px !important;
 }
 
 .fs-openings-results li {
@@ -45,7 +45,15 @@ td {overflow:hidden !important; white-space:nowrap !important}
 	letter-spacing: 1.2px;
 }
 
-.fs-footer-link {
+th {
+	margin-top: 3px !important;
+}
+
+table {
+	padding-bottom: 5px;
+}
+
+.fs-footer-link a{
 	color: #444 !important;
 }
 .fs-dow-option label {
