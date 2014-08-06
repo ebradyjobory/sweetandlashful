@@ -31,9 +31,21 @@ background-color:white;
 }
 
 .fs-main {
-	margin-top: 50px !important;
+	margin-top: 80px !important;
 }
 
+table {table-layout:fixed}
+
+td {overflow:hidden; white-space:nowrap}
+
+.fs-instructions {
+	letter-spacing: 2px;
+}
+
+.fs-selected-value {
+	letter-spacing: 2px;
+	font-size: 800 !important;
+}
 .service-container {
 	margin: 150px 20% 10px 20% !important;
 	font-size: 1.5em !important;
