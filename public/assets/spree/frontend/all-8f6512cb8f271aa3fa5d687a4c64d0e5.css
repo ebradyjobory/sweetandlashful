@@ -508,6 +508,24 @@ textarea {
 width: 900px !important;
 }
 
+.existing-credit-card-list{
+    color:#F9F9F9;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.progress-steps li {
+    font-weight: none !important;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.continue, .current, .current-first, .primary, .button {
+    font-family: "Quicksand",sans-serif !important;
+    color: #FF8DA1 !important;
+    font-weight: 900 !important;
+}
+
 
 /* =============================================================================
    Tables
