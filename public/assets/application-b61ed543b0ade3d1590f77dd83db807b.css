@@ -157,7 +157,7 @@ a, a:visited {
 
 .fs-embed .ui-state-default, .fs-embed .ui-widget-content .ui-state-default {
     border: none !important;
-    background: none !important;
+    /*background: none !important;*/
     font-weight: bold !important;
     color: #444 !important;
     outline: medium none !important;
@@ -165,10 +165,9 @@ a, a:visited {
 
 .fs-embed .ui-widget-header {
     border: 1px solid #E78F08;
-    background-color: #FF8DA1 !important;
+    background: #FF8DA1 !important;
     color: #FFF;
-    font-weight: normal !important;
-   
+    font-weight: bold;
 }
 
 .fs-embed .fs-openings-list {
