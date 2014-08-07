@@ -35,6 +35,19 @@ video {
     *zoom: 1;
 }
 
+*::-moz-selection {
+    background: none repeat scroll 0% 0% #FF8DA1;
+    color: #FFF;
+    text-shadow: none;
+}
+
+*::selection {
+    background: none repeat scroll 0% 0% #FF8DA1;
+    color: #FFF;
+    text-shadow: none;
+}
+
+
 /*
  * Prevents modern browsers from displaying 'audio' without controls
  * Remove excess height in iOS5 devices
