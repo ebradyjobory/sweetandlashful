@@ -36,13 +36,13 @@ video {
 }
 
 *::-moz-selection {
-    background: none repeat scroll 0% 0% #FF8DA1;
+    background: none repeat scroll 0% 0% #FF8DA1 !important;
     color: #FFF;
     text-shadow: none;
 }
 
 *::selection {
-    background: none repeat scroll 0% 0% #FF8DA1;
+    background: none repeat scroll 0% 0% #FF8DA1 !important;
     color: #FFF;
     text-shadow: none;
 }
