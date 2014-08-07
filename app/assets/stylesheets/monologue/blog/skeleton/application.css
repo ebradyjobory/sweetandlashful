@@ -984,6 +984,7 @@ content: "";*/
 
 .contact-column-3-blog input {
     color: #FFF !important;
+    -webkit-text-fill-color: #FFF;
     font-size: 0.8em;
     height: 20px !important;
     font-weight: 600 !important;

@@ -595,6 +595,7 @@ padding-top:0%;
 
 .contact-column-3-main input {
     color: #FFF !important;
+    -webkit-text-fill-color: #FFF;
     font-weight: 500 !important;
     border: none !important;
 }

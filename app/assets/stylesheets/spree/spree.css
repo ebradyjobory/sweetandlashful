@@ -1154,7 +1154,8 @@ input.gray[type="submit"]:hover, a.button.gray:hover {
 }
 
 .contact-column-3 input {
-    color: #F9F9F9 !important;
+    color: #FFF !important;
+    -webkit-text-fill-color: #FFF;
     font-weight: 800 !important;
 }
 
