@@ -6,11 +6,16 @@ gem 'rails', '4.0.5'
 
 gem 'unicorn'
 
-gem 'newrelic_rpm'
+gem 'newrelic_rpm', '~> 3.9.1.236'
 
 gem "rack-timeout"
 
 gem 'pg'
+
+
+group :development, :test do
+  gem 'rspec-rails', '2.13.1'
+end
 
 gem 'mime-types', '~> 1.25'
 
