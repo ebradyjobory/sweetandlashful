@@ -13,10 +13,6 @@ gem "rack-timeout"
 gem 'pg'
 
 
-group :development, :test do
-  gem 'rspec-rails', '2.13.1'
-end
-
 gem 'mime-types', '~> 1.25'
 
 gem 'rails_12factor'
