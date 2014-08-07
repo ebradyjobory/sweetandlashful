@@ -546,7 +546,7 @@ table {
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
-    .column.alpha, .columns.alpha               { margin-left: -10; }
+    .column.alpha, .columns.alpha               { margin-left: 0; }
     .column.omega, .columns.omega               { margin-right: 0; }
 
     /* Base Grid */
@@ -599,7 +599,7 @@ table {
         .container                                  { width: 768px; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
-        .column.alpha, .columns.alpha               { margin-left: -10; margin-right: 10px; }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
         .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
         .alpha.omega                                { margin-left: 0; margin-right: 0; }
 
