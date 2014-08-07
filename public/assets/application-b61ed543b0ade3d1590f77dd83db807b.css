@@ -28,6 +28,19 @@ background-color:white;
 	display: none;
 }
 */
+
+*::-moz-selection {
+    background: none repeat scroll 0% 0% #FFC0CB !important;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::selection {
+    background: #FFC0CB !important;
+    color: white;
+    text-shadow: none;
+}
+
 .fs-special {
 	color: #F9F9F9 !important;
 	font-family:'Grand Hotel', cursive !important;
