@@ -994,7 +994,7 @@ font-size: 1.2em;
 	font-size:1.5em;
 }
 .main-button{
-margin-top: 10px;
+margin-top: 8px;
 background-color:rgba(0, 0, 0, 0);
 }
 .who-we-are{
@@ -2137,7 +2137,7 @@ margin-bottom: 40px !important;
 
 background-color:rgba(0, 0, 0, 0);
 width: 25px;
-margin-top: 3px;
+margin-top: 8px;
 margin-right: 0px;
 cursor: pointer;
 
@@ -8180,7 +8180,7 @@ z-index: 4441;
 
 #header-logo-3-store {
 position: fixed;
-top: 25px;
+top: 39px;
 left: 44%;
 z-index: 111;
 }
