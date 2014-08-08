@@ -133,6 +133,18 @@ a:active {
     margin-left: 33%;
     text-align: center;
 }
+.flash.notice, .notice.errorExplanation {
+    background-color: #FF8DA1;
+    text-align: center;
+    margin-left: 33%;
+}
+
+.flash.error, .errorExplanation {
+    background-color: #E45353;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 
 /* =============================================================================
