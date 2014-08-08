@@ -542,7 +542,8 @@ tr.cart-total,tr.cart-subtotal,#line-items thead,tr.cart-subtotal h5,.cart_items
 	background-color:#F9F9F9 !important;
 	box-shadow:none !important;
 	color:#FF8DA1 !important;
-	border:none !important
+	border:none !important;
+	font-weight: 900 !important;
 }
 
 #billing legend,#user-info a,.rate-cost,#order_summary legend,.steps-data a,#payment legend,#order_details legend,#shipping legend,#checkout-summary span,#checkout-summary strong,#shipping_method legend{
@@ -550,7 +551,7 @@ tr.cart-total,tr.cart-subtotal,#line-items thead,tr.cart-subtotal h5,.cart_items
 }
 
 .progress-steps li{
-	font-weight:500 !important;
+	font-weight:500;
 	text-transform:uppercase;
 	color:#444
 }
