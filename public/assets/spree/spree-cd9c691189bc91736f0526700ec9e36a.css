@@ -385,7 +385,7 @@ table tbody tr.alt,table tbody tr.odd,table tfoot tr.alt,table tfoot tr.odd{
 	margin-top:-31px !important;
 	position:fixed;
 	left:80%;
-	width:120px;
+	width:125px;
 	z-index:200;
 	font-family:'Quicksand', sans-serif !important
 }
