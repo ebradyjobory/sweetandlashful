@@ -3676,7 +3676,7 @@ table tbody tr.alt, table tbody tr.odd, table tfoot tr.alt, table tfoot tr.odd {
 /* line 262, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 nav#top-nav-bar {
   text-align: right;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 /* line 267, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 nav#top-nav-bar ul li {
