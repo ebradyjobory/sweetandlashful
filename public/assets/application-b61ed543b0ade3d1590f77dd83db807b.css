@@ -30,13 +30,13 @@ background-color:white;
 */
 
 *::-moz-selection {
-    background: none repeat scroll 0% 0% #FFC0CB !important;
+    background: none repeat scroll 0% 0% #FF8DA1 !important;
     color: #FFF;
     text-shadow: none;
 }
 
-::selection {
-    background: #FFC0CB !important;
+*::selection {
+    background: #FF8DA1 !important;
     color: white;
     text-shadow: none;
 }
