@@ -569,8 +569,9 @@ tr.cart-total h5,.row,.row h1{
 	color:#404042 !important
 }
 
-.order-number a,#billing label{
-	color:#F9F9F9 !important
+.order-number a,#billing label, #shipping label{
+	color:#F9F9F9 !important;
+	font-weight: 800;
 }
 
 nav #main-nav-bar li#link-to-cart{
