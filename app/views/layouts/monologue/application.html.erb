@@ -76,9 +76,9 @@
                 <div class="grid_3 alpha omega contact-column-1-blog">
                   <h1 class="h1">Call, Text, or Email</h1>
                   <h2 class="h2">404.585.1456</h2>
-                  <p><span class="span">general inquiries:<br></span><%= link_to "info@sweetandlashful.com", :class => 'link' %></p>
-                  <p><span class="span">online orders:<br></span><%= link_to "orders@sweetandlashful.com" , :class => 'link' %></p>
-                  <p><span class="span">training &amp; certification:<br></span><%= link_to "training@sweetandlashful.com", :class => 'link'  %></p>
+                  <p><span class="span">general inquiries:<br></span><%= mail_to "info@sweetandlashful.com", "info@sweetandlashful.com", :class => 'link' %></p>
+                  <p><span class="span">online orders:<br></span><%= mail_to "orders@sweetandlashful.com" , "orders@sweetandlashful.com", :class => 'link' %></p>
+                  <p><span class="span">training &amp; certification:<br></span><%= mail_to "training@sweetandlashful.com","training@sweetandlashful.com", :class => 'link'  %></p>
                 </div> <!-- contact-column-1 -->
 
                 <div class="grid_3 alpha omega contact-column-2-blog">
