@@ -11,13 +11,9 @@
 
 .....................................................................................................
 
-<p>Shipping Address: <%= @order.ship_address %></p>
-						<p><%=  @order.ship_address.country %></p>
-
-
-
+<p>Shipping Address: <%= @order.ship_address.city if @order.ship_address.city %></p>
+						
 <p>Billing Address: <%= @order.bill_address %></p>
-   					<p><%=  @order.bill_address.country %></p>
 
 <p>Order Summary</p>
 .....................................................................................................
