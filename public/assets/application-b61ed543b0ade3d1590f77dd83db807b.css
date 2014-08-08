@@ -429,7 +429,7 @@ background-position:0% 100%;
 
 #header-logo-2-main{
 	position:fixed;
-	top:9.5px;
+	top: 28px;
 	left:42.5%;
 	z-index:111;
 }
@@ -450,7 +450,7 @@ margin-top:1%;
 
 #header-logo-3-store-main{
 	position: fixed;
-	top:10.8%;
+	top: 14%;
 	left: 44%;
 	z-index:111;
 }
@@ -463,14 +463,14 @@ z-index:111;
 .primary-header-index{
 	position:fixed;
 	background-color:#F9F9F9;
-	border: none !important;
-	box-shadow: none !important;
+	/*border: none !important;*/
+	/*box-shadow: none !important;*/
 	/*border-bottom:1.5px solid #2DCCD3;*/
 	/*-webkit-box-shadow:0px 2px 3px #444 !important;
 	-moz-box-shadow:0px 2px 3px #444 !important;*/
-	box-shadow: 2px 2px 3px #7f8c8d !important;
+	/*box-shadow: 2px 2px 3px #7f8c8d !important;*/
 	width:100%;
-	height:70px !important;
+	height:90px !important;
 }
 .main-menu{
 margin-bottom:1%;
@@ -994,7 +994,7 @@ font-size: 1.2em;
 	font-size:1.5em;
 }
 .main-button{
-margin-top:3px;
+margin-top: 13px;
 background-color:rgba(0, 0, 0, 0);
 }
 .who-we-are{
@@ -8208,20 +8208,20 @@ margin-top: -10%;
 width: 100%;
 position: fixed;
 background-color: #F9F9F9;
-border-bottom: 1.5px solid #2DCCD3;
+/*border-bottom: 1.5px solid #2DCCD3;*/
 height: 10.8%;
 /*z-index: 100;*/
-box-shadow: 1px 2px 3px #FF8DA1;
+/*box-shadow: 1px 2px 3px #FF8DA1;*/
 }
 
 .primary-header-index-about {
 width: 100%;
 position: fixed;
 background-color: #F9F9F9;
-border-bottom: 1.5px solid #2DCCD3;
+/*border-bottom: 1.5px solid #2DCCD3;*/
 height: 10.8%;
 /*z-index: 100;*/
-box-shadow: 1px 1px 3px #FF8DA1;
+/*box-shadow: 1px 1px 3px #FF8DA1;*/
 }
 
 .primary-header-index li {
