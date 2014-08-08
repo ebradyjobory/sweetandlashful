@@ -14,12 +14,12 @@
 <p>Shipping Address: <%= @order.ship_address %></p>
                      <p><%= @order.ship_address.city %> <%= @order.ship_address.zipcode %></p>
                      <p><%= @order.ship_address.state %></p>
-                     
+ .....................................................................................................                    
 						
 <p>Billing Address: <%= @order.bill_address %></p>
-					<p><%= @order.bill_address.city %> <%= @order.bill_address.zipcode %></p>>
+					<p><%= @order.bill_address.city %> <%= @order.bill_address.zipcode %></p>
                     <p><%= @order.bill_address.state %></p>
-
+.....................................................................................................
 <p>Order Summary</p>
 .....................................................................................................
 <% @order.line_items.each do |item| %>
