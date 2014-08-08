@@ -564,7 +564,7 @@ body {
     z-index: 900;
     font-family: 'Grand Hotel', cursive !important;
     margin-left: 4.5%;
-    margin-top: -160px;
+    margin-top: -150px;
     text-decoration: none;
     font-size: 2em;
     color: #2DCCD3 !important;
@@ -595,7 +595,7 @@ margin-bottom: 40px !important;
 
 background-color:rgba(0, 0, 0, 0);
 width: 25px;
-margin-top: 3px;
+margin-top: 8px;
 margin-right: 0px;
 cursor: pointer;
 
@@ -802,10 +802,10 @@ position: fixed;
 width: 100%;
 background-color: #F9F9F9;
 /*border-bottom: 1.5px solid #2DCCD3;*/
-height: 11%;
+height: 12.6%;
 margin-top: -180px;
 /*z-index: 100;*/
-box-shadow: 2px 2px 3px #7f8c8d !important;
+/*box-shadow: 2px 2px 3px #7f8c8d !important;*/
 }
 
 /*.primary-header li {
