@@ -1,3 +1,5 @@
+<p>Thanks so much for your order!</p>
+
 <ul>
 	<li>Orders typically ship in 1-2 business days.</li>
 	<li>We’ll send you a tracking number as soon as it’s out the door.</li>
@@ -12,10 +14,49 @@
 <p>Shipping Address: <%= @order.ship_address %></p>
 <p>Billing Address: <%= @order.bill_address %></p>
    
-<h4>Order Summary</h4>
+<div class="address vcard">
+<div class="fn"><%= address.full_name %></div>
+<% unless address.company.blank? %>
+<div class="org">
+<%= address.company %>
+</div>
+<% end %>
+<div class="adr">
+<div class="street-address">
+<div class="street-address-line">
+<%= address.address1 %>
+</div>
+<% unless address.address2.blank? %>
+<div class="street-address-line">
+<%= address.address2 %>
+</div>
+<% end %>
+</div>
+<div class="local">
+<span class="locality"><%= address.city %></span>
+<span class="region"><%= address.state_text %></span>
+<span class="postal-code"><%= address.zipcode %></span>
+<div class="country-name"><%= address.country.try(:name) %></div>
+</div>
+</div>
+<% unless address.phone.blank? %>
+<div class="tel">
+<span class="type"><%= Spree.t(:phone) %></span>
+<%= address.phone %>
+</div>
+<% end %>
+<% unless address.alternative_phone.blank? %>
+<div class="alternative-phone tel">
+<span class="type"><%= Spree.t(:alternative_phone) %></span>
+<%= address.alternative_phone %>
+</div>
+<% end %>
+</div>
+
+<p>Order Summary</p>
 .....................................................................................................
 <% @order.line_items.each do |item| %>
-<%= item.variant.sku %> <%= raw(item.variant.product.name) %> <%= raw(item.variant.options_text) -%> (<%=item.quantity%>) @ <%= item.single_money %> = <%= item.display_amount %>
+<p><%= item.variant.sku %> <%= raw(item.variant.product.name) %> <%= raw(item.variant.options_text) -%> (<%=item.quantity%>) @ <%= item.single_money %> = <%= item.display_amount %><p>
 <% end %><br>     
 ......................................................................................................
 <p><%= Spree.t('order_mailer.confirm_email.subtotal', :subtotal => @order.display_item_total) %></p>
@@ -38,9 +79,6 @@
 <% next if (adjustment.source_type == 'Spree::TaxRate') and (adjustment.amount == 0) %>
 <p><%= adjustment.label %></p>  <p><%= adjustment.display_amount %></p>
 <% end %>
-<br>
 .......................................................................................................
 <p><%= Spree.t('order_mailer.confirm_email.total', :total => @order.display_total) %></p>
 <br>
-<br>
-<p><%= Spree.t('order_mailer.confirm_email.thanks') %></p>
