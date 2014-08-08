@@ -130,6 +130,8 @@ a:active {
 
 .flash.success, .success.errorExplanation {
     background-color: #FF8DA1 !important;
+    margin-left: 33%;
+    text-align: center;
 }
 
 
