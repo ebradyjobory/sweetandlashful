@@ -3,7 +3,7 @@
 <ul>
 	<li>Orders typically ship in 1-2 business days.</li>
 	<li>I'll send you a tracking number as soon as it’s out the door.</li>
-	<li>Questions? Email me directly at <a href="mailto:nancy@sweetandlashful.com" class="">nancy@sweetandlashful.com</a>. You can also text at 404-585-1456.</li>
+	<li>Questions? Email me directly at <a href="mailto:nancy@sweetandlashful.com" class="">nancy@sweetandlashful.com</a>. You can also text me at 404-585-1456.</li>
 </ul>
 
 <p>Cheers,<br>
@@ -12,13 +12,13 @@
 .....................................................................................................
 
 <p>Shipping Address: <%= @order.ship_address %></p>
-                     <p><%= @order.ship_address.city %> <%= @order.ship_address.zipcode %></p>
-                     <p><%= @order.ship_address.state %></p>
+                     <p><%= @order.ship_address.city %>,</p>
+                     <p><%= @order.ship_address.state %> <%= @order.ship_address.zipcode %></p>
  .....................................................................................................                    
 						
 <p>Billing Address: <%= @order.bill_address %></p>
-					<p><%= @order.bill_address.city %> <%= @order.bill_address.zipcode %></p>
-                    <p><%= @order.bill_address.state %></p>
+					<p><%= @order.bill_address.city %>,</p>
+                    <p><%= @order.bill_address.state %> <%= @order.bill_address.zipcode %></p>
 .....................................................................................................
 <p>Order Summary</p>
 .....................................................................................................
