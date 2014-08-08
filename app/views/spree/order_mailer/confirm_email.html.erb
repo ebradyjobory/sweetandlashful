@@ -3,7 +3,7 @@
 <ul>
 	<li>Orders typically ship in 1-2 business days.</li>
 	<li>I'll send you a tracking number as soon as it’s out the door.</li>
-	<li>Questions? Email me at <a href="mailto:nancy@sweetandlashful.com" class="">nancy@sweetandlashful.com</a>. You can also just shoot me a text at 404.585.1456.</li>
+	<li>Questions? Email me directly at <a href="mailto:nancy@sweetandlashful.com" class="">nancy@sweetandlashful.com</a>. You can also text at 404-585-1456.</li>
 </ul>
 
 <p>Cheers,<br>
@@ -11,15 +11,20 @@
 
 .....................................................................................................
 
-<p>Shipping Address: <%= @order.ship_address.city if @order.ship_address.city %></p>
+<p>Shipping Address: <%= @order.ship_address %></p>
+                     <p><%= @order.ship_address.city %> <%= @order.ship_address.zipcode %></p>
+                     <p><%= @order.ship_address.state %></p>
+                     
 						
 <p>Billing Address: <%= @order.bill_address %></p>
+					<p><%= @order.bill_address.city %> <%= @order.bill_address.zipcode %></p>>
+                    <p><%= @order.bill_address.state %></p>
 
 <p>Order Summary</p>
 .....................................................................................................
 <% @order.line_items.each do |item| %>
 <p><%= item.variant.sku %> <%= raw(item.variant.product.name) %> <%= raw(item.variant.options_text) -%> (<%=item.quantity%>) @ <%= item.single_money %> = <%= item.display_amount %><p>
-<% end %><br>     
+<% end %>     
 ......................................................................................................
 <p><%= Spree.t('order_mailer.confirm_email.subtotal', :subtotal => @order.display_item_total) %></p>
 <% if @order.line_item_adjustments.exists? %>
