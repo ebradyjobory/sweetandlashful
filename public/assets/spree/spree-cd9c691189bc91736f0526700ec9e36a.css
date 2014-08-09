@@ -385,7 +385,7 @@ table tbody tr.alt,table tbody tr.odd,table tfoot tr.alt,table tfoot tr.odd{
 	margin-top:-31px !important;
 	position:fixed;
 	left:80%;
-	width:125px;
+	width: 130px;
 	z-index:200;
 	font-family:'Quicksand', sans-serif !important
 }
@@ -675,7 +675,7 @@ table thead,#shipping_method table.stock-contents thead{
 
 #add-to-cart-button{
 	background-color:#F9F9F9 !important;
-	margin-top:2px;
+	margin-top:0px;
 	color:#FF8DA1
 }
 

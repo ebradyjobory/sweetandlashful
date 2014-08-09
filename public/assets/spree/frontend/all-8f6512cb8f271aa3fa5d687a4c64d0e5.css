@@ -136,7 +136,6 @@ a:active {
 .flash.notice, .notice.errorExplanation {
     background-color: #FF8DA1;
     text-align: center;
-    margin-left: 30%;
 }
 
 .flash.error, .errorExplanation {
