@@ -941,12 +941,21 @@ span {
         width: 15%;
         height: 5%;
         margin-left: 43%;
+        margin-top: -50px;
     }
 
 .about-container{
 	position:absolute;
-	margin:13% 25% 0 20%;
+	margin:8% 25% 0 20%;
 	text-align:justify;
+}
+
+.about-container h1:nth-child(5) {
+  margin-top: 0px;
+}
+
+.about-container p:nth-child(3) {
+   margin-top: -15px;
 }
 
 .about-container a{
@@ -984,14 +993,14 @@ font-size: 1.2em;
 	font-family:'Grand Hotel', cursive;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-size:2.8em;
+	font-size:2.1em;
 	font-weight: 100;
 	color: #ECF0F1 !important;
 }
 .about-container p{
 	margin-top:-5%;
 	font-family:'Quicksand', sans-serif;
-	font-size:1.5em;
+	font-size:1.1em;
 }
 .main-button{
 margin-top: 8px;
