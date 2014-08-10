@@ -1213,6 +1213,7 @@ font-size:0.8em;
 }
 .who-we-are{
 left:35%;
+
 }
 /*.arrow-who img{
 right:60%;
@@ -1225,7 +1226,7 @@ top:47%;
 .statement p {
 	position: absolute;
 	margin-top: 250px;
-	left: 10%;
+	left: 15%;
 	font-size: 2em;
 
 }
@@ -4155,9 +4156,9 @@ top:47%;
 	}
 
 	#header-logo-1 img {
-    width: 160px;
+    width: 170px;
     height: 150px;
-     margin-left: 30px;
+     margin-left: 40px;
     }
 /*
 	.social-media{
