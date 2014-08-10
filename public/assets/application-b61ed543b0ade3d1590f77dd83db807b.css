@@ -454,7 +454,7 @@ margin-top:1%;
 
 #header-logo-3-store-main{
 	position: fixed;
-	top: 13%;
+	top: 83px;
 	left: 44%;
 	z-index:111;
 }
@@ -1283,7 +1283,6 @@ top:47%;
 	.statement p {
 	position: absolute;
 	margin-top: 250px;
-	left: 10%;
 	font-size: 2em;
 
     }
@@ -4101,7 +4100,7 @@ top:47%;
 .statement p {
 	position: absolute;
 	margin-top: 250px;
-	left: 30%;
+	left: 10%;
 	
 }
 
@@ -4154,6 +4153,12 @@ top:47%;
 		font-size: 0.9em !important;
 		margin-top: 50px !important;
 	}
+
+	#header-logo-1 img {
+    width: 160px;
+    height: 150px;
+     margin-left: 30px;
+    }
 /*
 	.social-media{
 	width:200px;
