@@ -4573,6 +4573,10 @@ table.order-summary tbody tr td:first-child a {
     margin: 0;
     width: 50%;
   }
+  #registration #existing-customer {
+  width: auto;
+  text-align: center;
+  }
   /* line 1221, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
   .progress-steps li span {
     display: block;
