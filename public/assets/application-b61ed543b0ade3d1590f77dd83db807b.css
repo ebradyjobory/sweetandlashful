@@ -1225,7 +1225,8 @@ top:47%;
 .statement p {
 	position: absolute;
 	margin-top: 250px;
-	left: 30%;
+	left: 10%;
+	font-size: 2em;
 
 }
 
@@ -1288,7 +1289,7 @@ top:47%;
     }
 
     .about-container {
-    	margin-top: 80px;
+    	margin: 80px 4% 5px 1%;
     	font-size: 0.4em;
     }
 
