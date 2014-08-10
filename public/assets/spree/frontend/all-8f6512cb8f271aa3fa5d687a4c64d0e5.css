@@ -130,7 +130,6 @@ a:active {
 
 .flash.success, .success.errorExplanation {
     background-color: #FF8DA1 !important;
-    margin-left: 30%;
     text-align: center;
 }
 .flash.notice, .notice.errorExplanation {
@@ -4164,7 +4163,7 @@ ul#products li .price {
 }
 /* line 778, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 #order_details table tfoot#order-total tr, #order_summary table tfoot#order-total tr {
-  border-top: 1px solid #d9d9db;
+  border-top: 1px solid #F9F9F9;
 }
 /* line 781, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 #order_details table tfoot#order-total tr td, #order_summary table tfoot#order-total tr td {
