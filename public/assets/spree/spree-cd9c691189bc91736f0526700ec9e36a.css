@@ -1086,7 +1086,12 @@ nav.menu{
 @media only screen and (max-width: 400px){
 	ul#products{
 		width:30%;
-		margin-left:22% !important
+		margin-left:22% !important;
+		margin-top: 55px;
+	}
+
+	ul#products li a.info {
+		height: 130px;
 	}
 
 	.background{
@@ -1142,7 +1147,7 @@ nav.menu{
 	}
 
 	#content{
-	margin-top:-10%;
+	margin-top: 10%;
 	margin-left: 0%;
 	}
 
