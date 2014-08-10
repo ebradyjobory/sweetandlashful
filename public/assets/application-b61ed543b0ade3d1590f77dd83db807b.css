@@ -1235,9 +1235,11 @@ top:47%;
 
 	.arrow-who img {
 		right:48% !important;
+		top: 52%;
 	}
 	.who-we-are{
         left:30%;
+        top: 50%;
 	}
 	.footer-main ul{
 		width:350px !important;
@@ -1280,7 +1282,8 @@ top:47%;
 	.statement p {
 	position: absolute;
 	margin-top: 250px;
-	left: 20%;
+	left: 15%;
+	font-size: 2em;
 
     }
 
