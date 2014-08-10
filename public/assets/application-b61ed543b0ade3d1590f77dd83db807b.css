@@ -1269,7 +1269,7 @@ top:47%;
 		margin-left: -20% !important;
 	}
 	#header-logo-3-store-main {
-		margin-left: -16% !important;
+		display: none !important;
 	}
 
 	.footer-main ul {
