@@ -3405,11 +3405,11 @@ mark {
 /* line 39, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 a {
   text-decoration: none;
-  color: #00adee;
+  color: #F9F9F9;
 }
 /* line 43, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 a:hover {
-  color: #0088bb;
+  /*color: #0088bb;*/
 }
 /* line 47, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 a:active, a:focus {
