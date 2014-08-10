@@ -1087,11 +1087,21 @@ nav.menu{
 	ul#products{
 		width:30%;
 		margin-left:22% !important;
-		margin-top: 55px;
+		margin-top: 25px;
+	}
+
+	#update-cart #subtotal, #update-cart .links {
+    width: 300px;
+    float: right;
+    text-align: center;
 	}
 
 	ul#products li a.info {
 		height: 130px;
+	}
+	#order_coupon_code {
+    font-family: "Quicksand",sans-serif;
+    width: 100px;
 	}
 
 	.background{
