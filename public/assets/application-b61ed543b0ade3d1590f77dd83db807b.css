@@ -1282,9 +1282,14 @@ top:47%;
 	.statement p {
 	position: absolute;
 	margin-top: 250px;
-	left: 15%;
+	left: 10%;
 	font-size: 2em;
 
+    }
+
+    .about-container {
+    	margin-top: 80px;
+    	font-size: 0.4em;
     }
 
 }
