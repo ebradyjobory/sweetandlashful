@@ -1086,7 +1086,7 @@ nav.menu{
 @media only screen and (max-width: 400px){
 	ul#products{
 		width:30%;
-		margin-left:23% !important
+		margin-left:15% !important
 	}
 
 	.background{
@@ -1129,11 +1129,11 @@ nav.menu{
 	}
 
 	#header-logo-3-store,#header-logo-2{
-		margin-left:-10% !important
+		margin-left:-16% !important
 	}
 
 	#header-logo-3-store{
-		margin-left:-20px !important
+		margin-left:-38px !important
 	}
 
 	#link-to-login{
