@@ -1041,6 +1041,11 @@ width:40px;
 height:40px;
 top:580px;
 }
+
+.service-container span {
+    letter-spacing: 1px;
+}
+
 /*.push-menu-right ul li a:hover{
 color:#FF8DA1 !important;
 }
@@ -9893,7 +9898,7 @@ display: block ;
     }
 
     #header-logo-3-store, #header-logo-2 {
-       margin-left: -10% !important;
+       margin-left: -15% !important;
 
     }
 

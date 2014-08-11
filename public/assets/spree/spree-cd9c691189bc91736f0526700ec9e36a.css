@@ -1157,8 +1157,8 @@ nav.menu{
 		margin-left:-16% !important
 	}
 
-	#header-logo-3-store{
-		
+	#header-logo-3-store {
+    display: none;
 	}
 
 	#link-to-login{
