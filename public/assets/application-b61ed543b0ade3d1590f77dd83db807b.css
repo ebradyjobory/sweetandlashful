@@ -1237,6 +1237,16 @@ top:47%;
 
 @media only screen and (max-width : 400px){
 
+	#intro{
+	height:800px;
+	background:url('new_bg3_s.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position:0% 100%;
+	}
+
 	.service-container {
 		margin: 150px 2% 5px 2% !important;
 		font-size: 1.5em !important;
