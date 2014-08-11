@@ -193,9 +193,6 @@ a, a:visited {
 	font-size: 1.5em !important;
 }
 
-.service-container ul li:nth-child(4){
-    font-weight: 600;
-}
 
 .service-container a {
 	color: #F9F9F9 !important;
@@ -250,7 +247,7 @@ li {
 }
 
 .fs-service-price {
-	letter-spacing: 1.2px !important;
+	letter-spacing: -1px !important;
 	font-weight: 800 !important;
 
 }
