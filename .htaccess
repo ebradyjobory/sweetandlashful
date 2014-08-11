@@ -1,8 +1,1 @@
-<IfModule mod_passenger.c>
-Options -MultiViews
-PassengerResolveSymlinksInDocumentRoot on
-#Set this to whatever environment you'll be running in
-RailsEnv production
-RackBaseURI /
-SetEnv GEM_HOME /home4/aesthez6/ruby/gems
-</IfModule>
+Redirect 301 / https://www.sweetandlashful.com/
