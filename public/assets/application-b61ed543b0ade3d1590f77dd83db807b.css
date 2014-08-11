@@ -1010,7 +1010,7 @@ background-color:rgba(0, 0, 0, 0);
 .who-we-are{
 position:absolute;
 top:71%;
-left:44%;
+left:46%;
 list-style:none;
 }
 
@@ -1036,9 +1036,9 @@ outline:0 none;
 }
 .arrow-who img{
 position:absolute;
-right:50%;
-width:40px;
-height:40px;
+right:50.5%;
+width:30px;
+height:30px;
 top:580px;
 }
 
