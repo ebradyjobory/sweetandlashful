@@ -12,7 +12,16 @@
   <%= stylesheet_link_tag    "normalize", media: "all", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag    "grid", media: "all", "data-turbolinks-track" => true %>
   <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-53624245-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -154,10 +163,10 @@
           <ul>
               <li class="main-menu-item-1-store-i"><%= link_to "Shop", "/store", :class => "" %></li>
               <li class="main-menu-item-6-store-i"><%= link_to "Services", "/services" %></li>
-		  
+
 		      <li class="main-menu-item-3-store-i"><%= link_to "About", "#second-about", :class => "" %></li>
 		      <li class="main-menu-item-4-store-i"><%= link_to "Lashful Thinking", "/lashfulthinking", :class => "" %></li>
-		       
+
 		      <li class="main-menu-item-5-store-i"><%= link_to "Contact Us"%></li>
 		      <%= image_tag('flourish-slide.png', :class => 'slide_image') %>
           </ul>
