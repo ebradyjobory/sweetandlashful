@@ -1232,6 +1232,11 @@ top:47%;
 
 @media only screen and (max-width : 400px){
 
+	.service-container {
+		margin: 150px 2% 5px 2% !important;
+		font-size: 2em !important;
+     }
+
 	.arrow-who img {
 		right:48% !important;
 		top: 52%;
