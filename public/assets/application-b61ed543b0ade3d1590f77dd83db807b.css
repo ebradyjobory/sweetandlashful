@@ -399,6 +399,26 @@ height:650px;
 background-size: cover;
 background-position:0% 50%;
 }
+
+#owner{
+height:650px;
+/*background:url('background-grey.png') no-repeat center center fixed;*/
+-webkit-background-size: cover;
+-moz-background-size:cover;
+-o-background-size: cover;
+background-size: cover;
+background-position:0% 50%;
+}
+
+#main-gallery{
+height:650px;
+/*background:url('background-grey.png') no-repeat center center fixed;*/
+-webkit-background-size: cover;
+-moz-background-size:cover;
+-o-background-size: cover;
+background-size: cover;
+background-position:0% 50%;
+}
 #second-about ~ .glass{
 display:none !important;
 }
