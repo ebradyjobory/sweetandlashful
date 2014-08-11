@@ -1010,7 +1010,7 @@ background-color:rgba(0, 0, 0, 0);
 .who-we-are{
 position:absolute;
 top:71%;
-left:46%;
+left:45%;
 list-style:none;
 }
 
@@ -1022,7 +1022,7 @@ text-decoration:none !important;
 font-family:'Grand Hotel', cursive;
 text-decoration:none;
 color:#FF8DA1 !important;
-font-size:2.5em;
+font-size:3em;
 font-weight:100 !important;
 }
 .who-we-are a:hover{
@@ -1036,10 +1036,10 @@ outline:0 none;
 }
 .arrow-who img{
 position:absolute;
-right:50.5%;
+right:51%;
 width:30px;
 height:30px;
-top:580px;
+top:585px;
 }
 
 .service-container span {
@@ -1267,6 +1267,10 @@ top:47%;
 	.who-we-are{
         left:30%;
         top: 50%;
+	}
+
+	.who-we-are a:hover {
+		color: #FF8DA1;
 	}
 	.footer-main ul{
 		width:350px !important;
