@@ -1704,6 +1704,7 @@ margin-top: -25px !important;
 
     #header-logo-3-store {
         margin-left: -10%;
+        display: none;
     }
 
     .social-blog {
