@@ -12,6 +12,7 @@ gem "rack-timeout"
 
 gem 'pg'
 
+gem 'google-analytics-rails'
 
 gem 'mime-types', '~> 1.25'
 
