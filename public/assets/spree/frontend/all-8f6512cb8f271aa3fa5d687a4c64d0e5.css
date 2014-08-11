@@ -132,7 +132,13 @@ a:active {
     background-color: #FF8DA1 !important;
     text-align: center;
 }
-.flash.notice, .notice.errorExplanation {
+.flash.notice {
+    margin-left: 230px;
+    background-color: #FF8DA1;
+    text-align: center;
+}
+
+.notice.errorExplanation {
     background-color: #FF8DA1;
     text-align: center;
 }
