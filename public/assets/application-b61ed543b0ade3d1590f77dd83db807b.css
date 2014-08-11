@@ -2369,7 +2369,7 @@ background-color: #F9F9F9;
 height: 11%;
 margin-top: -180px;
 /*z-index: 100;*/
-box-shadow: 2px 2px 3px #7f8c8d !important;
+/*box-shadow: 2px 2px 3px #7f8c8d !important;*/
 }
 
 /*.primary-header li {
