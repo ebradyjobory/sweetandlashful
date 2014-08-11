@@ -390,6 +390,12 @@ table tbody tr.alt,table tbody tr.odd,table tfoot tr.alt,table tfoot tr.odd{
 	font-family:'Quicksand', sans-serif !important
 }
 
+.cart-icon {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
 ul#products li a.info{
 	font-family:'Quicksand', sans-serif !important;
 	height:80px;
@@ -999,6 +1005,10 @@ nav.menu{
 		width:200%
 	}
 
+	.cart-icon {
+		display: block;
+	}
+
 	#header-logo-3-store,#header-logo-2{
 		margin-left:-5% !important
 	}
@@ -1148,7 +1158,7 @@ nav.menu{
 	}
 
 	#header-logo-3-store{
-		display: none;
+		
 	}
 
 	#link-to-login{
