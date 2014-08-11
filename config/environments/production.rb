@@ -23,6 +23,8 @@ Ecom::Application.configure do
   config.serve_static_assets = true
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
+# replace this with your tracker code
+GA.tracker = "UA-53624245-1"
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier

@@ -139,6 +139,7 @@ GEM
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.3)
       activerecord (>= 4.0.0)
+    google-analytics-rails (0.0.6)
     gyoku (0.4.6)
       builder (>= 2.1.2)
     highline (1.6.21)
@@ -349,6 +350,7 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk
   coffee-rails (~> 4.0.0)
+  google-analytics-rails
   jbuilder (~> 1.2)
   jquery-rails
   mime-types (~> 1.25)
