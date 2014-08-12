@@ -92,7 +92,7 @@ background-color:white;
     position: absolute;
     top: 530px;
     font-size: 3em;
-    left: 260px;
+    left: 22%;
   
 }
 .menu-page ul li{
@@ -107,6 +107,15 @@ background-color:white;
 .menu-page a:hover{
     color: #2DCCD3 !important;
 }
+
+.menu-page ul li:nth-child(-n+2):after {
+  
+    content: url('arrow_pink_s.png');
+    position: absolute;
+     
+    
+}
+
 
 #fs-main p:nth-child(3),#fs-main p:nth-child(5)  {
     font-size: 1em;
