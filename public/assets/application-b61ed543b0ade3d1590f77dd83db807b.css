@@ -995,6 +995,10 @@ span {
 	text-align:justify;
 }
 
+.gallery-container a {
+    color: #F9F9F9;
+}
+
 .about-container h1:nth-child(5) {
   margin-top: 0px;
 }
