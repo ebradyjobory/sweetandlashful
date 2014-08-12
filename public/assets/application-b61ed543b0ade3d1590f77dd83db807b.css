@@ -1330,20 +1330,30 @@ top:47%;
 
 @media only screen and (max-width : 400px){
 
-	#intro{
-	height:800px;
-	background:url('new_bg3_s.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size:cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position:0% 100%;
-	}
-
+    .statement p {
+        display: none;
+    }
 	.service-container {
 		margin: 150px 2% 5px 2% !important;
 		font-size: 1.5em !important;
      }
+
+    .menu-page {
+       position: static;
+       margin-top: -440px; 
+       padding: 10px 0px 10px 0px;
+        
+    }
+    .menu-page a {
+        display: block;
+        margin: 5px 0px 0px -80px;
+        padding: 15px 160px 15px 10px;
+        border: 3px solid #2DCCD3;
+        background-image: url('mobile_link_arrow.png') no-repeat right center;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+    }
 
     .service-container ul {
     	margin: 10px 2px 0px -15px;
