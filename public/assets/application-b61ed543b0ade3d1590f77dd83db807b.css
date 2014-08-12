@@ -1360,6 +1360,12 @@ top:47%;
     position: relative;
     }
 
+    .nav-slide-right li a {
+    font-size: 25px !important;
+    margin: -10px;
+    }
+
+
     .service-container ul {
     	margin: 10px 2px 0px -15px;
     }
