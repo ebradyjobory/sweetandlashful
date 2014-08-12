@@ -100,6 +100,7 @@ background-color:white;
     height: 130px;
     margin-left: 0px;
     margin-right: 20px;
+    margin-top: 41px;
 }
 
 
@@ -1031,14 +1032,14 @@ font-size: 1.2em;
 	font-family:'Grand Hotel', cursive;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-size:2.1em;
+	font-size:2.6em;
 	font-weight: 100;
 	color: #ECF0F1 !important;
 }
 .about-container p{
 	margin-top:-5%;
 	font-family:'Quicksand', sans-serif;
-	font-size:1.1em;
+	font-size:1.3em;
 }
 .main-button{
 margin-top: 8px;
