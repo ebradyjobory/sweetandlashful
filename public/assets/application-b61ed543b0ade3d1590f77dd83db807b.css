@@ -122,6 +122,10 @@ background-color:white;
     font-family: "Quicksand",sans-serif !important;
 }
 
+.gallery-container a:hover {
+    color: #F9F9F9;
+}
+
 .fs-booking-fields  {
     position: relative;
     top: -70px;
