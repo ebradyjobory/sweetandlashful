@@ -84,7 +84,7 @@ $(document).ready(function() {
       <li><%= link_to "Services", "/services", :class => "" %></li>
       <li><%= link_to "Shop", "/store", :class => "" %></li>
       <li><%= link_to "Blog", "/lashfulthinking", :class => "" %></li>
-      <li><%= link_to "Contact Us", "#", :class => "" %></li>
+      <li><%= link_to "Contact Us", :class => "menu-contact" %></li>
     </ul>
 </div>  <!-- .main-menu -->
 
@@ -177,6 +177,14 @@ $(document).ready(function() {
         <%= render partial: "gallery" %>
     </div>
 
+<script>
+      $('.menu-contact').on('click', function(event){
+          event.preventDefault();
+          // $('.main-menu-item-5-store-i').hide();
+        $(".glass").slideToggle();
+      });
+
+</script>
 
 
 </body>
