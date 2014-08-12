@@ -77,6 +77,10 @@ background-color:white;
     display: none;
 }
 
+.main-button {
+    display: none;
+}
+
 #fs-main p:nth-child(3),#fs-main p:nth-child(5)  {
     font-size: 1em;
     font-family: "Quicksand",sans-serif !important;
