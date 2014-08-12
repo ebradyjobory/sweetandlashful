@@ -1206,7 +1206,7 @@ margin-left:-50px !important;
 padding-right:-10px !important;
 }
 .main-button{
-display:block;
+display:none;
 }
 .who-we-are{
 left:38.5%;
@@ -1254,7 +1254,7 @@ width:200px;
 margin-left:100% !important;
 }
 .main-button{
-display:block;
+display:none;
 }
 .intro-contact{
 display:none !important;
@@ -1355,8 +1355,8 @@ top:47%;
     }
    .menu-page li:after {
     content: url('arrow_pink_mobile.png');
-    top: -27px;
-    left: 190px;
+    top: -30px;
+    left: 180px;
     position: relative;
     }
 
@@ -4295,7 +4295,7 @@ top:47%;
 	#header-logo-1 img {
         width: 120px;
         height: 100px;
-        margin-left: 50px;   
+        margin-left: 60px;   
      }
 /*
 	.social-media{
