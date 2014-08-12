@@ -1330,15 +1330,15 @@ top:47%;
 
 @media only screen and (max-width : 400px){
 
-    .statement p {
+   /* .statement p {
         display: none;
     }
-	.service-container {
+*/	.service-container {
 		margin: 150px 2% 5px 2% !important;
 		font-size: 1.5em !important;
      }
 
-    .menu-page {
+   /* .menu-page {
        position: static;
        margin-top: -440px; 
        padding: 10px 0px 10px 0px;
@@ -1352,7 +1352,7 @@ top:47%;
         border-radius: 20px;
         -moz-border-radius: 20px;
         -webkit-border-radius: 20px;
-    }
+    }*/
 
     .service-container ul {
     	margin: 10px 2px 0px -15px;
