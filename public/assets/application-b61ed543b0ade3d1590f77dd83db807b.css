@@ -87,6 +87,23 @@ background-color:white;
     top: -70px;
 }
 
+.owner-container{
+	position:relative;
+    width: 40%;
+	margin:10% 25% 0 30%;
+	text-align:justify;
+}
+
+.owner-img {
+    float: left;
+    border-radius: 100%;
+    height: 130px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+
 .fs-booking-state {
 	margin-top: 30px !important;
 }
