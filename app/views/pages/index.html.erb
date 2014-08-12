@@ -58,14 +58,14 @@ $(document).ready(function() {
 
 
   window.addEventListener("scroll",function() {
-     if(window.scrollY > 200) {
+     if(window.scrollY > 500) {
         $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main').show();
         $('.intro-menu, #header-logo-1, .intro-contact').hide();
 
         // $('.intro-menu').slideDown();
      }
      else {
-        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main, .primary-header-index-about, #header-logo-2-about, #header-logo-3-store-about').hide();
+        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main, .primary-header-index-about, #header-logo-2-about, #header-logo-3-store-about, , .main-button').hide();
         $('.intro-menu, #header-logo-1, .intro-contact').show();
         // $('.intro-menu').slideUp();
      }
