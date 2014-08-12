@@ -20,10 +20,7 @@
     <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "/" %>
   </div>  <!-- #header-logo-2 -->
 
-
   <div id="header-logo-3-store">
-
- <p id="link-to-cart" data-hook><%= link_to_cart %></p>
     <%= link_to image_tag("swoosh-04.png", :alt => 'Sweet and Lashful'), "/" %>
   </div>  <!-- #header-logo-2 -->
 
@@ -38,6 +35,8 @@
             </ul>
         </div>  <!-- .main-menu -->
   </div>  <!-- main-header -->
+
+   <p id="link-to-cart" data-hook><%= link_to_cart %></p>
 
   <head data-hook="inside_head">
     <%= render :partial => 'spree/shared/head' %>

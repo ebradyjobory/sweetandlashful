@@ -396,6 +396,10 @@ table tbody tr.alt,table tbody tr.odd,table tfoot tr.alt,table tfoot tr.odd{
     display: none;
 }
 
+.cart-info.empty {
+	top: 60px;
+}
+
 ul#products li a.info{
 	font-family:'Quicksand', sans-serif !important;
 	height:80px;
