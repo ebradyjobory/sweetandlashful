@@ -5,13 +5,13 @@ class ApplicationController < ActionController::Base
 
   before_filter :ensure_domain
 
-  APP_DOMAIN = 'www.sweetandlashful.com'
+force_ssl if: :ssl_configured?
 
-  def ensure_domain
-    if request.env['HTTP_HOST'] != APP_DOMAIN
-      # HTTP 301 is a "permanent" redirect
-      redirect_to "https://#{APP_DOMAIN}", :status => 301
-    end
+  def ssl_configured?
+    !Rails.env.development?
   end
+end
+
+
 
 end
