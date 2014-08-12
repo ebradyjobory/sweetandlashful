@@ -36,3 +36,17 @@
     </span>
   <% end %>
 </div>
+
+
+
+<%= javascript_include_tag "jquery-1.10.2", "data-turbolinks-track" => true %>
+
+<script>
+
+        $(function() {
+            $('input[type="checkbox"]').on('change', function() {
+                $(this).closest('fieldset').find('.inner').toggle(!this.checked);
+            });
+        });
+</script>
+    
