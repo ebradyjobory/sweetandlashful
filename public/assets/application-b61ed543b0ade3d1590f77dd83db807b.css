@@ -81,6 +81,30 @@ background-color:white;
     display: none;
 }
 
+.who-we-are{
+    display: none;
+}
+.arrow-who img {
+    display: none;
+}
+
+.menu-page {
+    position: absolute;
+    top: 530px;
+    font-size: 3em;
+    left: 260px;
+  
+}
+.menu-page ul li{
+    display: inline;
+    padding-left: 40px;
+}
+
+
+.menu-page a{
+    font-family: "Grand Hotel",cursive; 
+}
+
 #fs-main p:nth-child(3),#fs-main p:nth-child(5)  {
     font-size: 1em;
     font-family: "Quicksand",sans-serif !important;
