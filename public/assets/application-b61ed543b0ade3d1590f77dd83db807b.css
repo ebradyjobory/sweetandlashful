@@ -100,9 +100,12 @@ background-color:white;
     padding-left: 40px;
 }
 
-
 .menu-page a{
     font-family: "Grand Hotel",cursive; 
+    color: #FF8DA1 !important;
+}
+.menu-page a:hover{
+    color: #2DCCD3 !important;
 }
 
 #fs-main p:nth-child(3),#fs-main p:nth-child(5)  {
