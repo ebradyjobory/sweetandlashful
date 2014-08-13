@@ -3415,6 +3415,17 @@ margin-top: -25px !important;
     margin-left: 10px;
     }
 
+    .fs-openings-search {
+        margin-left: -100px
+    }
+
+    .fs-openings-results {
+        margin-left: -50px;
+    }
+    .fs-openings-results li {
+        padding-bottom: 40px;
+    }
+
     .service-info {
     margin-bottom: 30px !important;
     margin-left: 15px;
