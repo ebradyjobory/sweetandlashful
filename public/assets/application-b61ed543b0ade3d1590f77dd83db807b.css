@@ -1339,7 +1339,9 @@ top:47%;
 
     .contact-column-1-main h2 {
     font-size: 1.3em;
-    margin-bottom: -10px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+
     }
 
     .glass p{
@@ -1389,6 +1391,10 @@ top:47%;
     .nav-slide-right li a {
     font-size: 25px !important;
     margin: -10px;
+    }
+
+    .contact-column-1-main h1 {
+        display: none;
     }
 
 
@@ -10108,8 +10114,11 @@ display: block ;
     }
 
     .social-media {
-    margin-top: 90px;
+       
+    top: 65%;
     margin-left: -100px !important;
+    position: absolute;
+}
     }
 
     .cart-info {
