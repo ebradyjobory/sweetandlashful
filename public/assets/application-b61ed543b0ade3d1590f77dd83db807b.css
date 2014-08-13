@@ -1287,8 +1287,8 @@ font-size:0.8em;
 
 
     .contact-column-2-main {
-    width: 150px !important;
-    margin-left: 40px !important;
+    width: 100px !important;
+    margin-left: 30px !important;
     font-size: 1em;
     text-align: left;
     margin-top: 7px !important;
@@ -10085,7 +10085,7 @@ display: block ;
     }
 
     .social-media {
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: -90px !important;
     }
 
