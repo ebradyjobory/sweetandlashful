@@ -1698,6 +1698,13 @@ margin-top: -25px !important;
         margin-left: -15%;
     }
 
+    .nav-slide-right li a {
+
+      margin: -10px;
+      font-size: 32px;
+
+    }
+
     .glass-blog {
         font-size: 0.8em;
     }

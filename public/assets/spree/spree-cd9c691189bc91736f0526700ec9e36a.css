@@ -1107,6 +1107,10 @@ nav.menu{
 		margin-left:22% !important;
 		margin-top: 25px;
 	}
+	  .nav-slide-right a {
+        margin: 26px;
+		font-size: 32px;
+    }
 
 	#update-cart #subtotal, #update-cart .links {
     width: 300px;
