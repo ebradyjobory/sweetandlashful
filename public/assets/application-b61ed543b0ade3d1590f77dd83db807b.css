@@ -796,7 +796,7 @@ content:"";
 color:#2DCCD3;
 font-family:'Grand Hotel', cursive;
 margin-bottom:-0.5%;
-font-size: 2.2em;
+font-size: 2.1em;
 font-weight: 100;
 }
 .glass h2{
@@ -10084,7 +10084,7 @@ display: block ;
 
     .social-media {
     margin-top: 10px;
-    margin-left: 60px !important;
+    margin-left: -90px !important;
     }
 
     .cart-info {
