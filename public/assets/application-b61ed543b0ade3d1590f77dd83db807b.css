@@ -1443,7 +1443,7 @@ top:47%;
         margin-top: -20px;
 	}
 	.contact-column-2-main p {
-    font-size: 1em !important;
+    font-size: 1.1em !important;
     margin-top: -80px;
     margin-left: 130px;
     width: 150px;
@@ -10116,10 +10116,13 @@ display: block ;
     .social-media {
        
     top: 65%;
-    margin-left: -100px !important;
+    margin-left: -110px !important;
     position: absolute;
-}
+
     }
+    .social-media img {
+padding-right: 15px;
+}
 
     .cart-info {
         width: 30% !important;
