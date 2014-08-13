@@ -1286,11 +1286,15 @@ font-size:0.8em;
 }
 
 
-.contact-column-2-main{
-width:35% !important;
-margin-left:30% !important;
-font-size:0.8em;
+.contact-column-2-main {
+width: 300px !important;
+margin-left: 10px !important;
+font-size: 1em;
+text-align: center;
+margin-top: -20px !important;
 }
+
+
 .contact-column-3-main h1, .contact-column-3-main h3, .contact-column-3-main input{
 display:none;
 }
@@ -1394,19 +1398,27 @@ top:47%;
 	.glass input{
 		display:none !important;
 	}
+
 	.contact-column-1-main {
-		width: 80px !important;
-	}
+    width: 250px !important;
+    font-size: 1em;
+    padding-left: 60px;
+    text-align: center;
+    margin-top: 10px !important;
+    }
 	.contact-column-2-main address{
-		font-size:1em !important;
+		font-size: 1.2em !important;
+        text-align: center;
 	}
 	.contact-column-2-main p{
 		font-size:1em !important;
+        margin-left: 20px;
+        margin-top: -5px;
 	}
-	.copyright-main{
-		margin-top: 25px !important;
-		margin-left:50px !important;
-	}
+	.copyright-main {
+    font-size: 0.9em !important;
+    margin-top: 80px !important;
+    }
 
 	#header-logo-2-main {
 		margin-left: -20% !important;
@@ -3400,6 +3412,11 @@ margin-top: -25px !important;
 
 
 @media only screen and (max-width : 400px) {
+
+
+    .glass {
+        height: 500px;
+    }
 
     .service-container {
     margin: 150px 4% 5px -10px !important;
@@ -10070,7 +10087,10 @@ display: block ;
     }
 
     .social-media {
-        margin-left: 20%;
+    margin-left: 60px;
+    /* float: left; */
+    bottom: 10px;
+    position: absolute;
     }
 
     .cart-info {
