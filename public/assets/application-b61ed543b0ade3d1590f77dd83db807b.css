@@ -3410,6 +3410,11 @@ margin-top: -25px !important;
         margin-left: -15%;
     }
 
+    .fs-embed-shell {
+    float: left;
+    margin-left: 10px;
+    }
+
     .service-info {
     margin-bottom: 30px !important;
     margin-left: 15px;
