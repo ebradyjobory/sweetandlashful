@@ -3401,8 +3401,18 @@ margin-top: -25px !important;
 
 @media only screen and (max-width : 400px) {
 
+    .service-container {
+    margin: 150px 4% 5px -10px !important;
+    font-size: 1.5em !important;
+    }
+
     #header-logo-2 {
         margin-left: -15%;
+    }
+
+    .service-info {
+    margin-bottom: 30px !important;
+    margin-left: 15px;
     }
 
     .glass-blog {
@@ -3448,6 +3458,7 @@ margin-top: -25px !important;
     color: #F9F9F9 !important;
     font-weight: 900;
     float: left;
+    font-size: 20px !important;
 }
    .fs-service-price {
     letter-spacing: -1px !important;
@@ -3469,7 +3480,7 @@ margin-top: -25px !important;
     margin-top: -10px !important;
     font-size: 0.9em !important;
     margin-bottom: 10px !important;
-    margin-left: -20px;
+    margin-left: 5px;
     text-align: justify;
     margin-right: 10px;
     }
