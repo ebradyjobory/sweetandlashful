@@ -796,7 +796,7 @@ content:"";
 color:#2DCCD3;
 font-family:'Grand Hotel', cursive;
 margin-bottom:-0.5%;
-font-size: 2.5em;
+font-size: 2.2em;
 font-weight: 100;
 }
 .glass h2{
@@ -1251,7 +1251,6 @@ margin-left:100% !important;
 }
 .social-media{
 width:200px;
-margin-left:100% !important;
 }
 .main-button{
 display:none;
@@ -1291,7 +1290,7 @@ font-size:0.8em;
     margin-left: 30px !important;
     font-size: 1em;
     text-align: left;
-    margin-top: 7px !important;
+    margin-top: 20px !important;
     }
 
 
@@ -1403,7 +1402,7 @@ top:47%;
     width: 150px !important;
     font-size: 1em;   
     text-align: left;
-    margin-top: 10px !important;
+    margin-top: 20px !important;
     }
 	.contact-column-2-main address{
 		font-size: 1.2em !important;
@@ -1415,7 +1414,7 @@ top:47%;
 	}
 	.copyright-main {
     font-size: 0.9em !important;
-    margin-top: 80px !important;
+    margin-top: 70px !important;
     }
 
 	#header-logo-2-main {
@@ -4252,7 +4251,6 @@ margin-left:100% !important;
 }
 .social-media{
 width:200px;
-margin-left:100% !important;
 }
 .blog-button{
 display:block;
@@ -10085,7 +10083,7 @@ display: block ;
     }
 
     .social-media {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: -90px !important;
     }
 
