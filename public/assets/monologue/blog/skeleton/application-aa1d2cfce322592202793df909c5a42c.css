@@ -1698,6 +1698,20 @@ margin-top: -25px !important;
         margin-left: -15%;
     }
 
+    .return {
+    background-image: url('https://s3.amazonaws.com/sweetandlashfulcom/Images/arrow_pink.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 70px;
+    position: relative;
+    top: -590px;
+    left: -60px;
+    }
+
+    .return a {
+     display: none !important; 
+    }
+
     .nav-slide-right li a {
 
       margin: -10px;
