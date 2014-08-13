@@ -1698,6 +1698,16 @@ margin-top: -25px !important;
         margin-left: -15%;
     }
 
+    .gallery-blog {
+    display: none;
+    }
+
+    .copyright-blog {
+      margin-left: 52px !important;
+      margin-top: -10px !important;
+      font-size: 0.8em !important;
+    }
+
     .return {
     background-image: url('https://s3.amazonaws.com/sweetandlashfulcom/Images/arrow_pink.png');
     background-repeat: no-repeat;
@@ -1721,6 +1731,7 @@ margin-top: -25px !important;
 
     .glass-blog {
         font-size: 0.8em;
+        height: 450px;
     }
 
     #header-logo-3-store {
@@ -1730,14 +1741,18 @@ margin-top: -25px !important;
 
     .social-blog {
         width: 150px;
+        margin-top: 80px;
+        margin-left: -120px;
     }
 
     .contact-column-1-blog {
         width: 150px !important;
+        margin-top: 10px !important;
     }
     .contact-column-2-blog {
         width: 150px !important;
         margin-left: 2% !important;
+        padding-top: 30px;
     }
 
     input, .contact-column-3-blog h3, .contact-column-3-blog h1 {display: none !important}
