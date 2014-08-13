@@ -1444,7 +1444,7 @@ top:47%;
     }
 	.copyright-main {
     font-size: 0.9em !important;
-    margin-top: 70px !important;
+    margin-top: 80px !important;
     }
 
 	#header-logo-2-main {
@@ -1456,11 +1456,6 @@ top:47%;
 
 	.footer-main ul {
 		margin-left: -160px !important;
-	}
-
-	.copyright-main {
-		font-size: 0.9em !important;
-		margin-top: 50px !important;
 	}
 
 	.statement p {
@@ -10113,7 +10108,7 @@ display: block ;
     }
 
     .social-media {
-    margin-top: 30px;
+    margin-top: 90px;
     margin-left: -100px !important;
     }
 
