@@ -3444,21 +3444,35 @@ margin-top: -25px !important;
     line-height: 30px;
     margin-top: -20px;
     }
-
-    .fs-service-price {
+   .service-container a {
+    color: #F9F9F9 !important;
+    font-weight: 900;
+    float: left;
+}
+   .fs-service-price {
     letter-spacing: -1px !important;
     font-weight: 800 !important;
-    float: left;
-    margin-top: 10px;
-    margin-left: 110px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 
-   .fs-option-summary {
+ .fs-option-summary {
     margin-left: 5% !important;
     font-size: 0.85em !important;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 40px;
+    float: left;
 }
+
+    .fs-category-summary {
+    margin-top: -10px !important;
+    font-size: 0.9em !important;
+    margin-bottom: 10px !important;
+    margin-left: -20px;
+    text-align: justify;
+    margin-right: 10px;
+    }
 
     .lashful {
         display: none;
