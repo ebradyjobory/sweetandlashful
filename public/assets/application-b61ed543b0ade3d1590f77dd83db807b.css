@@ -1420,21 +1420,28 @@ top:47%;
 	.glass input{
 		display:none !important;
 	}
+    .contact-column-2-main h1 {
+        display: none;
+    }
 
 	.contact-column-1-main {
-    width: 150px !important;
-    font-size: 1em;   
-    text-align: left;
-    margin-top: 30px !important;
+    width: 250px !important;
+    font-size: 1.2em;
+    margin-top: 20px !important;
+    text-align: center;
+    margin-left: 20px !important;
     }
 	.contact-column-2-main address{
 		font-size: 1.2em !important;
         text-align: left;
+        margin-top: -20px;
 	}
-	.contact-column-2-main p{
-		font-size:1em !important;
-        margin-top: 5px;
-	}
+	.contact-column-2-main p {
+    font-size: 1em !important;
+    margin-top: -80px;
+    margin-left: 130px;
+    width: 150px;
+    }
 	.copyright-main {
     font-size: 0.9em !important;
     margin-top: 70px !important;
