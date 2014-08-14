@@ -1112,8 +1112,9 @@ nav.menu{
 	}
 
 	.contact-column-2 p {
-		margin-top: -60px;
-		margin-left: 150px;
+		width: 150px;
+	margin-left: 110px !important;
+	margin-top: -68px !important;
 	}
 
 	h1.h1 {
