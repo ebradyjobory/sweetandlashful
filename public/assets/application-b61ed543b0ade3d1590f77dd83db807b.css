@@ -1340,11 +1340,32 @@ top:47%;
     .statement p {
         display: none;
     }
+
+    .about-container p {
+        font-size: 1.7em;
+    }
+
+    .owner-img {
+    float: left;
+    border-radius: 100%;
+    height: 130px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: -20px;
+    }
+
+    .about-container h1 {
+        font-size: 3em;
+    }
     .gallery-container {
     position: absolute;
-    margin: 350px 5% 0px 1%;
+    margin: 500px 5% 0px 1%;
     text-align: justify;
     font-size: 0.8em;
+    }
+
+    .gallery-container p {
+    font-size: 1.7em;
     }
 
     .contact-column-1-main h2 {
