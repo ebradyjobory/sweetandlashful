@@ -144,7 +144,7 @@ background-color:white;
     height: 130px;
     margin-left: 0px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -1039,6 +1039,10 @@ span {
 	text-align:justify;
 }
 
+.gallery-container p {
+    font-size: 1.3em;
+}
+
 .gallery-container a {
     color: #F9F9F9;
 }
@@ -1335,6 +1339,12 @@ top:47%;
 
     .statement p {
         display: none;
+    }
+    .gallery-container {
+    position: absolute;
+    margin: 350px 5% 0px 1%;
+    text-align: justify;
+    font-size: 0.8em;
     }
 
     .contact-column-1-main h2 {
