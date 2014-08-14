@@ -1102,6 +1102,27 @@ nav.menu{
 }
 
 @media only screen and (max-width: 400px){
+
+
+	div.grid_3.alpha.omega.contact-column-1-store {
+		margin-left: 50px;
+		text-align: center;
+		font-size: 1em !important;
+
+	}
+
+	.contact-column-2 p {
+		margin-top: -60px;
+		margin-left: 150px;
+	}
+
+	h1.h1 {
+		display: none;
+	}
+
+	address {
+		margin-left: -40px
+	}
 	ul#products{
 		width:30%;
 		margin-left:22% !important;
