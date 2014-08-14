@@ -1114,6 +1114,7 @@ nav.menu{
 		margin-left: 50px;
 		text-align: center;
 		font-size: 0.9em !important;
+		margin-top: -10px;
 
 	}
 
@@ -1127,7 +1128,7 @@ nav.menu{
 
 	.copyright {
     margin-left: 50px !important;
-    margin-top: -15px !important;
+    margin-top: -9px !important;
     font-size: 0.7em !important;
 	}
 
@@ -1212,7 +1213,7 @@ nav.menu{
 
 	.social-media{
 		margin-left: 30%;
-		margin-top: -30px;
+		margin-top: -25px;
 		width: 200px;
 	}
 
