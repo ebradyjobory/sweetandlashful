@@ -1107,8 +1107,18 @@ nav.menu{
 	div.grid_3.alpha.omega.contact-column-1-store {
 		margin-left: 50px;
 		text-align: center;
-		font-size: 1em !important;
+		font-size: 0.9em !important;
 
+	}
+
+	.contact-column-3 img {
+		padding-right: 15px;
+	}
+
+	.copyright {
+    margin-left: 50px !important;
+    margin-top: 10px !important;
+    font-size: 0.7em !important;
 	}
 
 	.contact-column-2 p {
@@ -1191,7 +1201,9 @@ nav.menu{
 	}
 
 	.social-media{
-		margin-left:20%
+		margin-left: 30%;
+		margin-top: -20px;
+		width: 200px;
 	}
 
 	.cart-info{
