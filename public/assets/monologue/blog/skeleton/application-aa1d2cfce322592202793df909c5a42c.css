@@ -1698,11 +1698,19 @@ margin-top: -25px !important;
         margin-left: -15%;
     }
 
+    .glass-blog p {
+      line-height: 15px;
+    }
+
 .contact-column-2-blog p {
-  margin-top: -60px;
-  font-size: 1.1em;
-  margin-left: 150px;
+  margin-top: -75px;
+  font-size: 1.2em;
+  margin-left: 200px;
   width: 150px;
+}
+
+.social-blog img {
+  padding-left: 20px;
 }
 
 
@@ -1710,9 +1718,10 @@ margin-top: -25px !important;
     font-style: normal;
     color: #ecf0f1;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-top: -20px;
-    margin-left: 20px;
+    margin-left: 70px;
+    width: 100px;
 }
 
     .glass-blog h2 {
@@ -1724,6 +1733,7 @@ margin-top: -25px !important;
     margin-top: 4%;
     letter-spacing: 0.1em;
     margin-bottom: 0px;
+    margin-top: 30px !important;
     }
 
     .glass-blog h1 {
@@ -1745,7 +1755,7 @@ margin-top: -25px !important;
     }
 
     .copyright-blog {
-      margin-left: 52px !important;
+      margin-left: 70px !important;
       margin-top: 10px !important;
       font-size: 0.8em !important;
     }
@@ -1783,13 +1793,15 @@ margin-top: -25px !important;
 
     .social-blog {
         width: 150px;
-        margin-top: 100px;
+        top: 350px;
         margin-left: -120px;
+        position: absolute;
     }
 
     .contact-column-1-blog {
-        width: 150px !important;
+        width: 250px !important;
         margin-top: 10px !important;
+        margin-left: 50px !important;
     }
     .contact-column-2-blog {
         width: 150px !important;
