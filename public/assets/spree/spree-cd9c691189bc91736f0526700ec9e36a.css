@@ -1133,7 +1133,7 @@ nav.menu{
 
 	.contact-column-2 p {
 		width: 150px;
-	margin-left: 100px !important;
+	margin-left: 90px !important;
 	margin-top: -68px !important;
 	}
 
@@ -1142,7 +1142,7 @@ nav.menu{
 	}
 
 	address {
-		margin-left: -40px
+		margin-left: -50px
 	}
 	ul#products{
 		width:30%;
