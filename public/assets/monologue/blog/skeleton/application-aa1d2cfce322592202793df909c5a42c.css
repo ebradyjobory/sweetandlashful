@@ -1697,6 +1697,12 @@ margin-top: -25px !important;
     #header-logo-2 {
         margin-left: -15%;
     }
+    .blog-container {
+    margin-top: 180px;
+    margin-left: 2%;
+    margin-right: 2% !important;
+
+}
 
     .glass-blog p {
       line-height: 15px;
