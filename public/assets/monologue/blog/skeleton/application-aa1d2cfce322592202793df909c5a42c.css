@@ -1703,14 +1703,14 @@ margin-top: -25px !important;
     }
 
 .contact-column-2-blog p {
-  margin-top: -75px;
+  margin-top: -71px;
   font-size: 1.2em;
-  margin-left: 200px;
+  margin-left: 160px;
   width: 150px;
 }
 
 .social-blog img {
-  padding-left: 20px;
+  padding-left: 16px;
 }
 
 
@@ -1720,7 +1720,7 @@ margin-top: -25px !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2em;
     margin-top: -20px;
-    margin-left: 70px;
+    margin-left: 40px;
     width: 100px;
 }
 
@@ -1792,16 +1792,16 @@ margin-top: -25px !important;
     }
 
     .social-blog {
-        width: 150px;
+        width: 200px;
         top: 350px;
-        margin-left: -120px;
+        margin-left: -160px;
         position: absolute;
     }
 
     .contact-column-1-blog {
         width: 250px !important;
         margin-top: 10px !important;
-        margin-left: 50px !important;
+        margin-left: 20px !important;
     }
     .contact-column-2-blog {
         width: 150px !important;
