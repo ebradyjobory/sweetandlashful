@@ -1732,7 +1732,7 @@ margin-top: -25px !important;
     font-style: normal;
     margin-top: 4%;
     letter-spacing: 0.1em;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-top: 30px !important;
     }
 
@@ -1755,7 +1755,7 @@ margin-top: -25px !important;
     }
 
     .copyright-blog {
-      margin-left: 70px !important;
+      margin-left: 50px !important;
       margin-top: 10px !important;
       font-size: 0.8em !important;
     }
@@ -1783,7 +1783,7 @@ margin-top: -25px !important;
 
     .glass-blog {
         font-size: 0.8em;
-        height: 450px;
+        height: 390px;
     }
 
     #header-logo-3-store {
@@ -1793,7 +1793,7 @@ margin-top: -25px !important;
 
     .social-blog {
         width: 200px;
-        top: 350px;
+        top: 310px;
         margin-left: -160px;
         position: absolute;
     }
