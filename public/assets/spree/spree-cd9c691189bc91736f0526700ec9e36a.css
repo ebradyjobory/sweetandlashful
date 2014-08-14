@@ -1047,6 +1047,12 @@ nav.menu{
 	.arrow-who img{
 		right:45% !important
 	}
+	.footer {
+    position: static;
+    top: 87%;
+    bottom: 0px;
+    margin-left: 5%;
+	}
 
 	.footer ul{
 		width:350px !important;
@@ -1111,19 +1117,23 @@ nav.menu{
 
 	}
 
+	.contact-column-1-store span {
+		font-size: 1.4em !important;
+	}
+
 	.contact-column-3 img {
 		padding-right: 15px;
 	}
 
 	.copyright {
     margin-left: 50px !important;
-    margin-top: 10px !important;
+    margin-top: -15px !important;
     font-size: 0.7em !important;
 	}
 
 	.contact-column-2 p {
 		width: 150px;
-	margin-left: 110px !important;
+	margin-left: 100px !important;
 	margin-top: -68px !important;
 	}
 
@@ -1202,7 +1212,7 @@ nav.menu{
 
 	.social-media{
 		margin-left: 30%;
-		margin-top: -20px;
+		margin-top: -30px;
 		width: 200px;
 	}
 
