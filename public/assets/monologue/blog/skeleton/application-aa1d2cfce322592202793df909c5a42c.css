@@ -1781,7 +1781,13 @@ margin-top: -25px !important;
     }
 
     .return a {
-     display: none !important; 
+    margin-top: 60px;
+    margin-right: 83px;
+    color: #F9F9F9;
+    }
+
+    .return a:hover {
+    color: #F9F9F9 !important;;
     }
 
     .nav-slide-right li a {
