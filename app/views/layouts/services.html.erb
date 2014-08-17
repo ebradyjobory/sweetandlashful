@@ -18,12 +18,12 @@
 
     <%= csrf_meta_tags %>
 </head>
-  
+
   <link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Quicksand:400,300,700' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <body>
   <div id="wrapper">
-    
+
           <div id="header-logo-2">
             <%= link_to image_tag("lashful-logo-2.png", :alt => 'Sweet and Lashful'), "/" %>
           </div>  <!-- #header-logo-2 -->
@@ -34,9 +34,9 @@
 
     <div class="primary-header-services">
     </div>
-    
+
         <%= yield %>
-    
+
             <div class="grid_12 glass-blog">
 
                 <div class="grid_3 alpha omega contact-column-1-blog">
@@ -50,7 +50,7 @@
                 <div class="grid_3 alpha omega contact-column-2-blog">
                   <h1 class="h1">Visit</h1>
                   <address>165 6th St NE<br>
-                         Suite 101<br>
+                         Suite 102<br>
                         Atlanta, GA 30308</address>
                   <p>To schedule a visit, contact us directly or book an appointment online <%=link_to "here" %>.</p>
                 </div> <!-- contact-column-2 -->
@@ -93,7 +93,7 @@
                 </div> <!---intro-contact -->
 
           </div> <!-- glass -->
-</div><!--#wrapper--> 
+</div><!--#wrapper-->
 <nav class="menu push-menu-right nav-slide-right">
         <ul>
           <li class="main-menu-item-1-store-i"><%= link_to "Home", "/", :class => "" %></li>
@@ -105,11 +105,11 @@
           <li class="intro-contact-services"><%= link_to "Contact Us"%></li>
 
           <%= image_tag('flourish-slide.png', :class => 'slide_image') %>
-          
+
         </ul>
     </nav>
 
-    <button  class="nav-toggler toggle-push-right btn blog-button"></button>  
+    <button  class="nav-toggler toggle-push-right btn blog-button"></button>
 
 
 
@@ -163,7 +163,7 @@
               });
               </script>
 
-              <script> 
+              <script>
                 var lashful = $('.lashful').text().replace(/Lashful Thinking/g,"<span>Lashful Thinking</span>");
 
                 $('.lashful').html(lashful);
@@ -175,7 +175,7 @@
   $(".lashful").fitText(1);
 </script>
  -->
- 
+
 <%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "nav", "data-turbolinks-track" => true %>
   <%= stylesheet_link_tag "style", media: "all", "data-turbolinks-track" => true %>
