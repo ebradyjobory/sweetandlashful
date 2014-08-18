@@ -1119,7 +1119,7 @@ nav.menu{
 
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 480px){
 
 
     div.grid_3.alpha.omega.contact-column-1-store {
@@ -1128,6 +1128,12 @@ nav.menu{
         font-size: 0.9em !important;
         margin-top: -10px;
 
+    }
+
+    .free-shipping {
+        margin-top: 80px;
+        color: #F9F9F9;
+        margin-left: 18px;
     }
 
     .contact-column-1-store span {
