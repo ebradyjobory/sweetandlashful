@@ -1045,6 +1045,7 @@ span {
 
 .gallery-container a {
     color: #F9F9F9;
+    -webkit-text-fill-color: #F9F9F9 ;
 }
 
 .about-container h1:nth-child(5) {
