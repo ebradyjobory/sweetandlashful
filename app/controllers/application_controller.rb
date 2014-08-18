@@ -3,15 +3,15 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  before_filter :ensure_domain
+  # before_filter :ensure_domain
 
-  APP_DOMAIN = 'www.sweetandlashful.com'
+  # APP_DOMAIN = 'www.sweetandlashful.com'
 
-  def ensure_domain
-    if request.env['HTTP_HOST'] != APP_DOMAIN
-      # HTTP 301 is a "permanent" redirect
-      redirect_to "https://#{APP_DOMAIN}", :status => 301
-    end
-  end
+  # def ensure_domain
+  #   if request.env['HTTP_HOST'] != APP_DOMAIN
+  #     # HTTP 301 is a "permanent" redirect
+  #     redirect_to "https://#{APP_DOMAIN}", :status => 301
+  #   end
+  # end
 
 end

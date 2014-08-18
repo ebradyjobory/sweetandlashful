@@ -42,6 +42,13 @@
     text-shadow: none;
 }
 
+.contact-column-1-blog h2 {
+    margin-bottom: 20px;
+}
+
+.contact-column-1-blog p{
+    margin-top: -15px;
+}
 
 
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -55,7 +62,7 @@
     display: block; }
   body {
     line-height: 1; }
-  
+
   blockquote, q {
     quotes: none; }
   blockquote:before, blockquote:after,
@@ -557,7 +564,7 @@ body {
 }
 
 .social-blog a:hover {
-    
+
 }
 .lashful {
     position: fixed;
@@ -784,7 +791,7 @@ font-size: 0.8em;
 #header-logo-2 {
 
 position: fixed;
-top: 10px;
+top: 18px;
 left: 42.5%;
 z-index: 111;
 }
@@ -905,7 +912,7 @@ z-index: 99;
 }
 
 
- 
+
 
 .post-header h1{
 
@@ -1178,7 +1185,7 @@ p.return {
 
 .return a:hover {
 color: #F9F9F9;
-    
+
 }*/
 
 /*.social-tagline span {
@@ -1262,7 +1269,7 @@ button {
     -moz-box-shadow: none;
     box-shadow: none;
 }
-   
+
 button:focus {outline:none;} button::-moz-focus-inner {border:0;}
 
 #main-wrapper {
@@ -1403,7 +1410,7 @@ content: "";*/
 .glass-blog h2 {
     color: #ecf0f1;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.2em !important;
+    font-size: 1.5em !important;
     font-weight: bold;
     font-style: normal;
     margin-top: 4%;
@@ -1494,7 +1501,7 @@ content: "";*/
 }
 
 .contact-column-3-blog {
-    margin-left: 1% !important;
+    margin-left: 5% !important;
     margin-top: -20px !important;
 }
 
@@ -1671,7 +1678,7 @@ margin-top: -25px !important;
         margin-left: 15% !important;
     }
     .contact-column-2-blog {
-       margin-left: 5% !important; 
+       margin-left: 5% !important;
     }
 
     #pagination {
@@ -1681,7 +1688,7 @@ margin-top: -25px !important;
     }
 
     .lashful {
-       font-size: 1.5em; 
+       font-size: 1.5em;
     }
 
     .return a {
@@ -1737,7 +1744,7 @@ margin-top: -25px !important;
     .glass-blog h2 {
     color: #ecf0f1;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.2em !important;
+    font-size: 1.5em !important;
     font-weight: bold;
     font-style: normal;
     margin-top: 4%;

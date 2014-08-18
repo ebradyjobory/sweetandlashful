@@ -106,6 +106,7 @@ body {
 }
 
 
+
 /* =============================================================================
    Links
    ========================================================================== */
@@ -822,10 +823,10 @@ table {
 /*--------------------------------------
   | Font sizes
   |--------------------------------------
-  |- Navigation                         
+  |- Navigation
   |                                    */
 /*|------------------------------------
-  |- Product Listing                         
+  |- Product Listing
   |                                  */
 /*|------------------------------------
   |- Product Details
@@ -4714,7 +4715,7 @@ table.order-summary tbody tr td:first-child a {
   }
 }
 /*
-* This is a manifest file that includes stylesheets for spree_frontend 
+* This is a manifest file that includes stylesheets for spree_frontend
 
 
 
