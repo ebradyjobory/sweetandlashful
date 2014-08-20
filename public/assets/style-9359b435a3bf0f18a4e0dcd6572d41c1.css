@@ -26,7 +26,8 @@ button:hover{
 	-moz-transition:all 0.3s;
 	-ms-transition:all 0.3s;
 	-o-transition:all 0.3s;
-	transition:all 0.3s
+	transition:all 0.3s;
+	
 }
 
 nav.menu{
