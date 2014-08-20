@@ -42,7 +42,10 @@
 
   <p class="free-shipping">Free shipping on all orders!</p>
 
-   <p id="link-to-cart" data-hook><%= link_to_cart %></p>
+  <p id="link-to-cart" data-hook><%= link_to_cart %></p>
+
+  <div id="cart-image" >
+  <a href="/store/cart"><img src="https://s3.amazonaws.com/sweetandlashfulcom/Images/cart-icon.png" alt="Cart icon"></a></div>
 
   <head data-hook="inside_head">
     <%= render :partial => 'spree/shared/head' %>

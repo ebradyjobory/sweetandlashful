@@ -1336,7 +1336,7 @@ top:47%;
 
 }
 
-@media only screen and (max-width : 480px){
+@media only screen and (max-width : 500px){
 
     .statement p {
         display: none;
@@ -3491,7 +3491,7 @@ margin-top: -25px !important;
 }
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 500px) {
 
 
     .glass {
@@ -4409,7 +4409,7 @@ top:47%;
 
 }
 
-@media only screen and (max-width : 480px){
+@media only screen and (max-width : 500px){
 
     .arrow-who img {
         right:48% !important;
@@ -10158,7 +10158,7 @@ display: block ;
 }
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 500px) {
 
 
   ul#products  {
@@ -10190,14 +10190,14 @@ display: block ;
 
     .social-media {
 
-    margin-top: 80px;
-margin-left: -110px !important;
-position: static;
+    margin-top: 100px;
+    margin-left: -120px !important;
+    position: static;
 
     }
     .social-media img {
-padding-right: 15px;
-}
+    padding-right: 15px;
+    }
 
     .cart-info {
         width: 30% !important;
