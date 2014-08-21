@@ -1123,7 +1123,7 @@ nav.menu{
 
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
 	div.grid_3.alpha.omega.contact-column-1-store{
 		margin-left:50px;
 		text-align:center;
