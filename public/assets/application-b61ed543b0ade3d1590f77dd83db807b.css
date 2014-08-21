@@ -447,10 +447,10 @@ z-index:-3;
 #intro{
 height:800px;
 background:url('new_bg3.jpg') no-repeat center center fixed;
--webkit-background-size: cover;
+/*-webkit-background-size: cover;
 -moz-background-size:cover;
 -o-background-size: cover;
-background-size: cover;
+background-size: cover;*/
 background-position:0% 100%;
 }
 #second-about{
