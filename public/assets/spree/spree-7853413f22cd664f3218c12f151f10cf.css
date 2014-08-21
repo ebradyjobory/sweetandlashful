@@ -1156,7 +1156,7 @@ nav.menu{
     margin-top: -180px;
 	}
 	#nav-bar li:first-child {
-    left: -35px !important;
+    left: -30px !important;
     top: 15px;
 	}
 	.flash.notice {
@@ -1174,6 +1174,7 @@ nav.menu{
     }
 
 	.free-shipping{
+		position: absolute;
 		margin-top:80px;
 		color:#F9F9F9;
 		margin-left:18px
