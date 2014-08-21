@@ -445,7 +445,7 @@ margin-top:-10%;
 z-index:-3;
 }
 #intro{
-height:700px;
+height:650px;
 background:url('new_bg3.jpg') no-repeat center center fixed;
 /*-webkit-background-size: cover;
 -moz-background-size:cover;
@@ -1030,7 +1030,7 @@ span {
 
 .about-container{
     position:absolute;
-    margin: 150px 25% 0 20%;
+    margin: 100px 25% 0 20%;
     text-align:justify;
 }
 
@@ -1146,7 +1146,7 @@ top:585px;
 }
 
 #logo-mobile-main {
-    display: none;
+    display: none !important;
 }
 
 /*.push-menu-right ul li a:hover{
@@ -1519,7 +1519,7 @@ top:47%;
        display: none !important;
     }
     #logo-mobile-main {
-      display: none;
+      display: block !important;
     }
 
     #logo-mobile-main img  {
@@ -8607,7 +8607,6 @@ font-size: 16px;
 
 .primary-header-index {
 margin-bottom: 0%;
-margin-top: -105px;
 
 }
 
