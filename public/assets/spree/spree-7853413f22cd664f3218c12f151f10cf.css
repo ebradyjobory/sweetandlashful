@@ -1023,6 +1023,10 @@ nav.menu{
   display: none;
 }
 
+.logo-mobile {
+	display: none;
+}
+
 @media only screen and (max-width: 800px){
 	.background{
 		width:200%
@@ -1316,10 +1320,13 @@ nav.menu{
 		margin-left:-16% !important
 	}
 
-	#header-logo-3-store{
+	#header-logo-3-store, #header-logo-2{
 		display:none
 	}
 
+	.logo-mobile {
+		display: block;
+	}
 	#link-to-login{
 		top:30px;
 		right:-20px !important
