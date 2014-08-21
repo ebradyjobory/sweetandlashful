@@ -1337,10 +1337,14 @@ top:47%;
 
 }
 
-@media only screen and (max-width : 500px){
+@media only screen and (max-width : 600px){
 
     .statement p {
         display: none;
+    }
+    #intro {
+    height: 800px;
+    background: url('https://s3.amazonaws.com/sweetandlashfulcom/Images/new_bg3_mobile.jpg') no-repeat fixed 0% 10% transparent;
     }
 
     .about-container p {
@@ -1351,8 +1355,9 @@ top:47%;
     float: left;
     border-radius: 100%;
     height: 130px;
-    margin-left: 80px;
+    margin-left: 32%;
     margin-right: 20px;
+    margin-bottom: 0px;
     }
     #second-about{
     height: 600px;
@@ -3492,7 +3497,7 @@ margin-top: -25px !important;
 }
 
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 600px) {
 
 
     .glass {
@@ -4410,7 +4415,7 @@ top:47%;
 
 }
 
-@media only screen and (max-width : 500px){
+@media only screen and (max-width : 600px){
 
     .arrow-who img {
         right:48% !important;
@@ -10160,7 +10165,7 @@ display: block ;
 }
 
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 600px) {
 
 
   ul#products  {
