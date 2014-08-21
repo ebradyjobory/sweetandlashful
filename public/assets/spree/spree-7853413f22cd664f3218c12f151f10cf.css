@@ -1138,6 +1138,27 @@ nav.menu{
 	    top: 5px;
         left: 10px;
 	}
+	.container {
+    position: absolute;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 40px;
+	}
+	table#cart-detail {
+    border-collapse: separate;
+    margin-left: -20px;
+	}
+	.flash.success, .success.errorExplanation {
+    background-color: #FF8DA1 !important;
+    text-align: center;
+    margin-left: 65px;
+    position: absolute;
+    margin-top: -180px;
+	}
+	#nav-bar li:first-child {
+    left: -35px !important;
+    top: 15px;
+	}
 	.flash.notice {
     margin-left: 230px;
     background-color: #FF8DA1;
@@ -1189,7 +1210,7 @@ nav.menu{
 	ul#products{
 		width:30%;
 		margin-left:22% !important;
-		margin-top:-150px;
+		margin-top:-20px;
 	}
 
 	.nav-slide-right a{
