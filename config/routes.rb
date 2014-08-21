@@ -31,7 +31,6 @@ Ecom::Application.routes.draw do
   get "pages/store"
   get "pages/blog"
   get "pages/about"
-  get "pages/contact"
   match "/services", to: 'services#index', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.

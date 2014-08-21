@@ -468,7 +468,8 @@ ul#products li .price{
 
 ul#products{
 	width:100%;
-	margin-left:25%
+	margin-left:25%;
+	margin-top: -50px;
 }
 
 #products li{
@@ -1146,7 +1147,7 @@ nav.menu{
 	}
 	table#cart-detail {
     border-collapse: separate;
-    margin-left: -20px;
+    margin-left: -10px;
 	}
 	.flash.success, .success.errorExplanation {
     background-color: #FF8DA1 !important;
@@ -1167,6 +1168,9 @@ nav.menu{
     position: absolute;
     margin-top: -180px;
     margin-left: 60px;
+	}
+	.cart-item-delete {
+	display: none;
 	}
 
     .cart-info {
@@ -1302,7 +1306,7 @@ nav.menu{
 
 	#top-nav-bar{
 		position:fixed;
-		left:-565px !important;
+		left:-560px !important;
 		top:25px;
 		width:30%;
 		line-height: 10px;
