@@ -8607,7 +8607,7 @@ font-size: 16px;
 
 .primary-header-index {
 margin-bottom: 0%;
-margin-top: 0%;
+margin-top: -105px;
 
 }
 
@@ -10184,6 +10184,12 @@ display: block ;
 
 
 @media only screen and (max-width : 600px) {
+
+    .primary-header-index {
+    margin-bottom: 0%;
+    margin-top: 0px;
+
+    }
 
 
   ul#products  {
