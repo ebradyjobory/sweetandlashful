@@ -1023,7 +1023,7 @@ nav.menu{
   display: none;
 }
 
-.logo-mobile {
+#logo-mobile {
 	display: none;
 }
 
@@ -1324,9 +1324,21 @@ nav.menu{
 		display:none
 	}
 
-	.logo-mobile {
+	#logo-mobile {
 		display: block;
 	}
+
+	#logo-mobile img  {
+    display: block;
+    position: fixed;
+    z-index: 111;
+    top:-5px;
+    left: 30%;
+    width:100px;
+    height: 85px;
+	}
+
+
 	#link-to-login{
 		top:30px;
 		right:-20px !important

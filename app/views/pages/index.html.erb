@@ -59,13 +59,13 @@ $(document).ready(function() {
 
   window.addEventListener("scroll",function() {
      if(window.scrollY > 600) {
-        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main, .main-button').show();
+        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main, .main-button, #logo-mobile-main').show();
         $('.intro-menu, #header-logo-1, .intro-contact').hide();
 
         // $('.intro-menu').slideDown();
      }
      else {
-        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main, .primary-header-index-about, #header-logo-2-about, #header-logo-3-store-about, .main-button').hide();
+        $('.primary-header-index, #header-logo-2-main, #header-logo-3-store-main, .primary-header-index-about, #header-logo-2-about, #header-logo-3-store-about, .main-button, #logo-mobile-main').hide();
         $('.intro-menu, #header-logo-1, .intro-contact').show();
         // $('.intro-menu').slideUp();
      }
@@ -109,6 +109,9 @@ $(document).ready(function() {
     <div class="grid_2 arrow-who">
      <%= link_to image_tag('arrow_pink.png'), "#second-about" %>
     </div>
+
+  <div id="logo-mobile-main" >
+  <a href="/"><img src="https://s3.amazonaws.com/sweetandlashfulcom/Images/logo_mobile.png" alt="logo"></a></div>
 
 
   <div id="header-logo-2-main">

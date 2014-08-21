@@ -1145,6 +1145,10 @@ top:585px;
     letter-spacing: 1px;
 }
 
+#logo-mobile-main {
+    display: none;
+}
+
 /*.push-menu-right ul li a:hover{
 color:#FF8DA1 !important;
 }
@@ -1512,8 +1516,22 @@ top:47%;
     }
 
     #header-logo-2-main {
-        margin-left: -20% !important;
+       display: none !important;
     }
+    #logo-mobile-main {
+      display: block;
+    }
+
+    #logo-mobile-main img  {
+    display: block;
+    position: fixed;
+    z-index: 111;
+    top:-5px;
+    left: 33%;
+    width:100px;
+    height: 85px;
+    }
+
     #header-logo-3-store-main {
         display: none !important;
     }

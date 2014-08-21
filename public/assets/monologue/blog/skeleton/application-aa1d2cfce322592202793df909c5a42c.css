@@ -1672,6 +1672,10 @@ margin-top: -25px !important;
     display: none;
 }
 
+#logo-mobile-blog {
+  display: none;
+}
+
 @media only screen and (max-width : 860px) {
 
     .contact-column-3-blog {
@@ -1702,8 +1706,22 @@ margin-top: -25px !important;
 @media only screen and (max-width : 600px) {
 
     #header-logo-2 {
-        margin-left: -15%;
+       display: none;
     }
+    #logo-mobile-blog {
+      display: block;
+    }
+
+    #logo-mobile-blog img  {
+    display: block;
+    position: fixed;
+    z-index: 111;
+    top:-5px;
+    left: 30%;
+    width:100px;
+    height: 85px;
+    }
+
     .blog-container {
     margin-top: 120px;
     margin-left: 2%;
