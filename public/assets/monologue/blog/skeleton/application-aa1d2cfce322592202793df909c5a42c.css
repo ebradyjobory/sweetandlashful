@@ -1699,7 +1699,7 @@ margin-top: -25px !important;
 }
 
 
-@media only screen and (max-width : 400px) {
+@media only screen and (max-width : 600px) {
 
     #header-logo-2 {
         margin-left: -15%;
@@ -1709,6 +1709,12 @@ margin-top: -25px !important;
     margin-left: 2%;
     margin-right: 2% !important;
 
+    }
+    #header-logo-3-store {
+    position: fixed;
+    top: 83px;
+    left: 46%;
+    z-index: 111;
     }
 
     .primary-header {
