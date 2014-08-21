@@ -1519,7 +1519,7 @@ top:47%;
        display: none !important;
     }
     #logo-mobile-main {
-      display: block;
+      display: none;
     }
 
     #logo-mobile-main img  {

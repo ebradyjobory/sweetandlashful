@@ -132,12 +132,20 @@ a:active {
 .flash.success, .success.errorExplanation {
     background-color: #FF8DA1 !important;
     text-align: center;
-    margin-left: 230px;
+    margin-left: 290px;
+    position: absolute;
+    margin-top: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .flash.notice {
-    margin-left: 230px;
+    margin-left: 290px;
     background-color: #FF8DA1;
     text-align: center;
+    position: absolute;
+    margin-top: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .notice.errorExplanation {
