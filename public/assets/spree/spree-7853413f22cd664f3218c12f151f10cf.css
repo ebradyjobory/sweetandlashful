@@ -1138,6 +1138,16 @@ nav.menu{
 	    top: 5px;
         left: 10px;
 	}
+	.flash.notice {
+    margin-left: 230px;
+    background-color: #FF8DA1;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 60px;
+	}
+
     .cart-info {
         display: none;
     }
@@ -1270,9 +1280,10 @@ nav.menu{
 
 	#top-nav-bar{
 		position:fixed;
-		left:-555px !important;
-		top:8px;
-		width:30%
+		left:-565px !important;
+		top:25px;
+		width:30%;
+		line-height: 10px;
 	}
 
 	#header-logo-3-store,#header-logo-2{
