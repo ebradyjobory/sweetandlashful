@@ -8573,6 +8573,7 @@ position: fixed;
 background-color: #F9F9F9;
 /*border-bottom: 1.5px solid #2DCCD3;*/
 height: 10.8%;
+display: none;
 /*z-index: 100;*/
 /*box-shadow: 1px 1px 3px #FF8DA1;*/
 }

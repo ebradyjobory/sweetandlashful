@@ -116,7 +116,7 @@ $(document).ready(function() {
         </div>  <!-- #header-logo-2 -->
 
         <div id="header-logo-3-store-main">
-          <%= link_to image_tag("swoosh-04.png", :alt => 'Sweet and Lashful'), "#intro" %>
+          <%= link_to image_tag("swoosh-04.png", :alt => ''), "#intro" %>
         </div>
 
   <div class="primary-header-index">
@@ -182,6 +182,81 @@ $(document).ready(function() {
           // $('.main-menu-item-5-store-i').hide();
         $(".glass").slideToggle();
       });
+
+</script>
+
+<script>
+  
+(function( $ ){
+
+  $.fn.fitText = function( kompressor, options ) {
+
+    // Setup options
+    var compressor = kompressor || 1,
+        settings = $.extend({
+          'minFontSize' : Number.NEGATIVE_INFINITY,
+          'maxFontSize' : Number.POSITIVE_INFINITY
+        }, options);
+
+    return this.each(function(){
+
+      // Store the object
+      var $this = $(this);
+
+      // Resizer() resizes items based on the object width divided by the compressor * 10
+      var resizer = function () {
+        $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
+      };
+
+      // Call once to set.
+      resizer();
+
+      // Call on resize. Opera debounces their resize by default.
+      $(window).on('resize.fittext orientationchange.fittext', resizer);
+
+    });
+
+  };
+
+})( jQuery );
+
+(function( window ){
+  
+  var body = document.body,
+    mask = document.createElement("div"),
+    
+    togglePushRight = document.querySelector( ".toggle-push-right" ),
+  
+    activeNav
+  ;
+  mask.className = "mask";
+
+  /* push menu right */
+  togglePushRight.addEventListener( "click", function(){
+    classie.toggle( body, "pmr-open" );
+    document.body.toggle(mask);
+    activeNav = "pmr-open";
+  } );
+
+
+  /* hide active menu if mask is clicked */
+  mask.addEventListener( "click", function(){
+    classie.remove( body, activeNav );
+    activeNav = "";
+    document.body.removeChild(mask);
+  } );
+
+  /* hide active menu if close menu button is clicked */
+  [].slice.call(document.querySelectorAll(".close-menu")).forEach(function(el,i){
+    el.addEventListener( "click", function(){
+      classie.remove( body, activeNav );
+      activeNav = "";
+      document.body.removeChild(mask);
+    } );
+  });
+
+
+})( window );
 
 </script>
 
