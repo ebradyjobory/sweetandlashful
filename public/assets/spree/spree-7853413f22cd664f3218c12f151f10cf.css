@@ -1141,7 +1141,7 @@ nav.menu{
 	    height: 40px;
 	    z-index: 11;
 	    top: 5px;
-        left: 10px;
+        left: 20px;
 	}
 	.container {
     position: absolute;
@@ -1161,7 +1161,7 @@ nav.menu{
     margin-top: -180px;
 	}
 	#nav-bar li:first-child {
-    left: -30px !important;
+    left: -22px !important;
     top: 15px;
 	}
 	.flash.notice {
