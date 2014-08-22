@@ -4500,7 +4500,7 @@ margin-top: 30px !important;
     #header-logo-1 img {
         width: 120px;
         height: 100px;
-        margin-left: 40px;
+        margin-left: 60px;
      }
 /*
     .social-media{
@@ -10083,8 +10083,7 @@ display: block ;
     .menu-page {
     position: absolute;
     top: 530px;
-    font-size: 3em;
-    left: -7%;
+    font-size: 2em;
     }
 
     #header-logo-3-store, #header-logo-2 {
