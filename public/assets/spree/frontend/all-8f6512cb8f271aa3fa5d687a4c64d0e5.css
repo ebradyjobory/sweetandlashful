@@ -4564,12 +4564,12 @@ table.order-summary tbody tr td:first-child a {
     margin-top: 0;
     float: none;
   }
-   .container .column, .container .columns {
+ /*  .container .column, .container .columns {
     float: none;;
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
-    }
+    }*/
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   /* line 1195, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
