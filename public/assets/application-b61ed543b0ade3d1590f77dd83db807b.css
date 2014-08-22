@@ -1269,7 +1269,7 @@ display:none;
 display:none !important;
 }
 #header-logo-1{
-margin-left:-90px !important;
+margin-left:-60px !important;
 }
 .primary-header-index-about, .intro-menu, .main-menu-store{
 display:none !important;
@@ -1334,7 +1334,7 @@ top:47%;
 .statement p {
     position: absolute;
     margin-top: 250px;
-    left: 20%;
+    left: 24%;
     font-size: 2em;
 
 }
@@ -1425,9 +1425,10 @@ top:47%;
      }
 
     .menu-page {
-        font-size: 2em;
+       font-size: 2em;
        margin-top: -470px;
        padding: 10px 0px 10px 0px;
+       left: 15%;
 
     }
 
@@ -4499,7 +4500,7 @@ margin-top: 30px !important;
     #header-logo-1 img {
         width: 120px;
         height: 100px;
-        margin-left: 60px;
+        margin-left: 40px;
      }
 /*
     .social-media{
@@ -10077,6 +10078,13 @@ display: block ;
 
     .background  {
         width: 200%;
+    }
+   
+    .menu-page {
+    position: absolute;
+    top: 530px;
+    font-size: 3em;
+    left: -7%;
     }
 
     #header-logo-3-store, #header-logo-2 {

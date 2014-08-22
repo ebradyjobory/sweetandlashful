@@ -1032,6 +1032,11 @@ nav.menu{
 		width:200%
 	}
 
+	.free-shipping {
+	margin-left: -70px;
+	margin-top: -10px;
+	}
+
 	.cart-icon{
 		display:block
 	}
