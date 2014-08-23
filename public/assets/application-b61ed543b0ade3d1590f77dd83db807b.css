@@ -447,10 +447,10 @@ z-index:-3;
 #intro{
 height:700px;
 background:url('new_bg3.jpg') no-repeat center center fixed;
-/*-webkit-background-size: cover;
+-webkit-background-size: cover;
 -moz-background-size:cover;
 -o-background-size: cover;
-background-size: cover;*/
+background-size: cover;
 background-position:0% 100%;
 }
 #second-about{
@@ -1349,6 +1349,10 @@ top:47%;
     #intro {
     height: 800px;
     background: url('https://s3.amazonaws.com/sweetandlashfulcom/Images/new_bg3_mobile.jpg') no-repeat fixed 0% 0% transparent;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
 
     .about-container p {
@@ -3512,8 +3516,8 @@ margin-top: -25px !important;
     right: 10%;
     }
 
-
 }
+
 
 
 @media only screen and (max-width : 600px) {
