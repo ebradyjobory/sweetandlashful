@@ -1349,10 +1349,10 @@ top:47%;
     #intro {
     height: 800px;
     background: url('https://s3.amazonaws.com/sweetandlashfulcom/Images/new_bg3_mobile.jpg') no-repeat fixed 0% 0% transparent;
-      -webkit-background-size: cover;
+     /* -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover;*/
     }
 
     .about-container p {
