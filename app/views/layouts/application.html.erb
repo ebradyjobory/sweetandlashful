@@ -103,11 +103,38 @@
 					<%= link_to image_tag('google_teal.png', :size =>"30x30"), "https://plus.google.com/u/0/112130594903660962266", :target => "_blank" %>
 				</div>
 				<h3>NEWSLETTER UPDATES</h3>
-				<form action="http://sweetandlashful.us8.list-manage.com/subscribe/post" method="POST">
-				<input type="hidden" name="u" value="c63539c7d55bca17a1e7c51ff">
-				<input type="hidden" name="id" value="8338fc50cc">
-				<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Type your email and press enter">
-				</form>
+				       <h3 class="h3">NEWSLETTER UPDATES</h3>
+                  <form id="form" action="https://sweetandlashful.us8.list-manage.com/subscribe/post-json?u=c63539c7d55bca17a1e7c51ff&id=8338fc50cc&c=?" method="GET">
+                  <input type="hidden" name="u" value="c63539c7d55bca17a1e7c51ff">
+                  <input type="hidden" name="id" value="8338fc50cc">
+                  <input type="EMAIL" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Type your email and press enter">
+                  <p id="response"> </p>
+                  </form>
+
+                          <script>
+                            $('#form').submit(function(e) {
+                              var $this = $(this);
+                              var paragraph = document.getElementById('response');
+
+                              $.ajax({
+                                  type: "GET", // GET & url for json slightly different
+                                  url: "https://sweetandlashful.us8.list-manage.com/subscribe/post-json?u=c63539c7d55bca17a1e7c51ff&id=8338fc50cc&c=?",
+                                  data: $this.serialize(),
+                                  dataType    : 'json',
+                                  contentType: "application/json; charset=utf-8",
+                                  error       : function(err) { alert("Could not connect to the registration server."); },
+                                  success     : function(data) {
+                                      if (data.result != "success") {
+                                          paragraph.innerHTML = data.msg;
+                                      } else {
+                                          paragraph.innerHTML = data.msg;
+
+                                      }
+                                  }
+                              });
+                              return false;
+                            });
+                          </script>
 			</div> <!-- contact-column-3 -->
 
 			<!-- <div class="grid_2 alpha omega contact-column-4">
