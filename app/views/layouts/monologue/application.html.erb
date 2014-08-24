@@ -106,31 +106,55 @@
                   <input type="EMAIL" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Type your email and press enter">
                   <p id="response"> </p>
                   </form>
+                  <script>
+                  var paragraph = document.getElementById('response');
 
-                          <script>
-                            $('#form').submit(function(e) {
-                              var $this = $(this);
-                              var paragraph = document.getElementById('response');
+                  $('#form').submit(function(e) {
+                    var $this = $(this);
+                    
 
-                              $.ajax({
-                                  type: "GET", // GET & url for json slightly different
-                                  url: "https://sweetandlashful.us8.list-manage.com/subscribe/post-json?u=c63539c7d55bca17a1e7c51ff&id=8338fc50cc&c=?",
-                                  data: $this.serialize(),
-                                  dataType    : 'json',
-                                  contentType: "application/json; charset=utf-8",
-                                  error       : function(err) { alert("Could not connect to the registration server."); },
-                                  success     : function(data) {
-                                      if (data.result != "success") {
-                                          paragraph.innerHTML = data.msg;
-                                      } else {
-                                          paragraph.innerHTML = data.msg;
+                    $.ajax({
+                        type: "GET", // GET & url for json slightly different
+                        url: "https://sweetandlashful.us8.list-manage.com/subscribe/post-json?u=c63539c7d55bca17a1e7c51ff&id=8338fc50cc&c=?",
+                        data: $this.serialize(),
+                        dataType    : 'json',
+                        contentType: "application/json; charset=utf-8",
+                        error       : function(err) { alert("Could not connect to the registration server."); },
+                        success     : function(data) {
+                            if (data.result != "success") {
+                                paragraph.innerHTML = data.msg;
+                                text.placeholder = "Oopsy daisy! Error :-("; 
+                                form.reset();
+                            } else {
+                                paragraph.innerHTML = data.msg;
+                                text.placeholder = "Thanks so much!"; 
+                                form.reset();
 
-                                      }
-                                  }
-                              });
-                              return false;
-                            });
-                          </script>
+                            }
+                        }
+                    });
+                    return false;
+                  });
+
+                  </script>
+                  <script>
+                   var text = document.getElementById("email");  
+
+                      // console.log(text.placeholder);
+                      text.onfocus = function() {
+                          if ( text.placeholder == "Type your email and press enter") {
+                              text.placeholder = "";
+                          }
+                          
+                      };
+
+                      text.onblur = function() {
+                          if ( text.placeholder == "") {
+                              text.placeholder = "Type your email and press enter";
+                          }
+                      };
+
+                    </script> 
                 </div> <!-- contact-column-3 -->
 
                 <!-- <div class="grid_2 alpha omega contact-column-4">
