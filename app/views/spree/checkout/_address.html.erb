@@ -42,20 +42,40 @@
 
 
 <script>
-window.onload = function() {
-
-    $(function(){
-        $('input[type=checkbox]').prop("checked", false);
-    });
-
-  };
 
 
-      $(function() {
-                $('input[type="checkbox"]').on('change', function() {
-                    $(this).closest('fieldset').find('.inner').toggle(!this.checked);
-                });
-       });
+var shipping = document.getElementById('order_ship_address_attributes_firstname');
+var billing = document.getElementById('order_bill_address_attributes_firstname');
+var checkBox = document.getElementById('order_use_billing');
+
+ $(function(){
+   
+  if(checkBox.checked == true) {
+    shipping.value = billing.value;
+    console.log(shipping.value);
+  }
+   if(checkBox.checked == false) {
+    shipping.value = "";
+    console.log(shipping.value);
+  }
+});
+
+
+
+
+// window.onload = function() {
+
+//     $(function(){
+//         $('input[type=checkbox]').prop("checked", false);
+//     });
+// };
+
+
+//       $(function() {
+//                 $('input[type="checkbox"]').on('change', function() {
+//                     $(this).closest('fieldset').find('.inner').toggle(!this.checked);
+//                 });
+//        });
 </script>
 
 
