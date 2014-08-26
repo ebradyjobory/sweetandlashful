@@ -42,12 +42,20 @@
 
 
 <script>
+window.onload = function() {
 
-  $(function() {
-            $('input[type="checkbox"]').on('change', function() {
-                $(this).closest('fieldset').find('.inner').toggle(!this.checked);
-            });
-   });
+    $(function(){
+        $('input[type=checkbox]').prop("checked", false);
+    });
+
+  };
+
+
+      $(function() {
+                $('input[type="checkbox"]').on('change', function() {
+                    $(this).closest('fieldset').find('.inner').toggle(!this.checked);
+                });
+       });
 </script>
 
 
