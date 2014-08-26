@@ -48,7 +48,7 @@ var shipping = document.getElementById('order_ship_address_attributes_firstname'
 var billing = document.getElementById('order_bill_address_attributes_firstname');
 var checkBox = document.getElementById('order_use_billing');
 
- $(function(){
+function filling(){
    
   if(checkBox.checked == true) {
     shipping.value = billing.value;
@@ -58,7 +58,17 @@ var checkBox = document.getElementById('order_use_billing');
     shipping.value = "";
     console.log(shipping.value);
   }
-});
+};
+
+$(function() {
+
+    $('input[type="checkbox"]').on('change', function() {
+
+         filling();
+    });
+});                               
+                               
+
 
 
 
