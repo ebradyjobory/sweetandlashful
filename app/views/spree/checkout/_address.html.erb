@@ -42,23 +42,65 @@
 
 
 <script>
-
-
-var shipping = document.getElementById('order_ship_address_attributes_firstname');
-var billing = document.getElementById('order_bill_address_attributes_firstname');
 var checkBox = document.getElementById('order_use_billing');
+
+var shipFirstName = document.getElementById('order_ship_address_attributes_firstname');
+var billFirstName = document.getElementById('order_bill_address_attributes_firstname');
+var shipLastName = document.getElementById('order_ship_address_attributes_lastname');
+var billLastName = document.getElementById('order_bill_address_attributes_lastname');
+var shipStreet = document.getElementById('order_ship_address_attributes_address1');
+var billStreet = document.getElementById('order_bill_address_attributes_address1');
+var shipStreetTwo = document.getElementById('order_ship_address_attributes_address2');
+var billStreetTwo = document.getElementById('order_bill_address_attributes_address1');
+var shipState = document.getElementById('order_ship_address_attributes_state_id');
+var billState = document.getElementById('order_bill_address_attributes_state_id');
+var shipCity = document.getElementById('order_ship_address_attributes_city');
+var billCity = document.getElementById('order_bill_address_attributes_city');
+var shipCountry = document.getElementById('order_ship_address_attributes_country_id');
+var billCountry = document.getElementById('order_bill_address_attributes_country_id');
+var shipZip = document.getElementById('order_ship_address_attributes_zipcode');
+var billZip = document.getElementById('order_bill_address_attributes_zipcode');
+var shipPhone = document.getElementById('order_ship_address_attributes_phone');
+var billPhone = document.getElementById('order_bill_address_attributes_phone');
+
+
+
+
+
+
+$(function(){
+   $('input[type=checkbox]').prop("checked", false);
+});
 
 function filling(){
    
   if(checkBox.checked == true) {
-    shipping.value = billing.value;
-    console.log(shipping.value);
+    shipFirstName.value       = billFirstName.value;
+    shipLastName.value        = billLastName.value
+    shipStreet.value          = billStreet.value
+    shipStreetTwo.value       = billStreetTwo.value
+    shipCity.value            = billCity.value
+    shipState.value           = billState.value
+    shipCountry.value         = billCountry.value
+    shipZip.value             = billZip.value
+    shipPhone.value           = billPhone.value
+    
   }
    if(checkBox.checked == false) {
-    shipping.value = "";
-    console.log(shipping.value);
+    shipFirstName.value       = "";
+    shipLastName.value        = "";
+    shipStreet.value          = "";
+    shipStreetTwo.value       = "";
+    shipCity.value            = "";
+    shipState.value           = "";
+    shipCountry.value         = "";
+    shipZip.value             = "";
+    shipPhone.value           = "";
+    
   }
 };
+
+
 
 $(function() {
 
@@ -68,9 +110,6 @@ $(function() {
     });
 });                               
                                
-$(function(){
-   $('input[type=checkbox]').prop("checked", false);
-});
 
 
 
