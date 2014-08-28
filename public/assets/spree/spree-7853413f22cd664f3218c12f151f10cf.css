@@ -1061,7 +1061,8 @@ nav.menu{
 
 	#link-to-login{
 		position:absolute;
-		right:80px !important
+		right:80px !important;
+		top: 15px;
 	}
 
 	#top-nav-bar{
