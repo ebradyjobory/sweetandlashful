@@ -4566,6 +4566,13 @@ table.order-summary tbody tr td:first-child a {
     margin-top: 0;
     float: none;
   }
+
+  #checkout-summary {
+  text-align: center;
+  border: none !important;
+  margin-top: 23px;
+  margin-left: 0;
+}
  /*  .container .column, .container .columns {
     float: none;;
     display: inline;
@@ -4578,6 +4585,12 @@ table.order-summary tbody tr td:first-child a {
   .container .offset-by-nine.coupon-code-field {
     padding-left: 380px;
   }
+    #top-nav-bar {
+        left: 0%;
+    }
+    .cart-info {
+        left: 76% !important;:
+    }
 }
 /* line 1200, /Users/timbrady/projects/ecom/app/assets/stylesheets/spree/frontend/screen.css.scss */
 #update-cart .coupon-code-field {

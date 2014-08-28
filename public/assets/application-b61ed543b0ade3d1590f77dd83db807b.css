@@ -1357,6 +1357,7 @@ top:47%;
     margin-top: 0px;
     margin-left: 10px !important;
     position: static;
+    display: block;
     }
     .contact-column-2-main p {
         margin-top: -65px !important;
@@ -3587,7 +3588,9 @@ margin-top: -25px !important;
     }
 
     .social-blog {
-        width: 150px;
+    width: 150px;
+    margin-top: 90px !important;
+    margin-left: -110px !important;
     }
 
     .contact-column-1-blog {
