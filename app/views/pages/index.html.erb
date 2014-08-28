@@ -73,6 +73,15 @@ $(document).ready(function() {
 
 </script>
 <script>
+window.addEventListener("scroll",function(){
+
+  if(window.scrollY > 600)  {
+    if ($('body').hasClass('pmr-open')){
+      $('body').removeClass('pmr-open');
+  
+    };
+  };
+});
 
   // window.addEventListener("scroll",function() {
   //    if(window.scrollY > 600) {    
