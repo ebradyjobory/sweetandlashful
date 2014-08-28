@@ -1246,9 +1246,15 @@ display:none;
 
 .statement p {
     position: absolute;
-    margin-top: 50px;
-    left: 5%;
+    margin-top: 250px;
+    left: 30%;
+}
 
+.menu-page {
+    position: absolute;
+    top: 530px;
+    font-size: 3em;
+    left: 0%;
 }
 
 }
@@ -1260,7 +1266,11 @@ display:none;
 margin-left:100% !important;
 }
 .social-media{
-width:200px;
+display: none;
+}
+
+form {
+    display: none;
 }
 .main-button{
 display:none;
@@ -1295,13 +1305,13 @@ font-size:0.8em;
 }
 
 
-    .contact-column-2-main {
-    width: 100px !important;
-    margin-left: 40px !important;
-    font-size: 1em;
+  .contact-column-2-main {
+    width: 300px !important;
+    margin-left: 70px !important;
+    font-size: 0.8em;
     text-align: left;
-    margin-top: 30px !important;
-    }
+    margin-top: 0px !important;
+}
 
 
 .contact-column-3-main h1, .contact-column-3-main h3, .contact-column-3-main input{
@@ -1342,6 +1352,10 @@ top:47%;
 }
 
 @media only screen and (max-width : 600px){
+
+    .social-media {
+        display: block;
+    }
 
     .statement p {
         display: none;
