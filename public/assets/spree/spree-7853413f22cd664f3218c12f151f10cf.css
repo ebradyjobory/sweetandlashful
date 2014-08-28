@@ -633,7 +633,7 @@ nav#top-nav-bar ul li a{
 .product-image img{
 	width:100% !important;
 	height:100% !important;
-	border-radius:100px;
+	border-radius:400px;
 	z-index:5
 }
 
