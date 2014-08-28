@@ -1357,6 +1357,10 @@ top:47%;
         display: block;
     }
 
+    .contact-column-2-main p {
+        margin-top: -65px !important;
+    }
+
     .statement p {
         display: none;
     }
@@ -1521,7 +1525,7 @@ top:47%;
     .contact-column-2-main address{
         font-size: 1.2em !important;
         text-align: left;
-        margin-top: -20px;
+        margin-top: 20px;
     }
     .contact-column-2-main p {
     font-size: 1.1em !important;
@@ -10245,8 +10249,6 @@ display: block ;
 
     .social-media {
 
-    margin-top: 100px;
-    margin-left: -120px !important;
     position: static;
 
     }
