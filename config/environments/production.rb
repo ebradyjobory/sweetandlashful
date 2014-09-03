@@ -85,9 +85,9 @@ GA.tracker = "UA-53624245-1"
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-      :bucket => ENV['sweetandlashfulcom'],
-      :access_key_id => ENV['AKIAJHAA4VXZHNH7QNIA'],
-      :secret_access_key => ENV['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']
+      :bucket => ENV['S3_BUCKET_NAME'],
+      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
   
