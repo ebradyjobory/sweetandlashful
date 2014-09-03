@@ -18,7 +18,7 @@ gem 'mime-types', '~> 1.25'
 
 gem 'rails_12factor'
 
-gem 'paperclip'
+gem "paperclip"
 
 gem 'aws-sdk'
 

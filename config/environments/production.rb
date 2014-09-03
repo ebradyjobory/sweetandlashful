@@ -82,4 +82,14 @@ GA.tracker = "UA-53624245-1"
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => ENV['sweetandlashfulcom'],
+      :access_key_id => ENV['AKIAJHAA4VXZHNH7QNIA'],
+      :secret_access_key => ENV['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']
+    }
+  }
+  
+
 end
