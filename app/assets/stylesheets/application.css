@@ -59,7 +59,7 @@ button#load-more {
     text-align: center;
 }
 .load-more a {
-    color: #FFF;
+    color: #FFF !important;
 }
 .load-more a:hover{
     color: #FFF;
