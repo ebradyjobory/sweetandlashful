@@ -41,6 +41,33 @@ background-color:white;
     text-shadow: none;
 }
 
+
+#load-more {
+    font-family: 'Grand Hotel', cursive !important;
+    font-size: 1.5em;
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    /*border is optional*/
+    cursor: pointer;
+}
+button#load-more {
+    width: 80px;
+}
+
+.load-more  {
+    width: 100% !important;
+    text-align: center;
+}
+.load-more a {
+    color: #FFF;
+}
+.load-more a:hover{
+    color: #FFF;
+}
+
+
+
 .fs-special {
     color: #F9F9F9 !important;
     font-family:'Grand Hotel', cursive !important;
@@ -474,7 +501,7 @@ background-position:0% 50%;
 }
 
 #main-gallery{
-height:650px;
+height:450px;
 /*background:url('background-grey.png') no-repeat center center fixed;*/
 -webkit-background-size: cover;
 -moz-background-size:cover;
@@ -482,6 +509,11 @@ height:650px;
 background-size: cover;
 background-position:0% 50%;
 }
+
+#main-gallery img {
+    padding: 4px 6px;
+}
+
 #second-about ~ .glass{
 display:none !important;
 }
@@ -1035,9 +1067,12 @@ span {
 }
 
 .gallery-container {
-    position:absolute;
-    margin: 250px 25% 0 20%;
+    position:relative;
+    margin: 300px 18% 0 18% !important;
     text-align:justify;
+}
+div.gallery-container {
+    margin-top: 600px;
 }
 
 .gallery-container p {

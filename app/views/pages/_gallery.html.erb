@@ -1,11 +1,57 @@
 
 <div class="gallery-container">
 
-<p>
+<!-- <p>
 Gallery in the works. For now, please visit <a href="https://www.facebook.com/aestheticsbynancy">Aesthetics by Nancy</a> for before and afters and like our <strong> <a href="https://www.facebook.com/sweetandlashful">Official Sweet and Lashful Facebook Page</a></strong>.
-</p>
+</p> -->
 
-    <%= image_tag('flourish_blog.png', :class => 'about_image') %>
+   <!-- <%= image_tag('flourish_blog.png', :class => 'about_image') %> -->
 
 </div>
+
+<div id="instafeed" class="gallery-container"></div>
+<div class="load-more">
+	<button id="load-more">Load more</button>
+</div>
+<br>
+<div class="load-more">
+	<a href="https://www.instagram.com/sweetandlashful">Follow us on Instagram</a>
+</div>
+
+<script type="text/javascript">
+    // var feed = new Instafeed({
+    //     get: 'user',
+    //     userId: 1293528446,
+    //     accessToken: '1293528446.467ede5.e435d98a63294af98e109b0d19e0c463'
+    // });
+    // feed.run();
+</script>
+
+<script type="text/javascript">
+var loadButton = document.getElementById('load-more');
+var feed = new Instafeed({
+   get: 'user',
+        userId: 1293528446,
+        accessToken: '1293528446.467ede5.e435d98a63294af98e109b0d19e0c463',
+        limit: 10,
+  after: function() {
+    // disable button if no more results to load
+    if (!this.hasNext()) {
+      loadButton.setAttribute('disabled', 'disabled');
+    }
+  },
+});
+
+// bind the load more button
+loadButton.addEventListener('click', function() {
+  feed.next();
+});
+
+// run our feed!
+feed.run();
+</script>
+
+
+ <%= javascript_include_tag "instafeed.min.js", "data-turbolinks-track" => true %>
+
 
