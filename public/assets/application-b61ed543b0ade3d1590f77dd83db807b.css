@@ -57,6 +57,13 @@ h1.about-main.kim {
   margin-top: 155px;
 }
 
+.h1 {
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 2.6em;
+    line-height: 36px !important;
+}
+
 
 #load-more {
     font-family: 'Grand Hotel', cursive !important;
@@ -2517,9 +2524,20 @@ cursor: pointer;
 }
 
 */
+}
+h1 {
+  line-height: 30px !important;
+  margin-bottom: 35px !important;
+}
+
+.post-header h1 a:hover {
+   text-decoration: underline !important;
+}
 .post-header h1 a {
     text-decoration: none !important;
     color: #F9F9F9;
+    font-weight: 900;
+    font-size: 0.9em !important;
 }
 
 .inner-content {

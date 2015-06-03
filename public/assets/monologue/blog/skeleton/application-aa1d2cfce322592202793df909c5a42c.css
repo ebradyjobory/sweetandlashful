@@ -625,10 +625,22 @@ cursor: pointer;
 }
 
 */
+
+h1 {
+  line-height: 30px !important;
+  margin-bottom: 35px !important;
+}
+
+.post-header h1 a:hover {
+   text-decoration: underline !important;
+}
 .post-header h1 a {
     text-decoration: none !important;
     color: #F9F9F9;
+    font-weight: 900;
+    font-size: 0.9em !important;
 }
+
 
 .inner-content {
     margin-bottom: 30px;
@@ -679,10 +691,11 @@ blockquote {
 }
 
 .blog_image {
-    width: 10%;
-    height: 5%;
-    margin-left: 42%;
-    box-shadow: none !important;
+  width: 10%;
+  height: 5%;
+  margin-left: 42%;
+  box-shadow: none !important;
+  margin-top: 41px;
 }
 
 .slide_image {
