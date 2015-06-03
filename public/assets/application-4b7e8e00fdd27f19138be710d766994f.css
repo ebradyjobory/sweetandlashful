@@ -26,6 +26,31 @@ background-color:white;
 
 
 
+img.owner-img.jen {
+  margin-top: -24px;
+  margin-left: -153px;
+}
+img.owner-img.kim {
+  margin-top: 28px;
+  margin-left: -151px;
+}
+h1.about-main.jen {
+  margin-top: 36px;
+}
+
+h1.about-main.kim {
+  margin-top: 81px;
+}
+
+.owner-img {
+  float: left;
+  border-radius: 100%;
+  height: 130px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
 
 
 .statement p {
@@ -714,10 +739,10 @@ span {
         margin-left: 43%;
     }
 
-.about-container{
-	position:absolute;
-	margin:13% 25% 0 20%;
-	text-align:justify;
+.about-container {
+  position: absolute;
+  margin: 148px 24% 0 20%;
+  text-align: justify;
 }
 
 .about-container a{

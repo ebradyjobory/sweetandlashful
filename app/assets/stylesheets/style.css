@@ -177,3 +177,51 @@ body.pmr-open #wrapper {
 }
 
 
+img.owner-img.jen {
+  margin-top: -9px;
+  margin-left: -153px;
+}
+img.owner-img.kim {
+  margin-top: 19px;
+  margin-left: -151px;
+}
+h1.about-main.jen {
+  margin-top: 45px;
+}
+h1.about-main.kim {
+  margin-top: 76px;
+}
+.about-container {
+  position: absolute;
+  margin: 148px 24% 0 20%;
+  text-align: justify;
+}
+
+.owner-img {
+  float: left;
+  border-radius: 100%;
+  height: 130px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+p.location1 {
+  margin-top: -2px;
+  font-size: 1.1em;
+}
+p.location2 {
+  margin-top: -2px;
+}
+p.booking {
+  font-size: 1.1em !important;
+}
+.booking a {
+  font-weight: 600 !important;
+}
+.contact-column-2-main h1 {
+  font-size: 2.3em !important;
+}
+
+
+
