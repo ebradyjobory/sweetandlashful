@@ -1,3 +1,59 @@
+/* updated about page css */
+
+.about-page-intro {
+  margin-bottom: 100px;
+}
+
+.about-image {
+  float: left;
+  width: 200px;
+  margin-top: -50px;
+  margin-bottom: 83px;
+  margin-right: 20px;
+}
+
+.employee-container {
+  margin-bottom: 150px;
+}
+
+.about-page-content {
+  margin-bottom: 100px;
+}
+
+#main-gallery{    
+  height:450px;
+  margin-top: 250px;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.gallery-container {
+    position:relative;
+    margin: 700px 200px 0 200px;
+    text-align:justify;
+}
+
+div.gallery-container {
+    margin-top: 600px;
+}
+
+.nancy {
+  margin-top: 30px;
+}
+
+.nancy-bio {
+  margin-bottom: -78px
+}
+
+
+
+
+
+
+
+
 
 button {
     

@@ -499,15 +499,6 @@ background-size: cover;
 background-position:0% 50%;
 }
 
-#main-gallery{
-height:450px;
-/*background:url('background-grey.png') no-repeat center center fixed;*/
--webkit-background-size: cover;
--moz-background-size:cover;
--o-background-size: cover;
-background-size: cover;
-background-position:0% 50%;
-}
 
 #main-gallery img {
     padding: 4px 6px;
@@ -1064,15 +1055,6 @@ span {
     text-align:justify;
 }
 
-.gallery-container {
-    position:relative;
-    margin: 300px 18% 0 18% !important;
-    text-align:justify;
-}
-
-div.gallery-container {
-    margin-top: 600px;
-}
 
 .about-container h1:nth-child(5) {
   margin-top: 0px;
@@ -1439,7 +1421,7 @@ top:47%;
     }
     .gallery-container {
     position: static;
-    margin: 900px 5% 0px 1% !important;
+    margin: 2900px 190px 0 98px !important;
     text-align: justify;
     font-size: 0.8em;
     }
