@@ -1139,11 +1139,12 @@ span {
   text-align: justify;
 }
 
-.gallery-container {
+/*.gallery-container {
     position:relative;
     margin: 300px 18% 0 18% !important;
     text-align:justify;
-}
+}*/
+
 div.gallery-container {
     margin-top: 600px;
 }
