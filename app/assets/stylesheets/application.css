@@ -471,7 +471,7 @@ margin-top:-10%;
 z-index:-3;
 }
 #intro{
-height:700px;
+height:750px;
 background:url('new_bg3.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size:cover;
@@ -3281,7 +3281,7 @@ content: "";*/
 .glass-blog p {
     color: #ecf0f1;
     font-family: 'Quicksand', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.9em !important;
     font-weight: normal;
 }
 
