@@ -1538,10 +1538,11 @@ top:47%;
     margin-left: -40px;
     }
    .contact-column-2-main p {
-    font-size: 1.1em !important;
-    margin-top: -65px;
-    margin-left: 85px;
-    width: 150px;
+      font-size: 1.5em !important;
+      margin-top: -2px !important;
+      margin-left: -53px;
+      width: 284px;
+      text-align: center;
     }
     .copyright-main {
     font-size: 0.9em !important;
@@ -3254,6 +3255,7 @@ content: "";*/
     font-family: 'Grand Hotel', cursive;
     margin-bottom: -0.5%;
     font-size: 2em;
+    font-weight: 300;
 }
 
 .glass-blog h2 {
